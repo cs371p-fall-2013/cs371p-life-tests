@@ -1,0 +1,99 @@
+Running main() from gtest_main.cc
+[==========] Running 45 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 45 tests from Life
+[ RUN      ] Life.Conway_dead
+[       OK ] Life.Conway_dead (10 ms)
+[ RUN      ] Life.Conway_live
+[       OK ] Life.Conway_live (2 ms)
+[ RUN      ] Life.Conway_default
+[       OK ] Life.Conway_default (2 ms)
+[ RUN      ] Life.Conway_clone
+[       OK ] Life.Conway_clone (3 ms)
+[ RUN      ] Life.Conway_neighbors_0_live
+[       OK ] Life.Conway_neighbors_0_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_1_live
+[       OK ] Life.Conway_neighbors_1_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_2_live
+[       OK ] Life.Conway_neighbors_2_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_3_live
+[       OK ] Life.Conway_neighbors_3_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_4_live
+[       OK ] Life.Conway_neighbors_4_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_5_live
+[       OK ] Life.Conway_neighbors_5_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_6_live
+[       OK ] Life.Conway_neighbors_6_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_7_live
+[       OK ] Life.Conway_neighbors_7_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_8_live
+[       OK ] Life.Conway_neighbors_8_live (3 ms)
+[ RUN      ] Life.Conway_neighbors_0_dead
+[       OK ] Life.Conway_neighbors_0_dead (2 ms)
+[ RUN      ] Life.Conway_neighbors_1_dead
+[       OK ] Life.Conway_neighbors_1_dead (2 ms)
+[ RUN      ] Life.Conway_neighbors_2_dead
+[       OK ] Life.Conway_neighbors_2_dead (3 ms)
+[ RUN      ] Life.Conway_neighbors_3_dead
+[       OK ] Life.Conway_neighbors_3_dead (3 ms)
+[ RUN      ] Life.Conway_neighbors_4_dead
+[       OK ] Life.Conway_neighbors_4_dead (3 ms)
+[ RUN      ] Life.Conway_neighbors_5_dead
+[       OK ] Life.Conway_neighbors_5_dead (3 ms)
+[ RUN      ] Life.Conway_neighbors_6_dead
+[       OK ] Life.Conway_neighbors_6_dead (3 ms)
+[ RUN      ] Life.Conway_neighbors_7_dead
+[       OK ] Life.Conway_neighbors_7_dead (3 ms)
+[ RUN      ] Life.Conway_neighbors_8_dead
+[       OK ] Life.Conway_neighbors_8_dead (3 ms)
+[ RUN      ] Life.Fredkin_dead
+[       OK ] Life.Fredkin_dead (2 ms)
+[ RUN      ] Life.Fredkin_live
+[       OK ] Life.Fredkin_live (7 ms)
+[ RUN      ] Life.Fredkin_default
+[       OK ] Life.Fredkin_default (2 ms)
+[ RUN      ] Life.Fredkin_clone
+[       OK ] Life.Fredkin_clone (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_0_live
+[       OK ] Life.Fredkin_neighbors_0_live (4 ms)
+[ RUN      ] Life.Fredkin_neighbors_1_live
+[       OK ] Life.Fredkin_neighbors_1_live (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_2_live
+[       OK ] Life.Fredkin_neighbors_2_live (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_3_live
+[       OK ] Life.Fredkin_neighbors_3_live (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_4_live
+[       OK ] Life.Fredkin_neighbors_4_live (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_5_live
+[       OK ] Life.Fredkin_neighbors_5_live (4 ms)
+[ RUN      ] Life.Fredkin_neighbors_6_live
+[       OK ] Life.Fredkin_neighbors_6_live (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_7_live
+[       OK ] Life.Fredkin_neighbors_7_live (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_8_live
+[       OK ] Life.Fredkin_neighbors_8_live (2 ms)
+[ RUN      ] Life.Fredkin_neighbors_0_dead
+[       OK ] Life.Fredkin_neighbors_0_dead (2 ms)
+[ RUN      ] Life.Fredkin_neighbors_1_dead
+[       OK ] Life.Fredkin_neighbors_1_dead (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_2_dead
+[       OK ] Life.Fredkin_neighbors_2_dead (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_3_dead
+[       OK ] Life.Fredkin_neighbors_3_dead (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_4_dead
+[       OK ] Life.Fredkin_neighbors_4_dead (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_5_dead
+[       OK ] Life.Fredkin_neighbors_5_dead (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_6_dead
+[       OK ] Life.Fredkin_neighbors_6_dead (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_7_dead
+[       OK ] Life.Fredkin_neighbors_7_dead (3 ms)
+[ RUN      ] Life.Fredkin_neighbors_8_dead
+[       OK ] Life.Fredkin_neighbors_8_dead (3 ms)
+[ RUN      ] Life.Fredkin_old
+[       OK ] Life.Fredkin_old (3 ms)
+[----------] 45 tests from Life (153 ms total)
+
+[----------] Global test environment tear-down
+[==========] 45 tests from 1 test case ran. (179 ms total)
+[  PASSED  ] 45 tests.
