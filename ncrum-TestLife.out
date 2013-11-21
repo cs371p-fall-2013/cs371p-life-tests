@@ -1,0 +1,129 @@
+Running main() from gtest_main.cc
+[==========] Running 60 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 60 tests from Life
+[ RUN      ] Life.createBoard1
+[       OK ] Life.createBoard1 (31 ms)
+[ RUN      ] Life.createBoard2
+[       OK ] Life.createBoard2 (20 ms)
+[ RUN      ] Life.createBoard3
+[       OK ] Life.createBoard3 (3 ms)
+[ RUN      ] Life.createBoard4
+[       OK ] Life.createBoard4 (7 ms)
+[ RUN      ] Life.createBoard5
+[       OK ] Life.createBoard5 (48 ms)
+[ RUN      ] Life.createBoard6
+[       OK ] Life.createBoard6 (4 ms)
+[ RUN      ] Life.createBoard7
+[       OK ] Life.createBoard7 (15 ms)
+[ RUN      ] Life.createBoard8
+[       OK ] Life.createBoard8 (22 ms)
+[ RUN      ] Life.createBoard9
+[       OK ] Life.createBoard9 (3 ms)
+[ RUN      ] Life.Generate_cell1
+[       OK ] Life.Generate_cell1 (32 ms)
+[ RUN      ] Life.Generate_cell2
+[       OK ] Life.Generate_cell2 (74 ms)
+[ RUN      ] Life.Generate_cell3
+[       OK ] Life.Generate_cell3 (168 ms)
+[ RUN      ] Life.Generate_cell4
+[       OK ] Life.Generate_cell4 (106 ms)
+[ RUN      ] Life.Generate_cell5
+[       OK ] Life.Generate_cell5 (1285 ms)
+[ RUN      ] Life.Generate_cell6
+[       OK ] Life.Generate_cell6 (269 ms)
+[ RUN      ] Life.number_of_neighbors_Conway1
+[       OK ] Life.number_of_neighbors_Conway1 (14 ms)
+[ RUN      ] Life.number_of_neighbor_Conway2
+[       OK ] Life.number_of_neighbor_Conway2 (11 ms)
+[ RUN      ] Life.number_of_neighbors_Conway3
+[       OK ] Life.number_of_neighbors_Conway3 (11 ms)
+[ RUN      ] Life.number_of_neighbors_Fredkin1
+[       OK ] Life.number_of_neighbors_Fredkin1 (17 ms)
+[ RUN      ] Life.number_of_neighbor_Fredkin2
+[       OK ] Life.number_of_neighbor_Fredkin2 (11 ms)
+[ RUN      ] Life.number_of_neighbors_Fredkin3
+[       OK ] Life.number_of_neighbors_Fredkin3 (12 ms)
+[ RUN      ] Life.kill_Conway1
+[       OK ] Life.kill_Conway1 (14 ms)
+[ RUN      ] Life.kill_Conway2
+[       OK ] Life.kill_Conway2 (15 ms)
+[ RUN      ] Life.kill_Conway3
+[       OK ] Life.kill_Conway3 (15 ms)
+[ RUN      ] Life.kill_Fredkin1
+[       OK ] Life.kill_Fredkin1 (14 ms)
+[ RUN      ] Life.kill_Fredkin2
+[       OK ] Life.kill_Fredkin2 (15 ms)
+[ RUN      ] Life.kill_Fredkin3
+[       OK ] Life.kill_Fredkin3 (16 ms)
+[ RUN      ] Life.kill_Cell1
+[       OK ] Life.kill_Cell1 (15 ms)
+[ RUN      ] Life.kill_Cell2
+[       OK ] Life.kill_Cell2 (16 ms)
+[ RUN      ] Life.kill_Cell3
+[       OK ] Life.kill_Cell3 (16 ms)
+[ RUN      ] Life.Population_1
+[       OK ] Life.Population_1 (13 ms)
+[ RUN      ] Life.Population_2
+[       OK ] Life.Population_2 (11 ms)
+[ RUN      ] Life.Population_3
+[       OK ] Life.Population_3 (11 ms)
+[ RUN      ] Life.Population_4
+[       OK ] Life.Population_4 (12 ms)
+[ RUN      ] Life.Population_5
+[       OK ] Life.Population_5 (16 ms)
+[ RUN      ] Life.Population_6
+[       OK ] Life.Population_6 (12 ms)
+[ RUN      ] Life.Population_7
+[       OK ] Life.Population_7 (12 ms)
+[ RUN      ] Life.Population_8
+[       OK ] Life.Population_8 (17 ms)
+[ RUN      ] Life.Population_9
+[       OK ] Life.Population_9 (17 ms)
+[ RUN      ] Life.Generation_and_Population_1
+[       OK ] Life.Generation_and_Population_1 (24 ms)
+[ RUN      ] Life.Generation_and_Population_2
+[       OK ] Life.Generation_and_Population_2 (18 ms)
+[ RUN      ] Life.Generation_and_Population_3
+[       OK ] Life.Generation_and_Population_3 (18 ms)
+[ RUN      ] Life.Generation_and_Population_4
+[       OK ] Life.Generation_and_Population_4 (18 ms)
+[ RUN      ] Life.Generation_and_Population_5
+[       OK ] Life.Generation_and_Population_5 (25 ms)
+[ RUN      ] Life.Generation_and_Population_6
+[       OK ] Life.Generation_and_Population_6 (18 ms)
+[ RUN      ] Life.Generation_and_Population_7
+[       OK ] Life.Generation_and_Population_7 (18 ms)
+[ RUN      ] Life.Generation_and_Population_8
+[       OK ] Life.Generation_and_Population_8 (27 ms)
+[ RUN      ] Life.Generation_and_Population_9
+[       OK ] Life.Generation_and_Population_9 (24 ms)
+[ RUN      ] Life.RUN_LIFE1
+[       OK ] Life.RUN_LIFE1 (5 ms)
+[ RUN      ] Life.RUN_LIFE2
+[       OK ] Life.RUN_LIFE2 (12 ms)
+[ RUN      ] Life.RUN_LIFE3
+[       OK ] Life.RUN_LIFE3 (14 ms)
+[ RUN      ] Life.RUN_LIFE4
+[       OK ] Life.RUN_LIFE4 (10 ms)
+[ RUN      ] Life.RUN_LIFE5
+[       OK ] Life.RUN_LIFE5 (16 ms)
+[ RUN      ] Life.RUN_LIFE6
+[       OK ] Life.RUN_LIFE6 (7 ms)
+[ RUN      ] Life.RUN_LIFE7
+[       OK ] Life.RUN_LIFE7 (147 ms)
+[ RUN      ] Life.RUN_LIFE8
+[       OK ] Life.RUN_LIFE8 (543 ms)
+[ RUN      ] Life.RUN_LIFE9
+[       OK ] Life.RUN_LIFE9 (1209 ms)
+[ RUN      ] Life.RUN_LIFE10
+[       OK ] Life.RUN_LIFE10 (2142 ms)
+[ RUN      ] Life.RUN_LIFE11
+[       OK ] Life.RUN_LIFE11 (3346 ms)
+[ RUN      ] Life.RUN_LIFE12
+[       OK ] Life.RUN_LIFE12 (4812 ms)
+[----------] 60 tests from Life (14893 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 1 test case ran. (14919 ms total)
+[  PASSED  ] 60 tests.
