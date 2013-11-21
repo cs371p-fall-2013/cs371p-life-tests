@@ -479,6 +479,56 @@ TEST(FredkinCell, clone_3) {
   
 }
 
+// -----------------
+// FredkinCell::mutate
+// -----------------
+TEST(FredkinCell, mutate_1) {
+  FredkinCell fc(12, '9');
+
+  AbstractCell *c = fc.mutate();
+
+  ASSERT_TRUE(c->getCoord() == 12);
+  
+  std::ostringstream oss;
+  c->draw(oss);
+  ASSERT_TRUE(oss.str() == "*");
+
+  delete c;
+  c = NULL;
+  
+}
+
+TEST(FredkinCell, mutate_2) {
+  FredkinCell fc(2, '-');
+
+  AbstractCell *c = fc.mutate();
+
+  ASSERT_TRUE(c->getCoord() == 2);
+  
+  std::ostringstream oss;
+  c->draw(oss);
+  ASSERT_TRUE(oss.str() == "*");
+
+  delete c;
+  c = NULL;
+  
+}
+
+TEST(FredkinCell, mutate_3) {
+  FredkinCell fc(1299, '+');
+
+  AbstractCell *c = fc.mutate();
+
+  ASSERT_TRUE(c->getCoord() == 1299);
+  
+  std::ostringstream oss;
+  c->draw(oss);
+  ASSERT_TRUE(oss.str() == "*");
+
+  delete c;
+  c = NULL;
+  
+}
 
 // -----------------
 // ConwayCell::outputType
@@ -751,32 +801,332 @@ TEST(ConwayCell, clone_3) {
   c = NULL;
 }
 
+// -----------------
+// Cell::ctor
+// -----------------
+TEST(Cell, ctor_1) {
+  Cell c( 5, '-');
+  
+  ASSERT_TRUE( c.getCoord() == 5 );
+  
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "-");
+  
+  oss.str("");
+  c.outputType(oss);
+  ASSERT_TRUE(oss.str() == "Cell");
+
+}
+
+TEST(Cell, ctor_2) {
+  Cell c( 55, '9');
+  
+  ASSERT_TRUE( c.getCoord() == 55 );
+  
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "9");
+  
+  oss.str("");
+  c.outputType(oss);
+  ASSERT_TRUE(oss.str() == "Cell");
+
+}
+
+TEST(Cell, ctor_3) {
+  Cell c( 515, '+');
+  
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "+");
+  
+  oss.str("");
+  c.outputType(oss);
+  ASSERT_TRUE(oss.str() == "Cell");
+  
+}
+
+
 
 // -----------------
-// life<ConwayCell>::life
+// Cell::getCoord
 // -----------------
-TEST(LifeConway, ctor_1) {
+TEST(Cell, getCoord_1) {
+  Cell c( new ConwayCell(5, '*') );
+
+  ASSERT_TRUE( c.getCoord() == 5 );
+
+}
+
+TEST(Cell, getCoord_2) {
+  Cell c( new FredkinCell(100, '-') );
+
+  ASSERT_TRUE( c.getCoord() == 100 );
+
+}
+
+
+TEST(Cell, getCoord_3) {
+  Cell c( new ConwayCell(101, '.') );
+
+  ASSERT_TRUE( c.getCoord() == 101 );
+
+}
+
+TEST(Cell, getCoord_4) {
+  Cell c( new FredkinCell(989, '8') );
+
+  ASSERT_TRUE( c.getCoord() == 989 );
+
+}
+
+// -----------------
+// Cell::draw
+// -----------------
+TEST(Cell, draw_1) {
+  Cell c( new ConwayCell(5, '*') );
+
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "*");
+  
+}
+
+TEST(Cell, draw_2) {
+  Cell c( new FredkinCell(100, '-') );
+
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "-");
+
+}
+
+
+TEST(Cell, draw_3) {
+  Cell c( new ConwayCell(101, '.') );
+
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == ".");
+
+}
+
+TEST(Cell, draw_4) {
+  Cell c( new FredkinCell(989, '8') );
+
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "8");
+
+}
+
+TEST(Cell, draw_5) {
+  Cell c( new FredkinCell(9891, '9') );
+
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "9");
+
+}
+
+TEST(Cell, draw_6) {
+  Cell c( new FredkinCell(9891, '+') );
+
+  std::ostringstream oss;
+  c.draw(oss);
+  ASSERT_TRUE(oss.str() == "+");
+
+}
+
+// -----------------
+// Cell::clone
+// -----------------
+TEST(Cell, clone_1) {
+  Cell c( new FredkinCell(9891, '+') );
+
+  AbstractCell *c2 = c.clone();
+
+  ASSERT_TRUE( c2->getCoord() == 9891 );
+  
+  std::ostringstream oss;
+  c2->outputType(oss);
+  ASSERT_TRUE(oss.str() == "FredkinCell");
+
+  oss.str("");  
+  c2->draw(oss);
+  ASSERT_TRUE(oss.str() == "+");
+
+  delete c2;
+  c2 = NULL;
+  
+}
+
+TEST(Cell, clone_2) {
+  Cell c( new FredkinCell(1234, '6') );
+
+  AbstractCell *c2 = c.clone();
+
+  ASSERT_TRUE( c2->getCoord() == 1234 );
+  
+  std::ostringstream oss;
+  c2->outputType(oss);
+  ASSERT_TRUE(oss.str() == "FredkinCell");
+
+  oss.str("");  
+  c2->draw(oss);
+  ASSERT_TRUE(oss.str() == "6");
+
+  delete c2;
+  c2 = NULL;
+  
+}
+
+TEST(Cell, clone_3) {
+  Cell c( new FredkinCell(4337, '-') );
+
+  AbstractCell *c2 = c.clone();
+
+  ASSERT_TRUE( c2->getCoord() == 4337 );
+  
+  std::ostringstream oss;
+  c2->outputType(oss);
+  ASSERT_TRUE(oss.str() == "FredkinCell");
+
+  oss.str("");  
+  c2->draw(oss);
+  ASSERT_TRUE(oss.str() == "-");
+
+  delete c2;
+  c2 = NULL;
+  
+}
+
+
+TEST(Cell, clone_4) {
+  Cell c( new ConwayCell(8765, '.') );
+
+  AbstractCell *c2 = c.clone();
+
+  ASSERT_TRUE( c2->getCoord() == 8765 );
+  
+  std::ostringstream oss;
+  c2->outputType(oss);
+  ASSERT_TRUE(oss.str() == "ConwayCell");
+
+  oss.str("");  
+  c2->draw(oss);
+  ASSERT_TRUE(oss.str() == ".");
+
+  delete c2;
+  c2 = NULL;
+  
+}
+
+TEST(Cell, clone_5) {
+  Cell c( new ConwayCell(2121, '*') );
+
+  AbstractCell *c2 = c.clone();
+
+  ASSERT_TRUE( c2->getCoord() == 2121 );
+  
+  std::ostringstream oss;
+  c2->outputType(oss);
+  ASSERT_TRUE(oss.str() == "ConwayCell");
+
+  oss.str("");  
+  c2->draw(oss);
+  ASSERT_TRUE(oss.str() == "*");
+
+  delete c2;
+  c2 = NULL;
+  
+}
+
+
+// -----------------
+// Cell::tallyAlive
+// -----------------
+TEST(Cell, tallyAlive_1) {
+  Cell c( new FredkinCell(9891, '+') );
+
+  int alive = 0;
+  c.tallyAlive(alive);
+  
+  ASSERT_TRUE(alive == 1);
+  
+}
+
+TEST(Cell, tallyAlive_2) {
+  Cell c( new FredkinCell(1234, '6') );
+
+  int alive = 0;
+  c.tallyAlive(alive);
+  
+  ASSERT_TRUE(alive == 1);
+  
+}
+
+TEST(Cell, tallyAlive_3) {
+  Cell c( new FredkinCell(4337, '-') );
+
+  int alive = 0;
+  c.tallyAlive(alive);
+  
+  ASSERT_TRUE(alive == 0);
+  
+}
+
+TEST(Cell, tallyAlive_4) {
+  Cell c( new ConwayCell(8765, '.') );
+
+  int alive = 0;
+  c.tallyAlive(alive);
+  
+  ASSERT_TRUE(alive == 0);
+  
+}
+
+TEST(Cell, tallyAlive_5) {
+  Cell c( new ConwayCell(2121, '*') );
+
+  int alive = 0;
+  
+  c.tallyAlive(alive);  
+  ASSERT_TRUE(alive == 1);
+  
+  c.tallyAlive(alive);  
+  ASSERT_TRUE(alive == 2);
+  
+}
+
+
+
+// -----------------
+// life::life
+// -----------------
+TEST(Life, ctor_1) {
   std::istringstream ss("1\n1\n.\n");
   Life <ConwayCell> l(ss);
 
 }
 
-TEST(LifeConway, ctor_2) {
-  std::istringstream ss("5\n3\n...\n...\n...\n...\n...\n");
-  Life <ConwayCell> l(ss);
+TEST(Life, ctor_2) {
+  std::istringstream ss("5\n3\n---\n-12\n+-3\n2-1\n+5+\n");
+  Life <FredkinCell> l(ss);
 
 }
 
-TEST(LifeConway, ctor_3) {
-  std::istringstream ss("1\n7\n.......\n");
-  Life <ConwayCell> l(ss);
+TEST(Life, ctor_3) {
+  std::istringstream ss("1\n7\n--+-31-\n");
+  Life <Cell> l(ss);
 
 }
 
 // -----------------
-// life<ConwayCell>::toCoord
+// life::toCoord
 // -----------------
-TEST(LifeConway, toCoord_1) {
+TEST(Life, toCoord_1) {
   std::istringstream ss("1\n1\n.\n");
   Life <ConwayCell> l(ss);
   
@@ -784,26 +1134,34 @@ TEST(LifeConway, toCoord_1) {
 
 }
 
-TEST(LifeConway, toCoord_2) {
-  std::istringstream ss("5\n5\n.....\n.....\n.....\n.....\n.....\n");
+TEST(Life, toCoord_2) {
+  std::istringstream ss("3\n8\n..***...\n..*....*\n..**....\n");
   Life <ConwayCell> l(ss);
+  
+  ASSERT_TRUE( l.toCoord(2, 4) == 20 );
+
+}
+
+TEST(Life, toCoord_3) {
+  std::istringstream ss("5\n5\n-----\n-----\n-----\n-----\n-----\n");
+  Life <FredkinCell> l(ss);
 
   ASSERT_TRUE( l.toCoord(3, 3) == 18 );
 
 }
 
-TEST(LifeConway, toCoord_3) {
-  std::istringstream ss("5\n8\n........\n........\n........\n........\n........\n");
-  Life <ConwayCell> l(ss);
+TEST(Life, toCoord_4) {
+  std::istringstream ss("2\n8\n-+7--34-\n-21--1-3\n");
+  Life <Cell> l(ss);
 
-  ASSERT_TRUE( l.toCoord(4, 2) == 34 );
+  ASSERT_TRUE( l.toCoord(1, 5) == 13 );
 
 }
 
 // -----------------
-// life<ConwayCell>::inBounds
+// life::inBounds
 // -----------------
-TEST(LifeConway, inBounds_1) {
+TEST(Life, inBounds_1) {
   std::istringstream ss("1\n1\n.\n"); 
   Life <ConwayCell> l(ss);
 
@@ -813,7 +1171,7 @@ TEST(LifeConway, inBounds_1) {
 
 }
 
-TEST(LifeConway, inBounds_2) {
+TEST(Life, inBounds_2) {
   std::istringstream ss("5\n5\n.....\n.....\n.....\n.....\n.....\n");
   Life <ConwayCell> l(ss);
 
@@ -825,7 +1183,7 @@ TEST(LifeConway, inBounds_2) {
 
 }
 
-TEST(LifeConway, inBounds_3) {
+TEST(Life, inBounds_3) {
   std::istringstream ss("5\n8\n........\n........\n........\n........\n........\n");
   Life <ConwayCell> l(ss);
  
@@ -838,9 +1196,9 @@ TEST(LifeConway, inBounds_3) {
 }
 
 // -----------------
-// life<ConwayCell>::isValid
+// life::isValid
 // -----------------
-TEST(LifeConway, isValid_1) {
+TEST(Life, isValid_1) {
   std::istringstream ss("1\n1\n.\n");
   Life <ConwayCell> l(ss);
 
@@ -848,26 +1206,34 @@ TEST(LifeConway, isValid_1) {
 
 }
 
-TEST(LifeConway, isValid_2) {
-  std::istringstream ss("5\n5\n.....\n.....\n.....\n.....\n.....\n");
+TEST(Life, isValid_2) {
+  std::istringstream ss("2\n2\n*.\n.*\n");
   Life <ConwayCell> l(ss);
 
   ASSERT_TRUE( l.isValid() );
 
 }
 
-TEST(LifeConway, isValid_3) {
-  std::istringstream ss("5\n8\n........\n........\n........\n........\n........\n");
-  Life <ConwayCell> l(ss);
+TEST(Life, isValid_3) {
+  std::istringstream ss("5\n5\n-2-5-\n----3\n-1-1-\n--+-+\n221--\n");
+  Life <FredkinCell> l(ss);
+
+  ASSERT_TRUE( l.isValid() );
+
+}
+
+TEST(Life, isValid_4) {
+  std::istringstream ss("5\n8\n-+------\n-----9--\n-3----1-\n---22---\n-+---1--\n");
+  Life <Cell> l(ss);
 
   ASSERT_TRUE( l.isValid() );
 
 }
 
 // -----------------
-// life<ConwayCell>::outputBoard
+// life::outputBoard
 // -----------------
-TEST(LifeConway, outputBoard_1) {
+TEST(Life, outputBoard_1) {
   std::istringstream iss("1\n1\n.\n");
   Life <ConwayCell> l(iss);
 
@@ -877,30 +1243,40 @@ TEST(LifeConway, outputBoard_1) {
 
 }
 
-TEST(LifeConway, outputBoard_2) {
-  std::istringstream iss("3\n3\n*..\n.*.\n..*\n");
+TEST(Life, outputBoard_2) {
+  std::istringstream iss("2\n3\n*..\n*.*\n");
   Life <ConwayCell> l(iss);
 
   std::ostringstream oss;
   l.outputBoard(oss);
-  ASSERT_TRUE( oss.str() == "Generation = 0, Population = 3.\n*..\n.*.\n..*\n" );
+  ASSERT_TRUE( oss.str() == "Generation = 0, Population = 3.\n*..\n*.*\n" );
 
 }
 
-TEST(LifeConway, outputBoard_3) {
-  std::istringstream iss("3\n5\n*.*.*\n.*.*.\n*.*.*\n");
-  Life <ConwayCell> l(iss);
+TEST(Life, outputBoard_3) {
+  std::istringstream iss("3\n3\n1+-\n-9-\n-+-\n");
+  Life <FredkinCell> l(iss);
 
   std::ostringstream oss;
   l.outputBoard(oss);
-  ASSERT_TRUE( oss.str() == "Generation = 0, Population = 8.\n*.*.*\n.*.*.\n*.*.*\n" );
+  ASSERT_TRUE( oss.str() == "Generation = 0, Population = 4.\n1+-\n-9-\n-+-\n" );
+
+}
+
+TEST(Life, outputBoard_4) {
+  std::istringstream iss("3\n5\n12---\n--9+-\n-33--\n");
+  Life <Cell> l(iss);
+
+  std::ostringstream oss;
+  l.outputBoard(oss);
+  ASSERT_TRUE( oss.str() == "Generation = 0, Population = 6.\n12---\n--9+-\n-33--\n" );
 
 }
 
 // -----------------
-// life<ConwayCell>::getNeighbors
+// life::getNeighbors
 // -----------------
-TEST(LifeConway, getNeighbors_1) {
+TEST(Life, getNeighbors_1) {
   std::istringstream iss("1\n1\n*\n");
   Life <ConwayCell> l(iss);
   
@@ -919,7 +1295,7 @@ TEST(LifeConway, getNeighbors_1) {
   
 }
 
-TEST(LifeConway, getNeighbors_2) {
+TEST(Life, getNeighbors_2) {
   std::istringstream iss("1\n3\n***\n");
   Life <ConwayCell> l(iss);
   
@@ -938,9 +1314,9 @@ TEST(LifeConway, getNeighbors_2) {
   
 }
 
-TEST(LifeConway, getNeighbors_3) {
-  std::istringstream iss("2\n3\n***\n***\n");
-  Life <ConwayCell> l(iss);
+TEST(Life, getNeighbors_3) {
+  std::istringstream iss("2\n3\n232\n94+\n");
+  Life <FredkinCell> l(iss);
 
   bool neighbors[9];
   l.getNeighbors(1, neighbors);
@@ -957,9 +1333,9 @@ TEST(LifeConway, getNeighbors_3) {
   
 }
 
-TEST(LifeConway, getNeighbors_4) {
-  std::istringstream iss("2\n3\n***\n***\n");
-  Life <ConwayCell> l(iss);
+TEST(Life, getNeighbors_4) {
+  std::istringstream iss("2\n3\n221\n919\n");
+  Life <Cell> l(iss);
 
   bool neighbors[9];
   l.getNeighbors(3, neighbors);
@@ -977,9 +1353,9 @@ TEST(LifeConway, getNeighbors_4) {
 }
 
 // -----------------
-// life<ConwayCell>::runGeneration
+// life::runGeneration
 // -----------------
-TEST(LifeConway, runGeneration_1) {
+TEST(Life, runGeneration_1) {
   std::istringstream iss("1\n1\n*\n");
   Life <ConwayCell> l(iss);
   
@@ -996,7 +1372,7 @@ TEST(LifeConway, runGeneration_1) {
 
 }
 
-TEST(LifeConway, runGeneration_2) {
+TEST(Life, runGeneration_2) {
   std::istringstream iss("1\n2\n**\n");
   Life <ConwayCell> l(iss);
   
@@ -1013,7 +1389,7 @@ TEST(LifeConway, runGeneration_2) {
 
 }
 
-TEST(LifeConway, runGeneration_3) {
+TEST(Life, runGeneration_3) {
   std::istringstream iss("3\n3\n...\n***\n...\n");
   Life <ConwayCell> l(iss);
   
@@ -1031,9 +1407,9 @@ TEST(LifeConway, runGeneration_3) {
 }
 
 // -----------------
-// life<ConwayCell>::outputHeader
+// life::outputHeader
 // -----------------
-TEST(LifeConway, outputHeader_1) {
+TEST(Life, outputHeader_1) {
   std::istringstream iss("1\n1\n*\n");
   Life <ConwayCell> l(iss);
   
@@ -1043,7 +1419,7 @@ TEST(LifeConway, outputHeader_1) {
   
 }
 
-TEST(LifeConway, outputHeader_2) {
+TEST(Life, outputHeader_2) {
   std::istringstream iss("1\n2\n**\n");
   Life <ConwayCell> l(iss);
   
@@ -1053,7 +1429,7 @@ TEST(LifeConway, outputHeader_2) {
 
 }
 
-TEST(LifeConway, outputHeader_3) {
+TEST(Life, outputHeader_3) {
   std::istringstream iss("5\n3\n**.\n*.*\n*..\n.*.\n..*\n");
   Life <ConwayCell> l(iss);
   
@@ -1063,988 +1439,62 @@ TEST(LifeConway, outputHeader_3) {
 
 }
 
-/*
-// -----------------
-// creature_sameSpec
-// -----------------
-TEST(Creature, sameSpec_1) {
-  Creature c1(0, West, World::Food);
-  Creature c2(1, North, World::Food); 
-
-  ASSERT_TRUE( c1.sameSpec(c2) );
- 
-}
-
-TEST(Creature, sameSpec_2) {
-  Creature c1(3, West, World::Hopper);
-  Creature c2(7, South, World::Food); 
-
-  ASSERT_TRUE( ! c1.sameSpec(c2) );
- 
-}
-
-
-TEST(Creature, sameSpec_3) {
-  Creature c1(0, West, World::Best);
-  Creature c2(12, North, World::Rover); 
-
-  ASSERT_TRUE( ! c1.sameSpec(c2) );
- 
-}
-
-TEST(Creature, sameSpec_4) {
-  Creature c1(15, West, World::Best);
-  Creature c2(99, North, World::Best); 
-
-  ASSERT_TRUE( c1.sameSpec(c2) );
- 
-}
-
-// -----------------
-// creature_setCoord, creature_getCoord
-// -----------------
-TEST(Creature, setCoord_getCoord_1) {
-  Creature c(0, West, World::Food);
-    
-  c.setCoord(10);
-  
-  ASSERT_TRUE(c.getCoord() == 10);
-     
-}
-
-TEST(Creature, setCoord_getCoord_2) {
-  Creature c(0, West, World::Food);
-    
-  c.setCoord(20383);
-  
-  ASSERT_TRUE(c.getCoord() == 20383);
-     
-}
-
-TEST(Creature, setCoord_getCoord_3) {
-  Creature c(0, West, World::Food);
-    
-  c.setCoord(99);
-  
-  ASSERT_TRUE(c.getCoord() == 99);
-     
-}
-
-// -----------------
-// creature_setInstr, creature_getInstr
-// -----------------
-TEST(Creature, setInstr_getInstr_1) {
-  Creature c(0, West, World::Rover);
-  c.setInstr(c.getInstr() + 1);
-  
-  ASSERT_TRUE(c.getInstr() == 1);
-     
-}
-
-TEST(Creature, setInstr_getInstr_2) {
-  Creature c(0, West, World::Rover);
-    
-  c.setInstr(c.getInstr() + 1);
-  ASSERT_TRUE(c.getInstr() == 1);
-
-  c.setInstr(c.getInstr() + 1);
-  ASSERT_TRUE(c.getInstr() == 2);
-       
-}
-
-TEST(Creature, setInstr_getInstr_3) {
-  Creature c(0, West, World::Rover);
-    
-  c.setInstr(c.getInstr() + 1);
-  ASSERT_TRUE(c.getInstr() == 1);
-
-  c.setInstr(c.getInstr() + 1);
-  ASSERT_TRUE(c.getInstr() == 2);
-
-  c.setInstr(c.getInstr() + 1);
-  c.setInstr(c.getInstr() + 1);
-  c.setInstr(c.getInstr() + 1);
-  ASSERT_TRUE(c.getInstr() == 5);
-  
-}
-
-// -----------------
-// creature_draw
-// -----------------
-TEST(Creature, draw_food) {
-  Creature c(0, West, World::Food);
-  
-  std::ostringstream ss;
-  c.draw(ss);
-  ASSERT_TRUE( ss.str() == "f");
-
-}
-
-TEST(Creature, draw_rover) {
-  Creature c(0, West, World::Rover);
-  
-  std::ostringstream ss;
-  c.draw(ss);
-  ASSERT_TRUE( ss.str() == "r");
-
-}
-
-TEST(Creature, draw_trap) {
-  Creature c(0, West, World::Trap);
-  
-  std::ostringstream ss;
-  c.draw(ss);
-  ASSERT_TRUE( ss.str() == "t");
-
-}
-
-TEST(Creature, draw_hopper) {
-  Creature c(0, West, World::Hopper);
-  
-  std::ostringstream ss;
-  c.draw(ss);
-  ASSERT_TRUE( ss.str() == "h");
-
-}
-
-// -----------------
-// creature_toString
-// -----------------
-TEST(Creature, toString_1) {
-  Creature c(0, West, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f");
-   
-}
-
-TEST(Creature, toString_2) {
-  Creature c(199, South, World::Rover);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "199 3 r");
-   
-}
-
-
-TEST(Creature, toString_3) {
-  Creature c(21, East, World::Hopper);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "21 2 h");
-   
-}
-
-TEST(Creature, toString_4) {
-  Creature c(38, South, World::Best);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "38 3 b");
-   
-}
-
-TEST(Creature, toString_5) {
-  Creature c(17, South, World::Trap);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "17 3 t");
-   
-}
-
-// -----------------
-// creature_turnLeft
-// -----------------
-TEST(Creature, turnLeft_1) {
-  Creature c(0, West, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnLeft();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 3 f");
-   
-}
-
-TEST(Creature, turnLeft_2) {
-  Creature c(0, South, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 3 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnLeft();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 2 f");
-   
-}
-
-
-TEST(Creature, turnLeft_3) {
-  Creature c(0, East, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 2 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnLeft();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 1 f");
-   
-}
-
-
-TEST(Creature, turnLeft_4) {
-  Creature c(0, North, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 1 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnLeft();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f");
-   
-}
-
-// -----------------
-// creature_turnRight
-// -----------------
-TEST(Creature, turnRight_1) {
-  Creature c(0, West, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnRight();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 1 f");
-   
-}
-
-TEST(Creature, turnRight_2) {
-  Creature c(0, North, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 1 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnRight();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 2 f");
-   
-}
-
-
-TEST(Creature, turnRight_3) {
-  Creature c(0, East, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 2 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnRight();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 3 f");
-   
-}
-
-
-TEST(Creature, turnRight_4) {
-  Creature c(0, South, World::Food);
-  
-  std::ostringstream ss;
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 3 f");
-
-  ss.str("");
-  ss.clear();  
-  c.turnRight();
-  c.toString(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f");
-   
-}
-
-// -----------------
-// creature_operatorLess
-// -----------------
-TEST(Creature, operatorLess_1) {
-  Creature c1(0, South, World::Food);
-  Creature c2(10, South, World::Food);
-
-  ASSERT_TRUE( c1 < c2 );
-   
-}
-
-TEST(Creature, operatorLess_2) {
-  Creature c1(10, South, World::Food);
-  Creature c2(10, South, World::Food);
-
-  ASSERT_TRUE( !( c1 < c2) );
-   
-}
-
-TEST(Creature, operatorLess_3) {
-  Creature c1(0, South, World::Food);
-  Creature c2(0, South, World::Food);
-
-  ASSERT_TRUE( ! (c1 < c2) );
-   
-}
-
-TEST(Creature, operatorLess_4) {
-  Creature c1(70, South, World::Food);
-  Creature c2(71, South, World::Food);
-
-  ASSERT_TRUE( c1 < c2 );
-   
-}
-
-TEST(Creature, operatorLess_5) {
-  Creature c1(73, South, World::Food);
-  Creature c2(71, South, World::Food);
-
-  ASSERT_TRUE( ! (c1 < c2) );
-   
-}
-
-// -----------------
-// creature_tally
-// -----------------
-TEST(Creature, tally_1) {
-  int totals[5];
-  totals[FoodID] = 37;
-
-  Creature c(73, South, World::Food);
-  c.tally(totals);
-
-  ASSERT_TRUE( totals[FoodID] == 38);
-  
-}
-
-TEST(Creature, tally_2) {
-  int totals[5];
-  totals[FoodID] = 37;
-  totals[BestID] = 0;
-
-  Creature c(73, South, World::Best);
-  c.tally(totals);
-
-  ASSERT_TRUE( totals[FoodID] == 37 &&
-               totals[BestID] == 1);
-  
-}
-
-TEST(Creature, tally_3) {
-  int totals[5];
-  totals[FoodID] = 37;
-  totals[BestID] = 0;
-  totals[HopperID] = 5;
-  
-  Creature c1(73, South, World::Best);
-  c1.tally(totals);
-  Creature c2(60, South, World::Hopper);
-  c2.tally(totals);
-
-  ASSERT_TRUE( totals[FoodID] == 37 &&
-               totals[BestID] == 1 &&
-               totals[HopperID] == 6);
-  
-}
-
-TEST(Creature, tally_4) {
-  int totals[5];
-  totals[FoodID] = 37;
-  totals[BestID] = 0;
-  totals[HopperID] = 5;
-  
-  Creature c1(73, South, World::Best);
-  c1.tally(totals);
-  Creature c2(60, South, World::Hopper);
-  c2.tally(totals);
-  c2.tally(totals);
-
-  ASSERT_TRUE( totals[FoodID] == 37 &&
-               totals[BestID] == 1 &&
-               totals[HopperID] == 7);
-  
-}
-
-// -----------------
-// creature_hop
-// -----------------
-TEST(Creature, hopper_1) {
-  World w(3, 3);  
-  w.addCreature(3, West, World::Hopper);
-  w.runTurn();
-
-
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "3 0 h");
-  
-}
-
-TEST(Creature, hopper_2) {
-  World w(3, 3);  
-  w.addCreature(5, East, World::Hopper);
-  w.runTurn();
-
-
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "5 2 h");
-  
-}
-
-// ----------
-// World_ctor
-// ----------
-
-TEST(World, ctor_1) {
-  World w(1, 1);
-  ASSERT_TRUE(true);
-  
-}
-
-TEST(World, ctor_2) {
-  World w(3, 3);
-  ASSERT_TRUE(true);  
-
-}
-
-TEST(World, ctor_3) {
-  World w(72, 72);
-  ASSERT_TRUE(true);
-  
-}
-
-// -----------------
-// World_randomCoord
-// -----------------
-TEST(World, randomCoord_1) {
-  srand(0);
-  World w(1, 1);
-  
-  int c = w.randomCoord();
-//  std::cout << c << std::endl;
-  ASSERT_TRUE( c == 0 );
-
-}
-
-// -----------------
-// World_toCoord
-// -----------------
-TEST(World, toCoord_1) {
-  World w(1, 1);
-  
-  int c = w.toCoord(0, 0);
-  ASSERT_TRUE( c == 0 );
-
-}
-
-TEST(World, toCoord_2) {
-  World w(3, 3);
-
-  int c = w.toCoord(1, 2);
-//  std::cout << c << std::endl;
-  ASSERT_TRUE( c == 5 );
-  
-}
-
-TEST(World, toCoord_3) {
-  World w(10, 10);
-
-  int c = w.toCoord(5, 7);
-//  std::cout << c << std::endl;
-  ASSERT_TRUE( c == 57 );
-  
-}
-
-TEST(World, toCoord_4) {
-  World w(72, 72);
-
-  int c = w.toCoord(71, 71);
-  ASSERT_TRUE( c == 5183 );
-  
-}
-
-// -----------------
-// World_inBounds
-// -----------------
-TEST(World, inBounds_1) {
-  World w(1, 1);
-  
-  ASSERT_TRUE( w.inBounds(0) );
-  ASSERT_TRUE( !w.inBounds(10) );
-  ASSERT_TRUE( !w.inBounds(999) ); 
-  ASSERT_TRUE( !w.inBounds(-3) ); 
-  
-  ASSERT_TRUE( w.inBounds( w.toCoord(0, 0) ));
-  ASSERT_TRUE( !w.inBounds( w.toCoord(3, 4) ));
-
-}
-
-TEST(World, inBounds_2) {
-  World w(5, 5);
-  
-  ASSERT_TRUE( w.inBounds(0) );
-  ASSERT_TRUE( w.inBounds(10) );
-  ASSERT_TRUE( !w.inBounds(99) ); 
-  ASSERT_TRUE( !w.inBounds(-3) ); 
- 
-  ASSERT_TRUE( w.inBounds( w.toCoord(0, 0) ));
-  ASSERT_TRUE( w.inBounds( w.toCoord(3, 4) ));
-  ASSERT_TRUE( !w.inBounds( w.toCoord(12, 7) ));
-    
-}
-
-
-TEST(World, inBounds_3) {
-  World w(10, 10);
-
-  
-  ASSERT_TRUE( w.inBounds(0) );
-  ASSERT_TRUE( w.inBounds(10) );
-  ASSERT_TRUE( w.inBounds(99) ); 
-  ASSERT_TRUE( !w.inBounds(-3) ); 
-  
-  ASSERT_TRUE( w.inBounds(  w.toCoord(0, 0) ));
-  ASSERT_TRUE( w.inBounds( w.toCoord(7, 0) ));
-  ASSERT_TRUE( w.inBounds( w.toCoord(6, 2) ));
-  ASSERT_TRUE( !w.inBounds( w.toCoord(10, 10) ));
-  
-}
-
-
-TEST(World, inBounds_4) {
-  World w(72, 72);
-
-  ASSERT_TRUE( w.inBounds(0) );
-  ASSERT_TRUE( w.inBounds(10) );
-  ASSERT_TRUE( w.inBounds(99) ); 
-  ASSERT_TRUE( w.inBounds(5183) ); 
-  ASSERT_TRUE( !w.inBounds(-3) ); 
-  
-  ASSERT_TRUE( w.inBounds( w.toCoord(0, 0)  ));
-  ASSERT_TRUE( w.inBounds( w.toCoord(7, 0)  ));
-  ASSERT_TRUE( w.inBounds( w.toCoord(6, 2)  ));
-  ASSERT_TRUE( w.inBounds( w.toCoord(50, 26) ));
-  ASSERT_TRUE( w.inBounds( w.toCoord(66, 2) ));
-  ASSERT_TRUE( !w.inBounds( w.toCoord(72, 72) ));
-   
-}
-
-// -----------------
-// World_outputBoard (empty)
-// -----------------
-TEST(World, outputBoard_Empty1) {
-  World w(1, 1);
-  
-  std::ostringstream ss;
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  0\n0 .\n" );
-  
-}
-
-TEST(World, outputBoard_Empty2) {
-  World w(3, 3);
-  
-  std::ostringstream ss;
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  012\n0 ...\n1 ...\n2 ...\n" );
-  
-}
-
-TEST(World,outputBoard_Empty3) {
-  World w(3, 5);
-  
-  std::ostringstream ss;
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  01234\n0 .....\n1 .....\n2 .....\n" );
-  
-}
-
-// -----------------
-// World_addCreature
-// -----------------
-TEST(World, addCreature_1) {
-  World w(1, 1);
-  
-  w.addCreature( w.toCoord(0, 0), East, World::Food);
-
-}
-
-TEST(World, addCreature_2) {
-  World w(3, 3);
-  
-  w.addCreature( w.toCoord(0, 0), East, World::Food);
-  w.addCreature( w.toCoord(0, 1), West, World::Food);
-
-}
-
-// -----------------
-// World_outputCreatures
-// -----------------
-TEST(World, outputCreatures_1) {
-  World w(15, 15);
-  
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "" );
-  
-}
-
-TEST(World, outputCreatures_2) {
-  World w(1, 1);
-  
-  w.addCreature( w.toCoord(0, 0), West, World::Food);
-
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f" );
-  
-}
-
-TEST(World, outputCreatures_3) {
-  World w(3, 3);
-  
-  w.addCreature( w.toCoord(0, 0), East, World::Food);
-  w.addCreature( w.toCoord(0, 1), West, World::Rover);
-
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 2 f\n1 0 r" );
-  
-}
-
-TEST(World, outputCreatures_4) {
-  World w(5, 5);
-  
-  // test for opposite order.  works.
-  w.addCreature( w.toCoord(0, 0), East, World::Food );
-  w.addCreature( w.toCoord(4, 4), North, World::Trap );
-  w.addCreature( w.toCoord(2, 1), South, World::Rover );
-
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 2 f\n11 3 r\n24 1 t" );
-
-}
-
-// -----------------
-// World_isValid
-// -----------------
-TEST(World, isValid_1) {
-  World w(15, 15);
+TEST(Life, outputHeader_4) {
+  std::istringstream iss("2\n2\n90\n14\n");
+  Life <FredkinCell> l(iss);
   
-  ASSERT_TRUE( w.isValid() );
+  std::ostringstream oss;
+  l.outputHeader(oss);
+  ASSERT_TRUE( oss.str() == "*** Life<FredkinCell> 2x2 ***\n\n" );
   
 }
 
-
-TEST(World, isValid_2) {
-  World w(3, 3);
-  
-  w.addCreature( w.toCoord(0, 0), West, World::Food );
-  w.addCreature( w.toCoord(0, 1), East, World::Trap );
-
-  ASSERT_TRUE( w.isValid() );
-  
-}
-
-
-TEST(World, isValid_3) {
-  World w(3, 3);
-  
-  w.addCreature( w.toCoord(0, 0), South, World::Hopper );
-  w.addCreature( w.toCoord(2, 1), North, World::Rover );
-
-  ASSERT_TRUE( w.isValid() );
-  
-}
-
-// -----------------
-// World_outputBoard (creatures)
-// -----------------
-TEST(World, outputBoard_withCreatures1) {
-  World w(1, 1);
-  
-  w.addCreature( w.toCoord(0, 0), West, World::Food );
-  
-  std::ostringstream ss;
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  0\n0 f\n" );
-  
-}
-
-TEST(World, outputBoard_withCreatures2) {
-  World w(3, 3);
-  
-  w.addCreature( w.toCoord(0, 0), West, World::Food);
-  w.addCreature( w.toCoord(2, 2), South, World::Hopper );
-  
-  std::ostringstream ss;
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  012\n0 f..\n1 ...\n2 ..h\n" );
-  
-}
-
-TEST(World,outputBoard_withCreatures3) {
-  World w(3, 5);
-  
-  w.addCreature( w.toCoord(0, 0), North, World::Food );
-  w.addCreature( w.toCoord(1, 1), South, World::Trap );
-  w.addCreature( w.toCoord(2, 4), West, World::Rover );
-  
-  std::ostringstream ss;
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  01234\n0 f....\n1 .t...\n2 ....r\n" );
-  
-}
-
-// -----------------
-// World_tallyCreatures
-// -----------------
-TEST(World, outputTotals_1) {
-  World w(15, 15);
-  
-  std::ostringstream ss;
-  w.outputTotals(ss);
-  ASSERT_TRUE( ss.str() == "Food: 0\nHopper: 0\nRover: 0\nTrap: 0\nBest: 0\n" );  
-  
-}
-
-TEST(World, outputTotals_2) {
-  World w(5, 3);
-  
-  w.addCreature( w.toCoord(0, 0), North, World::Food);
-  w.addCreature( w.toCoord(1, 1), South, World::Trap );
-  w.addCreature( w.toCoord(4, 2), West, World::Rover );
-
-  std::ostringstream ss;
-  w.outputTotals(ss);
-  ASSERT_TRUE( ss.str() == "Food: 1\nHopper: 0\nRover: 1\nTrap: 1\nBest: 0\n" );  
-  
-}
-
-TEST(World, outputTotals_3) {
-  World w(8, 8);
-  
-  w.addCreature( w.toCoord(0, 0), North, World::Food );
-  w.addCreature( w.toCoord(1, 1), South, World::Best );
-  w.addCreature( w.toCoord(4, 2), West, World::Best );
-  w.addCreature( w.toCoord(1, 2), East, World::Food );
-  w.addCreature( w.toCoord(4, 4), North, World::Rover );
-  w.addCreature( w.toCoord(2, 1), South, World::Hopper );
-  w.addCreature( w.toCoord(6, 7), North, World::Food );
-  w.addCreature( w.toCoord(7, 7), South, World::Hopper );
-
-  std::ostringstream ss;
-  w.outputTotals(ss);
-  ASSERT_TRUE( ss.str() == "Food: 3\nHopper: 2\nRover: 1\nTrap: 0\nBest: 2\n" );  
-  
-}
-
-// -----------------
-// World_act
-// -----------------
-TEST(World, runTurn_food) {
-  World w(1, 1);
-  w.addCreature(0, North, World::Food);
-  
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 1 f" );
-  
-  w.runTurn();
-  
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f" );
-
-}
-
-TEST(World, runTurn_twoFood) {
-  World w(2, 2);
-  w.addCreature(0, North, World::Food);
-  w.addCreature(3, East, World::Food);
-  
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 1 f\n3 2 f" );
-  
-  w.runTurn();
+TEST(Life, outputHeader_5) {
+  std::istringstream iss("1\n2\n00\n");
+  Life <FredkinCell> l(iss);
   
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 0 f\n3 1 f" );
+  std::ostringstream oss;
+  l.outputHeader(oss);
+  ASSERT_TRUE( oss.str() == "*** Life<FredkinCell> 1x2 ***\n\n" );
 
 }
 
-TEST(World, runTurn_twoFood2) {
-  World w(2, 2);
-  w.addCreature(0, North, World::Food);
-  w.addCreature(3, East, World::Food);
+TEST(Life, outputHeader_6) {
+  std::istringstream iss("5\n3\n12-\n34-\n7--\n-2-\n--1\n");
+  Life <FredkinCell> l(iss);
   
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 1 f\n3 2 f" );
-  
-  w.runTurn();
-  w.runTurn();
-  
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 3 f\n3 0 f" );
+  std::ostringstream oss;
+  l.outputHeader(oss);
+  ASSERT_TRUE( oss.str() == "*** Life<FredkinCell> 5x3 ***\n\n" );
 
 }
-
-TEST(World, runTurn_hopper_horizontal) {
-  World w(1, 3);
-  w.addCreature(0, East, World::Hopper);
-  
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 2 h" );
-  
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  012\n0 h..\n");
-  
-  
-              
-                          
-                                                  
-  w.runTurn();
-  
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "1 2 h" );
-  
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 1.\n  012\n0 .h.\n");
-
 
-
-
-
-  w.runTurn();
-  
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "2 2 h" );
-  
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 2.\n  012\n0 ..h\n");
-
-
-
-  w.runTurn();
+TEST(Life, outputHeader_7) {
+  std::istringstream iss("2\n2\n90\n14\n");
+  Life <Cell> l(iss);
   
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "2 2 h" );
+  std::ostringstream oss;
+  l.outputHeader(oss);
+  ASSERT_TRUE( oss.str() == "*** Life<Cell> 2x2 ***\n\n" );
   
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 3.\n  012\n0 ..h\n");
-
 }
 
-TEST(World, runTurn_hopperIntoFood) {
-  World w(1, 3);
-  w.addCreature(0, East, World::Hopper);
-  w.addCreature(1, North, World::Food);
-  
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 2 h\n1 1 f" );
+TEST(Life, outputHeader_8) {
+  std::istringstream iss("1\n2\n00\n");
+  Life <Cell> l(iss);
   
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  012\n0 hf.\n");
-  
-  
-              
-                          
-            
-  w.runTurn();
-  
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "0 2 h\n1 0 f" );
-  
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 1.\n  012\n0 hf.\n");
+  std::ostringstream oss;
+  l.outputHeader(oss);
+  ASSERT_TRUE( oss.str() == "*** Life<Cell> 1x2 ***\n\n" );
 
 }
 
-TEST(World, runTurn_hopperRaceCond) {
-  World w(3, 3);
-  w.addCreature( w.toCoord(1, 0), East, World::Hopper);
-  w.addCreature( w.toCoord(2, 1), North, World::Hopper);
-  
-  std::ostringstream ss;
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "3 2 h\n7 1 h");
- 
+TEST(Life, outputHeader_9) {
+  std::istringstream iss("5\n3\n12-\n34-\n7--\n-2-\n--1\n");
+  Life <Cell> l(iss);
   
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 0.\n  012\n0 ...\n1 h..\n2 .h.\n");
-  
+  std::ostringstream oss;
+  l.outputHeader(oss);
+  ASSERT_TRUE( oss.str() == "*** Life<Cell> 5x3 ***\n\n" );
 
-  w.runTurn();
-  
-  ss.str("");
-  ss.clear();
-  w.outputCreatures(ss);
-  ASSERT_TRUE( ss.str() == "4 2 h\n7 1 h" );
-  
-  ss.str("");
-  ss.clear();
-  w.outputBoard(ss);
-  ASSERT_TRUE( ss.str() == "Turn = 1.\n  012\n0 ...\n1 .h.\n2 .h.\n");
-  
 }
-
-*/
