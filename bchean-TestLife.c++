@@ -17,17 +17,6 @@ using namespace std;
 // ConwayCell
 // ----------
 
-TEST(ConwayCellTest, Constructors) {
-	ConwayCell def;
-	EXPECT_FALSE(def._alive);
-
-	ConwayCell live(true);
-	EXPECT_TRUE(live._alive);
-
-	ConwayCell dead(false);
-	EXPECT_FALSE(dead._alive);
-}
-
 TEST(ConwayCellTest, Clone) {
 	ConwayCell cell(true);
 	ConwayCell* ptr = cell.clone();
@@ -152,20 +141,6 @@ TEST(ConwayCellTest, Write) {
 // -----------
 // FredkinCell
 // -----------
-
-TEST(FredkinCellTest, Constructors) {
-	FredkinCell def;
-	EXPECT_FALSE(def._alive);
-	EXPECT_EQ(0, def._age);
-
-	FredkinCell just_int(1);
-	EXPECT_TRUE(just_int._alive);
-	EXPECT_EQ(1, just_int._age);
-
-	FredkinCell bool_int(false, 2);
-	EXPECT_FALSE(bool_int._alive);
-	EXPECT_EQ(2, bool_int._age);
-}
 
 TEST(FredkinCellTest, Clone) {
 	FredkinCell cell(true, 3);
@@ -308,14 +283,6 @@ TEST(FredkinCellTest, Write) {
 // ----
 // Cell
 // ----
-
-TEST(CellTest, Constructors) {
-	Cell c1;
-	EXPECT_EQ(nullptr, c1._p);
-
-	Cell c2 = new ConwayCell();
-	EXPECT_NE(nullptr, c2._p);
-}
 
 TEST(CellTest, Equals) {
 	Cell cell1 = new ConwayCell(true);

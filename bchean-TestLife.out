@@ -1,21 +1,19 @@
 Running main() from gtest_main.cc
-[==========] Running 55 tests from 4 test cases.
+[==========] Running 52 tests from 4 test cases.
 [----------] Global test environment set-up.
-[----------] 15 tests from ConwayCellTest
-[ RUN      ] ConwayCellTest.Constructors
-[       OK ] ConwayCellTest.Constructors (9 ms)
+[----------] 14 tests from ConwayCellTest
 [ RUN      ] ConwayCellTest.Clone
-[       OK ] ConwayCellTest.Clone (2 ms)
+[       OK ] ConwayCellTest.Clone (9 ms)
 [ RUN      ] ConwayCellTest.Mutate
 [       OK ] ConwayCellTest.Mutate (2 ms)
 [ RUN      ] ConwayCellTest.HowToEvolveDie
-[       OK ] ConwayCellTest.HowToEvolveDie (23 ms)
+[       OK ] ConwayCellTest.HowToEvolveDie (14 ms)
 [ RUN      ] ConwayCellTest.HowToEvolveRevive
 [       OK ] ConwayCellTest.HowToEvolveRevive (4 ms)
 [ RUN      ] ConwayCellTest.HowToEvolveStayAlive
-[       OK ] ConwayCellTest.HowToEvolveStayAlive (5 ms)
+[       OK ] ConwayCellTest.HowToEvolveStayAlive (3 ms)
 [ RUN      ] ConwayCellTest.HowToEvolveStayDead
-[       OK ] ConwayCellTest.HowToEvolveStayDead (4 ms)
+[       OK ] ConwayCellTest.HowToEvolveStayDead (3 ms)
 [ RUN      ] ConwayCellTest.EvolveDie
 [       OK ] ConwayCellTest.EvolveDie (2 ms)
 [ RUN      ] ConwayCellTest.EvolveRevive
@@ -31,12 +29,10 @@ Running main() from gtest_main.cc
 [ RUN      ] ConwayCellTest.Read
 [       OK ] ConwayCellTest.Read (6 ms)
 [ RUN      ] ConwayCellTest.Write
-[       OK ] ConwayCellTest.Write (6 ms)
-[----------] 15 tests from ConwayCellTest (89 ms total)
+[       OK ] ConwayCellTest.Write (7 ms)
+[----------] 14 tests from ConwayCellTest (75 ms total)
 
-[----------] 16 tests from FredkinCellTest
-[ RUN      ] FredkinCellTest.Constructors
-[       OK ] FredkinCellTest.Constructors (5 ms)
+[----------] 15 tests from FredkinCellTest
 [ RUN      ] FredkinCellTest.Clone
 [       OK ] FredkinCellTest.Clone (3 ms)
 [ RUN      ] FredkinCellTest.Mutate
@@ -46,83 +42,81 @@ Running main() from gtest_main.cc
 [ RUN      ] FredkinCellTest.HowToEvolveDie
 [       OK ] FredkinCellTest.HowToEvolveDie (4 ms)
 [ RUN      ] FredkinCellTest.HowToEvolveRevive
-[       OK ] FredkinCellTest.HowToEvolveRevive (4 ms)
+[       OK ] FredkinCellTest.HowToEvolveRevive (3 ms)
 [ RUN      ] FredkinCellTest.HowToEvolveStayAlive
 [       OK ] FredkinCellTest.HowToEvolveStayAlive (3 ms)
 [ RUN      ] FredkinCellTest.HowToEvolveStayDead
-[       OK ] FredkinCellTest.HowToEvolveStayDead (4 ms)
+[       OK ] FredkinCellTest.HowToEvolveStayDead (3 ms)
 [ RUN      ] FredkinCellTest.EvolveDie
 [       OK ] FredkinCellTest.EvolveDie (2 ms)
 [ RUN      ] FredkinCellTest.EvolveRevive
 [       OK ] FredkinCellTest.EvolveRevive (2 ms)
 [ RUN      ] FredkinCellTest.EvolveStayAlive
-[       OK ] FredkinCellTest.EvolveStayAlive (2 ms)
+[       OK ] FredkinCellTest.EvolveStayAlive (3 ms)
 [ RUN      ] FredkinCellTest.EvolveStayDead
 [       OK ] FredkinCellTest.EvolveStayDead (2 ms)
 [ RUN      ] FredkinCellTest.EqualsAnotherFredkin
-[       OK ] FredkinCellTest.EqualsAnotherFredkin (3 ms)
+[       OK ] FredkinCellTest.EqualsAnotherFredkin (4 ms)
 [ RUN      ] FredkinCellTest.EqualsNotFredkin
-[       OK ] FredkinCellTest.EqualsNotFredkin (3 ms)
+[       OK ] FredkinCellTest.EqualsNotFredkin (2 ms)
 [ RUN      ] FredkinCellTest.Read
-[       OK ] FredkinCellTest.Read (5 ms)
+[       OK ] FredkinCellTest.Read (6 ms)
 [ RUN      ] FredkinCellTest.Write
 [       OK ] FredkinCellTest.Write (7 ms)
-[----------] 16 tests from FredkinCellTest (57 ms total)
+[----------] 15 tests from FredkinCellTest (51 ms total)
 
-[----------] 11 tests from CellTest
-[ RUN      ] CellTest.Constructors
-[       OK ] CellTest.Constructors (3 ms)
+[----------] 10 tests from CellTest
 [ RUN      ] CellTest.Equals
 [       OK ] CellTest.Equals (5 ms)
 [ RUN      ] CellTest.Assignment
 [       OK ] CellTest.Assignment (4 ms)
 [ RUN      ] CellTest.MutateFredkin
-[       OK ] CellTest.MutateFredkin (4 ms)
+[       OK ] CellTest.MutateFredkin (5 ms)
 [ RUN      ] CellTest.MutateFredkinFail
-[       OK ] CellTest.MutateFredkinFail (5 ms)
+[       OK ] CellTest.MutateFredkinFail (4 ms)
 [ RUN      ] CellTest.MutateNotFredkin
 [       OK ] CellTest.MutateNotFredkin (3 ms)
 [ RUN      ] CellTest.HowToEvolve
-[       OK ] CellTest.HowToEvolve (4 ms)
+[       OK ] CellTest.HowToEvolve (3 ms)
 [ RUN      ] CellTest.Evolve
 [       OK ] CellTest.Evolve (2 ms)
 [ RUN      ] CellTest.ReadInitialize
-[       OK ] CellTest.ReadInitialize (15 ms)
+[       OK ] CellTest.ReadInitialize (14 ms)
 [ RUN      ] CellTest.ReadModify
-[       OK ] CellTest.ReadModify (4 ms)
+[       OK ] CellTest.ReadModify (5 ms)
 [ RUN      ] CellTest.Write
 [       OK ] CellTest.Write (4 ms)
-[----------] 11 tests from CellTest (53 ms total)
+[----------] 10 tests from CellTest (50 ms total)
 
 [----------] 13 tests from LifeTest
 [ RUN      ] LifeTest.ReadConway
 [       OK ] LifeTest.ReadConway (26 ms)
 [ RUN      ] LifeTest.ReadFredkin
-[       OK ] LifeTest.ReadFredkin (24 ms)
+[       OK ] LifeTest.ReadFredkin (23 ms)
 [ RUN      ] LifeTest.ReadBoth
-[       OK ] LifeTest.ReadBoth (27 ms)
+[       OK ] LifeTest.ReadBoth (28 ms)
 [ RUN      ] LifeTest.WriteConway
-[       OK ] LifeTest.WriteConway (6 ms)
+[       OK ] LifeTest.WriteConway (7 ms)
 [ RUN      ] LifeTest.WriteFredkin
 [       OK ] LifeTest.WriteFredkin (6 ms)
 [ RUN      ] LifeTest.WriteBoth
-[       OK ] LifeTest.WriteBoth (10 ms)
+[       OK ] LifeTest.WriteBoth (9 ms)
 [ RUN      ] LifeTest.HowToEvolveCornerCells
-[       OK ] LifeTest.HowToEvolveCornerCells (41 ms)
+[       OK ] LifeTest.HowToEvolveCornerCells (39 ms)
 [ RUN      ] LifeTest.HowToEvolveEdgeCells
-[       OK ] LifeTest.HowToEvolveEdgeCells (35 ms)
+[       OK ] LifeTest.HowToEvolveEdgeCells (33 ms)
 [ RUN      ] LifeTest.HowToEvolveInteriorCells
-[       OK ] LifeTest.HowToEvolveInteriorCells (16 ms)
+[       OK ] LifeTest.HowToEvolveInteriorCells (15 ms)
 [ RUN      ] LifeTest.HowToEvolveAllCells
 [       OK ] LifeTest.HowToEvolveAllCells (12 ms)
 [ RUN      ] LifeTest.EvolveAllCellsConway
 [       OK ] LifeTest.EvolveAllCellsConway (9 ms)
 [ RUN      ] LifeTest.EvolveAllCellsFredkin
-[       OK ] LifeTest.EvolveAllCellsFredkin (57 ms)
+[       OK ] LifeTest.EvolveAllCellsFredkin (53 ms)
 [ RUN      ] LifeTest.EvolveAllCellsBoth
-[       OK ] LifeTest.EvolveAllCellsBoth (61 ms)
-[----------] 13 tests from LifeTest (332 ms total)
+[       OK ] LifeTest.EvolveAllCellsBoth (56 ms)
+[----------] 13 tests from LifeTest (319 ms total)
 
 [----------] Global test environment tear-down
-[==========] 55 tests from 4 test cases ran. (560 ms total)
-[  PASSED  ] 55 tests.
+[==========] 52 tests from 4 test cases ran. (523 ms total)
+[  PASSED  ] 52 tests.
