@@ -11,22 +11,22 @@ Running main() from gtest_main.cc
 [ RUN      ] ConwayCell.checkState_stayAlive
 [       OK ] ConwayCell.checkState_stayAlive (2 ms)
 [ RUN      ] ConwayCell.checkState_stayAlive2
-[       OK ] ConwayCell.checkState_stayAlive2 (2 ms)
+[       OK ] ConwayCell.checkState_stayAlive2 (1 ms)
 [ RUN      ] ConwayCell.checkState_live
 [       OK ] ConwayCell.checkState_live (2 ms)
 [ RUN      ] ConwayCell.checkState_stayDead
 [       OK ] ConwayCell.checkState_stayDead (2 ms)
 [ RUN      ] ConwayCell.checkState_stayDead2
-[       OK ] ConwayCell.checkState_stayDead2 (2 ms)
+[       OK ] ConwayCell.checkState_stayDead2 (1 ms)
 [ RUN      ] ConwayCell.update
-[       OK ] ConwayCell.update (2 ms)
+[       OK ] ConwayCell.update (1 ms)
 [ RUN      ] ConwayCell.update2
 [       OK ] ConwayCell.update2 (2 ms)
-[----------] 10 tests from ConwayCell (37 ms total)
+[----------] 10 tests from ConwayCell (38 ms total)
 
 [----------] 13 tests from FredkinCell
 [ RUN      ] FredkinCell.checkState_die
-[       OK ] FredkinCell.checkState_die (2 ms)
+[       OK ] FredkinCell.checkState_die (3 ms)
 [ RUN      ] FredkinCell.checkState_die2
 [       OK ] FredkinCell.checkState_die2 (2 ms)
 [ RUN      ] FredkinCell.checkState_die3
@@ -34,24 +34,24 @@ Running main() from gtest_main.cc
 [ RUN      ] FredkinCell.checkState_stayAlive
 [       OK ] FredkinCell.checkState_stayAlive (2 ms)
 [ RUN      ] FredkinCell.checkState_stayAlive2
-[       OK ] FredkinCell.checkState_stayAlive2 (1 ms)
+[       OK ] FredkinCell.checkState_stayAlive2 (2 ms)
 [ RUN      ] FredkinCell.checkState_live
 [       OK ] FredkinCell.checkState_live (2 ms)
 [ RUN      ] FredkinCell.checkState_live2
-[       OK ] FredkinCell.checkState_live2 (1 ms)
+[       OK ] FredkinCell.checkState_live2 (2 ms)
 [ RUN      ] FredkinCell.checkState_stayDead
 [       OK ] FredkinCell.checkState_stayDead (2 ms)
 [ RUN      ] FredkinCell.checkState_stayDead2
 [       OK ] FredkinCell.checkState_stayDead2 (2 ms)
 [ RUN      ] FredkinCell.checkState_stayDead3
-[       OK ] FredkinCell.checkState_stayDead3 (1 ms)
+[       OK ] FredkinCell.checkState_stayDead3 (2 ms)
 [ RUN      ] FredkinCell.update
 [       OK ] FredkinCell.update (2 ms)
 [ RUN      ] FredkinCell.update2
-[       OK ] FredkinCell.update2 (1 ms)
+[       OK ] FredkinCell.update2 (2 ms)
 [ RUN      ] FredkinCell.update3
 [       OK ] FredkinCell.update3 (2 ms)
-[----------] 13 tests from FredkinCell (27 ms total)
+[----------] 13 tests from FredkinCell (28 ms total)
 
 [----------] 2 tests from Cell
 [ RUN      ] Cell.createCell_Conway
@@ -62,21 +62,21 @@ Running main() from gtest_main.cc
 
 [----------] 7 tests from Life
 [ RUN      ] Life.find_inBounds
-[       OK ] Life.find_inBounds (19 ms)
+[       OK ] Life.find_inBounds (20 ms)
 [ RUN      ] Life.find_outOfBounds
-[       OK ] Life.find_outOfBounds (3 ms)
+[       OK ] Life.find_outOfBounds (2 ms)
 [ RUN      ] Life.find_rowEnd
-[       OK ] Life.find_rowEnd (3 ms)
+[       OK ] Life.find_rowEnd (2 ms)
 [ RUN      ] Life.find_colEnd
 [       OK ] Life.find_colEnd (2 ms)
 [ RUN      ] Life.find_rowBegin
-[       OK ] Life.find_rowBegin (2 ms)
+[       OK ] Life.find_rowBegin (3 ms)
 [ RUN      ] Life.find_colBegin
 [       OK ] Life.find_colBegin (3 ms)
 [ RUN      ] Life.step
-[       OK ] Life.step (16 ms)
-[----------] 7 tests from Life (49 ms total)
+[       OK ] Life.step (17 ms)
+[----------] 7 tests from Life (51 ms total)
 
 [----------] Global test environment tear-down
-[==========] 32 tests from 4 test cases ran. (147 ms total)
+[==========] 32 tests from 4 test cases ran. (149 ms total)
 [  PASSED  ] 32 tests.
