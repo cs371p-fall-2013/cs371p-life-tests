@@ -1,8 +1,8 @@
 // ------------------------------------
-// Name: Jeffrey 
-// eid: 
-// cs user id: 
-// email: 
+// Name: Jeffrey Fulkerson
+// eid: jgf453
+// cs user id: jeffreyf 
+// email: jeffreyfulkerson@gmail.com
 // ------------------------------------
 
 // ------------------------------------
@@ -200,12 +200,14 @@ TEST(Cell, createCell_Conway){
 	Cell c = Cell(true, '*');
 	ConwayCell* p = (ConwayCell*) c.createCell(true, '*');
 	ASSERT_TRUE(p->alive);
+	delete p;
 }
 
 TEST(Cell, createCell_Fredkin){
 	Cell c = Cell(true, '*');
 	FredkinCell* p = (FredkinCell*) c.createCell(true, '0');
 	ASSERT_TRUE(p->age == 0);
+	delete p;
 }
 
 TEST(Life, find_inBounds){

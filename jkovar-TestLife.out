@@ -1,0 +1,347 @@
+Running main() from gtest_main.cc
+[==========] Running 163 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 49 tests from TestLife/0, where TypeParam = ConwayCell
+[ RUN      ] TestLife/0.lconstructor_1
+[       OK ] TestLife/0.lconstructor_1 (62 ms)
+[ RUN      ] TestLife/0.lconstructor_2
+[       OK ] TestLife/0.lconstructor_2 (1 ms)
+[ RUN      ] TestLife/0.lconstructor_3
+[       OK ] TestLife/0.lconstructor_3 (2 ms)
+[ RUN      ] TestLife/0.lconstructor_4
+[       OK ] TestLife/0.lconstructor_4 (1 ms)
+[ RUN      ] TestLife/0.lconstructor_5
+[       OK ] TestLife/0.lconstructor_5 (1 ms)
+[ RUN      ] TestLife/0.lconstructor_6
+[       OK ] TestLife/0.lconstructor_6 (2 ms)
+[ RUN      ] TestLife/0.add_to_grid_1
+[       OK ] TestLife/0.add_to_grid_1 (6 ms)
+[ RUN      ] TestLife/0.add_to_grid_2
+[       OK ] TestLife/0.add_to_grid_2 (4 ms)
+[ RUN      ] TestLife/0.add_to_grid_3
+[       OK ] TestLife/0.add_to_grid_3 (3 ms)
+[ RUN      ] TestLife/0.add_to_grid_4
+[       OK ] TestLife/0.add_to_grid_4 (3 ms)
+[ RUN      ] TestLife/0.add_to_grid_5
+[       OK ] TestLife/0.add_to_grid_5 (2 ms)
+[ RUN      ] TestLife/0.add_to_grid_6
+[       OK ] TestLife/0.add_to_grid_6 (2 ms)
+[ RUN      ] TestLife/0.add_to_grid_7
+[       OK ] TestLife/0.add_to_grid_7 (2 ms)
+[ RUN      ] TestLife/0.add_to_grid_8
+[       OK ] TestLife/0.add_to_grid_8 (3 ms)
+[ RUN      ] TestLife/0.add_to_grid_9
+[       OK ] TestLife/0.add_to_grid_9 (2 ms)
+[ RUN      ] TestLife/0.add_to_grid_10
+[       OK ] TestLife/0.add_to_grid_10 (3 ms)
+[ RUN      ] TestLife/0.add_to_grid_11
+[       OK ] TestLife/0.add_to_grid_11 (3 ms)
+[ RUN      ] TestLife/0.aconstructors_1
+[       OK ] TestLife/0.aconstructors_1 (2 ms)
+[ RUN      ] TestLife/0.aconstructors_2
+[       OK ] TestLife/0.aconstructors_2 (3 ms)
+[ RUN      ] TestLife/0.aconstructors_3
+[       OK ] TestLife/0.aconstructors_3 (2 ms)
+[ RUN      ] TestLife/0.aequals_1
+[       OK ] TestLife/0.aequals_1 (2 ms)
+[ RUN      ] TestLife/0.aequals_2
+[       OK ] TestLife/0.aequals_2 (2 ms)
+[ RUN      ] TestLife/0.aequals_3
+[       OK ] TestLife/0.aequals_3 (2 ms)
+[ RUN      ] TestLife/0.aequals_4
+[       OK ] TestLife/0.aequals_4 (2 ms)
+[ RUN      ] TestLife/0.is_alive_1
+[       OK ] TestLife/0.is_alive_1 (2 ms)
+[ RUN      ] TestLife/0.is_alive_2
+[       OK ] TestLife/0.is_alive_2 (2 ms)
+[ RUN      ] TestLife/0.is_alive_3
+[       OK ] TestLife/0.is_alive_3 (2 ms)
+[ RUN      ] TestLife/0.as_ne_st_1
+[       OK ] TestLife/0.as_ne_st_1 (2 ms)
+[ RUN      ] TestLife/0.as_ne_st_2
+[       OK ] TestLife/0.as_ne_st_2 (2 ms)
+[ RUN      ] TestLife/0.as_ne_st_3
+[       OK ] TestLife/0.as_ne_st_3 (2 ms)
+[ RUN      ] TestLife/0.as_ne_st_4
+[       OK ] TestLife/0.as_ne_st_4 (2 ms)
+[ RUN      ] TestLife/0.cell_con_1
+[       OK ] TestLife/0.cell_con_1 (3 ms)
+[ RUN      ] TestLife/0.de_ne_st_1
+[       OK ] TestLife/0.de_ne_st_1 (3 ms)
+[ RUN      ] TestLife/0.de_ne_st_2
+[       OK ] TestLife/0.de_ne_st_2 (3 ms)
+[ RUN      ] TestLife/0.de_ne_st_3
+[       OK ] TestLife/0.de_ne_st_3 (2 ms)
+[ RUN      ] TestLife/0.de_ne_st_4
+[       OK ] TestLife/0.de_ne_st_4 (3 ms)
+[ RUN      ] TestLife/0.de_ne_st_5
+[       OK ] TestLife/0.de_ne_st_5 (2 ms)
+[ RUN      ] TestLife/0.de_ne_st_6
+[       OK ] TestLife/0.de_ne_st_6 (3 ms)
+[ RUN      ] TestLife/0.de_ne_st_7
+[       OK ] TestLife/0.de_ne_st_7 (2 ms)
+[ RUN      ] TestLife/0.is_ce_al_1
+[       OK ] TestLife/0.is_ce_al_1 (3 ms)
+[ RUN      ] TestLife/0.is_ce_al_2
+[       OK ] TestLife/0.is_ce_al_2 (2 ms)
+[ RUN      ] TestLife/0.cell_as_ne_st_1
+[       OK ] TestLife/0.cell_as_ne_st_1 (4 ms)
+[ RUN      ] TestLife/0.cell_as_ne_st_2
+[       OK ] TestLife/0.cell_as_ne_st_2 (2 ms)
+[ RUN      ] TestLife/0.cell_as_ne_st_3
+[       OK ] TestLife/0.cell_as_ne_st_3 (2 ms)
+[ RUN      ] TestLife/0.cell_as_ne_st_4
+[       OK ] TestLife/0.cell_as_ne_st_4 (2 ms)
+[ RUN      ] TestLife/0.fr_op_1
+[       OK ] TestLife/0.fr_op_1 (7 ms)
+[ RUN      ] TestLife/0.fr_op_2
+[       OK ] TestLife/0.fr_op_2 (3 ms)
+[ RUN      ] TestLife/0.fr_op_3
+[       OK ] TestLife/0.fr_op_3 (2 ms)
+[ RUN      ] TestLife/0.fr_op_4
+[       OK ] TestLife/0.fr_op_4 (2 ms)
+[----------] 49 tests from TestLife/0 (199 ms total)
+
+[----------] 49 tests from TestLife/1, where TypeParam = FredkinCell
+[ RUN      ] TestLife/1.lconstructor_1
+[       OK ] TestLife/1.lconstructor_1 (19 ms)
+[ RUN      ] TestLife/1.lconstructor_2
+[       OK ] TestLife/1.lconstructor_2 (1 ms)
+[ RUN      ] TestLife/1.lconstructor_3
+[       OK ] TestLife/1.lconstructor_3 (1 ms)
+[ RUN      ] TestLife/1.lconstructor_4
+[       OK ] TestLife/1.lconstructor_4 (2 ms)
+[ RUN      ] TestLife/1.lconstructor_5
+[       OK ] TestLife/1.lconstructor_5 (2 ms)
+[ RUN      ] TestLife/1.lconstructor_6
+[       OK ] TestLife/1.lconstructor_6 (2 ms)
+[ RUN      ] TestLife/1.add_to_grid_1
+[       OK ] TestLife/1.add_to_grid_1 (5 ms)
+[ RUN      ] TestLife/1.add_to_grid_2
+[       OK ] TestLife/1.add_to_grid_2 (4 ms)
+[ RUN      ] TestLife/1.add_to_grid_3
+[       OK ] TestLife/1.add_to_grid_3 (3 ms)
+[ RUN      ] TestLife/1.add_to_grid_4
+[       OK ] TestLife/1.add_to_grid_4 (3 ms)
+[ RUN      ] TestLife/1.add_to_grid_5
+[       OK ] TestLife/1.add_to_grid_5 (2 ms)
+[ RUN      ] TestLife/1.add_to_grid_6
+[       OK ] TestLife/1.add_to_grid_6 (2 ms)
+[ RUN      ] TestLife/1.add_to_grid_7
+[       OK ] TestLife/1.add_to_grid_7 (2 ms)
+[ RUN      ] TestLife/1.add_to_grid_8
+[       OK ] TestLife/1.add_to_grid_8 (2 ms)
+[ RUN      ] TestLife/1.add_to_grid_9
+[       OK ] TestLife/1.add_to_grid_9 (3 ms)
+[ RUN      ] TestLife/1.add_to_grid_10
+[       OK ] TestLife/1.add_to_grid_10 (3 ms)
+[ RUN      ] TestLife/1.add_to_grid_11
+[       OK ] TestLife/1.add_to_grid_11 (3 ms)
+[ RUN      ] TestLife/1.aconstructors_1
+[       OK ] TestLife/1.aconstructors_1 (2 ms)
+[ RUN      ] TestLife/1.aconstructors_2
+[       OK ] TestLife/1.aconstructors_2 (3 ms)
+[ RUN      ] TestLife/1.aconstructors_3
+[       OK ] TestLife/1.aconstructors_3 (2 ms)
+[ RUN      ] TestLife/1.aequals_1
+[       OK ] TestLife/1.aequals_1 (2 ms)
+[ RUN      ] TestLife/1.aequals_2
+[       OK ] TestLife/1.aequals_2 (3 ms)
+[ RUN      ] TestLife/1.aequals_3
+[       OK ] TestLife/1.aequals_3 (2 ms)
+[ RUN      ] TestLife/1.aequals_4
+[       OK ] TestLife/1.aequals_4 (2 ms)
+[ RUN      ] TestLife/1.is_alive_1
+[       OK ] TestLife/1.is_alive_1 (2 ms)
+[ RUN      ] TestLife/1.is_alive_2
+[       OK ] TestLife/1.is_alive_2 (2 ms)
+[ RUN      ] TestLife/1.is_alive_3
+[       OK ] TestLife/1.is_alive_3 (2 ms)
+[ RUN      ] TestLife/1.as_ne_st_1
+[       OK ] TestLife/1.as_ne_st_1 (3 ms)
+[ RUN      ] TestLife/1.as_ne_st_2
+[       OK ] TestLife/1.as_ne_st_2 (2 ms)
+[ RUN      ] TestLife/1.as_ne_st_3
+[       OK ] TestLife/1.as_ne_st_3 (2 ms)
+[ RUN      ] TestLife/1.as_ne_st_4
+[       OK ] TestLife/1.as_ne_st_4 (2 ms)
+[ RUN      ] TestLife/1.cell_con_1
+[       OK ] TestLife/1.cell_con_1 (2 ms)
+[ RUN      ] TestLife/1.de_ne_st_1
+[       OK ] TestLife/1.de_ne_st_1 (3 ms)
+[ RUN      ] TestLife/1.de_ne_st_2
+[       OK ] TestLife/1.de_ne_st_2 (3 ms)
+[ RUN      ] TestLife/1.de_ne_st_3
+[       OK ] TestLife/1.de_ne_st_3 (2 ms)
+[ RUN      ] TestLife/1.de_ne_st_4
+[       OK ] TestLife/1.de_ne_st_4 (2 ms)
+[ RUN      ] TestLife/1.de_ne_st_5
+[       OK ] TestLife/1.de_ne_st_5 (2 ms)
+[ RUN      ] TestLife/1.de_ne_st_6
+[       OK ] TestLife/1.de_ne_st_6 (2 ms)
+[ RUN      ] TestLife/1.de_ne_st_7
+[       OK ] TestLife/1.de_ne_st_7 (2 ms)
+[ RUN      ] TestLife/1.is_ce_al_1
+[       OK ] TestLife/1.is_ce_al_1 (2 ms)
+[ RUN      ] TestLife/1.is_ce_al_2
+[       OK ] TestLife/1.is_ce_al_2 (2 ms)
+[ RUN      ] TestLife/1.cell_as_ne_st_1
+[       OK ] TestLife/1.cell_as_ne_st_1 (2 ms)
+[ RUN      ] TestLife/1.cell_as_ne_st_2
+[       OK ] TestLife/1.cell_as_ne_st_2 (2 ms)
+[ RUN      ] TestLife/1.cell_as_ne_st_3
+[       OK ] TestLife/1.cell_as_ne_st_3 (2 ms)
+[ RUN      ] TestLife/1.cell_as_ne_st_4
+[       OK ] TestLife/1.cell_as_ne_st_4 (2 ms)
+[ RUN      ] TestLife/1.fr_op_1
+[       OK ] TestLife/1.fr_op_1 (3 ms)
+[ RUN      ] TestLife/1.fr_op_2
+[       OK ] TestLife/1.fr_op_2 (3 ms)
+[ RUN      ] TestLife/1.fr_op_3
+[       OK ] TestLife/1.fr_op_3 (4 ms)
+[ RUN      ] TestLife/1.fr_op_4
+[       OK ] TestLife/1.fr_op_4 (3 ms)
+[----------] 49 tests from TestLife/1 (140 ms total)
+
+[----------] 22 tests from ConwayCell
+[ RUN      ] ConwayCell.eq_1
+[       OK ] ConwayCell.eq_1 (2 ms)
+[ RUN      ] ConwayCell.eq_2
+[       OK ] ConwayCell.eq_2 (2 ms)
+[ RUN      ] ConwayCell.eq_3
+[       OK ] ConwayCell.eq_3 (2 ms)
+[ RUN      ] ConwayCell.eq_4
+[       OK ] ConwayCell.eq_4 (2 ms)
+[ RUN      ] ConwayCell.eq_5
+[       OK ] ConwayCell.eq_5 (2 ms)
+[ RUN      ] ConwayCell.eq_6
+[       OK ] ConwayCell.eq_6 (2 ms)
+[ RUN      ] ConwayCell.eq_7
+[       OK ] ConwayCell.eq_7 (2 ms)
+[ RUN      ] ConwayCell.eq_8
+[       OK ] ConwayCell.eq_8 (2 ms)
+[ RUN      ] ConwayCell.wr_1
+[       OK ] ConwayCell.wr_1 (3 ms)
+[ RUN      ] ConwayCell.wr_2
+[       OK ] ConwayCell.wr_2 (2 ms)
+[ RUN      ] ConwayCell.wr_3
+[       OK ] ConwayCell.wr_3 (3 ms)
+[ RUN      ] ConwayCell.wr_4
+[       OK ] ConwayCell.wr_4 (2 ms)
+[ RUN      ] ConwayCell.de_ne_st_1
+[       OK ] ConwayCell.de_ne_st_1 (2 ms)
+[ RUN      ] ConwayCell.de_ne_st_2
+[       OK ] ConwayCell.de_ne_st_2 (2 ms)
+[ RUN      ] ConwayCell.de_ne_st_3
+[       OK ] ConwayCell.de_ne_st_3 (2 ms)
+[ RUN      ] ConwayCell.de_ne_st_4
+[       OK ] ConwayCell.de_ne_st_4 (2 ms)
+[ RUN      ] ConwayCell.de_ne_st_5
+[       OK ] ConwayCell.de_ne_st_5 (1 ms)
+[ RUN      ] ConwayCell.de_ne_st_6
+[       OK ] ConwayCell.de_ne_st_6 (1 ms)
+[ RUN      ] ConwayCell.de_ne_st_7
+[       OK ] ConwayCell.de_ne_st_7 (1 ms)
+[ RUN      ] ConwayCell.cl_1
+[       OK ] ConwayCell.cl_1 (3 ms)
+[ RUN      ] ConwayCell.cl_2
+[       OK ] ConwayCell.cl_2 (4 ms)
+[ RUN      ] ConwayCell.cl_3
+[       OK ] ConwayCell.cl_3 (3 ms)
+[----------] 22 tests from ConwayCell (53 ms total)
+
+[----------] 32 tests from FredkinCell
+[ RUN      ] FredkinCell.eq_1
+[       OK ] FredkinCell.eq_1 (2 ms)
+[ RUN      ] FredkinCell.eq_2
+[       OK ] FredkinCell.eq_2 (2 ms)
+[ RUN      ] FredkinCell.eq_3
+[       OK ] FredkinCell.eq_3 (2 ms)
+[ RUN      ] FredkinCell.eq_4
+[       OK ] FredkinCell.eq_4 (3 ms)
+[ RUN      ] FredkinCell.eq_5
+[       OK ] FredkinCell.eq_5 (2 ms)
+[ RUN      ] FredkinCell.eq_6
+[       OK ] FredkinCell.eq_6 (2 ms)
+[ RUN      ] FredkinCell.eq_7
+[       OK ] FredkinCell.eq_7 (3 ms)
+[ RUN      ] FredkinCell.eq_8
+[       OK ] FredkinCell.eq_8 (2 ms)
+[ RUN      ] FredkinCell.wr_1
+[       OK ] FredkinCell.wr_1 (2 ms)
+[ RUN      ] FredkinCell.wr_2
+[       OK ] FredkinCell.wr_2 (3 ms)
+[ RUN      ] FredkinCell.wr_3
+[       OK ] FredkinCell.wr_3 (2 ms)
+[ RUN      ] FredkinCell.wr_4
+[       OK ] FredkinCell.wr_4 (3 ms)
+[ RUN      ] FredkinCell.wr_5
+[       OK ] FredkinCell.wr_5 (2 ms)
+[ RUN      ] FredkinCell.wr_6
+[       OK ] FredkinCell.wr_6 (3 ms)
+[ RUN      ] FredkinCell.de_ne_st_1
+[       OK ] FredkinCell.de_ne_st_1 (2 ms)
+[ RUN      ] FredkinCell.de_ne_st_2
+[       OK ] FredkinCell.de_ne_st_2 (2 ms)
+[ RUN      ] FredkinCell.de_ne_st_3
+[       OK ] FredkinCell.de_ne_st_3 (2 ms)
+[ RUN      ] FredkinCell.de_ne_st_4
+[       OK ] FredkinCell.de_ne_st_4 (2 ms)
+[ RUN      ] FredkinCell.de_ne_st_5
+[       OK ] FredkinCell.de_ne_st_5 (2 ms)
+[ RUN      ] FredkinCell.de_ne_st_6
+[       OK ] FredkinCell.de_ne_st_6 (1 ms)
+[ RUN      ] FredkinCell.de_ne_st_7
+[       OK ] FredkinCell.de_ne_st_7 (2 ms)
+[ RUN      ] FredkinCell.as_ne_st_1
+[       OK ] FredkinCell.as_ne_st_1 (2 ms)
+[ RUN      ] FredkinCell.as_ne_st_2
+[       OK ] FredkinCell.as_ne_st_2 (3 ms)
+[ RUN      ] FredkinCell.as_ne_st_3
+[       OK ] FredkinCell.as_ne_st_3 (2 ms)
+[ RUN      ] FredkinCell.as_ne_st_4
+[       OK ] FredkinCell.as_ne_st_4 (3 ms)
+[ RUN      ] FredkinCell.is_ol_th_1
+[       OK ] FredkinCell.is_ol_th_1 (2 ms)
+[ RUN      ] FredkinCell.is_ol_th_2
+[       OK ] FredkinCell.is_ol_th_2 (2 ms)
+[ RUN      ] FredkinCell.is_ol_th_3
+[       OK ] FredkinCell.is_ol_th_3 (2 ms)
+[ RUN      ] FredkinCell.cl_1
+[       OK ] FredkinCell.cl_1 (5 ms)
+[ RUN      ] FredkinCell.cl_2
+[       OK ] FredkinCell.cl_2 (4 ms)
+[ RUN      ] FredkinCell.cl_3
+[       OK ] FredkinCell.cl_3 (4 ms)
+[ RUN      ] FredkinCell.cl_4
+[       OK ] FredkinCell.cl_4 (2 ms)
+[----------] 32 tests from FredkinCell (79 ms total)
+
+[----------] 11 tests from Cell
+[ RUN      ] Cell.cell_con_2
+[       OK ] Cell.cell_con_2 (2 ms)
+[ RUN      ] Cell.cell_con_3
+[       OK ] Cell.cell_con_3 (2 ms)
+[ RUN      ] Cell.is_ce_al_3
+[       OK ] Cell.is_ce_al_3 (2 ms)
+[ RUN      ] Cell.is_ce_al_4
+[       OK ] Cell.is_ce_al_4 (2 ms)
+[ RUN      ] Cell.cell_as_ne_st_5
+[       OK ] Cell.cell_as_ne_st_5 (3 ms)
+[ RUN      ] Cell.cell_as_ne_st_6
+[       OK ] Cell.cell_as_ne_st_6 (3 ms)
+[ RUN      ] Cell.cell_as_ne_st_7
+[       OK ] Cell.cell_as_ne_st_7 (3 ms)
+[ RUN      ] Cell.mu_1
+[       OK ] Cell.mu_1 (3 ms)
+[ RUN      ] Cell.mu_2
+[       OK ] Cell.mu_2 (3 ms)
+[ RUN      ] Cell.mu_3
+[       OK ] Cell.mu_3 (3 ms)
+[ RUN      ] Cell.mu_4
+[       OK ] Cell.mu_4 (2 ms)
+[----------] 11 tests from Cell (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 163 tests from 5 test cases ran. (526 ms total)
+[  PASSED  ] 163 tests.
