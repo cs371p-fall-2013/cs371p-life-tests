@@ -1,0 +1,227 @@
+Running main() from gtest_main.cc
+[==========] Running 109 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 109 tests from Life
+[ RUN      ] Life.Abstract_operator_equals_self
+[       OK ] Life.Abstract_operator_equals_self (9 ms)
+[ RUN      ] Life.Abstract_operator_equals_other
+[       OK ] Life.Abstract_operator_equals_other (2 ms)
+[ RUN      ] Life.Abstract_operator_not_equals_other
+[       OK ] Life.Abstract_operator_not_equals_other (2 ms)
+[ RUN      ] Life.Abstract_operator_out_alive
+[       OK ] Life.Abstract_operator_out_alive (6 ms)
+[ RUN      ] Life.Abstract_operator_out_dead
+[       OK ] Life.Abstract_operator_out_dead (3 ms)
+[ RUN      ] Life.Abstract_operator_out_both
+[       OK ] Life.Abstract_operator_out_both (3 ms)
+[ RUN      ] Life.Abstract_assignment_other
+[       OK ] Life.Abstract_assignment_other (3 ms)
+[ RUN      ] Life.Abstract_equals_self
+[       OK ] Life.Abstract_equals_self (2 ms)
+[ RUN      ] Life.Abstract_equals_other
+[       OK ] Life.Abstract_equals_other (2 ms)
+[ RUN      ] Life.Abstract_not_equals_other
+[       OK ] Life.Abstract_not_equals_other (2 ms)
+[ RUN      ] Life.Abstract_construct_alive
+[       OK ] Life.Abstract_construct_alive (2 ms)
+[ RUN      ] Life.Abstract_construct_dead
+[       OK ] Life.Abstract_construct_dead (1 ms)
+[ RUN      ] Life.Abstract_construct_def
+[       OK ] Life.Abstract_construct_def (2 ms)
+[ RUN      ] Life.Abstract_is_alive_alive
+[       OK ] Life.Abstract_is_alive_alive (2 ms)
+[ RUN      ] Life.Abstract_is_dead_alive
+[       OK ] Life.Abstract_is_dead_alive (2 ms)
+[ RUN      ] Life.Abstract_update_alive_to_dead
+[       OK ] Life.Abstract_update_alive_to_dead (2 ms)
+[ RUN      ] Life.Abstract_update_alive_to_alive
+[       OK ] Life.Abstract_update_alive_to_alive (2 ms)
+[ RUN      ] Life.Abstract_update_dead_to_dead
+[       OK ] Life.Abstract_update_dead_to_dead (2 ms)
+[ RUN      ] Life.Abstract_update_dead_to_alive
+[       OK ] Life.Abstract_update_dead_to_alive (2 ms)
+[ RUN      ] Life.Conway_write_alive
+[       OK ] Life.Conway_write_alive (2 ms)
+[ RUN      ] Life.Conway_write_dead
+[       OK ] Life.Conway_write_dead (2 ms)
+[ RUN      ] Life.Conway_will_be_old_alive
+[       OK ] Life.Conway_will_be_old_alive (1 ms)
+[ RUN      ] Life.Conway_will_be_old_dead
+[       OK ] Life.Conway_will_be_old_dead (1 ms)
+[ RUN      ] Life.Conway_age_dead_0_neighbors
+[       OK ] Life.Conway_age_dead_0_neighbors (24 ms)
+[ RUN      ] Life.Conway_age_alive_0_neighbors
+[       OK ] Life.Conway_age_alive_0_neighbors (6 ms)
+[ RUN      ] Life.Conway_age_dead_2_neighbors
+[       OK ] Life.Conway_age_dead_2_neighbors (6 ms)
+[ RUN      ] Life.Conway_age_alive_2_neighbors
+[       OK ] Life.Conway_age_alive_2_neighbors (6 ms)
+[ RUN      ] Life.Conway_age_dead_3_neighbors
+[       OK ] Life.Conway_age_dead_3_neighbors (6 ms)
+[ RUN      ] Life.Conway_age_alive_3_neighbors
+[       OK ] Life.Conway_age_alive_3_neighbors (6 ms)
+[ RUN      ] Life.Conway_age_dead_5_neighbors
+[       OK ] Life.Conway_age_dead_5_neighbors (5 ms)
+[ RUN      ] Life.Conway_age_alive_5_neighbors
+[       OK ] Life.Conway_age_alive_5_neighbors (5 ms)
+[ RUN      ] Life.Conway_clone_alive
+[       OK ] Life.Conway_clone_alive (4 ms)
+[ RUN      ] Life.Conway_clone_dead
+[       OK ] Life.Conway_clone_dead (3 ms)
+[ RUN      ] Life.Fredkin_equals_self
+[       OK ] Life.Fredkin_equals_self (2 ms)
+[ RUN      ] Life.Fredkin_equals_other
+[       OK ] Life.Fredkin_equals_other (2 ms)
+[ RUN      ] Life.Fredkin_not_equals_older
+[       OK ] Life.Fredkin_not_equals_older (2 ms)
+[ RUN      ] Life.Fredkin_not_equals_other
+[       OK ] Life.Fredkin_not_equals_other (2 ms)
+[ RUN      ] Life.Fredkin_construct_alive
+[       OK ] Life.Fredkin_construct_alive (3 ms)
+[ RUN      ] Life.Fredkin_construct_dead
+[       OK ] Life.Fredkin_construct_dead (3 ms)
+[ RUN      ] Life.Fredkin_write_alive
+[       OK ] Life.Fredkin_write_alive (5 ms)
+[ RUN      ] Life.Fredkin_write_older
+[       OK ] Life.Fredkin_write_older (3 ms)
+[ RUN      ] Life.Fredkin_write_oldest
+[       OK ] Life.Fredkin_write_oldest (2 ms)
+[ RUN      ] Life.Fredkin_write_dead
+[       OK ] Life.Fredkin_write_dead (3 ms)
+[ RUN      ] Life.Fredkin_will_be_old_alive_old
+[       OK ] Life.Fredkin_will_be_old_alive_old (2 ms)
+[ RUN      ] Life.Fredkin_will_be_old_alive_young
+[       OK ] Life.Fredkin_will_be_old_alive_young (2 ms)
+[ RUN      ] Life.Fredkin_will_be_old_alive_really_old
+[       OK ] Life.Fredkin_will_be_old_alive_really_old (2 ms)
+[ RUN      ] Life.Fredkin_will_be_old_dead
+[       OK ] Life.Fredkin_will_be_old_dead (2 ms)
+[ RUN      ] Life.Fredkin_update_alive_to_dead
+[       OK ] Life.Fredkin_update_alive_to_dead (3 ms)
+[ RUN      ] Life.Fredkin_update_alive_to_alive
+[       OK ] Life.Fredkin_update_alive_to_alive (2 ms)
+[ RUN      ] Life.Fredkin_update_dead_to_dead
+[       OK ] Life.Fredkin_update_dead_to_dead (2 ms)
+[ RUN      ] Life.Fredkin_update_dead_to_alive
+[       OK ] Life.Fredkin_update_dead_to_alive (2 ms)
+[ RUN      ] Life.Fredkin_age_dead_0_neighbors
+[       OK ] Life.Fredkin_age_dead_0_neighbors (8 ms)
+[ RUN      ] Life.Fredkin_age_alive_0_neighbors
+[       OK ] Life.Fredkin_age_alive_0_neighbors (7 ms)
+[ RUN      ] Life.Fredkin_age_dead_2_total_neighbors
+[       OK ] Life.Fredkin_age_dead_2_total_neighbors (6 ms)
+[ RUN      ] Life.Fredkin_age_alive_2_total_neighbors
+[       OK ] Life.Fredkin_age_alive_2_total_neighbors (7 ms)
+[ RUN      ] Life.Fredkin_age_dead_2_actual_neighbors
+[       OK ] Life.Fredkin_age_dead_2_actual_neighbors (6 ms)
+[ RUN      ] Life.Fredkin_age_alive_3_actual_neighbors
+[       OK ] Life.Fredkin_age_alive_3_actual_neighbors (6 ms)
+[ RUN      ] Life.Fredkin_age_dead_3_actual_neighbors
+[       OK ] Life.Fredkin_age_dead_3_actual_neighbors (6 ms)
+[ RUN      ] Life.Fredkin_clone_alive
+[       OK ] Life.Fredkin_clone_alive (4 ms)
+[ RUN      ] Life.Fredkin_clone_alive_aged
+[       OK ] Life.Fredkin_clone_alive_aged (3 ms)
+[ RUN      ] Life.Fredkin_clone_dead
+[       OK ] Life.Fredkin_clone_dead (2 ms)
+[ RUN      ] Life.Cell_conway_alive
+[       OK ] Life.Cell_conway_alive (2 ms)
+[ RUN      ] Life.Cell_conway_dead
+[       OK ] Life.Cell_conway_dead (3 ms)
+[ RUN      ] Life.Cell_fredkin_alive
+[       OK ] Life.Cell_fredkin_alive (2 ms)
+[ RUN      ] Life.Cell_fredkin_dead
+[       OK ] Life.Cell_fredkin_dead (2 ms)
+[ RUN      ] Life.Cell_operator_out_con_alive
+[       OK ] Life.Cell_operator_out_con_alive (2 ms)
+[ RUN      ] Life.Cell_operator_out_con_dead
+[       OK ] Life.Cell_operator_out_con_dead (3 ms)
+[ RUN      ] Life.Cell_operator_out_fred_alive
+[       OK ] Life.Cell_operator_out_fred_alive (2 ms)
+[ RUN      ] Life.Cell_operator_out_fred_dead
+[       OK ] Life.Cell_operator_out_fred_dead (2 ms)
+[ RUN      ] Life.Cell_operator_out_alive
+[       OK ] Life.Cell_operator_out_alive (2 ms)
+[ RUN      ] Life.Cell_operator_out_dead
+[       OK ] Life.Cell_operator_out_dead (3 ms)
+[ RUN      ] Life.Cell_operator_out_both
+[       OK ] Life.Cell_operator_out_both (3 ms)
+[ RUN      ] Life.Cell_is_alive_con_alive
+[       OK ] Life.Cell_is_alive_con_alive (2 ms)
+[ RUN      ] Life.Cell_is_alive_con_dead
+[       OK ] Life.Cell_is_alive_con_dead (2 ms)
+[ RUN      ] Life.Cell_is_alive_fred_alive
+[       OK ] Life.Cell_is_alive_fred_alive (2 ms)
+[ RUN      ] Life.Cell_is_alive_fred_dead
+[       OK ] Life.Cell_is_alive_fred_dead (2 ms)
+[ RUN      ] Life.Cell_fredkin_update_alive_to_dead
+[       OK ] Life.Cell_fredkin_update_alive_to_dead (3 ms)
+[ RUN      ] Life.Cell_fredkin_update_dead_to_alive
+[       OK ] Life.Cell_fredkin_update_dead_to_alive (2 ms)
+[ RUN      ] Life.Cell_abstract_update_alive_to_dead
+[       OK ] Life.Cell_abstract_update_alive_to_dead (3 ms)
+[ RUN      ] Life.Cell_abstract_update_dead_to_alive
+[       OK ] Life.Cell_abstract_update_dead_to_alive (2 ms)
+[ RUN      ] Life.Cell_fredkin_age_alive_0_neighbors
+[       OK ] Life.Cell_fredkin_age_alive_0_neighbors (6 ms)
+[ RUN      ] Life.Cell_fredkin_age_dead_3_actual_neighbors
+[       OK ] Life.Cell_fredkin_age_dead_3_actual_neighbors (6 ms)
+[ RUN      ] Life.Cell_conway_age_alive_0_neighbors
+[       OK ] Life.Cell_conway_age_alive_0_neighbors (6 ms)
+[ RUN      ] Life.Cell_conway_age_dead_3_neighbors
+[       OK ] Life.Cell_conway_age_dead_3_neighbors (6 ms)
+[ RUN      ] Life.Cell_fredkin_0_to_conway
+[       OK ] Life.Cell_fredkin_0_to_conway (9 ms)
+[ RUN      ] Life.Cell_fredkin_0_to_1
+[       OK ] Life.Cell_fredkin_0_to_1 (7 ms)
+[ RUN      ] Life.Cell_fredkin_0_to_conway_plus
+[       OK ] Life.Cell_fredkin_0_to_conway_plus (8 ms)
+[ RUN      ] Life.Life_construct_con_22_dead
+[       OK ] Life.Life_construct_con_22_dead (23 ms)
+[ RUN      ] Life.Life_construct_con_32_dead
+[       OK ] Life.Life_construct_con_32_dead (3 ms)
+[ RUN      ] Life.Life_construct_fred_32_dead
+[       OK ] Life.Life_construct_fred_32_dead (21 ms)
+[ RUN      ] Life.Life_construct_cell_32_dead
+[       OK ] Life.Life_construct_cell_32_dead (21 ms)
+[ RUN      ] Life.Life_population_fred
+[       OK ] Life.Life_population_fred (4 ms)
+[ RUN      ] Life.Life_population_con
+[       OK ] Life.Life_population_con (4 ms)
+[ RUN      ] Life.Life_population_fred_3
+[       OK ] Life.Life_population_fred_3 (4 ms)
+[ RUN      ] Life.Life_population_con_3
+[       OK ] Life.Life_population_con_3 (3 ms)
+[ RUN      ] Life.Life_population_fred_0
+[       OK ] Life.Life_population_fred_0 (2 ms)
+[ RUN      ] Life.Life_population_con_0
+[       OK ] Life.Life_population_con_0 (2 ms)
+[ RUN      ] Life.Life_create_cell_con
+[       OK ] Life.Life_create_cell_con (4 ms)
+[ RUN      ] Life.Life_create_cell_fred
+[       OK ] Life.Life_create_cell_fred (4 ms)
+[ RUN      ] Life.Life_create_cell_cell
+[       OK ] Life.Life_create_cell_cell (6 ms)
+[ RUN      ] Life.Life_check_neighbors_middle
+[       OK ] Life.Life_check_neighbors_middle (22 ms)
+[ RUN      ] Life.Life_check_neighbors_top_left
+[       OK ] Life.Life_check_neighbors_top_left (12 ms)
+[ RUN      ] Life.Life_check_neighbors_bottom_right
+[       OK ] Life.Life_check_neighbors_bottom_right (12 ms)
+[ RUN      ] Life.Life_check_neighbors_middle_right
+[       OK ] Life.Life_check_neighbors_middle_right (10 ms)
+[ RUN      ] Life.Life_check_neighbors_middle_left
+[       OK ] Life.Life_check_neighbors_middle_left (10 ms)
+[ RUN      ] Life.Life_simulate_con_one_to_none
+[       OK ] Life.Life_simulate_con_one_to_none (7 ms)
+[ RUN      ] Life.Life_simulate_con_three_to_four
+[       OK ] Life.Life_simulate_con_three_to_four (5 ms)
+[ RUN      ] Life.Life_simulate_fred_one_to_none
+[       OK ] Life.Life_simulate_fred_one_to_none (14 ms)
+[ RUN      ] Life.Life_simulate_fred_three_to_two
+[       OK ] Life.Life_simulate_fred_three_to_two (5 ms)
+[----------] 109 tests from Life (546 ms total)
+
+[----------] Global test environment tear-down
+[==========] 109 tests from 1 test case ran. (573 ms total)
+[  PASSED  ] 109 tests.
