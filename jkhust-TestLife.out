@@ -1,0 +1,179 @@
+Running main() from gtest_main.cc
+[==========] Running 82 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 35 tests from FredkinCell
+[ RUN      ] FredkinCell.outputType_1
+[       OK ] FredkinCell.outputType_1 (41 ms)
+[ RUN      ] FredkinCell.outputType_2
+[       OK ] FredkinCell.outputType_2 (5 ms)
+[ RUN      ] FredkinCell.outputType_3
+[       OK ] FredkinCell.outputType_3 (5 ms)
+[ RUN      ] FredkinCell.outputType_4
+[       OK ] FredkinCell.outputType_4 (5 ms)
+[ RUN      ] FredkinCell.draw_1
+[       OK ] FredkinCell.draw_1 (5 ms)
+[ RUN      ] FredkinCell.draw_2
+[       OK ] FredkinCell.draw_2 (5 ms)
+[ RUN      ] FredkinCell.draw_3
+[       OK ] FredkinCell.draw_3 (5 ms)
+[ RUN      ] FredkinCell.draw_4
+[       OK ] FredkinCell.draw_4 (5 ms)
+[ RUN      ] FredkinCell.draw_5
+[       OK ] FredkinCell.draw_5 (5 ms)
+[ RUN      ] FredkinCell.getCoord_1
+[       OK ] FredkinCell.getCoord_1 (4 ms)
+[ RUN      ] FredkinCell.getCoord_2
+[       OK ] FredkinCell.getCoord_2 (4 ms)
+[ RUN      ] FredkinCell.getCoord_3
+[       OK ] FredkinCell.getCoord_3 (5 ms)
+[ RUN      ] FredkinCell.tallyAlive_1
+[       OK ] FredkinCell.tallyAlive_1 (5 ms)
+[ RUN      ] FredkinCell.tallyAlive_2
+[       OK ] FredkinCell.tallyAlive_2 (4 ms)
+[ RUN      ] FredkinCell.tallyAlive_3
+[       OK ] FredkinCell.tallyAlive_3 (5 ms)
+[ RUN      ] FredkinCell.tallyAlive_4
+[       OK ] FredkinCell.tallyAlive_4 (5 ms)
+[ RUN      ] FredkinCell.tallyAlive_5
+[       OK ] FredkinCell.tallyAlive_5 (5 ms)
+[ RUN      ] FredkinCell.tallyAlive_6
+[       OK ] FredkinCell.tallyAlive_6 (7 ms)
+[ RUN      ] FredkinCell.ageState_1
+[       OK ] FredkinCell.ageState_1 (5 ms)
+[ RUN      ] FredkinCell.ageState_2
+[       OK ] FredkinCell.ageState_2 (5 ms)
+[ RUN      ] FredkinCell.ageState_3
+[       OK ] FredkinCell.ageState_3 (4 ms)
+[ RUN      ] FredkinCell.ageState_4
+[       OK ] FredkinCell.ageState_4 (4 ms)
+[ RUN      ] FredkinCell.projectNextState_1
+[       OK ] FredkinCell.projectNextState_1 (10 ms)
+[ RUN      ] FredkinCell.projectNextState_2
+[       OK ] FredkinCell.projectNextState_2 (7 ms)
+[ RUN      ] FredkinCell.projectNextState_3
+[       OK ] FredkinCell.projectNextState_3 (8 ms)
+[ RUN      ] FredkinCell.projectNextState_4
+[       OK ] FredkinCell.projectNextState_4 (6 ms)
+[ RUN      ] FredkinCell.projectNextState_5
+[       OK ] FredkinCell.projectNextState_5 (6 ms)
+[ RUN      ] FredkinCell.projectNextState_6
+[       OK ] FredkinCell.projectNextState_6 (8 ms)
+[ RUN      ] FredkinCell.projectNextState_7
+1[       OK ] FredkinCell.projectNextState_7 (7 ms)
+[ RUN      ] FredkinCell.projectNextState_8
+[       OK ] FredkinCell.projectNextState_8 (6 ms)
+[ RUN      ] FredkinCell.projectNextState_9
+[       OK ] FredkinCell.projectNextState_9 (7 ms)
+[ RUN      ] FredkinCell.projectNextState_10
+[       OK ] FredkinCell.projectNextState_10 (6 ms)
+[ RUN      ] FredkinCell.clone_1
+[       OK ] FredkinCell.clone_1 (9 ms)
+[ RUN      ] FredkinCell.clone_2
+[       OK ] FredkinCell.clone_2 (7 ms)
+[ RUN      ] FredkinCell.clone_3
+[       OK ] FredkinCell.clone_3 (7 ms)
+[----------] 35 tests from FredkinCell (292 ms total)
+
+[----------] 22 tests from ConwayCell
+[ RUN      ] ConwayCell.outputType_1
+[       OK ] ConwayCell.outputType_1 (7 ms)
+[ RUN      ] ConwayCell.outputType_2
+[       OK ] ConwayCell.outputType_2 (5 ms)
+[ RUN      ] ConwayCell.draw_1
+[       OK ] ConwayCell.draw_1 (5 ms)
+[ RUN      ] ConwayCell.draw_2
+[       OK ] ConwayCell.draw_2 (5 ms)
+[ RUN      ] ConwayCell.getCoord_1
+[       OK ] ConwayCell.getCoord_1 (4 ms)
+[ RUN      ] ConwayCell.getCoord_2
+[       OK ] ConwayCell.getCoord_2 (5 ms)
+[ RUN      ] ConwayCell.getCoord_3
+[       OK ] ConwayCell.getCoord_3 (5 ms)
+[ RUN      ] ConwayCell.tallyAlive_1
+[       OK ] ConwayCell.tallyAlive_1 (5 ms)
+[ RUN      ] ConwayCell.tallyAlive_2
+[       OK ] ConwayCell.tallyAlive_2 (5 ms)
+[ RUN      ] ConwayCell.tallyAlive_3
+[       OK ] ConwayCell.tallyAlive_3 (5 ms)
+[ RUN      ] ConwayCell.tallyAlive_4
+[       OK ] ConwayCell.tallyAlive_4 (5 ms)
+[ RUN      ] ConwayCell.tallyAlive_5
+[       OK ] ConwayCell.tallyAlive_5 (5 ms)
+[ RUN      ] ConwayCell.ageState_1
+[       OK ] ConwayCell.ageState_1 (5 ms)
+[ RUN      ] ConwayCell.ageState_2
+[       OK ] ConwayCell.ageState_2 (4 ms)
+[ RUN      ] ConwayCell.projectNextState_1
+[       OK ] ConwayCell.projectNextState_1 (9 ms)
+[ RUN      ] ConwayCell.projectNextState_2
+[       OK ] ConwayCell.projectNextState_2 (6 ms)
+[ RUN      ] ConwayCell.projectNextState_3
+[       OK ] ConwayCell.projectNextState_3 (6 ms)
+[ RUN      ] ConwayCell.projectNextState_4
+[       OK ] ConwayCell.projectNextState_4 (6 ms)
+[ RUN      ] ConwayCell.projectNextState_5
+[       OK ] ConwayCell.projectNextState_5 (6 ms)
+[ RUN      ] ConwayCell.clone_1
+[       OK ] ConwayCell.clone_1 (9 ms)
+[ RUN      ] ConwayCell.clone_2
+[       OK ] ConwayCell.clone_2 (7 ms)
+[ RUN      ] ConwayCell.clone_3
+[       OK ] ConwayCell.clone_3 (7 ms)
+[----------] 22 tests from ConwayCell (134 ms total)
+
+[----------] 25 tests from LifeConway
+[ RUN      ] LifeConway.ctor_1
+[       OK ] LifeConway.ctor_1 (84 ms)
+[ RUN      ] LifeConway.ctor_2
+[       OK ] LifeConway.ctor_2 (16 ms)
+[ RUN      ] LifeConway.ctor_3
+[       OK ] LifeConway.ctor_3 (4 ms)
+[ RUN      ] LifeConway.toCoord_1
+[       OK ] LifeConway.toCoord_1 (5 ms)
+[ RUN      ] LifeConway.toCoord_2
+[       OK ] LifeConway.toCoord_2 (7 ms)
+[ RUN      ] LifeConway.toCoord_3
+[       OK ] LifeConway.toCoord_3 (9 ms)
+[ RUN      ] LifeConway.inBounds_1
+[       OK ] LifeConway.inBounds_1 (7 ms)
+[ RUN      ] LifeConway.inBounds_2
+[       OK ] LifeConway.inBounds_2 (11 ms)
+[ RUN      ] LifeConway.inBounds_3
+[       OK ] LifeConway.inBounds_3 (13 ms)
+[ RUN      ] LifeConway.isValid_1
+[       OK ] LifeConway.isValid_1 (5 ms)
+[ RUN      ] LifeConway.isValid_2
+[       OK ] LifeConway.isValid_2 (7 ms)
+[ RUN      ] LifeConway.isValid_3
+[       OK ] LifeConway.isValid_3 (9 ms)
+[ RUN      ] LifeConway.outputBoard_1
+[       OK ] LifeConway.outputBoard_1 (18 ms)
+[ RUN      ] LifeConway.outputBoard_2
+[       OK ] LifeConway.outputBoard_2 (8 ms)
+[ RUN      ] LifeConway.outputBoard_3
+[       OK ] LifeConway.outputBoard_3 (8 ms)
+[ RUN      ] LifeConway.getNeighbors_1
+[       OK ] LifeConway.getNeighbors_1 (18 ms)
+[ RUN      ] LifeConway.getNeighbors_2
+[       OK ] LifeConway.getNeighbors_2 (22 ms)
+[ RUN      ] LifeConway.getNeighbors_3
+[       OK ] LifeConway.getNeighbors_3 (18 ms)
+[ RUN      ] LifeConway.getNeighbors_4
+[       OK ] LifeConway.getNeighbors_4 (16 ms)
+[ RUN      ] LifeConway.runGeneration_1
+[       OK ] LifeConway.runGeneration_1 (22 ms)
+[ RUN      ] LifeConway.runGeneration_2
+[       OK ] LifeConway.runGeneration_2 (9 ms)
+[ RUN      ] LifeConway.runGeneration_3
+[       OK ] LifeConway.runGeneration_3 (13 ms)
+[ RUN      ] LifeConway.outputHeader_1
+[       OK ] LifeConway.outputHeader_1 (9 ms)
+[ RUN      ] LifeConway.outputHeader_2
+[       OK ] LifeConway.outputHeader_2 (6 ms)
+[ RUN      ] LifeConway.outputHeader_3
+[       OK ] LifeConway.outputHeader_3 (8 ms)
+[----------] 25 tests from LifeConway (366 ms total)
+
+[----------] Global test environment tear-down
+[==========] 82 tests from 3 test cases ran. (904 ms total)
+[  PASSED  ] 82 tests.
