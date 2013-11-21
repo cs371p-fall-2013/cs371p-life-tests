@@ -1,0 +1,95 @@
+Running main() from gtest_main.cc
+[==========] Running 40 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from Life_Conway
+[ RUN      ] Life_Conway.ConwayCell_read
+[       OK ] Life_Conway.ConwayCell_read (39 ms)
+[ RUN      ] Life_Conway.ConwayCell_read2
+[       OK ] Life_Conway.ConwayCell_read2 (3 ms)
+[ RUN      ] Life_Conway.ConwayCell_read3
+[       OK ] Life_Conway.ConwayCell_read3 (2 ms)
+[ RUN      ] Life_Conway.ConwayCell_live1
+[       OK ] Life_Conway.ConwayCell_live1 (2 ms)
+[ RUN      ] Life_Conway.ConwayCell_live2
+[       OK ] Life_Conway.ConwayCell_live2 (2 ms)
+[ RUN      ] Life_Conway.ConwayCell_live3
+[       OK ] Life_Conway.ConwayCell_live3 (2 ms)
+[ RUN      ] Life_Conway.ConwayCell_getCell1
+[       OK ] Life_Conway.ConwayCell_getCell1 (6 ms)
+[ RUN      ] Life_Conway.ConwayCell_getCell2
+[       OK ] Life_Conway.ConwayCell_getCell2 (10 ms)
+[ RUN      ] Life_Conway.ConwayCell_getCell3
+[       OK ] Life_Conway.ConwayCell_getCell3 (10 ms)
+[ RUN      ] Life_Conway.Flipper
+[       OK ] Life_Conway.Flipper (30 ms)
+[ RUN      ] Life_Conway.simulate1
+[       OK ] Life_Conway.simulate1 (10 ms)
+[ RUN      ] Life_Conway.update
+[       OK ] Life_Conway.update (4 ms)
+[----------] 12 tests from Life_Conway (130 ms total)
+
+[----------] 14 tests from Life_Fredkin
+[ RUN      ] Life_Fredkin.FredkinCell_std
+[       OK ] Life_Fredkin.FredkinCell_std (99 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_read
+[       OK ] Life_Fredkin.FredkinCell_read (3 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_read2
+[       OK ] Life_Fredkin.FredkinCell_read2 (3 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_read3
+[       OK ] Life_Fredkin.FredkinCell_read3 (2 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_live1
+[       OK ] Life_Fredkin.FredkinCell_live1 (2 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_live2
+[       OK ] Life_Fredkin.FredkinCell_live2 (1 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_live3
+[       OK ] Life_Fredkin.FredkinCell_live3 (1 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_getCell1
+[       OK ] Life_Fredkin.FredkinCell_getCell1 (6 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_getCell2
+[       OK ] Life_Fredkin.FredkinCell_getCell2 (10 ms)
+[ RUN      ] Life_Fredkin.FredkinCell_getCell3
+[       OK ] Life_Fredkin.FredkinCell_getCell3 (10 ms)
+[ RUN      ] Life_Fredkin.Flipper
+[       OK ] Life_Fredkin.Flipper (6 ms)
+[ RUN      ] Life_Fredkin.simulate
+[       OK ] Life_Fredkin.simulate (11 ms)
+[ RUN      ] Life_Fredkin.simulate2
+[       OK ] Life_Fredkin.simulate2 (6 ms)
+[ RUN      ] Life_Fredkin.simulate3
+[       OK ] Life_Fredkin.simulate3 (6 ms)
+[----------] 14 tests from Life_Fredkin (169 ms total)
+
+[----------] 14 tests from Life_Cell
+[ RUN      ] Life_Cell.Cell_std
+[       OK ] Life_Cell.Cell_std (178 ms)
+[ RUN      ] Life_Cell.Cell_read
+[       OK ] Life_Cell.Cell_read (2 ms)
+[ RUN      ] Life_Cell.Cell_live1
+[       OK ] Life_Cell.Cell_live1 (2 ms)
+[ RUN      ] Life_Cell.Cell_live2
+[       OK ] Life_Cell.Cell_live2 (2 ms)
+[ RUN      ] Life_Cell.Cell_live3
+[       OK ] Life_Cell.Cell_live3 (1 ms)
+[ RUN      ] Life_Cell.Cell_getCell1
+[       OK ] Life_Cell.Cell_getCell1 (6 ms)
+[ RUN      ] Life_Cell.Cell_getCell2
+[       OK ] Life_Cell.Cell_getCell2 (11 ms)
+[ RUN      ] Life_Cell.Cell_getCell3
+[       OK ] Life_Cell.Cell_getCell3 (10 ms)
+[ RUN      ] Life_Cell.Flipper
+[       OK ] Life_Cell.Flipper (2 ms)
+[ RUN      ] Life_Cell.update
+[       OK ] Life_Cell.update (10 ms)
+[ RUN      ] Life_Cell.update2
+[       OK ] Life_Cell.update2 (4 ms)
+[ RUN      ] Life_Cell.update3
+[       OK ] Life_Cell.update3 (5 ms)
+[ RUN      ] Life_Cell.simulate
+[       OK ] Life_Cell.simulate (12 ms)
+[ RUN      ] Life_Cell.simulate2
+[       OK ] Life_Cell.simulate2 (14 ms)
+[----------] 14 tests from Life_Cell (265 ms total)
+
+[----------] Global test environment tear-down
+[==========] 40 tests from 3 test cases ran. (593 ms total)
+[  PASSED  ] 40 tests.
