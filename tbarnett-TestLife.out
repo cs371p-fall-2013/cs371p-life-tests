@@ -1,0 +1,87 @@
+Running main() from gtest_main.cc
+[==========] Running 33 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 6 tests from AbstractCell
+[ RUN      ] AbstractCell.abstractCell_isAlive_alive
+[       OK ] AbstractCell.abstractCell_isAlive_alive (10 ms)
+[ RUN      ] AbstractCell.abstractCell_isAlive_dead
+[       OK ] AbstractCell.abstractCell_isAlive_dead (3 ms)
+[ RUN      ] AbstractCell.abstractCell_isAlive_change
+[       OK ] AbstractCell.abstractCell_isAlive_change (3 ms)
+[ RUN      ] AbstractCell.abstractCell_changeAlive_alive
+[       OK ] AbstractCell.abstractCell_changeAlive_alive (2 ms)
+[ RUN      ] AbstractCell.abstractCell_changeAlive_dead
+[       OK ] AbstractCell.abstractCell_changeAlive_dead (2 ms)
+[ RUN      ] AbstractCell.abstractCell_changeAlive_change
+[       OK ] AbstractCell.abstractCell_changeAlive_change (2 ms)
+[----------] 6 tests from AbstractCell (31 ms total)
+
+[----------] 9 tests from ConwayCell
+[ RUN      ] ConwayCell.conway_getState_dead
+[       OK ] ConwayCell.conway_getState_dead (2 ms)
+[ RUN      ] ConwayCell.conway_getState_alive
+[       OK ] ConwayCell.conway_getState_alive (2 ms)
+[ RUN      ] ConwayCell.conway_getState_changed
+[       OK ] ConwayCell.conway_getState_changed (2 ms)
+[ RUN      ] ConwayCell.conway_changeState_cardinal
+[       OK ] ConwayCell.conway_changeState_cardinal (3 ms)
+[ RUN      ] ConwayCell.conway_changeState_diagonal
+[       OK ] ConwayCell.conway_changeState_diagonal (2 ms)
+[ RUN      ] ConwayCell.conway_changeState_die
+[       OK ] ConwayCell.conway_changeState_die (2 ms)
+[ RUN      ] ConwayCell.conway_clone_alive
+[       OK ] ConwayCell.conway_clone_alive (3 ms)
+[ RUN      ] ConwayCell.conway_clone_dead
+[       OK ] ConwayCell.conway_clone_dead (3 ms)
+[ RUN      ] ConwayCell.conway_clone_kill
+[       OK ] ConwayCell.conway_clone_kill (2 ms)
+[----------] 9 tests from ConwayCell (23 ms total)
+
+[----------] 9 tests from FredkinCell
+[ RUN      ] FredkinCell.fredkin_getState_dead
+[       OK ] FredkinCell.fredkin_getState_dead (2 ms)
+[ RUN      ] FredkinCell.fredkin_getState_alive
+[       OK ] FredkinCell.fredkin_getState_alive (3 ms)
+[ RUN      ] FredkinCell.fredkin_getState_changed
+[       OK ] FredkinCell.fredkin_getState_changed (2 ms)
+[ RUN      ] FredkinCell.fredkin_changeState_diagonal
+[       OK ] FredkinCell.fredkin_changeState_diagonal (2 ms)
+[ RUN      ] FredkinCell.fredkin_changeState_cardinal
+[       OK ] FredkinCell.fredkin_changeState_cardinal (3 ms)
+[ RUN      ] FredkinCell.fredkin_changeState_4
+[       OK ] FredkinCell.fredkin_changeState_4 (2 ms)
+[ RUN      ] FredkinCell.fredkin_clone_alive
+[       OK ] FredkinCell.fredkin_clone_alive (3 ms)
+[ RUN      ] FredkinCell.fredkin_clone_dead
+[       OK ] FredkinCell.fredkin_clone_dead (3 ms)
+[ RUN      ] FredkinCell.fredkin_clone_kill
+[       OK ] FredkinCell.fredkin_clone_kill (2 ms)
+[----------] 9 tests from FredkinCell (22 ms total)
+
+[----------] 6 tests from Life
+[ RUN      ] Life.life_inBounds_out
+[       OK ] Life.life_inBounds_out (24 ms)
+[ RUN      ] Life.life_inBounds_edge
+[       OK ] Life.life_inBounds_edge (3 ms)
+[ RUN      ] Life.life_inBounds_in
+[       OK ] Life.life_inBounds_in (2 ms)
+[ RUN      ] Life.life_neighbors_none
+[       OK ] Life.life_neighbors_none (11 ms)
+[ RUN      ] Life.life_neighbors_cardinal
+[       OK ] Life.life_neighbors_cardinal (6 ms)
+[ RUN      ] Life.life_neighbors_diagonal
+[       OK ] Life.life_neighbors_diagonal (6 ms)
+[----------] 6 tests from Life (53 ms total)
+
+[----------] 3 tests from Cell
+[ RUN      ] Cell.cell_mutate_alive
+[       OK ] Cell.cell_mutate_alive (29 ms)
+[ RUN      ] Cell.cell_mutate_dead
+[       OK ] Cell.cell_mutate_dead (3 ms)
+[ RUN      ] Cell.cell_mutate_twice
+[       OK ] Cell.cell_mutate_twice (3 ms)
+[----------] 3 tests from Cell (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 33 tests from 5 test cases ran. (193 ms total)
+[  PASSED  ] 33 tests.
