@@ -171,6 +171,7 @@ TEST(ConwayCell, ConwayCell_clone_1)
 	ASSERT_TRUE(cell2->representation() == '*');
 	ASSERT_TRUE(cell2->alive);
 	ASSERT_TRUE(cell2->previousAlive);
+	delete cell2;
 }
 
 TEST(ConwayCell, ConwayCell_clone_2) 
@@ -182,6 +183,7 @@ TEST(ConwayCell, ConwayCell_clone_2)
 	ASSERT_TRUE(cell2->representation() == '.');
 	ASSERT_TRUE(!(cell2->alive));
 	ASSERT_TRUE(cell2->previousAlive);
+	delete cell2;
 }
 
 // ------------------------------------------------
@@ -373,6 +375,8 @@ TEST(FredkinCell, FredkinCell_clone_1)
 	ASSERT_TRUE(cell2->age == 5);
 	ASSERT_TRUE(cell2->previousAlive);
 	ASSERT_TRUE(cell2->representation() == '5');
+	delete cell2;
+
 }
 
 TEST(FredkinCell, FredkinCell_clone_2) 
@@ -387,6 +391,8 @@ TEST(FredkinCell, FredkinCell_clone_2)
 	ASSERT_TRUE(cell2->age == 12);
 	ASSERT_TRUE(cell2->previousAlive);
 	ASSERT_TRUE(cell2->representation() == '-');
+	delete cell2;
+
 }
 
 // ------------------------------------------------
