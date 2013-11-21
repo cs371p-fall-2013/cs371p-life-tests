@@ -1,0 +1,124 @@
+Running main() from gtest_main.cc
+[==========] Running 56 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 36 tests from Cell
+[ RUN      ] Cell.ConwayCell_dead
+[       OK ] Cell.ConwayCell_dead (28 ms)
+[ RUN      ] Cell.ConwayCell_alive
+[       OK ] Cell.ConwayCell_alive (3 ms)
+[ RUN      ] Cell.ConwayCell_dead_from_char
+[       OK ] Cell.ConwayCell_dead_from_char (5 ms)
+[ RUN      ] Cell.ConwayCell_alive_from_char
+[       OK ] Cell.ConwayCell_alive_from_char (3 ms)
+[ RUN      ] Cell.FredkinCell_dead
+[       OK ] Cell.FredkinCell_dead (4 ms)
+[ RUN      ] Cell.FredkinCell_alive
+[       OK ] Cell.FredkinCell_alive (3 ms)
+[ RUN      ] Cell.FredkinCell_dead_from_char
+[       OK ] Cell.FredkinCell_dead_from_char (4 ms)
+[ RUN      ] Cell.FredkinCell_alive_from_char
+[       OK ] Cell.FredkinCell_alive_from_char (3 ms)
+[ RUN      ] Cell.Cell_as_ConwayCell_dead
+[       OK ] Cell.Cell_as_ConwayCell_dead (5 ms)
+[ RUN      ] Cell.Cell_as_ConwayCell_alive
+[       OK ] Cell.Cell_as_ConwayCell_alive (3 ms)
+[ RUN      ] Cell.Cell_as_FredkinCell_dead
+[       OK ] Cell.Cell_as_FredkinCell_dead (4 ms)
+[ RUN      ] Cell.Cell_as_FredkinCell_alive
+[       OK ] Cell.Cell_as_FredkinCell_alive (3 ms)
+[ RUN      ] Cell.ConwayCell_invalid_arg
+[       OK ] Cell.ConwayCell_invalid_arg (39 ms)
+[ RUN      ] Cell.FredkinCell_invalid_arg
+[       OK ] Cell.FredkinCell_invalid_arg (3 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_life
+[       OK ] Cell.ConwayCell_simulate_to_life (10 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_death0
+[       OK ] Cell.ConwayCell_simulate_to_death0 (5 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_death1
+[       OK ] Cell.ConwayCell_simulate_to_death1 (4 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_death4
+[       OK ] Cell.ConwayCell_simulate_to_death4 (5 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_death5
+[       OK ] Cell.ConwayCell_simulate_to_death5 (5 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_death6
+[       OK ] Cell.ConwayCell_simulate_to_death6 (5 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_death7
+[       OK ] Cell.ConwayCell_simulate_to_death7 (4 ms)
+[ RUN      ] Cell.ConwayCell_simulate_to_death8
+[       OK ] Cell.ConwayCell_simulate_to_death8 (4 ms)
+[ RUN      ] Cell.FredkinCell_simulate_to_life1
+[       OK ] Cell.FredkinCell_simulate_to_life1 (7 ms)
+[ RUN      ] Cell.FredkinCell_simulate_to_life3
+[       OK ] Cell.FredkinCell_simulate_to_life3 (5 ms)
+[ RUN      ] Cell.FredkinCell_simulate_to_death0
+[       OK ] Cell.FredkinCell_simulate_to_death0 (5 ms)
+[ RUN      ] Cell.FredkinCell_simulate_to_death2
+[       OK ] Cell.FredkinCell_simulate_to_death2 (5 ms)
+[ RUN      ] Cell.FredkinCell_simulate_to_death4
+[       OK ] Cell.FredkinCell_simulate_to_death4 (5 ms)
+[ RUN      ] Cell.ConwayCell_simulate_out_of_range
+[       OK ] Cell.ConwayCell_simulate_out_of_range (4 ms)
+[ RUN      ] Cell.FredkinCell_simulate_out_of_range
+[       OK ] Cell.FredkinCell_simulate_out_of_range (4 ms)
+[ RUN      ] Cell.FredkinCell_age
+[       OK ] Cell.FredkinCell_age (11 ms)
+[ RUN      ] Cell.FredkinCell_age2
+[       OK ] Cell.FredkinCell_age2 (10 ms)
+[ RUN      ] Cell.FredkinCell_age_skip_generation
+[       OK ] Cell.FredkinCell_age_skip_generation (4 ms)
+[ RUN      ] Cell.FredkinCell_age_skip_generation_no_reset
+[       OK ] Cell.FredkinCell_age_skip_generation_no_reset (4 ms)
+[ RUN      ] Cell.FredkinCell_age_skip_generation2
+[       OK ] Cell.FredkinCell_age_skip_generation2 (3 ms)
+[ RUN      ] Cell.Cell_age_skip_generation_no_reset_no_mutate
+[       OK ] Cell.Cell_age_skip_generation_no_reset_no_mutate (12 ms)
+[ RUN      ] Cell.Cell_mutate_Fredkin_to_Conway
+[       OK ] Cell.Cell_mutate_Fredkin_to_Conway (8 ms)
+[----------] 36 tests from Cell (256 ms total)
+
+[----------] 20 tests from Life
+[ RUN      ] Life.hello_life_ConwayCell
+[       OK ] Life.hello_life_ConwayCell (42 ms)
+[ RUN      ] Life.hello_life_FredkinCell
+[       OK ] Life.hello_life_FredkinCell (38 ms)
+[ RUN      ] Life.hello_life_Cell
+[       OK ] Life.hello_life_Cell (40 ms)
+[ RUN      ] Life.hello_24x24
+[       OK ] Life.hello_24x24 (16 ms)
+[ RUN      ] Life.hello_zero_life
+[       OK ] Life.hello_zero_life (3 ms)
+[ RUN      ] Life.hello_1x0
+[       OK ] Life.hello_1x0 (3 ms)
+[ RUN      ] Life.hello_0x1
+[       OK ] Life.hello_0x1 (3 ms)
+[ RUN      ] Life.addCell
+[       OK ] Life.addCell (8 ms)
+[ RUN      ] Life.addCell_Conway_corners
+[       OK ] Life.addCell_Conway_corners (10 ms)
+[ RUN      ] Life.addCell_Fredkin_corners
+[       OK ] Life.addCell_Fredkin_corners (12 ms)
+[ RUN      ] Life.add_cell_invalid_argument_row
+[       OK ] Life.add_cell_invalid_argument_row (5 ms)
+[ RUN      ] Life.add_cell_invalid_argument_col
+[       OK ] Life.add_cell_invalid_argument_col (5 ms)
+[ RUN      ] Life.resize
+[       OK ] Life.resize (13 ms)
+[ RUN      ] Life.resize_invalid_arg
+[       OK ] Life.resize_invalid_arg (3 ms)
+[ RUN      ] Life.simulate_ConwayCell_blink
+[       OK ] Life.simulate_ConwayCell_blink (11 ms)
+[ RUN      ] Life.simulate_ConwayCell_full
+[       OK ] Life.simulate_ConwayCell_full (13 ms)
+[ RUN      ] Life.simulate_Fredkin
+[       OK ] Life.simulate_Fredkin (14 ms)
+[ RUN      ] Life.simulate_Fredkin_age
+[       OK ] Life.simulate_Fredkin_age (11 ms)
+[ RUN      ] Life.simulate_Cell
+[       OK ] Life.simulate_Cell (23 ms)
+[ RUN      ] Life.simulate_Cell2
+[       OK ] Life.simulate_Cell2 (13 ms)
+[----------] 20 tests from Life (291 ms total)
+
+[----------] Global test environment tear-down
+[==========] 56 tests from 2 test cases ran. (574 ms total)
+[  PASSED  ] 56 tests.

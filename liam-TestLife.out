@@ -1,0 +1,173 @@
+Running main() from gtest_main.cc
+[==========] Running 76 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from ConwayCell
+[ RUN      ] ConwayCell.initAlive
+[       OK ] ConwayCell.initAlive (22 ms)
+[ RUN      ] ConwayCell.initDead
+[       OK ] ConwayCell.initDead (4 ms)
+[----------] 2 tests from ConwayCell (42 ms total)
+
+[----------] 2 tests from FredkinCell
+[ RUN      ] FredkinCell.initAlive
+[       OK ] FredkinCell.initAlive (8 ms)
+[ RUN      ] FredkinCell.initDead
+[       OK ] FredkinCell.initDead (4 ms)
+[----------] 2 tests from FredkinCell (13 ms total)
+
+[----------] 2 tests from Cell
+[ RUN      ] Cell.initAlive
+[       OK ] Cell.initAlive (7 ms)
+[ RUN      ] Cell.initDead
+[       OK ] Cell.initDead (4 ms)
+[----------] 2 tests from Cell (11 ms total)
+
+[----------] 27 tests from Life
+[ RUN      ] Life.readGrid
+[       OK ] Life.readGrid (90 ms)
+[ RUN      ] Life.directNeighbors
+[       OK ] Life.directNeighbors (46 ms)
+[ RUN      ] Life.cornerNeighbors
+[       OK ] Life.cornerNeighbors (14 ms)
+[ RUN      ] Life.step_unchanged
+[       OK ] Life.step_unchanged (17 ms)
+[ RUN      ] Life.step_die
+[       OK ] Life.step_die (8 ms)
+[ RUN      ] Life.beehive
+[       OK ] Life.beehive (10 ms)
+[ RUN      ] Life.loaf
+[       OK ] Life.loaf (8 ms)
+[ RUN      ] Life.boat
+[       OK ] Life.boat (7 ms)
+[ RUN      ] Life.blinker
+[       OK ] Life.blinker (10 ms)
+[ RUN      ] Life.toad
+[       OK ] Life.toad (10 ms)
+[ RUN      ] Life.beacon
+[       OK ] Life.beacon (11 ms)
+[ RUN      ] Life.step_unchanged_2
+[       OK ] Life.step_unchanged_2 (8 ms)
+[ RUN      ] Life.step_die_2
+[       OK ] Life.step_die_2 (8 ms)
+[ RUN      ] Life.beehive_2
+[       OK ] Life.beehive_2 (10 ms)
+[ RUN      ] Life.loaf_2
+[       OK ] Life.loaf_2 (10 ms)
+[ RUN      ] Life.boat_2
+[       OK ] Life.boat_2 (9 ms)
+[ RUN      ] Life.blinker_2
+[       OK ] Life.blinker_2 (11 ms)
+[ RUN      ] Life.toad_2
+[       OK ] Life.toad_2 (13 ms)
+[ RUN      ] Life.beacon_2
+[       OK ] Life.beacon_2 (13 ms)
+[ RUN      ] Life.step_unchanged_3
+[       OK ] Life.step_unchanged_3 (9 ms)
+[ RUN      ] Life.step_die_3
+[       OK ] Life.step_die_3 (9 ms)
+[ RUN      ] Life.beehive_3
+[       OK ] Life.beehive_3 (10 ms)
+[ RUN      ] Life.loaf_3
+[       OK ] Life.loaf_3 (11 ms)
+[ RUN      ] Life.boat_3
+[       OK ] Life.boat_3 (9 ms)
+[ RUN      ] Life.blinker_3
+[       OK ] Life.blinker_3 (13 ms)
+[ RUN      ] Life.toad_3
+[       OK ] Life.toad_3 (15 ms)
+[ RUN      ] Life.beacon_3
+[       OK ] Life.beacon_3 (15 ms)
+[----------] 27 tests from Life (414 ms total)
+
+[----------] 43 tests from life_fredkin
+[ RUN      ] life_fredkin.moveAlong_0
+[       OK ] life_fredkin.moveAlong_0 (91 ms)
+[ RUN      ] life_fredkin.moveAlong_1
+[       OK ] life_fredkin.moveAlong_1 (21 ms)
+[ RUN      ] life_fredkin.moveAlong_2
+[       OK ] life_fredkin.moveAlong_2 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_3
+[       OK ] life_fredkin.moveAlong_3 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_4
+[       OK ] life_fredkin.moveAlong_4 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_5
+[       OK ] life_fredkin.moveAlong_5 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_6
+[       OK ] life_fredkin.moveAlong_6 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_7
+[       OK ] life_fredkin.moveAlong_7 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_8
+[       OK ] life_fredkin.moveAlong_8 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_9
+[       OK ] life_fredkin.moveAlong_9 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_10
+[       OK ] life_fredkin.moveAlong_10 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_11
+[       OK ] life_fredkin.moveAlong_11 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_12
+[       OK ] life_fredkin.moveAlong_12 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_13
+[       OK ] life_fredkin.moveAlong_13 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_14
+[       OK ] life_fredkin.moveAlong_14 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_15
+[       OK ] life_fredkin.moveAlong_15 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_16
+[       OK ] life_fredkin.moveAlong_16 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_17
+[       OK ] life_fredkin.moveAlong_17 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_18
+[       OK ] life_fredkin.moveAlong_18 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_19
+[       OK ] life_fredkin.moveAlong_19 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_20
+[       OK ] life_fredkin.moveAlong_20 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_21
+[       OK ] life_fredkin.moveAlong_21 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_22
+[       OK ] life_fredkin.moveAlong_22 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_23
+[       OK ] life_fredkin.moveAlong_23 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_24
+[       OK ] life_fredkin.moveAlong_24 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_25
+[       OK ] life_fredkin.moveAlong_25 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_26
+[       OK ] life_fredkin.moveAlong_26 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_27
+[       OK ] life_fredkin.moveAlong_27 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_28
+[       OK ] life_fredkin.moveAlong_28 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_29
+[       OK ] life_fredkin.moveAlong_29 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_30
+[       OK ] life_fredkin.moveAlong_30 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_31
+[       OK ] life_fredkin.moveAlong_31 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_32
+[       OK ] life_fredkin.moveAlong_32 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_33
+[       OK ] life_fredkin.moveAlong_33 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_34
+[       OK ] life_fredkin.moveAlong_34 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_35
+[       OK ] life_fredkin.moveAlong_35 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_36
+[       OK ] life_fredkin.moveAlong_36 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_37
+[       OK ] life_fredkin.moveAlong_37 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_38
+[       OK ] life_fredkin.moveAlong_38 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_39
+[       OK ] life_fredkin.moveAlong_39 (23 ms)
+[ RUN      ] life_fredkin.moveAlong_40
+[       OK ] life_fredkin.moveAlong_40 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_41
+[       OK ] life_fredkin.moveAlong_41 (22 ms)
+[ RUN      ] life_fredkin.moveAlong_42
+[       OK ] life_fredkin.moveAlong_42 (22 ms)
+[----------] 43 tests from life_fredkin (1036 ms total)
+
+[----------] Global test environment tear-down
+[==========] 76 tests from 5 test cases ran. (1560 ms total)
+[  PASSED  ] 76 tests.

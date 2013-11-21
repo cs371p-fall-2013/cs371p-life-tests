@@ -1,0 +1,55 @@
+Running main() from gtest_main.cc
+[==========] Running 17 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 7 tests from ConwayCell
+[ RUN      ] ConwayCell.evalLiveness_lonely_death_0
+[       OK ] ConwayCell.evalLiveness_lonely_death_0 (33 ms)
+[ RUN      ] ConwayCell.evalLiveness_lonely_death_1
+[       OK ] ConwayCell.evalLiveness_lonely_death_1 (3 ms)
+[ RUN      ] ConwayCell.evalLiveness_stayin_alive_2
+[       OK ] ConwayCell.evalLiveness_stayin_alive_2 (4 ms)
+[ RUN      ] ConwayCell.evalLiveness_stayin_alive_3
+[       OK ] ConwayCell.evalLiveness_stayin_alive_3 (3 ms)
+[ RUN      ] ConwayCell.evalLiveness_rebirth
+[       OK ] ConwayCell.evalLiveness_rebirth (3 ms)
+[ RUN      ] ConwayCell.evalLiveness_overpop
+[       OK ] ConwayCell.evalLiveness_overpop (3 ms)
+[ RUN      ] ConwayCell.evalLiveness_empty
+[       OK ] ConwayCell.evalLiveness_empty (3 ms)
+[----------] 7 tests from ConwayCell (63 ms total)
+
+[----------] 1 test from Fredkin
+[ RUN      ] Fredkin.evalLiveness_lonely_death_0
+[       OK ] Fredkin.evalLiveness_lonely_death_0 (7 ms)
+[----------] 1 test from Fredkin (7 ms total)
+
+[----------] 7 tests from FredkinCell
+[ RUN      ] FredkinCell.evalLiveness_lonely_death_2
+[       OK ] FredkinCell.evalLiveness_lonely_death_2 (3 ms)
+[ RUN      ] FredkinCell.evalLiveness_lonely_death_4
+[       OK ] FredkinCell.evalLiveness_lonely_death_4 (3 ms)
+[ RUN      ] FredkinCell.evalLiveness_stayin_alive_1
+[       OK ] FredkinCell.evalLiveness_stayin_alive_1 (4 ms)
+[ RUN      ] FredkinCell.evalLiveness_stayin_alive_3
+[       OK ] FredkinCell.evalLiveness_stayin_alive_3 (3 ms)
+[ RUN      ] FredkinCell.evalLiveness_empty
+[       OK ] FredkinCell.evalLiveness_empty (3 ms)
+[ RUN      ] FredkinCell.aging
+[       OK ] FredkinCell.aging (2 ms)
+[ RUN      ] FredkinCell.aging_plus
+[       OK ] FredkinCell.aging_plus (6 ms)
+[----------] 7 tests from FredkinCell (26 ms total)
+
+[----------] 1 test from Grid
+[ RUN      ] Grid.populateGrid_hetero
+[       OK ] Grid.populateGrid_hetero (12 ms)
+[----------] 1 test from Grid (12 ms total)
+
+[----------] 1 test from Cell
+[ RUN      ] Cell.mutate
+[       OK ] Cell.mutate (1 ms)
+[----------] 1 test from Cell (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 5 test cases ran. (140 ms total)
+[  PASSED  ] 17 tests.
