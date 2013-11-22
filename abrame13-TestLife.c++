@@ -42,150 +42,6 @@ gtest.h
 
 using namespace std;
 
-TEST(AbstactCell, constructor1) {
-    AbstractCell* c = new ConwayCell(true);
-
-    assert(c->_alive);
-}
-
-TEST(AbstactCell, constructor2) {
-    AbstractCell* c = new FredkinCell(true, 0);
-
-    assert(c->_alive);
-}
-
-TEST(AbstactCell, constructor3) {
-    AbstractCell* c = new ConwayCell(false);
-
-    assert(!c->_alive);
-}
-
-TEST(AbstactCell, print1) {
-    AbstractCell* c = new ConwayCell(false);
-
-    ostringstream out;
-    c->print(out);
-
-    assert(out.str() == ".");
-}
-
-TEST(AbstactCell, print2) {
-    AbstractCell* c = new ConwayCell(true);
-
-    ostringstream out;
-    c->print(out);
-
-    assert(out.str() == "*");
-}
-
-TEST(AbstactCell, print3) {
-    AbstractCell* c = new FredkinCell(true, 0);
-
-    ostringstream out;
-    c->print(out);
-
-    assert(out.str() == "0");
-    
-}
-
-TEST(AbstactCell, print4) {
-    AbstractCell* c = new FredkinCell(false, 0);
-
-    ostringstream out;
-    c->print(out);
-
-    assert(out.str() == "-");
-    
-}
-
-TEST(AbstactCell, print5) {
-    AbstractCell* c = new FredkinCell(true, 10);
-
-    ostringstream out;
-    c->print(out);
-
-    assert(out.str() == "+");
-    
-}
-
-TEST(AbstactCell, destructor1) {
-    AbstractCell* c = new FredkinCell(true, 10);
-    delete c;
-    c = 0;
-}
-
-TEST(AbstactCell, destructor2) {
-    AbstractCell* c = new ConwayCell(true);
-    delete c;
-    c = 0;
-}
-
-TEST(AbstactCell, destructor3) {
-    AbstractCell* c = new ConwayCell(false);
-    delete c;
-    c = 0;
-}
-
-TEST(AbstactCell, clone1) {
-    AbstractCell* c = new ConwayCell(false);
-    AbstractCell* c2 = c->clone();
-    assert(c != c2);
-    assert(c->_alive == c2->_alive);    
-}
-
-TEST(AbstactCell, clone2) {
-    AbstractCell* c = new FredkinCell(false, 0);
-    AbstractCell* c2 = c->clone();
-    assert(c != c2);
-    assert(c->_alive == c2->_alive);
-}
-
-TEST(AbstactCell, clone3) {
-    AbstractCell* c = new FredkinCell(false, 0);
-    AbstractCell* c2 = c->clone();
-    assert(c != c2);
-    delete c;
-    assert(!c2->_alive);
-}
-
-TEST(AbstactCell, evolve1) {
-    AbstractCell* c = new FredkinCell(false, 0);
-    assert(!c->_alive);
-    c->evolve(1);
-    assert(c->_alive);
-}
-
-TEST(AbstactCell, evolve2) {
-    AbstractCell* c = new FredkinCell(true, 0);
-    assert(c->_alive);
-    c->evolve(2);
-    assert(!c->_alive);
-    
-}
-
-TEST(AbstactCell, evolve3) {
-    AbstractCell* c = new ConwayCell(true);
-    assert(c->_alive);
-    c->evolve(1);
-    assert(!c->_alive);
-    
-}
-
-TEST(AbstactCell, evolve4) {
-    AbstractCell* c = new ConwayCell(false);
-    assert(!c->_alive);
-    c->evolve(3);
-    assert(c->_alive);
-    
-}
-
-TEST(AbstactCell, evolve5) {
-    AbstractCell* c = new ConwayCell(false);
-    assert(!c->_alive);
-    c->evolve(2);
-    assert(!c->_alive);
-}
-
 TEST(ConwayCell, constructor1) {
     ConwayCell c(true);
     assert(c._alive);
@@ -225,29 +81,26 @@ TEST(ConwayCell, destructor3) {
 
 TEST(ConwayCell, clone1) {
     ConwayCell c(true);
-    ConwayCell* cp = c.clone();
+    Cell cp(c.clone());
 
-    assert(cp != & c);
-    assert(cp->_alive);
+    assert(cp.get()->_alive);
 }
 
 TEST(ConwayCell, clone2) {
     ConwayCell c(false);
-    ConwayCell* cp = c.clone();
+    Cell cp(c.clone());
 
-    assert(cp != & c);
-    assert(!cp->_alive);
+    assert(!cp.get()->_alive);
 }
 
 TEST(ConwayCell, clone3) {
-    ConwayCell* cp;
-    {
-        ConwayCell c(true);
-        cp = c.clone();
-    }
+    ConwayCell c(false);
+    Cell cp(c.clone());
 
-    assert(cp);
-    assert(cp->_alive);
+    assert(!cp.get()->_alive);
+
+    c.evolve(3);
+    assert(!cp.get()->_alive);
 }
 
 TEST(ConwayCell, evolve1) {
@@ -310,12 +163,12 @@ TEST(ConwayCell, print2) {
 
 TEST(ConwayCell, print3) {
     ConwayCell c(false);
-    ConwayCell* c2 = c.clone();
+    Cell c2(c.clone());
     c.evolve(3);
 
     ostringstream out;
     c.print(out);
-    c2->print(out);
+    out << c2;
 
     assert(out.str() == "*.");  
 }
@@ -380,35 +233,26 @@ TEST(FredkinCell, destructor3) {
 
 TEST(FredkinCell, clone1) {
     FredkinCell f(true, 0);
-    FredkinCell* f2 = f.clone();
+    Cell cp(f.clone());
 
-    assert(f2 != &f);
-    assert(f._alive == f2->_alive);
-    assert(f._age == f2->_age);
+    assert(cp.get()->_alive);
 }
 
 TEST(FredkinCell, clone2) {
-    FredkinCell f(true, 0);
-    FredkinCell* f2 = f.clone();
+    FredkinCell f(false, 0);
+    Cell cp(f.clone());
 
-    assert(f2 != &f);
-    assert(f._alive == f2->_alive);
-    assert(f._age == f2->_age);
-
-    f2->_age = 3;
-    assert(f2->_age != f._age);
+    assert(!cp.get()->_alive);
 }
 
 TEST(FredkinCell, clone3) {
-    FredkinCell* f2;
-    {
-        FredkinCell f(true, 0);
-        f2 = f.clone();
-    }
+    FredkinCell f(false, 0);
+    Cell cp(f.clone());
 
-    assert(f2);
-    assert(f2->_alive);
-    assert(0 == f2->_age);
+    assert(!cp.get()->_alive);
+
+    f.evolve(3);
+    assert(!cp.get()->_alive);
 }
 
 TEST(FredkinCell, evolve1) {
@@ -853,86 +697,4 @@ TEST(Life, run3) {
 
     life.run();
     assert(life._pop == 4);
-}
-
-TEST(Handle, constructor1) {
-    int* x = new int(5);
-    Handle<int> h(x);
-
-    assert(h._p == x);
-}
-
-TEST(Handle, constructor2) {
-    int* x = new int(5);
-    Handle<int> h(x);
-
-    *x = 7;
-
-    assert(h._p == x);
-    assert(*(h._p) == 7);
-}
-
-TEST(Handle, eq1) {
-    int* x = new int(5);
-    int* y = new int(5);
-    Handle<int> h(x);
-    Handle<int> h2(y);
-
-    assert(h._p == x);
-    assert(h2._p == y);
-    assert(h == h2);
-}
-
-TEST(Handle, eq2) {
-    int* x = new int(5);
-    int* y = new int(7);
-    Handle<int> h(x);
-    Handle<int> h2(y);
-
-    assert(h._p == x);
-    assert(h2._p == y);
-    assert(h != h2);
-}
-
-TEST(Handle, eq3) {
-    int* x = new int(5);
-    int* y = new int(7);
-    Handle<int> h(x);
-    Handle<int> h2(y);
-
-    assert(h._p == x);
-    assert(h2._p == y);
-    assert(h != h2);
-
-    *y = 5;
-    assert(h == h2);
-}
-
-TEST(Handle, get1) {
-    int* x = new int(5);
-    int* y = new int(5);
-    Handle<int> h(x);
-    Handle<int> h2(y);
-
-    int* p = h.get();
-    assert(p == x);
-}
-
-TEST(Handle, get2) {
-    int* x = new int(5);
-    int* y = new int(5);
-    Handle<int> h(x);
-    Handle<int> h2(y);
-
-    int* p = h2.get();
-    assert(p == y);
-}
-
-TEST(Handle, get3) {
-    int* x = new int(5);
-    Handle<int> h(x);
-
-    int* p = h.get();
-    x = new int(5);
-    assert(p != x);
 }
