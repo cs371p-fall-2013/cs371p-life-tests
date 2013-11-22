@@ -1,0 +1,201 @@
+Running main() from gtest_main.cc
+[==========] Running 90 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 11 tests from TestLifeAC
+[ RUN      ] TestLifeAC.AbstractCell_1
+[       OK ] TestLifeAC.AbstractCell_1 (8 ms)
+[ RUN      ] TestLifeAC.AbstractCell_2
+[       OK ] TestLifeAC.AbstractCell_2 (1 ms)
+[ RUN      ] TestLifeAC.isAlive_1
+[       OK ] TestLifeAC.isAlive_1 (1 ms)
+[ RUN      ] TestLifeAC.isAlive_2
+[       OK ] TestLifeAC.isAlive_2 (1 ms)
+[ RUN      ] TestLifeAC.isAlive_3
+[       OK ] TestLifeAC.isAlive_3 (3 ms)
+[ RUN      ] TestLifeAC.isAlive_4
+[       OK ] TestLifeAC.isAlive_4 (2 ms)
+[ RUN      ] TestLifeAC.isAlive_5
+[       OK ] TestLifeAC.isAlive_5 (2 ms)
+[ RUN      ] TestLifeAC.isAlive_6
+[       OK ] TestLifeAC.isAlive_6 (2 ms)
+[ RUN      ] TestLifeAC.flipAlive_1
+[       OK ] TestLifeAC.flipAlive_1 (3 ms)
+[ RUN      ] TestLifeAC.flipAlive_2
+[       OK ] TestLifeAC.flipAlive_2 (2 ms)
+[ RUN      ] TestLifeAC.flipAlive_3
+[       OK ] TestLifeAC.flipAlive_3 (2 ms)
+[----------] 11 tests from TestLifeAC (40 ms total)
+
+[----------] 18 tests from TestLifeCC
+[ RUN      ] TestLifeCC.ConwayCell_1
+[       OK ] TestLifeCC.ConwayCell_1 (1 ms)
+[ RUN      ] TestLifeCC.print_1
+[       OK ] TestLifeCC.print_1 (5 ms)
+[ RUN      ] TestLifeCC.print_2
+[       OK ] TestLifeCC.print_2 (3 ms)
+[ RUN      ] TestLifeCC.action_1
+[       OK ] TestLifeCC.action_1 (4 ms)
+[ RUN      ] TestLifeCC.action_2
+[       OK ] TestLifeCC.action_2 (2 ms)
+[ RUN      ] TestLifeCC.action_3
+[       OK ] TestLifeCC.action_3 (2 ms)
+[ RUN      ] TestLifeCC.action_4
+[       OK ] TestLifeCC.action_4 (2 ms)
+[ RUN      ] TestLifeCC.action_5
+[       OK ] TestLifeCC.action_5 (2 ms)
+[ RUN      ] TestLifeCC.action_6
+[       OK ] TestLifeCC.action_6 (3 ms)
+[ RUN      ] TestLifeCC.action_7
+[       OK ] TestLifeCC.action_7 (2 ms)
+[ RUN      ] TestLifeCC.action_8
+[       OK ] TestLifeCC.action_8 (3 ms)
+[ RUN      ] TestLifeCC.getAge_1
+[       OK ] TestLifeCC.getAge_1 (2 ms)
+[ RUN      ] TestLifeCC.getAge_2
+[       OK ] TestLifeCC.getAge_2 (2 ms)
+[ RUN      ] TestLifeCC.getAge_3
+[       OK ] TestLifeCC.getAge_3 (2 ms)
+[ RUN      ] TestLifeCC.clone_1
+[       OK ] TestLifeCC.clone_1 (2 ms)
+[ RUN      ] TestLifeCC.clone_2
+[       OK ] TestLifeCC.clone_2 (2 ms)
+[ RUN      ] TestLifeCC.clone_3
+[       OK ] TestLifeCC.clone_3 (2 ms)
+[ RUN      ] TestLifeCC.clone_4
+[       OK ] TestLifeCC.clone_4 (2 ms)
+[----------] 18 tests from TestLifeCC (51 ms total)
+
+[----------] 21 tests from TestLifeFC
+[ RUN      ] TestLifeFC.FredkinCell_1
+[       OK ] TestLifeFC.FredkinCell_1 (2 ms)
+[ RUN      ] TestLifeFC.FredkinCell_2
+[       OK ] TestLifeFC.FredkinCell_2 (1 ms)
+[ RUN      ] TestLifeFC.print_1
+[       OK ] TestLifeFC.print_1 (2 ms)
+[ RUN      ] TestLifeFC.print_2
+[       OK ] TestLifeFC.print_2 (5 ms)
+[ RUN      ] TestLifeFC.print_3
+[       OK ] TestLifeFC.print_3 (3 ms)
+[ RUN      ] TestLifeFC.action_1
+[       OK ] TestLifeFC.action_1 (2 ms)
+[ RUN      ] TestLifeFC.action_2
+[       OK ] TestLifeFC.action_2 (2 ms)
+[ RUN      ] TestLifeFC.action_3
+[       OK ] TestLifeFC.action_3 (4 ms)
+[ RUN      ] TestLifeFC.action_4
+[       OK ] TestLifeFC.action_4 (4 ms)
+[ RUN      ] TestLifeFC.action_5
+[       OK ] TestLifeFC.action_5 (3 ms)
+[ RUN      ] TestLifeFC.action_6
+[       OK ] TestLifeFC.action_6 (3 ms)
+[ RUN      ] TestLifeFC.action_7
+[       OK ] TestLifeFC.action_7 (5 ms)
+[ RUN      ] TestLifeFC.action_8
+[       OK ] TestLifeFC.action_8 (7 ms)
+[ RUN      ] TestLifeFC.getAge_1
+[       OK ] TestLifeFC.getAge_1 (2 ms)
+[ RUN      ] TestLifeFC.getAge_2
+[       OK ] TestLifeFC.getAge_2 (3 ms)
+[ RUN      ] TestLifeFC.getAge_3
+[       OK ] TestLifeFC.getAge_3 (4 ms)
+[ RUN      ] TestLifeFC.getAge_4
+[       OK ] TestLifeFC.getAge_4 (6 ms)
+[ RUN      ] TestLifeFC.clone_1
+[       OK ] TestLifeFC.clone_1 (2 ms)
+[ RUN      ] TestLifeFC.clone_2
+[       OK ] TestLifeFC.clone_2 (2 ms)
+[ RUN      ] TestLifeFC.clone_3
+[       OK ] TestLifeFC.clone_3 (2 ms)
+[ RUN      ] TestLifeFC.clone_4
+[       OK ] TestLifeFC.clone_4 (2 ms)
+[----------] 21 tests from TestLifeFC (73 ms total)
+
+[----------] 23 tests from TestLifeC
+[ RUN      ] TestLifeC.Cell_1
+[       OK ] TestLifeC.Cell_1 (2 ms)
+[ RUN      ] TestLifeC.print_1
+[       OK ] TestLifeC.print_1 (3 ms)
+[ RUN      ] TestLifeC.print_2
+[       OK ] TestLifeC.print_2 (2 ms)
+[ RUN      ] TestLifeC.print_3
+[       OK ] TestLifeC.print_3 (4 ms)
+[ RUN      ] TestLifeC.flipAlive_1
+[       OK ] TestLifeC.flipAlive_1 (2 ms)
+[ RUN      ] TestLifeC.flipAlive_2
+[       OK ] TestLifeC.flipAlive_2 (2 ms)
+[ RUN      ] TestLifeC.isAlive_1
+[       OK ] TestLifeC.isAlive_1 (3 ms)
+[ RUN      ] TestLifeC.isAlive_2
+[       OK ] TestLifeC.isAlive_2 (2 ms)
+[ RUN      ] TestLifeC.isAlive_3
+[       OK ] TestLifeC.isAlive_3 (2 ms)
+[ RUN      ] TestLifeC.isAlive_4
+[       OK ] TestLifeC.isAlive_4 (3 ms)
+[ RUN      ] TestLifeC.action_1
+[       OK ] TestLifeC.action_1 (3 ms)
+[ RUN      ] TestLifeC.action_2
+[       OK ] TestLifeC.action_2 (2 ms)
+[ RUN      ] TestLifeC.action_3
+[       OK ] TestLifeC.action_3 (4 ms)
+[ RUN      ] TestLifeC.action_4
+[       OK ] TestLifeC.action_4 (6 ms)
+[ RUN      ] TestLifeC.action_5
+[       OK ] TestLifeC.action_5 (2 ms)
+[ RUN      ] TestLifeC.action_6
+[       OK ] TestLifeC.action_6 (3 ms)
+[ RUN      ] TestLifeC.action_7
+[       OK ] TestLifeC.action_7 (4 ms)
+[ RUN      ] TestLifeC.action_8
+[       OK ] TestLifeC.action_8 (7 ms)
+[ RUN      ] TestLifeC.action_9
+[       OK ] TestLifeC.action_9 (8 ms)
+[ RUN      ] TestLifeC.action_10
+[       OK ] TestLifeC.action_10 (8 ms)
+[ RUN      ] TestLifeC.mutate_1
+[       OK ] TestLifeC.mutate_1 (3 ms)
+[ RUN      ] TestLifeC.mutate_2
+[       OK ] TestLifeC.mutate_2 (5 ms)
+[ RUN      ] TestLifeC.mutate_3
+[       OK ] TestLifeC.mutate_3 (5 ms)
+[----------] 23 tests from TestLifeC (88 ms total)
+
+[----------] 17 tests from TestLifeL
+[ RUN      ] TestLifeL.Life_1
+[       OK ] TestLifeL.Life_1 (38 ms)
+[ RUN      ] TestLifeL.Life_2
+[       OK ] TestLifeL.Life_2 (8 ms)
+[ RUN      ] TestLifeL.Life_3
+[       OK ] TestLifeL.Life_3 (6 ms)
+[ RUN      ] TestLifeL.print_1
+[       OK ] TestLifeL.print_1 (8 ms)
+[ RUN      ] TestLifeL.print_2
+[       OK ] TestLifeL.print_2 (24 ms)
+[ RUN      ] TestLifeL.print_3
+[       OK ] TestLifeL.print_3 (25 ms)
+[ RUN      ] TestLifeL.print_4
+[       OK ] TestLifeL.print_4 (12 ms)
+[ RUN      ] TestLifeL.print_5
+[       OK ] TestLifeL.print_5 (5 ms)
+[ RUN      ] TestLifeL.population_1
+[       OK ] TestLifeL.population_1 (4 ms)
+[ RUN      ] TestLifeL.population_2
+[       OK ] TestLifeL.population_2 (13 ms)
+[ RUN      ] TestLifeL.population_3
+[       OK ] TestLifeL.population_3 (12 ms)
+[ RUN      ] TestLifeL.population_4
+[       OK ] TestLifeL.population_4 (5 ms)
+[ RUN      ] TestLifeL.population_5
+[       OK ] TestLifeL.population_5 (16 ms)
+[ RUN      ] TestLifeL.run_1
+[       OK ] TestLifeL.run_1 (4 ms)
+[ RUN      ] TestLifeL.run_2
+[       OK ] TestLifeL.run_2 (4 ms)
+[ RUN      ] TestLifeL.run_3
+[       OK ] TestLifeL.run_3 (4 ms)
+[ RUN      ] TestLifeL.run_4
+[       OK ] TestLifeL.run_4 (3 ms)
+[----------] 17 tests from TestLifeL (195 ms total)
+
+[----------] Global test environment tear-down
+[==========] 90 tests from 5 test cases ran. (474 ms total)
+[  PASSED  ] 90 tests.
