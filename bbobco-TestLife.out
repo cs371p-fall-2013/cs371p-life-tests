@@ -1,0 +1,86 @@
+Running main() from gtest_main.cc
+[==========] Running 34 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 6 tests from Life
+[ RUN      ] Life.life_constructor
+[       OK ] Life.life_constructor (14 ms)
+[ RUN      ] Life.life_constructor2
+[       OK ] Life.life_constructor2 (7 ms)
+[ RUN      ] Life.life_constructor3
+[       OK ] Life.life_constructor3 (8 ms)
+[ RUN      ] Life.inBounds
+[       OK ] Life.inBounds (2 ms)
+[ RUN      ] Life.inBounds2
+[       OK ] Life.inBounds2 (2 ms)
+[ RUN      ] Life.inBounds3
+[       OK ] Life.inBounds3 (2 ms)
+[----------] 6 tests from Life (45 ms total)
+
+[----------] 10 tests from FredkinCell
+[ RUN      ] FredkinCell.simulate
+[       OK ] FredkinCell.simulate (26 ms)
+[ RUN      ] FredkinCell.simulate2
+[       OK ] FredkinCell.simulate2 (7 ms)
+[ RUN      ] FredkinCell.simulate3
+[       OK ] FredkinCell.simulate3 (7 ms)
+[ RUN      ] FredkinCell.simulate4
+[       OK ] FredkinCell.simulate4 (8 ms)
+[ RUN      ] FredkinCell.simulate6
+[       OK ] FredkinCell.simulate6 (8 ms)
+[ RUN      ] FredkinCell.simulate7
+[       OK ] FredkinCell.simulate7 (7 ms)
+[ RUN      ] FredkinCell.constructor
+[       OK ] FredkinCell.constructor (2 ms)
+[ RUN      ] FredkinCell.constructor2
+[       OK ] FredkinCell.constructor2 (2 ms)
+[ RUN      ] FredkinCell.mutate1
+[       OK ] FredkinCell.mutate1 (7 ms)
+[ RUN      ] FredkinCell.mutate2
+[       OK ] FredkinCell.mutate2 (8 ms)
+[----------] 10 tests from FredkinCell (84 ms total)
+
+[----------] 13 tests from ConwayCell
+[ RUN      ] ConwayCell.simulate
+[       OK ] ConwayCell.simulate (9 ms)
+[ RUN      ] ConwayCell.simulate2
+[       OK ] ConwayCell.simulate2 (8 ms)
+[ RUN      ] ConwayCell.simulate3
+[       OK ] ConwayCell.simulate3 (7 ms)
+[ RUN      ] ConwayCell.simulate4
+[       OK ] ConwayCell.simulate4 (8 ms)
+[ RUN      ] ConwayCell.simulate5
+[       OK ] ConwayCell.simulate5 (8 ms)
+[ RUN      ] ConwayCell.simulate6
+[       OK ] ConwayCell.simulate6 (7 ms)
+[ RUN      ] ConwayCell.simulate7
+[       OK ] ConwayCell.simulate7 (7 ms)
+[ RUN      ] ConwayCell.simulate8
+[       OK ] ConwayCell.simulate8 (8 ms)
+[ RUN      ] ConwayCell.simulate9
+[       OK ] ConwayCell.simulate9 (7 ms)
+[ RUN      ] ConwayCell.simulate10
+[       OK ] ConwayCell.simulate10 (8 ms)
+[ RUN      ] ConwayCell.simulate11
+[       OK ] ConwayCell.simulate11 (8 ms)
+[ RUN      ] ConwayCell.constructor
+[       OK ] ConwayCell.constructor (1 ms)
+[ RUN      ] ConwayCell.constructor2
+[       OK ] ConwayCell.constructor2 (2 ms)
+[----------] 13 tests from ConwayCell (89 ms total)
+
+[----------] 5 tests from Cell
+[ RUN      ] Cell.simulate1
+[       OK ] Cell.simulate1 (14 ms)
+[ RUN      ] Cell.constructor
+[       OK ] Cell.constructor (2 ms)
+[ RUN      ] Cell.constructor2
+[       OK ] Cell.constructor2 (2 ms)
+[ RUN      ] Cell.constructor3
+[       OK ] Cell.constructor3 (2 ms)
+[ RUN      ] Cell.constructor4
+[       OK ] Cell.constructor4 (2 ms)
+[----------] 5 tests from Cell (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 34 tests from 4 test cases ran. (269 ms total)
+[  PASSED  ] 34 tests.
