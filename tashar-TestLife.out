@@ -1,0 +1,226 @@
+Running main() from gtest_main.cc
+[==========] Running 104 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 44 tests from FredkinCell
+[ RUN      ] FredkinCell.default_construct
+[       OK ] FredkinCell.default_construct (10 ms)
+[ RUN      ] FredkinCell.default_construct_vector
+[       OK ] FredkinCell.default_construct_vector (8 ms)
+[ RUN      ] FredkinCell.bool_construct
+[       OK ] FredkinCell.bool_construct (2 ms)
+[ RUN      ] FredkinCell.bool_construct2
+[       OK ] FredkinCell.bool_construct2 (2 ms)
+[ RUN      ] FredkinCell.bool_int_construct
+[       OK ] FredkinCell.bool_int_construct (3 ms)
+[ RUN      ] FredkinCell.bool_int_construct2
+[       OK ] FredkinCell.bool_int_construct2 (2 ms)
+[ RUN      ] FredkinCell.read
+[       OK ] FredkinCell.read (6 ms)
+[ RUN      ] FredkinCell.read2
+[       OK ] FredkinCell.read2 (4 ms)
+[ RUN      ] FredkinCell.read3
+[       OK ] FredkinCell.read3 (3 ms)
+[ RUN      ] FredkinCell.read4_unknownChar
+[       OK ] FredkinCell.read4_unknownChar (3 ms)
+[ RUN      ] FredkinCell.read5_using_op
+[       OK ] FredkinCell.read5_using_op (3 ms)
+[ RUN      ] FredkinCell.read_from_char
+[       OK ] FredkinCell.read_from_char (2 ms)
+[ RUN      ] FredkinCell.read_from_char2
+[       OK ] FredkinCell.read_from_char2 (3 ms)
+[ RUN      ] FredkinCell.read_from_char3
+[       OK ] FredkinCell.read_from_char3 (3 ms)
+[ RUN      ] FredkinCell.read_from_char4_unknown
+[       OK ] FredkinCell.read_from_char4_unknown (2 ms)
+[ RUN      ] FredkinCell.write
+[       OK ] FredkinCell.write (6 ms)
+[ RUN      ] FredkinCell.write2
+[       OK ] FredkinCell.write2 (3 ms)
+[ RUN      ] FredkinCell.write3
+[       OK ] FredkinCell.write3 (3 ms)
+[ RUN      ] FredkinCell.write4_using_op
+[       OK ] FredkinCell.write4_using_op (2 ms)
+[ RUN      ] FredkinCell.equals
+[       OK ] FredkinCell.equals (2 ms)
+[ RUN      ] FredkinCell.equals2
+[       OK ] FredkinCell.equals2 (2 ms)
+[ RUN      ] FredkinCell.equals3
+[       OK ] FredkinCell.equals3 (3 ms)
+[ RUN      ] FredkinCell.equals_op
+[       OK ] FredkinCell.equals_op (2 ms)
+[ RUN      ] FredkinCell.equals_op2
+[       OK ] FredkinCell.equals_op2 (2 ms)
+[ RUN      ] FredkinCell.clone
+[       OK ] FredkinCell.clone (3 ms)
+[ RUN      ] FredkinCell.state_transition
+[       OK ] FredkinCell.state_transition (2 ms)
+[ RUN      ] FredkinCell.state_transition1
+[       OK ] FredkinCell.state_transition1 (2 ms)
+[ RUN      ] FredkinCell.state_transition2
+[       OK ] FredkinCell.state_transition2 (2 ms)
+[ RUN      ] FredkinCell.state_transition3
+[       OK ] FredkinCell.state_transition3 (2 ms)
+[ RUN      ] FredkinCell.state_transition4
+[       OK ] FredkinCell.state_transition4 (2 ms)
+[ RUN      ] FredkinCell.state_transition5
+[       OK ] FredkinCell.state_transition5 (2 ms)
+[ RUN      ] FredkinCell.state_transition6
+[       OK ] FredkinCell.state_transition6 (2 ms)
+[ RUN      ] FredkinCell.state_transition7
+[       OK ] FredkinCell.state_transition7 (2 ms)
+[ RUN      ] FredkinCell.next_generation
+[       OK ] FredkinCell.next_generation (4 ms)
+[ RUN      ] FredkinCell.next_generation2
+[       OK ] FredkinCell.next_generation2 (4 ms)
+[ RUN      ] FredkinCell.next_generation3
+[       OK ] FredkinCell.next_generation3 (4 ms)
+[ RUN      ] FredkinCell.next_generation4
+[       OK ] FredkinCell.next_generation4 (4 ms)
+[ RUN      ] FredkinCell.next_generation_age
+[       OK ] FredkinCell.next_generation_age (5 ms)
+[ RUN      ] FredkinCell.next_generation_age2
+[       OK ] FredkinCell.next_generation_age2 (5 ms)
+[ RUN      ] FredkinCell.next_generation_age3
+[       OK ] FredkinCell.next_generation_age3 (4 ms)
+[ RUN      ] FredkinCell.can_read
+[       OK ] FredkinCell.can_read (2 ms)
+[ RUN      ] FredkinCell.can_read2
+[       OK ] FredkinCell.can_read2 (2 ms)
+[ RUN      ] FredkinCell.can_read3
+[       OK ] FredkinCell.can_read3 (2 ms)
+[ RUN      ] FredkinCell.can_read4
+[       OK ] FredkinCell.can_read4 (2 ms)
+[----------] 44 tests from FredkinCell (158 ms total)
+
+[----------] 38 tests from ConwayCell
+[ RUN      ] ConwayCell.default_construct
+[       OK ] ConwayCell.default_construct (2 ms)
+[ RUN      ] ConwayCell.default_construct_vector
+[       OK ] ConwayCell.default_construct_vector (7 ms)
+[ RUN      ] ConwayCell.bool_construct
+[       OK ] ConwayCell.bool_construct (2 ms)
+[ RUN      ] ConwayCell.bool_construct2
+[       OK ] ConwayCell.bool_construct2 (2 ms)
+[ RUN      ] ConwayCell.read
+[       OK ] ConwayCell.read (3 ms)
+[ RUN      ] ConwayCell.read2
+[       OK ] ConwayCell.read2 (3 ms)
+[ RUN      ] ConwayCell.read3_unknownChar
+[       OK ] ConwayCell.read3_unknownChar (2 ms)
+[ RUN      ] ConwayCell.read4_using_op
+[       OK ] ConwayCell.read4_using_op (2 ms)
+[ RUN      ] ConwayCell.read_from_char
+[       OK ] ConwayCell.read_from_char (3 ms)
+[ RUN      ] ConwayCell.read_from_char2
+[       OK ] ConwayCell.read_from_char2 (2 ms)
+[ RUN      ] ConwayCell.read_from_char4_unknown
+[       OK ] ConwayCell.read_from_char4_unknown (2 ms)
+[ RUN      ] ConwayCell.write
+[       OK ] ConwayCell.write (3 ms)
+[ RUN      ] ConwayCell.write2
+[       OK ] ConwayCell.write2 (2 ms)
+[ RUN      ] ConwayCell.write3_using_op
+[       OK ] ConwayCell.write3_using_op (2 ms)
+[ RUN      ] ConwayCell.write4_using_op
+[       OK ] ConwayCell.write4_using_op (3 ms)
+[ RUN      ] ConwayCell.equals
+[       OK ] ConwayCell.equals (2 ms)
+[ RUN      ] ConwayCell.equals2
+[       OK ] ConwayCell.equals2 (2 ms)
+[ RUN      ] ConwayCell.equals_op
+[       OK ] ConwayCell.equals_op (3 ms)
+[ RUN      ] ConwayCell.equals_op2
+[       OK ] ConwayCell.equals_op2 (2 ms)
+[ RUN      ] ConwayCell.clone
+[       OK ] ConwayCell.clone (3 ms)
+[ RUN      ] ConwayCell.state_transition
+[       OK ] ConwayCell.state_transition (2 ms)
+[ RUN      ] ConwayCell.state_transition1
+[       OK ] ConwayCell.state_transition1 (2 ms)
+[ RUN      ] ConwayCell.state_transition2
+[       OK ] ConwayCell.state_transition2 (2 ms)
+[ RUN      ] ConwayCell.state_transition3
+[       OK ] ConwayCell.state_transition3 (2 ms)
+[ RUN      ] ConwayCell.state_transition4
+[       OK ] ConwayCell.state_transition4 (2 ms)
+[ RUN      ] ConwayCell.state_transition5
+[       OK ] ConwayCell.state_transition5 (2 ms)
+[ RUN      ] ConwayCell.state_transition6
+[       OK ] ConwayCell.state_transition6 (2 ms)
+[ RUN      ] ConwayCell.state_transition7
+[       OK ] ConwayCell.state_transition7 (2 ms)
+[ RUN      ] ConwayCell.state_transition8
+[       OK ] ConwayCell.state_transition8 (2 ms)
+[ RUN      ] ConwayCell.state_transition9
+[       OK ] ConwayCell.state_transition9 (2 ms)
+[ RUN      ] ConwayCell.next_generation
+[       OK ] ConwayCell.next_generation (4 ms)
+[ RUN      ] ConwayCell.next_generation2
+[       OK ] ConwayCell.next_generation2 (4 ms)
+[ RUN      ] ConwayCell.next_generation3
+[       OK ] ConwayCell.next_generation3 (3 ms)
+[ RUN      ] ConwayCell.next_generation4
+[       OK ] ConwayCell.next_generation4 (3 ms)
+[ RUN      ] ConwayCell.can_read
+[       OK ] ConwayCell.can_read (2 ms)
+[ RUN      ] ConwayCell.can_read2
+[       OK ] ConwayCell.can_read2 (2 ms)
+[ RUN      ] ConwayCell.can_read3
+[       OK ] ConwayCell.can_read3 (2 ms)
+[ RUN      ] ConwayCell.can_read4
+[       OK ] ConwayCell.can_read4 (1 ms)
+[----------] 38 tests from ConwayCell (102 ms total)
+
+[----------] 16 tests from Cell
+[ RUN      ] Cell.default_construct
+[       OK ] Cell.default_construct (3 ms)
+[ RUN      ] Cell.default_construct_vector
+[       OK ] Cell.default_construct_vector (7 ms)
+[ RUN      ] Cell.conway_construct
+[       OK ] Cell.conway_construct (3 ms)
+[ RUN      ] Cell.fredkin_construct
+[       OK ] Cell.fredkin_construct (2 ms)
+[ RUN      ] Cell.read
+[       OK ] Cell.read (3 ms)
+[ RUN      ] Cell.read2
+[       OK ] Cell.read2 (3 ms)
+[ RUN      ] Cell.read3
+[       OK ] Cell.read3 (5 ms)
+[ RUN      ] Cell.read4
+[       OK ] Cell.read4 (2 ms)
+[ RUN      ] Cell.write
+[       OK ] Cell.write (3 ms)
+[ RUN      ] Cell.write2
+[       OK ] Cell.write2 (3 ms)
+[ RUN      ] Cell.write3
+[       OK ] Cell.write3 (2 ms)
+[ RUN      ] Cell.write4
+[       OK ] Cell.write4 (3 ms)
+[ RUN      ] Cell.next_generation
+[       OK ] Cell.next_generation (4 ms)
+[ RUN      ] Cell.next_generation2
+[       OK ] Cell.next_generation2 (3 ms)
+[ RUN      ] Cell.next_generation3_mutate
+[       OK ] Cell.next_generation3_mutate (5 ms)
+[ RUN      ] Cell.mutate
+[       OK ] Cell.mutate (3 ms)
+[----------] 16 tests from Cell (57 ms total)
+
+[----------] 6 tests from Life
+[ RUN      ] Life.construct_conway_via_input_stream
+[       OK ] Life.construct_conway_via_input_stream (21 ms)
+[ RUN      ] Life.conway_take_turn
+[       OK ] Life.conway_take_turn (8 ms)
+[ RUN      ] Life.construct_fredkin_via_input_stream
+[       OK ] Life.construct_fredkin_via_input_stream (13 ms)
+[ RUN      ] Life.fredkin_take_turn
+[       OK ] Life.fredkin_take_turn (8 ms)
+[ RUN      ] Life.construct_cell_via_input_stream
+[       OK ] Life.construct_cell_via_input_stream (13 ms)
+[ RUN      ] Life.cell_take_turn
+[       OK ] Life.cell_take_turn (9 ms)
+[----------] 6 tests from Life (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 104 tests from 4 test cases ran. (417 ms total)
+[  PASSED  ] 104 tests.
