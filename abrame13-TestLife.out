@@ -1,0 +1,174 @@
+Running main() from gtest_main.cc
+[==========] Running 78 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 20 tests from ConwayCell
+[ RUN      ] ConwayCell.constructor1
+[       OK ] ConwayCell.constructor1 (7 ms)
+[ RUN      ] ConwayCell.constructor2
+[       OK ] ConwayCell.constructor2 (1 ms)
+[ RUN      ] ConwayCell.constructor3
+[       OK ] ConwayCell.constructor3 (2 ms)
+[ RUN      ] ConwayCell.destructor1
+[       OK ] ConwayCell.destructor1 (1 ms)
+[ RUN      ] ConwayCell.destructor2
+[       OK ] ConwayCell.destructor2 (1 ms)
+[ RUN      ] ConwayCell.destructor3
+[       OK ] ConwayCell.destructor3 (1 ms)
+[ RUN      ] ConwayCell.clone1
+[       OK ] ConwayCell.clone1 (3 ms)
+[ RUN      ] ConwayCell.clone2
+[       OK ] ConwayCell.clone2 (2 ms)
+[ RUN      ] ConwayCell.clone3
+[       OK ] ConwayCell.clone3 (3 ms)
+[ RUN      ] ConwayCell.evolve1
+[       OK ] ConwayCell.evolve1 (2 ms)
+[ RUN      ] ConwayCell.evolve2
+[       OK ] ConwayCell.evolve2 (1 ms)
+[ RUN      ] ConwayCell.evolve3
+[       OK ] ConwayCell.evolve3 (1 ms)
+[ RUN      ] ConwayCell.evolve4
+[       OK ] ConwayCell.evolve4 (2 ms)
+[ RUN      ] ConwayCell.evolve5
+[       OK ] ConwayCell.evolve5 (2 ms)
+[ RUN      ] ConwayCell.print1
+[       OK ] ConwayCell.print1 (5 ms)
+[ RUN      ] ConwayCell.print2
+[       OK ] ConwayCell.print2 (2 ms)
+[ RUN      ] ConwayCell.print3
+[       OK ] ConwayCell.print3 (3 ms)
+[ RUN      ] ConwayCell.neighbors1
+[       OK ] ConwayCell.neighbors1 (10 ms)
+[ RUN      ] ConwayCell.neighbors2
+[       OK ] ConwayCell.neighbors2 (5 ms)
+[ RUN      ] ConwayCell.neighbors3
+[       OK ] ConwayCell.neighbors3 (4 ms)
+[----------] 20 tests from ConwayCell (72 ms total)
+
+[----------] 23 tests from FredkinCell
+[ RUN      ] FredkinCell.constructor1
+[       OK ] FredkinCell.constructor1 (2 ms)
+[ RUN      ] FredkinCell.constructor2
+[       OK ] FredkinCell.constructor2 (2 ms)
+[ RUN      ] FredkinCell.constructor3
+[       OK ] FredkinCell.constructor3 (1 ms)
+[ RUN      ] FredkinCell.destructor1
+[       OK ] FredkinCell.destructor1 (2 ms)
+[ RUN      ] FredkinCell.destructor2
+[       OK ] FredkinCell.destructor2 (1 ms)
+[ RUN      ] FredkinCell.destructor3
+[       OK ] FredkinCell.destructor3 (2 ms)
+[ RUN      ] FredkinCell.clone1
+[       OK ] FredkinCell.clone1 (2 ms)
+[ RUN      ] FredkinCell.clone2
+[       OK ] FredkinCell.clone2 (1 ms)
+[ RUN      ] FredkinCell.clone3
+[       OK ] FredkinCell.clone3 (2 ms)
+[ RUN      ] FredkinCell.evolve1
+[       OK ] FredkinCell.evolve1 (2 ms)
+[ RUN      ] FredkinCell.evolve2
+[       OK ] FredkinCell.evolve2 (2 ms)
+[ RUN      ] FredkinCell.evolve3
+[       OK ] FredkinCell.evolve3 (2 ms)
+[ RUN      ] FredkinCell.evolve4
+[       OK ] FredkinCell.evolve4 (2 ms)
+[ RUN      ] FredkinCell.print1
+[       OK ] FredkinCell.print1 (4 ms)
+[ RUN      ] FredkinCell.print2
+[       OK ] FredkinCell.print2 (2 ms)
+[ RUN      ] FredkinCell.print3
+[       OK ] FredkinCell.print3 (2 ms)
+[ RUN      ] FredkinCell.print4
+[       OK ] FredkinCell.print4 (2 ms)
+[ RUN      ] FredkinCell.neighbors1
+[       OK ] FredkinCell.neighbors1 (10 ms)
+[ RUN      ] FredkinCell.neighbors2
+[       OK ] FredkinCell.neighbors2 (4 ms)
+[ RUN      ] FredkinCell.neighbors3
+[       OK ] FredkinCell.neighbors3 (4 ms)
+[ RUN      ] FredkinCell.mutate1
+[       OK ] FredkinCell.mutate1 (2 ms)
+[ RUN      ] FredkinCell.mutate2
+[       OK ] FredkinCell.mutate2 (1 ms)
+[ RUN      ] FredkinCell.mutate3
+[       OK ] FredkinCell.mutate3 (2 ms)
+[----------] 23 tests from FredkinCell (59 ms total)
+
+[----------] 23 tests from Cell
+[ RUN      ] Cell.constructor1
+[       OK ] Cell.constructor1 (2 ms)
+[ RUN      ] Cell.constructor2
+[       OK ] Cell.constructor2 (2 ms)
+[ RUN      ] Cell.constructor3
+[       OK ] Cell.constructor3 (3 ms)
+[ RUN      ] Cell.evolve1
+[       OK ] Cell.evolve1 (4 ms)
+[ RUN      ] Cell.evolve2
+[       OK ] Cell.evolve2 (2 ms)
+[ RUN      ] Cell.evolve3
+[       OK ] Cell.evolve3 (2 ms)
+[ RUN      ] Cell.evolve4
+[       OK ] Cell.evolve4 (2 ms)
+[ RUN      ] Cell.evolve5
+[       OK ] Cell.evolve5 (5 ms)
+[ RUN      ] Cell.print1
+[       OK ] Cell.print1 (2 ms)
+[ RUN      ] Cell.print2
+[       OK ] Cell.print2 (2 ms)
+[ RUN      ] Cell.print3
+[       OK ] Cell.print3 (2 ms)
+[ RUN      ] Cell.print4
+[       OK ] Cell.print4 (2 ms)
+[ RUN      ] Cell.print5
+[       OK ] Cell.print5 (2 ms)
+[ RUN      ] Cell.neighbors1
+[       OK ] Cell.neighbors1 (12 ms)
+[ RUN      ] Cell.neighbors2
+[       OK ] Cell.neighbors2 (6 ms)
+[ RUN      ] Cell.neighbors3
+[       OK ] Cell.neighbors3 (5 ms)
+[ RUN      ] Cell.neighbors4
+[       OK ] Cell.neighbors4 (3 ms)
+[ RUN      ] Cell.neighbors5
+[       OK ] Cell.neighbors5 (3 ms)
+[ RUN      ] Cell.neighbors6
+[       OK ] Cell.neighbors6 (3 ms)
+[ RUN      ] Cell.mutate1
+[       OK ] Cell.mutate1 (2 ms)
+[ RUN      ] Cell.mutate2
+[       OK ] Cell.mutate2 (2 ms)
+[ RUN      ] Cell.mutate3
+[       OK ] Cell.mutate3 (2 ms)
+[ RUN      ] Cell.mutate4
+[       OK ] Cell.mutate4 (2 ms)
+[----------] 23 tests from Cell (77 ms total)
+
+[----------] 12 tests from Life
+[ RUN      ] Life.constructor1
+[       OK ] Life.constructor1 (3 ms)
+[ RUN      ] Life.constructor2
+[       OK ] Life.constructor2 (1 ms)
+[ RUN      ] Life.constructor3
+[       OK ] Life.constructor3 (5 ms)
+[ RUN      ] Life.load1
+[       OK ] Life.load1 (9 ms)
+[ RUN      ] Life.load2
+[       OK ] Life.load2 (3 ms)
+[ RUN      ] Life.load3
+[       OK ] Life.load3 (9 ms)
+[ RUN      ] Life.print1
+[       OK ] Life.print1 (6 ms)
+[ RUN      ] Life.print2
+[       OK ] Life.print2 (3 ms)
+[ RUN      ] Life.print3
+[       OK ] Life.print3 (5 ms)
+[ RUN      ] Life.run1
+[       OK ] Life.run1 (12 ms)
+[ RUN      ] Life.run2
+[       OK ] Life.run2 (13 ms)
+[ RUN      ] Life.run3
+[       OK ] Life.run3 (4 ms)
+[----------] 12 tests from Life (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 78 tests from 4 test cases ran. (311 ms total)
+[  PASSED  ] 78 tests.

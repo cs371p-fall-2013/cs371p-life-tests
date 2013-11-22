@@ -1,0 +1,141 @@
+Running main() from gtest_main.cc
+[==========] Running 60 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 9 tests from AbstractCell
+[ RUN      ] AbstractCell.getSym1
+[       OK ] AbstractCell.getSym1 (0 ms)
+[ RUN      ] AbstractCell.getSym2
+[       OK ] AbstractCell.getSym2 (0 ms)
+[ RUN      ] AbstractCell.getSym3
+[       OK ] AbstractCell.getSym3 (0 ms)
+[ RUN      ] AbstractCell.getStatus1
+[       OK ] AbstractCell.getStatus1 (0 ms)
+[ RUN      ] AbstractCell.getStatus2
+[       OK ] AbstractCell.getStatus2 (0 ms)
+[ RUN      ] AbstractCell.setNext
+[       OK ] AbstractCell.setNext (0 ms)
+[ RUN      ] AbstractCell.setNext2
+[       OK ] AbstractCell.setNext2 (0 ms)
+[ RUN      ] AbstractCell.setNext3
+[       OK ] AbstractCell.setNext3 (0 ms)
+[ RUN      ] AbstractCell.setNext4
+[       OK ] AbstractCell.setNext4 (0 ms)
+[----------] 9 tests from AbstractCell (0 ms total)
+
+[----------] 8 tests from ConwayCell
+[ RUN      ] ConwayCell.constructor1
+[       OK ] ConwayCell.constructor1 (0 ms)
+[ RUN      ] ConwayCell.constructor2
+[       OK ] ConwayCell.constructor2 (0 ms)
+[ RUN      ] ConwayCell.constructor3
+[       OK ] ConwayCell.constructor3 (0 ms)
+[ RUN      ] ConwayCell.update1
+[       OK ] ConwayCell.update1 (0 ms)
+[ RUN      ] ConwayCell.update2
+[       OK ] ConwayCell.update2 (0 ms)
+[ RUN      ] ConwayCell.update3
+[       OK ] ConwayCell.update3 (0 ms)
+[ RUN      ] ConwayCell.update4
+[       OK ] ConwayCell.update4 (0 ms)
+[ RUN      ] ConwayCell.update5
+[       OK ] ConwayCell.update5 (0 ms)
+[----------] 8 tests from ConwayCell (1 ms total)
+
+[----------] 12 tests from FredkinCell
+[ RUN      ] FredkinCell.constructor1
+[       OK ] FredkinCell.constructor1 (0 ms)
+[ RUN      ] FredkinCell.constructor2
+[       OK ] FredkinCell.constructor2 (0 ms)
+[ RUN      ] FredkinCell.constructor3
+[       OK ] FredkinCell.constructor3 (0 ms)
+[ RUN      ] FredkinCell.constructor4
+[       OK ] FredkinCell.constructor4 (0 ms)
+[ RUN      ] FredkinCell.constructor5
+[       OK ] FredkinCell.constructor5 (0 ms)
+[ RUN      ] FredkinCell.constructor6
+[       OK ] FredkinCell.constructor6 (0 ms)
+[ RUN      ] FredkinCell.update1
+[       OK ] FredkinCell.update1 (0 ms)
+[ RUN      ] FredkinCell.update2
+[       OK ] FredkinCell.update2 (0 ms)
+[ RUN      ] FredkinCell.update3
+[       OK ] FredkinCell.update3 (0 ms)
+[ RUN      ] FredkinCell.update4
+[       OK ] FredkinCell.update4 (0 ms)
+[ RUN      ] FredkinCell.update5
+[       OK ] FredkinCell.update5 (0 ms)
+[ RUN      ] FredkinCell.update6
+[       OK ] FredkinCell.update6 (0 ms)
+[----------] 12 tests from FredkinCell (0 ms total)
+
+[----------] 19 tests from Cell
+[ RUN      ] Cell.getSym1
+[       OK ] Cell.getSym1 (0 ms)
+[ RUN      ] Cell.getSym2
+[       OK ] Cell.getSym2 (0 ms)
+[ RUN      ] Cell.getSym3
+[       OK ] Cell.getSym3 (0 ms)
+[ RUN      ] Cell.update1
+[       OK ] Cell.update1 (0 ms)
+[ RUN      ] Cell.update2
+[       OK ] Cell.update2 (0 ms)
+[ RUN      ] Cell.update3
+[       OK ] Cell.update3 (0 ms)
+[ RUN      ] Cell.update4
+[       OK ] Cell.update4 (0 ms)
+[ RUN      ] Cell.isAlive1
+[       OK ] Cell.isAlive1 (0 ms)
+[ RUN      ] Cell.isAlive2
+[       OK ] Cell.isAlive2 (0 ms)
+[ RUN      ] Cell.isAlive3
+[       OK ] Cell.isAlive3 (0 ms)
+[ RUN      ] Cell.setNext1
+[       OK ] Cell.setNext1 (0 ms)
+[ RUN      ] Cell.setNext2
+[       OK ] Cell.setNext2 (0 ms)
+[ RUN      ] Cell.setNext3
+[       OK ] Cell.setNext3 (0 ms)
+[ RUN      ] Cell.setNext4
+[       OK ] Cell.setNext4 (0 ms)
+[ RUN      ] Cell.setNext5
+[       OK ] Cell.setNext5 (0 ms)
+[ RUN      ] Cell.setNext6
+[       OK ] Cell.setNext6 (0 ms)
+[ RUN      ] Cell.mutate1
+[       OK ] Cell.mutate1 (0 ms)
+[ RUN      ] Cell.mutate2
+[       OK ] Cell.mutate2 (0 ms)
+[ RUN      ] Cell.mutate3
+[       OK ] Cell.mutate3 (0 ms)
+[----------] 19 tests from Cell (0 ms total)
+
+[----------] 12 tests from Life
+[ RUN      ] Life.constructor1
+[       OK ] Life.constructor1 (0 ms)
+[ RUN      ] Life.constructor2
+[       OK ] Life.constructor2 (0 ms)
+[ RUN      ] Life.constructor3
+[       OK ] Life.constructor3 (0 ms)
+[ RUN      ] Life.print1
+[       OK ] Life.print1 (0 ms)
+[ RUN      ] Life.print2
+[       OK ] Life.print2 (1 ms)
+[ RUN      ] Life.print3
+[       OK ] Life.print3 (0 ms)
+[ RUN      ] Life.updatePop1
+[       OK ] Life.updatePop1 (0 ms)
+[ RUN      ] Life.updatePop2
+[       OK ] Life.updatePop2 (0 ms)
+[ RUN      ] Life.updatePop3
+[       OK ] Life.updatePop3 (0 ms)
+[ RUN      ] Life.simulate
+[       OK ] Life.simulate (0 ms)
+[ RUN      ] Life.simulate2
+[       OK ] Life.simulate2 (0 ms)
+[ RUN      ] Life.simulate3
+[       OK ] Life.simulate3 (0 ms)
+[----------] 12 tests from Life (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 5 test cases ran. (2 ms total)
+[  PASSED  ] 60 tests.

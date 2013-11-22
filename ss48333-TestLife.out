@@ -1,0 +1,194 @@
+Running main() from gtest_main.cc
+[==========] Running 88 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 22 tests from Life
+[ RUN      ] Life.getIdx1
+[       OK ] Life.getIdx1 (25 ms)
+[ RUN      ] Life.getIdx2
+[       OK ] Life.getIdx2 (3 ms)
+[ RUN      ] Life.getIdx3
+[       OK ] Life.getIdx3 (4 ms)
+[ RUN      ] Life.getIdxNonSquare
+[       OK ] Life.getIdxNonSquare (37 ms)
+[ RUN      ] Life.construct_cell
+[       OK ] Life.construct_cell (53 ms)
+[ RUN      ] Life.construct_ConwayCell
+[       OK ] Life.construct_ConwayCell (12 ms)
+[ RUN      ] Life.construct_FredkinCell
+[       OK ] Life.construct_FredkinCell (41 ms)
+[ RUN      ] Life.getAlive1
+[       OK ] Life.getAlive1 (8 ms)
+[ RUN      ] Life.getAlive2
+[       OK ] Life.getAlive2 (5 ms)
+[ RUN      ] Life.getAlive3
+[       OK ] Life.getAlive3 (4 ms)
+[ RUN      ] Life.getAliveAdj1
+[       OK ] Life.getAliveAdj1 (11 ms)
+[ RUN      ] Life.getAliveAdj2
+[       OK ] Life.getAliveAdj2 (8 ms)
+[ RUN      ] Life.getAliveAdj3
+[       OK ] Life.getAliveAdj3 (8 ms)
+[ RUN      ] Life.getAliveDiagonals1
+[       OK ] Life.getAliveDiagonals1 (10 ms)
+[ RUN      ] Life.getAliveDiagonals2
+[       OK ] Life.getAliveDiagonals2 (9 ms)
+[ RUN      ] Life.getAliveDiagonals3
+[       OK ] Life.getAliveDiagonals3 (11 ms)
+[ RUN      ] Life.run1
+[       OK ] Life.run1 (18 ms)
+[ RUN      ] Life.run2
+[       OK ] Life.run2 (27 ms)
+[ RUN      ] Life.run3
+[       OK ] Life.run3 (33 ms)
+[ RUN      ] Life.print1
+[       OK ] Life.print1 (8 ms)
+[ RUN      ] Life.print2
+[       OK ] Life.print2 (8 ms)
+[ RUN      ] Life.print3
+[       OK ] Life.print3 (12 ms)
+[----------] 22 tests from Life (373 ms total)
+
+[----------] 23 tests from ConwayCell
+[ RUN      ] ConwayCell.construct1
+[       OK ] ConwayCell.construct1 (4 ms)
+[ RUN      ] ConwayCell.construct2
+[       OK ] ConwayCell.construct2 (2 ms)
+[ RUN      ] ConwayCell.copy_construct1
+[       OK ] ConwayCell.copy_construct1 (3 ms)
+[ RUN      ] ConwayCell.copy_construct2
+[       OK ] ConwayCell.copy_construct2 (3 ms)
+[ RUN      ] ConwayCell.copy_construct3
+[       OK ] ConwayCell.copy_construct3 (3 ms)
+[ RUN      ] ConwayCell.clone_construct1
+[       OK ] ConwayCell.clone_construct1 (3 ms)
+[ RUN      ] ConwayCell.clone_construct2
+[       OK ] ConwayCell.clone_construct2 (3 ms)
+[ RUN      ] ConwayCell.clone_construct3
+[       OK ] ConwayCell.clone_construct3 (3 ms)
+[ RUN      ] ConwayCell.conwayIsAlive1
+[       OK ] ConwayCell.conwayIsAlive1 (3 ms)
+[ RUN      ] ConwayCell.conwayIsAlive2
+[       OK ] ConwayCell.conwayIsAlive2 (3 ms)
+[ RUN      ] ConwayCell.conwayIsAlive3
+[       OK ] ConwayCell.conwayIsAlive3 (3 ms)
+[ RUN      ] ConwayCell.conwayPrep1
+[       OK ] ConwayCell.conwayPrep1 (3 ms)
+[ RUN      ] ConwayCell.conwayPrep2
+[       OK ] ConwayCell.conwayPrep2 (3 ms)
+[ RUN      ] ConwayCell.conwayPrep3
+[       OK ] ConwayCell.conwayPrep3 (2 ms)
+[ RUN      ] ConwayCell.conwayUpdate1
+[       OK ] ConwayCell.conwayUpdate1 (3 ms)
+[ RUN      ] ConwayCell.conwayUpdate2
+[       OK ] ConwayCell.conwayUpdate2 (4 ms)
+[ RUN      ] ConwayCell.conwayUpdate3
+[       OK ] ConwayCell.conwayUpdate3 (4 ms)
+[ RUN      ] ConwayCell.conwayUpdate4
+[       OK ] ConwayCell.conwayUpdate4 (4 ms)
+[ RUN      ] ConwayCell.conwayUpdate5
+[       OK ] ConwayCell.conwayUpdate5 (4 ms)
+[ RUN      ] ConwayCell.conwayUpdate6
+[       OK ] ConwayCell.conwayUpdate6 (3 ms)
+[ RUN      ] ConwayCell.conwayDraw1
+[       OK ] ConwayCell.conwayDraw1 (5 ms)
+[ RUN      ] ConwayCell.conwayDraw2
+[       OK ] ConwayCell.conwayDraw2 (4 ms)
+[ RUN      ] ConwayCell.conwayDraw3
+[       OK ] ConwayCell.conwayDraw3 (4 ms)
+[----------] 23 tests from ConwayCell (80 ms total)
+
+[----------] 23 tests from FredkinCell
+[ RUN      ] FredkinCell.construct1
+[       OK ] FredkinCell.construct1 (3 ms)
+[ RUN      ] FredkinCell.construct2
+[       OK ] FredkinCell.construct2 (2 ms)
+[ RUN      ] FredkinCell.copy_construct1
+[       OK ] FredkinCell.copy_construct1 (3 ms)
+[ RUN      ] FredkinCell.copy_construct2
+[       OK ] FredkinCell.copy_construct2 (3 ms)
+[ RUN      ] FredkinCell.copy_construct3
+[       OK ] FredkinCell.copy_construct3 (4 ms)
+[ RUN      ] FredkinCell.clone_construct1
+[       OK ] FredkinCell.clone_construct1 (3 ms)
+[ RUN      ] FredkinCell.clone_construct2
+[       OK ] FredkinCell.clone_construct2 (3 ms)
+[ RUN      ] FredkinCell.clone_construct3
+[       OK ] FredkinCell.clone_construct3 (3 ms)
+[ RUN      ] FredkinCell.FredkinIsAlive1
+[       OK ] FredkinCell.FredkinIsAlive1 (3 ms)
+[ RUN      ] FredkinCell.FredkinIsAlive2
+[       OK ] FredkinCell.FredkinIsAlive2 (3 ms)
+[ RUN      ] FredkinCell.FredkinIsAlive3
+[       OK ] FredkinCell.FredkinIsAlive3 (3 ms)
+[ RUN      ] FredkinCell.FredkinPrep1
+[       OK ] FredkinCell.FredkinPrep1 (3 ms)
+[ RUN      ] FredkinCell.FredkinPrep2
+[       OK ] FredkinCell.FredkinPrep2 (2 ms)
+[ RUN      ] FredkinCell.FredkinPrep3
+[       OK ] FredkinCell.FredkinPrep3 (2 ms)
+[ RUN      ] FredkinCell.FredkinUpdate1
+[       OK ] FredkinCell.FredkinUpdate1 (4 ms)
+[ RUN      ] FredkinCell.FredkinUpdate2
+[       OK ] FredkinCell.FredkinUpdate2 (4 ms)
+[ RUN      ] FredkinCell.FredkinUpdate3
+[       OK ] FredkinCell.FredkinUpdate3 (5 ms)
+[ RUN      ] FredkinCell.FredkinUpdate4
+[       OK ] FredkinCell.FredkinUpdate4 (4 ms)
+[ RUN      ] FredkinCell.FredkinUpdate5
+[       OK ] FredkinCell.FredkinUpdate5 (4 ms)
+[ RUN      ] FredkinCell.FredkinUpdate6
+[       OK ] FredkinCell.FredkinUpdate6 (5 ms)
+[ RUN      ] FredkinCell.FredkinDraw1
+[       OK ] FredkinCell.FredkinDraw1 (3 ms)
+[ RUN      ] FredkinCell.FredkinDraw2
+[       OK ] FredkinCell.FredkinDraw2 (4 ms)
+[ RUN      ] FredkinCell.FredkinDraw3
+[       OK ] FredkinCell.FredkinDraw3 (4 ms)
+[----------] 23 tests from FredkinCell (81 ms total)
+
+[----------] 20 tests from Cell
+[ RUN      ] Cell.construct1
+[       OK ] Cell.construct1 (3 ms)
+[ RUN      ] Cell.construct2
+[       OK ] Cell.construct2 (3 ms)
+[ RUN      ] Cell.copy_construct1
+[       OK ] Cell.copy_construct1 (4 ms)
+[ RUN      ] Cell.mutate1
+[       OK ] Cell.mutate1 (4 ms)
+[ RUN      ] Cell.mutate2
+[       OK ] Cell.mutate2 (3 ms)
+[ RUN      ] Cell.mutate3
+[       OK ] Cell.mutate3 (4 ms)
+[ RUN      ] Cell.FredkinIsAlive1
+[       OK ] Cell.FredkinIsAlive1 (3 ms)
+[ RUN      ] Cell.FredkinIsAlive2
+[       OK ] Cell.FredkinIsAlive2 (4 ms)
+[ RUN      ] Cell.FredkinIsAlive3
+[       OK ] Cell.FredkinIsAlive3 (4 ms)
+[ RUN      ] Cell.FredkinPrep1
+[       OK ] Cell.FredkinPrep1 (4 ms)
+[ RUN      ] Cell.FredkinPrep2
+[       OK ] Cell.FredkinPrep2 (4 ms)
+[ RUN      ] Cell.FredkinPrep3
+[       OK ] Cell.FredkinPrep3 (3 ms)
+[ RUN      ] Cell.FredkinUpdate1
+[       OK ] Cell.FredkinUpdate1 (4 ms)
+[ RUN      ] Cell.FredkinUpdate2
+[       OK ] Cell.FredkinUpdate2 (7 ms)
+[ RUN      ] Cell.FredkinUpdate3
+[       OK ] Cell.FredkinUpdate3 (4 ms)
+[ RUN      ] Cell.FredkinDraw1
+[       OK ] Cell.FredkinDraw1 (4 ms)
+[ RUN      ] Cell.FredkinDraw2
+[       OK ] Cell.FredkinDraw2 (4 ms)
+[ RUN      ] Cell.FredkinDraw3
+[       OK ] Cell.FredkinDraw3 (5 ms)
+[ RUN      ] Cell.FredkinDraw4
+[       OK ] Cell.FredkinDraw4 (4 ms)
+[ RUN      ] Cell.FredkinDraw5
+[       OK ] Cell.FredkinDraw5 (4 ms)
+[----------] 20 tests from Cell (82 ms total)
+
+[----------] Global test environment tear-down
+[==========] 88 tests from 4 test cases ran. (661 ms total)
+[  PASSED  ] 88 tests.

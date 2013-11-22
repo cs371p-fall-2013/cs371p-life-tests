@@ -1,0 +1,156 @@
+Running main() from gtest_main.cc
+[==========] Running 72 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 36 tests from ConwayCell
+[ RUN      ] ConwayCell.constructor_isAlive
+[       OK ] ConwayCell.constructor_isAlive (11 ms)
+[ RUN      ] ConwayCell.constructor_isNotAlive
+[       OK ] ConwayCell.constructor_isNotAlive (2 ms)
+[ RUN      ] ConwayCell.update_live_to_dead_1
+[       OK ] ConwayCell.update_live_to_dead_1 (23 ms)
+[ RUN      ] ConwayCell.update_live_to_dead_2
+[       OK ] ConwayCell.update_live_to_dead_2 (3 ms)
+[ RUN      ] ConwayCell.update_live_to_dead_3
+[       OK ] ConwayCell.update_live_to_dead_3 (2 ms)
+[ RUN      ] ConwayCell.update_live_to_dead_4
+[       OK ] ConwayCell.update_live_to_dead_4 (5 ms)
+[ RUN      ] ConwayCell.update_live_to_dead_5
+[       OK ] ConwayCell.update_live_to_dead_5 (6 ms)
+[ RUN      ] ConwayCell.update_live_to_dead_6
+[       OK ] ConwayCell.update_live_to_dead_6 (5 ms)
+[ RUN      ] ConwayCell.update_live_to_dead_7
+[       OK ] ConwayCell.update_live_to_dead_7 (6 ms)
+[ RUN      ] ConwayCell.update_live_to_live_1
+[       OK ] ConwayCell.update_live_to_live_1 (3 ms)
+[ RUN      ] ConwayCell.update_live_to_live_2
+[       OK ] ConwayCell.update_live_to_live_2 (3 ms)
+[ RUN      ] ConwayCell.update_dead_to_alive
+[       OK ] ConwayCell.update_dead_to_alive (4 ms)
+[ RUN      ] ConwayCell.dead_to_dead_1
+[       OK ] ConwayCell.dead_to_dead_1 (3 ms)
+[ RUN      ] ConwayCell.dead_to_dead_2
+[       OK ] ConwayCell.dead_to_dead_2 (3 ms)
+[ RUN      ] ConwayCell.dead_to_dead_3
+[       OK ] ConwayCell.dead_to_dead_3 (4 ms)
+[ RUN      ] ConwayCell.dead_to_dead_4
+[       OK ] ConwayCell.dead_to_dead_4 (5 ms)
+[ RUN      ] ConwayCell.dead_to_dead_5
+[       OK ] ConwayCell.dead_to_dead_5 (5 ms)
+[ RUN      ] ConwayCell.dead_to_dead_6
+[       OK ] ConwayCell.dead_to_dead_6 (6 ms)
+[ RUN      ] ConwayCell.dead_to_dead_7
+[       OK ] ConwayCell.dead_to_dead_7 (6 ms)
+[ RUN      ] ConwayCell.dead_to_dead_8
+[       OK ] ConwayCell.dead_to_dead_8 (2 ms)
+[ RUN      ] ConwayCell.update_dead_live_dead_1
+[       OK ] ConwayCell.update_dead_live_dead_1 (9 ms)
+[ RUN      ] ConwayCell.update_dead_live_dead_2
+[       OK ] ConwayCell.update_dead_live_dead_2 (6 ms)
+[ RUN      ] ConwayCell.update_dead_live_dead_3
+[       OK ] ConwayCell.update_dead_live_dead_3 (5 ms)
+[ RUN      ] ConwayCell.update_dead_live_dead_4
+[       OK ] ConwayCell.update_dead_live_dead_4 (5 ms)
+[ RUN      ] ConwayCell.update_dead_live_dead_5
+[       OK ] ConwayCell.update_dead_live_dead_5 (7 ms)
+[ RUN      ] ConwayCell.update_dead_live_dead_6
+[       OK ] ConwayCell.update_dead_live_dead_6 (7 ms)
+[ RUN      ] ConwayCell.update_dead_live_dead_7
+[       OK ] ConwayCell.update_dead_live_dead_7 (7 ms)
+[ RUN      ] ConwayCell.update_live_dead_live_1
+[       OK ] ConwayCell.update_live_dead_live_1 (5 ms)
+[ RUN      ] ConwayCell.update_live_dead_live_2
+[       OK ] ConwayCell.update_live_dead_live_2 (5 ms)
+[ RUN      ] ConwayCell.update_live_dead_live_3
+[       OK ] ConwayCell.update_live_dead_live_3 (7 ms)
+[ RUN      ] ConwayCell.update_live_dead_live_4
+[       OK ] ConwayCell.update_live_dead_live_4 (8 ms)
+[ RUN      ] ConwayCell.update_live_dead_live_5
+[       OK ] ConwayCell.update_live_dead_live_5 (8 ms)
+[ RUN      ] ConwayCell.update_live_dead_live_6
+[       OK ] ConwayCell.update_live_dead_live_6 (8 ms)
+[ RUN      ] ConwayCell.update_live_dead_live_7
+[       OK ] ConwayCell.update_live_dead_live_7 (8 ms)
+[ RUN      ] ConwayCell.prepareUpdate_1
+[       OK ] ConwayCell.prepareUpdate_1 (5 ms)
+[ RUN      ] ConwayCell.prepareUpdate_2
+[       OK ] ConwayCell.prepareUpdate_2 (4 ms)
+[----------] 36 tests from ConwayCell (227 ms total)
+
+[----------] 36 tests from FredkinCell
+[ RUN      ] FredkinCell.constructor_isAlive
+[       OK ] FredkinCell.constructor_isAlive (2 ms)
+[ RUN      ] FredkinCell.constructor_isNotAlive
+[       OK ] FredkinCell.constructor_isNotAlive (2 ms)
+[ RUN      ] FredkinCell.update_live_to_dead_1
+[       OK ] FredkinCell.update_live_to_dead_1 (6 ms)
+[ RUN      ] FredkinCell.update_live_to_dead_2
+[       OK ] FredkinCell.update_live_to_dead_2 (4 ms)
+[ RUN      ] FredkinCell.update_live_to_dead_3
+[       OK ] FredkinCell.update_live_to_dead_3 (2 ms)
+[ RUN      ] FredkinCell.update_dead_to_alive_1
+[       OK ] FredkinCell.update_dead_to_alive_1 (4 ms)
+[ RUN      ] FredkinCell.update_dead_to_alive_2
+[       OK ] FredkinCell.update_dead_to_alive_2 (3 ms)
+[ RUN      ] FredkinCell.update_live_to_live_1
+[       OK ] FredkinCell.update_live_to_live_1 (4 ms)
+[ RUN      ] FredkinCell.update_live_to_live_2
+[       OK ] FredkinCell.update_live_to_live_2 (3 ms)
+[ RUN      ] FredkinCell.dead_to_dead_1
+[       OK ] FredkinCell.dead_to_dead_1 (2 ms)
+[ RUN      ] FredkinCell.dead_to_dead_2
+[       OK ] FredkinCell.dead_to_dead_2 (3 ms)
+[ RUN      ] FredkinCell.dead_to_dead_3
+[       OK ] FredkinCell.dead_to_dead_3 (5 ms)
+[ RUN      ] FredkinCell.update_live_dead_live_1
+[       OK ] FredkinCell.update_live_dead_live_1 (3 ms)
+[ RUN      ] FredkinCell.update_live_dead_live_2
+[       OK ] FredkinCell.update_live_dead_live_2 (4 ms)
+[ RUN      ] FredkinCell.update_dead_live_dead
+[       OK ] FredkinCell.update_dead_live_dead (3 ms)
+[ RUN      ] FredkinCell.update_dead_live_dead_2
+[       OK ] FredkinCell.update_dead_live_dead_2 (3 ms)
+[ RUN      ] FredkinCell.update_dead_live_dead_3
+[       OK ] FredkinCell.update_dead_live_dead_3 (4 ms)
+[ RUN      ] FredkinCell.update_dead_live_dead_4
+[       OK ] FredkinCell.update_dead_live_dead_4 (4 ms)
+[ RUN      ] FredkinCell.update_dead_live_dead_5
+[       OK ] FredkinCell.update_dead_live_dead_5 (6 ms)
+[ RUN      ] FredkinCell.update_dead_live_dead_6
+[       OK ] FredkinCell.update_dead_live_dead_6 (7 ms)
+[ RUN      ] FredkinCell.prepareUpdate_1
+[       OK ] FredkinCell.prepareUpdate_1 (4 ms)
+[ RUN      ] FredkinCell.prepareUpdate_2
+[       OK ] FredkinCell.prepareUpdate_2 (4 ms)
+[ RUN      ] FredkinCell.getAge_1
+[       OK ] FredkinCell.getAge_1 (4 ms)
+[ RUN      ] FredkinCell.getAge_2
+[       OK ] FredkinCell.getAge_2 (3 ms)
+[ RUN      ] FredkinCell.getAge_3
+[       OK ] FredkinCell.getAge_3 (5 ms)
+[ RUN      ] FredkinCell.getAge_4
+[       OK ] FredkinCell.getAge_4 (5 ms)
+[ RUN      ] FredkinCell.getAge_5
+[       OK ] FredkinCell.getAge_5 (6 ms)
+[ RUN      ] FredkinCell.getAge_6
+[       OK ] FredkinCell.getAge_6 (6 ms)
+[ RUN      ] FredkinCell.getAge_7
+[       OK ] FredkinCell.getAge_7 (5 ms)
+[ RUN      ] FredkinCell.getAge_8
+[       OK ] FredkinCell.getAge_8 (7 ms)
+[ RUN      ] FredkinCell.getAge_alive_dead_alive
+[       OK ] FredkinCell.getAge_alive_dead_alive (7 ms)
+[ RUN      ] FredkinCell.getAge_dead_alive
+[       OK ] FredkinCell.getAge_dead_alive (4 ms)
+[ RUN      ] FredkinCell.getAge_dead_alive_2
+[       OK ] FredkinCell.getAge_dead_alive_2 (4 ms)
+[ RUN      ] FredkinCell.getAge_dead_alive_3
+[       OK ] FredkinCell.getAge_dead_alive_3 (5 ms)
+[ RUN      ] FredkinCell.getAge_dead_alive_4
+[       OK ] FredkinCell.getAge_dead_alive_4 (5 ms)
+[ RUN      ] FredkinCell.getAge_dead_alive_dead_alive
+[       OK ] FredkinCell.getAge_dead_alive_dead_alive (7 ms)
+[----------] 36 tests from FredkinCell (162 ms total)
+
+[----------] Global test environment tear-down
+[==========] 72 tests from 2 test cases ran. (415 ms total)
+[  PASSED  ] 72 tests.
