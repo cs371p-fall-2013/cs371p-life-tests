@@ -1,0 +1,141 @@
+Running main() from gtest_main.cc
+[==========] Running 66 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 66 tests from Life
+[ RUN      ] Life.Conway_1
+[       OK ] Life.Conway_1 (9 ms)
+[ RUN      ] Life.Conway_2
+[       OK ] Life.Conway_2 (2 ms)
+[ RUN      ] Life.Conway_3
+[       OK ] Life.Conway_3 (2 ms)
+[ RUN      ] Life.conSetAlive_1
+[       OK ] Life.conSetAlive_1 (2 ms)
+[ RUN      ] Life.conSetAlive_2
+[       OK ] Life.conSetAlive_2 (2 ms)
+[ RUN      ] Life.conSetAlive_3
+[       OK ] Life.conSetAlive_3 (2 ms)
+[ RUN      ] Life.conGetRep_1
+[       OK ] Life.conGetRep_1 (3 ms)
+[ RUN      ] Life.conGetRep_2
+[       OK ] Life.conGetRep_2 (2 ms)
+[ RUN      ] Life.conGetRep_3
+[       OK ] Life.conGetRep_3 (2 ms)
+[ RUN      ] Life.conClone_1
+[       OK ] Life.conClone_1 (2 ms)
+[ RUN      ] Life.conClone_2
+[       OK ] Life.conClone_2 (3 ms)
+[ RUN      ] Life.conClone_3
+[       OK ] Life.conClone_3 (2 ms)
+[ RUN      ] Life.conTurn_1
+[       OK ] Life.conTurn_1 (2 ms)
+[ RUN      ] Life.conTurn_2
+[       OK ] Life.conTurn_2 (2 ms)
+[ RUN      ] Life.conTurn_3
+[       OK ] Life.conTurn_3 (1 ms)
+[ RUN      ] Life.conTurn_4
+[       OK ] Life.conTurn_4 (1 ms)
+[ RUN      ] Life.conTurn_5
+[       OK ] Life.conTurn_5 (36 ms)
+[ RUN      ] Life.cell_1
+[       OK ] Life.cell_1 (3 ms)
+[ RUN      ] Life.cell_2
+[       OK ] Life.cell_2 (2 ms)
+[ RUN      ] Life.cell_3
+[       OK ] Life.cell_3 (3 ms)
+[ RUN      ] Life.cell_4
+[       OK ] Life.cell_4 (2 ms)
+[ RUN      ] Life.cellSetAlive_1
+[       OK ] Life.cellSetAlive_1 (3 ms)
+[ RUN      ] Life.cellSetAlive_2
+[       OK ] Life.cellSetAlive_2 (2 ms)
+[ RUN      ] Life.cellSetAlive_3
+[       OK ] Life.cellSetAlive_3 (2 ms)
+[ RUN      ] Life.cellSetAlive_4
+[       OK ] Life.cellSetAlive_4 (2 ms)
+[ RUN      ] Life.cellSetAlive_5
+[       OK ] Life.cellSetAlive_5 (2 ms)
+[ RUN      ] Life.cellGetRep_1
+[       OK ] Life.cellGetRep_1 (3 ms)
+[ RUN      ] Life.cellGetRep_2
+[       OK ] Life.cellGetRep_2 (2 ms)
+[ RUN      ] Life.cellGetRep_3
+[       OK ] Life.cellGetRep_3 (2 ms)
+[ RUN      ] Life.cellGetRep_4
+[       OK ] Life.cellGetRep_4 (2 ms)
+[ RUN      ] Life.cellTurn_1
+[       OK ] Life.cellTurn_1 (3 ms)
+[ RUN      ] Life.cellTurn_2
+[       OK ] Life.cellTurn_2 (2 ms)
+[ RUN      ] Life.cellTurn_3
+[       OK ] Life.cellTurn_3 (4 ms)
+[ RUN      ] Life.cellTurn_4
+[       OK ] Life.cellTurn_4 (2 ms)
+[ RUN      ] Life.fred_1
+[       OK ] Life.fred_1 (2 ms)
+[ RUN      ] Life.fred_2
+[       OK ] Life.fred_2 (2 ms)
+[ RUN      ] Life.fred_3
+[       OK ] Life.fred_3 (2 ms)
+[ RUN      ] Life.fredSetAlive_1
+[       OK ] Life.fredSetAlive_1 (2 ms)
+[ RUN      ] Life.fredSetAlive_2
+[       OK ] Life.fredSetAlive_2 (2 ms)
+[ RUN      ] Life.fredSetAlive_3
+[       OK ] Life.fredSetAlive_3 (2 ms)
+[ RUN      ] Life.fredSetAlive_4
+[       OK ] Life.fredSetAlive_4 (2 ms)
+[ RUN      ] Life.fredSetAlive_5
+[       OK ] Life.fredSetAlive_5 (4 ms)
+[ RUN      ] Life.fredGetRep_1
+[       OK ] Life.fredGetRep_1 (2 ms)
+[ RUN      ] Life.fredGetRep_2
+[       OK ] Life.fredGetRep_2 (2 ms)
+[ RUN      ] Life.fredClone_1
+[       OK ] Life.fredClone_1 (2 ms)
+[ RUN      ] Life.fredClone_2
+[       OK ] Life.fredClone_2 (3 ms)
+[ RUN      ] Life.fredClone_3
+[       OK ] Life.fredClone_3 (2 ms)
+[ RUN      ] Life.fredTurn_1
+[       OK ] Life.fredTurn_1 (2 ms)
+[ RUN      ] Life.fredTurn_2
+[       OK ] Life.fredTurn_2 (2 ms)
+[ RUN      ] Life.fredTurn_3
+[       OK ] Life.fredTurn_3 (3 ms)
+[ RUN      ] Life.fredTurn_4
+[       OK ] Life.fredTurn_4 (1 ms)
+[ RUN      ] Life.life_1
+[       OK ] Life.life_1 (68 ms)
+[ RUN      ] Life.life_2
+[       OK ] Life.life_2 (27 ms)
+[ RUN      ] Life.life_3
+[       OK ] Life.life_3 (3 ms)
+[ RUN      ] Life.life_4
+[       OK ] Life.life_4 (28 ms)
+[ RUN      ] Life.print_1
+[       OK ] Life.print_1 (8 ms)
+[ RUN      ] Life.print_2
+[       OK ] Life.print_2 (3 ms)
+[ RUN      ] Life.print_3
+[       OK ] Life.print_3 (25 ms)
+[ RUN      ] Life.lifeTurn_1
+[       OK ] Life.lifeTurn_1 (4 ms)
+[ RUN      ] Life.lifeTurn_2
+[       OK ] Life.lifeTurn_2 (13 ms)
+[ RUN      ] Life.lifeTurn_3
+[       OK ] Life.lifeTurn_3 (13 ms)
+[ RUN      ] Life.lifeTurn_4
+[       OK ] Life.lifeTurn_4 (5 ms)
+[ RUN      ] Life.count_1
+[       OK ] Life.count_1 (3 ms)
+[ RUN      ] Life.count_2
+[       OK ] Life.count_2 (3 ms)
+[ RUN      ] Life.count_3
+[       OK ] Life.count_3 (3 ms)
+[ RUN      ] Life.count_4
+[       OK ] Life.count_4 (3 ms)
+[----------] 66 tests from Life (379 ms total)
+
+[----------] Global test environment tear-down
+[==========] 66 tests from 1 test case ran. (406 ms total)
+[  PASSED  ] 66 tests.
