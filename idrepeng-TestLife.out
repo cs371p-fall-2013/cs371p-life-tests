@@ -1,0 +1,133 @@
+Running main() from gtest_main.cc
+[==========] Running 62 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 62 tests from Life
+[ RUN      ] Life.init_cell_1
+[       OK ] Life.init_cell_1 (9 ms)
+[ RUN      ] Life.init_cell_2
+[       OK ] Life.init_cell_2 (2 ms)
+[ RUN      ] Life.init_cell_3
+[       OK ] Life.init_cell_3 (2 ms)
+[ RUN      ] Life.init_cell_4
+[       OK ] Life.init_cell_4 (2 ms)
+[ RUN      ] Life.init_cell_5
+[       OK ] Life.init_cell_5 (2 ms)
+[ RUN      ] Life.init_cell_6
+[       OK ] Life.init_cell_6 (1 ms)
+[ RUN      ] Life.change_1
+[       OK ] Life.change_1 (2 ms)
+[ RUN      ] Life.change_2
+[       OK ] Life.change_2 (2 ms)
+[ RUN      ] Life.change_3
+[       OK ] Life.change_3 (2 ms)
+[ RUN      ] Life.change_4
+[       OK ] Life.change_4 (2 ms)
+[ RUN      ] Life.change_5
+[       OK ] Life.change_5 (2 ms)
+[ RUN      ] Life.change_6
+[       OK ] Life.change_6 (2 ms)
+[ RUN      ] Life.change_7
+[       OK ] Life.change_7 (2 ms)
+[ RUN      ] Life.change_8
+[       OK ] Life.change_8 (2 ms)
+[ RUN      ] Life.change_9
+[       OK ] Life.change_9 (2 ms)
+[ RUN      ] Life.change_10
+[       OK ] Life.change_10 (2 ms)
+[ RUN      ] Life.change_11
+[       OK ] Life.change_11 (2 ms)
+[ RUN      ] Life.change_12
+[       OK ] Life.change_12 (2 ms)
+[ RUN      ] Life.change_13
+[       OK ] Life.change_13 (2 ms)
+[ RUN      ] Life.change_14
+[       OK ] Life.change_14 (2 ms)
+[ RUN      ] Life.mutate_1
+[       OK ] Life.mutate_1 (6 ms)
+[ RUN      ] Life.mutate_2
+[       OK ] Life.mutate_2 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_1
+[       OK ] Life.ask_for_conway_neighbors_1 (20 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_2
+[       OK ] Life.ask_for_conway_neighbors_2 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_3
+[       OK ] Life.ask_for_conway_neighbors_3 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_4
+[       OK ] Life.ask_for_conway_neighbors_4 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_5
+[       OK ] Life.ask_for_conway_neighbors_5 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_6
+[       OK ] Life.ask_for_conway_neighbors_6 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_7
+[       OK ] Life.ask_for_conway_neighbors_7 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_8
+[       OK ] Life.ask_for_conway_neighbors_8 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_9
+[       OK ] Life.ask_for_conway_neighbors_9 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_10
+[       OK ] Life.ask_for_conway_neighbors_10 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_11
+[       OK ] Life.ask_for_conway_neighbors_11 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_12
+[       OK ] Life.ask_for_conway_neighbors_12 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_13
+[       OK ] Life.ask_for_conway_neighbors_13 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_14
+[       OK ] Life.ask_for_conway_neighbors_14 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_15
+[       OK ] Life.ask_for_conway_neighbors_15 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_16
+[       OK ] Life.ask_for_conway_neighbors_16 (3 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_1
+[       OK ] Life.ask_for_fredkin_neighbors_1 (4 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_2
+[       OK ] Life.ask_for_fredkin_neighbors_2 (2 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_3
+[       OK ] Life.ask_for_fredkin_neighbors_3 (2 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_4
+[       OK ] Life.ask_for_fredkin_neighbors_4 (3 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_5
+[       OK ] Life.ask_for_fredkin_neighbors_5 (3 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_6
+[       OK ] Life.ask_for_fredkin_neighbors_6 (3 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_7
+[       OK ] Life.ask_for_fredkin_neighbors_7 (2 ms)
+[ RUN      ] Life.ask_for_fredkin_neighbors_8
+[       OK ] Life.ask_for_fredkin_neighbors_8 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_17
+[       OK ] Life.ask_for_conway_neighbors_17 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_18
+[       OK ] Life.ask_for_conway_neighbors_18 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_19
+[       OK ] Life.ask_for_conway_neighbors_19 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_20
+[       OK ] Life.ask_for_conway_neighbors_20 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_21
+[       OK ] Life.ask_for_conway_neighbors_21 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_22
+[       OK ] Life.ask_for_conway_neighbors_22 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_23
+[       OK ] Life.ask_for_conway_neighbors_23 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_24
+[       OK ] Life.ask_for_conway_neighbors_24 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_25
+[       OK ] Life.ask_for_conway_neighbors_25 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_26
+[       OK ] Life.ask_for_conway_neighbors_26 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_27
+[       OK ] Life.ask_for_conway_neighbors_27 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_28
+[       OK ] Life.ask_for_conway_neighbors_28 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_29
+[       OK ] Life.ask_for_conway_neighbors_29 (3 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_30
+[       OK ] Life.ask_for_conway_neighbors_30 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_31
+[       OK ] Life.ask_for_conway_neighbors_31 (2 ms)
+[ RUN      ] Life.ask_for_conway_neighbors_32
+[       OK ] Life.ask_for_conway_neighbors_32 (3 ms)
+[----------] 62 tests from Life (195 ms total)
+
+[----------] Global test environment tear-down
+[==========] 62 tests from 1 test case ran. (221 ms total)
+[  PASSED  ] 62 tests.
