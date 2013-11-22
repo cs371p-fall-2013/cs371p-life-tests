@@ -83,7 +83,7 @@ TEST(Life, load__istream_1_row)
   l.load(i);
   l.print(o);
 
-  ASSERT_EQ(o.str(), "....*0123456789+----\n\n");
+  ASSERT_EQ(o.str(), "Generation = 0, Population = 12.\n....*0123456789+----\n\n");
 }
 
 TEST(Life, load__istream_2_rows)
@@ -97,7 +97,7 @@ TEST(Life, load__istream_2_rows)
   l.load(i);
   l.print(o);
 
-  ASSERT_EQ(o.str(), "....*0123456789+----\n....*0123456789+----\n\n");
+  ASSERT_EQ(o.str(), "Generation = 0, Population = 24.\n....*0123456789+----\n....*0123456789+----\n\n");
 }
 
 /*********************

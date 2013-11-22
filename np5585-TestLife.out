@@ -1,127 +1,131 @@
 Running main() from gtest_main.cc
-[==========] Running 50 tests from 7 test cases.
+[==========] Running 52 tests from 7 test cases.
 [----------] Global test environment set-up.
 [----------] 1 test from Init
 [ RUN      ] Init.init
-[       OK ] Init.init (8 ms)
-[----------] 1 test from Init (17 ms total)
+[       OK ] Init.init (13 ms)
+[----------] 1 test from Init (27 ms total)
 
-[----------] 13 tests from Life
+[----------] 15 tests from Life
 [ RUN      ] Life.construction__default
-[       OK ] Life.construction__default (6 ms)
+[       OK ] Life.construction__default (255 ms)
 [ RUN      ] Life.iterate__single_iterate_conway
-[       OK ] Life.iterate__single_iterate_conway (11 ms)
+[       OK ] Life.iterate__single_iterate_conway (33 ms)
+[ RUN      ] Life.load__istream_1_row
+[       OK ] Life.load__istream_1_row (289 ms)
+[ RUN      ] Life.load__istream_2_rows
+[       OK ] Life.load__istream_2_rows (253 ms)
 [ RUN      ] Life.load__conway_simple
-[       OK ] Life.load__conway_simple (4 ms)
+[       OK ] Life.load__conway_simple (18 ms)
 [ RUN      ] Life.load__conway_simple_period
-[       OK ] Life.load__conway_simple_period (2 ms)
+[       OK ] Life.load__conway_simple_period (17 ms)
 [ RUN      ] Life.load__conway_simple_invalid
-[       OK ] Life.load__conway_simple_invalid (1 ms)
+[       OK ] Life.load__conway_simple_invalid (17 ms)
 [ RUN      ] Life.load__fredkin_simple
-[       OK ] Life.load__fredkin_simple (4 ms)
+[       OK ] Life.load__fredkin_simple (20 ms)
 [ RUN      ] Life.load__fredkin_hyphen
-[       OK ] Life.load__fredkin_hyphen (2 ms)
+[       OK ] Life.load__fredkin_hyphen (18 ms)
 [ RUN      ] Life.load__fredkin_invalid
-[       OK ] Life.load__fredkin_invalid (2 ms)
+[       OK ] Life.load__fredkin_invalid (17 ms)
 [ RUN      ] Life.load__cell_simple_load_0
-[       OK ] Life.load__cell_simple_load_0 (4 ms)
+[       OK ] Life.load__cell_simple_load_0 (246 ms)
 [ RUN      ] Life.load__cell_simple_load_9
-[       OK ] Life.load__cell_simple_load_9 (2 ms)
+[       OK ] Life.load__cell_simple_load_9 (243 ms)
 [ RUN      ] Life.load__cell_simple_load_invalid
-[       OK ] Life.load__cell_simple_load_invalid (2 ms)
+[       OK ] Life.load__cell_simple_load_invalid (242 ms)
 [ RUN      ] Life.load__cell_simple_load_period
-[       OK ] Life.load__cell_simple_load_period (3 ms)
+[       OK ] Life.load__cell_simple_load_period (243 ms)
 [ RUN      ] Life.load__cell_simple_load_hyphen
-[       OK ] Life.load__cell_simple_load_hyphen (2 ms)
-[----------] 13 tests from Life (49 ms total)
+[       OK ] Life.load__cell_simple_load_hyphen (246 ms)
+[----------] 15 tests from Life (2162 ms total)
 
 [----------] 1 test from Neighborhood
 [ RUN      ] Neighborhood.construction__assignment
-[       OK ] Neighborhood.construction__assignment (6 ms)
-[----------] 1 test from Neighborhood (6 ms total)
+[       OK ] Neighborhood.construction__assignment (9 ms)
+[----------] 1 test from Neighborhood (11 ms total)
 
 [----------] 8 tests from Cell
 [ RUN      ] Cell.iterate__virtual_fns_are_transitive
-[       OK ] Cell.iterate__virtual_fns_are_transitive (6 ms)
+[       OK ] Cell.iterate__virtual_fns_are_transitive (10 ms)
 [ RUN      ] Cell.iterate__fredkin_resurrects_at_last_age
-[       OK ] Cell.iterate__fredkin_resurrects_at_last_age (8 ms)
+[       OK ] Cell.iterate__fredkin_resurrects_at_last_age (13 ms)
 [ RUN      ] Cell.iterate__turns_fredkin_to_conway__then_dies
-[       OK ] Cell.iterate__turns_fredkin_to_conway__then_dies (7 ms)
+[       OK ] Cell.iterate__turns_fredkin_to_conway__then_dies (10 ms)
 [ RUN      ] Cell.load__recognizes_conway_dead__then_resurrects
-[       OK ] Cell.load__recognizes_conway_dead__then_resurrects (4 ms)
+[       OK ] Cell.load__recognizes_conway_dead__then_resurrects (7 ms)
 [ RUN      ] Cell.load__recognizes_conway_alive__then_dies
-[       OK ] Cell.load__recognizes_conway_alive__then_dies (4 ms)
+[       OK ] Cell.load__recognizes_conway_alive__then_dies (7 ms)
 [ RUN      ] Cell.load__recognizes_fredkin_char_num__then_dies
-[       OK ] Cell.load__recognizes_fredkin_char_num__then_dies (5 ms)
+[       OK ] Cell.load__recognizes_fredkin_char_num__then_dies (9 ms)
 [ RUN      ] Cell.load__recognizes_fredkin_char_plus
-[       OK ] Cell.load__recognizes_fredkin_char_plus (5 ms)
+[       OK ] Cell.load__recognizes_fredkin_char_plus (6 ms)
 [ RUN      ] Cell.load__recognizes_fredkin_char_minus
-[       OK ] Cell.load__recognizes_fredkin_char_minus (4 ms)
-[----------] 8 tests from Cell (44 ms total)
+[       OK ] Cell.load__recognizes_fredkin_char_minus (6 ms)
+[----------] 8 tests from Cell (71 ms total)
 
 [----------] 6 tests from ConwayCell
 [ RUN      ] ConwayCell.conway_count_neighbors
-[       OK ] ConwayCell.conway_count_neighbors (2 ms)
+[       OK ] ConwayCell.conway_count_neighbors (3 ms)
 [ RUN      ] ConwayCell.iterate_life_to_death
-[       OK ] ConwayCell.iterate_life_to_death (2 ms)
+[       OK ] ConwayCell.iterate_life_to_death (4 ms)
 [ RUN      ] ConwayCell.iterate_death_to_life
-[       OK ] ConwayCell.iterate_death_to_life (2 ms)
+[       OK ] ConwayCell.iterate_death_to_life (3 ms)
 [ RUN      ] ConwayCell.load_cell_star_sets_alive
-[       OK ] ConwayCell.load_cell_star_sets_alive (2 ms)
+[       OK ] ConwayCell.load_cell_star_sets_alive (4 ms)
 [ RUN      ] ConwayCell.load_cell_period_sets_dead
-[       OK ] ConwayCell.load_cell_period_sets_dead (2 ms)
+[       OK ] ConwayCell.load_cell_period_sets_dead (4 ms)
 [ RUN      ] ConwayCell.load_cell_invalid_char_sets_dead
-[       OK ] ConwayCell.load_cell_invalid_char_sets_dead (2 ms)
-[----------] 6 tests from ConwayCell (13 ms total)
+[       OK ] ConwayCell.load_cell_invalid_char_sets_dead (3 ms)
+[----------] 6 tests from ConwayCell (21 ms total)
 
 [----------] 11 tests from FredkinCell
 [ RUN      ] FredkinCell.iterate_life_to_death
-[       OK ] FredkinCell.iterate_life_to_death (3 ms)
+[       OK ] FredkinCell.iterate_life_to_death (5 ms)
 [ RUN      ] FredkinCell.iterate_death_to_life
-[       OK ] FredkinCell.iterate_death_to_life (3 ms)
+[       OK ] FredkinCell.iterate_death_to_life (5 ms)
 [ RUN      ] FredkinCell.fredkin_count_neighbors
-[       OK ] FredkinCell.fredkin_count_neighbors (1 ms)
+[       OK ] FredkinCell.fredkin_count_neighbors (3 ms)
 [ RUN      ] FredkinCell.age_is_zero_at_initialization
-[       OK ] FredkinCell.age_is_zero_at_initialization (1 ms)
+[       OK ] FredkinCell.age_is_zero_at_initialization (3 ms)
 [ RUN      ] FredkinCell.age_is_zero_death_to_life
-[       OK ] FredkinCell.age_is_zero_death_to_life (2 ms)
+[       OK ] FredkinCell.age_is_zero_death_to_life (3 ms)
 [ RUN      ] FredkinCell.age_is_two_with_two_iterations
-[       OK ] FredkinCell.age_is_two_with_two_iterations (2 ms)
+[       OK ] FredkinCell.age_is_two_with_two_iterations (4 ms)
 [ RUN      ] FredkinCell.age_is_three_with_three_iteration
-[       OK ] FredkinCell.age_is_three_with_three_iteration (2 ms)
+[       OK ] FredkinCell.age_is_three_with_three_iteration (3 ms)
 [ RUN      ] FredkinCell.load_cell_int_zero_sets_age_zero
-[       OK ] FredkinCell.load_cell_int_zero_sets_age_zero (3 ms)
+[       OK ] FredkinCell.load_cell_int_zero_sets_age_zero (4 ms)
 [ RUN      ] FredkinCell.load_cell_int_9_sets_age_9
-[       OK ] FredkinCell.load_cell_int_9_sets_age_9 (5 ms)
+[       OK ] FredkinCell.load_cell_int_9_sets_age_9 (4 ms)
 [ RUN      ] FredkinCell.load_cell_hyphen_sets_dead
 [       OK ] FredkinCell.load_cell_hyphen_sets_dead (4 ms)
 [ RUN      ] FredkinCell.load_cell_invalid_char_sets_dead
-[       OK ] FredkinCell.load_cell_invalid_char_sets_dead (3 ms)
-[----------] 11 tests from FredkinCell (33 ms total)
+[       OK ] FredkinCell.load_cell_invalid_char_sets_dead (4 ms)
+[----------] 11 tests from FredkinCell (43 ms total)
 
 [----------] 10 tests from Handle
 [ RUN      ] Handle.construction__default
 [       OK ] Handle.construction__default (2 ms)
 [ RUN      ] Handle.construction__from_object
-[       OK ] Handle.construction__from_object (4 ms)
+[       OK ] Handle.construction__from_object (6 ms)
 [ RUN      ] Handle.construction__from_pointer
-[       OK ] Handle.construction__from_pointer (2 ms)
+[       OK ] Handle.construction__from_pointer (3 ms)
 [ RUN      ] Handle.construction__copy
-[       OK ] Handle.construction__copy (5 ms)
+[       OK ] Handle.construction__copy (6 ms)
 [ RUN      ] Handle.operator__copy_assignment
-[       OK ] Handle.operator__copy_assignment (4 ms)
+[       OK ] Handle.operator__copy_assignment (7 ms)
 [ RUN      ] Handle.operator__assignment_object
-[       OK ] Handle.operator__assignment_object (5 ms)
+[       OK ] Handle.operator__assignment_object (9 ms)
 [ RUN      ] Handle.operator__assignment_pointer
-[       OK ] Handle.operator__assignment_pointer (5 ms)
+[       OK ] Handle.operator__assignment_pointer (8 ms)
 [ RUN      ] Handle.operator__copy_assignment_swap
-[       OK ] Handle.operator__copy_assignment_swap (9 ms)
+[       OK ] Handle.operator__copy_assignment_swap (13 ms)
 [ RUN      ] Handle.operator__member_access_from_object
-[       OK ] Handle.operator__member_access_from_object (2 ms)
+[       OK ] Handle.operator__member_access_from_object (3 ms)
 [ RUN      ] Handle.operator__assignment_respects_inheritance
-[       OK ] Handle.operator__assignment_respects_inheritance (12 ms)
-[----------] 10 tests from Handle (52 ms total)
+[       OK ] Handle.operator__assignment_respects_inheritance (19 ms)
+[----------] 10 tests from Handle (80 ms total)
 
 [----------] Global test environment tear-down
-[==========] 50 tests from 7 test cases ran. (244 ms total)
-[  PASSED  ] 50 tests.
+[==========] 52 tests from 7 test cases ran. (2461 ms total)
+[  PASSED  ] 52 tests.
