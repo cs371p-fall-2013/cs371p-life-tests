@@ -1,0 +1,135 @@
+Running main() from gtest_main.cc
+[==========] Running 57 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 15 tests from ConwayCell
+[ RUN      ] ConwayCell.clone1
+[       OK ] ConwayCell.clone1 (9 ms)
+[ RUN      ] ConwayCell.clone2
+[       OK ] ConwayCell.clone2 (2 ms)
+[ RUN      ] ConwayCell.clone3
+[       OK ] ConwayCell.clone3 (2 ms)
+[ RUN      ] ConwayCell.nextGen1
+[       OK ] ConwayCell.nextGen1 (4 ms)
+[ RUN      ] ConwayCell.nextGen2
+[       OK ] ConwayCell.nextGen2 (4 ms)
+[ RUN      ] ConwayCell.nextGen3
+[       OK ] ConwayCell.nextGen3 (4 ms)
+[ RUN      ] ConwayCell.nextGenAbstractCell1
+[       OK ] ConwayCell.nextGenAbstractCell1 (4 ms)
+[ RUN      ] ConwayCell.nextGenAbstractCell2
+[       OK ] ConwayCell.nextGenAbstractCell2 (3 ms)
+[ RUN      ] ConwayCell.nextGenAbstractCell3
+[       OK ] ConwayCell.nextGenAbstractCell3 (3 ms)
+[ RUN      ] ConwayCell.print1
+[       OK ] ConwayCell.print1 (6 ms)
+[ RUN      ] ConwayCell.print2
+[       OK ] ConwayCell.print2 (2 ms)
+[ RUN      ] ConwayCell.print3
+[       OK ] ConwayCell.print3 (3 ms)
+[ RUN      ] ConwayCell.update1
+[       OK ] ConwayCell.update1 (2 ms)
+[ RUN      ] ConwayCell.update2
+[       OK ] ConwayCell.update2 (2 ms)
+[ RUN      ] ConwayCell.update3
+[       OK ] ConwayCell.update3 (2 ms)
+[----------] 15 tests from ConwayCell (64 ms total)
+
+[----------] 21 tests from FredkinCell
+[ RUN      ] FredkinCell.clone1
+[       OK ] FredkinCell.clone1 (2 ms)
+[ RUN      ] FredkinCell.clone2
+[       OK ] FredkinCell.clone2 (2 ms)
+[ RUN      ] FredkinCell.clone3
+[       OK ] FredkinCell.clone3 (3 ms)
+[ RUN      ] FredkinCell.nextGen1
+[       OK ] FredkinCell.nextGen1 (4 ms)
+[ RUN      ] FredkinCell.nextGen2
+[       OK ] FredkinCell.nextGen2 (4 ms)
+[ RUN      ] FredkinCell.nextGen3
+[       OK ] FredkinCell.nextGen3 (4 ms)
+[ RUN      ] FredkinCell.nextGenAbstractCell1
+[       OK ] FredkinCell.nextGenAbstractCell1 (8 ms)
+[ RUN      ] FredkinCell.nextGenAbstractCell2
+[       OK ] FredkinCell.nextGenAbstractCell2 (7 ms)
+[ RUN      ] FredkinCell.nextGenAbstractCell3
+[       OK ] FredkinCell.nextGenAbstractCell3 (7 ms)
+[ RUN      ] FredkinCell.update1
+[       OK ] FredkinCell.update1 (2 ms)
+[ RUN      ] FredkinCell.update2
+[       OK ] FredkinCell.update2 (2 ms)
+[ RUN      ] FredkinCell.update3
+[       OK ] FredkinCell.update3 (2 ms)
+[ RUN      ] FredkinCell.print1
+[       OK ] FredkinCell.print1 (5 ms)
+[ RUN      ] FredkinCell.print2
+[       OK ] FredkinCell.print2 (2 ms)
+[ RUN      ] FredkinCell.print3
+[       OK ] FredkinCell.print3 (3 ms)
+[ RUN      ] FredkinCell.shouldMutate1
+[       OK ] FredkinCell.shouldMutate1 (2 ms)
+[ RUN      ] FredkinCell.shouldMutate2
+[       OK ] FredkinCell.shouldMutate2 (2 ms)
+[ RUN      ] FredkinCell.shouldMutate3
+[       OK ] FredkinCell.shouldMutate3 (2 ms)
+[ RUN      ] FredkinCell.mutate1
+[       OK ] FredkinCell.mutate1 (2 ms)
+[ RUN      ] FredkinCell.mutate2
+[       OK ] FredkinCell.mutate2 (1 ms)
+[ RUN      ] FredkinCell.mutate3
+[       OK ] FredkinCell.mutate3 (2 ms)
+[----------] 21 tests from FredkinCell (71 ms total)
+
+[----------] 6 tests from AbstractCell
+[ RUN      ] AbstractCell.shouldMutate1
+[       OK ] AbstractCell.shouldMutate1 (2 ms)
+[ RUN      ] AbstractCell.shouldMutate2
+[       OK ] AbstractCell.shouldMutate2 (2 ms)
+[ RUN      ] AbstractCell.shouldMutate3
+[       OK ] AbstractCell.shouldMutate3 (2 ms)
+[ RUN      ] AbstractCell.mutate1
+[       OK ] AbstractCell.mutate1 (2 ms)
+[ RUN      ] AbstractCell.mutate2
+[       OK ] AbstractCell.mutate2 (2 ms)
+[ RUN      ] AbstractCell.mutate3
+[       OK ] AbstractCell.mutate3 (2 ms)
+[----------] 6 tests from AbstractCell (13 ms total)
+
+[----------] 9 tests from Cell
+[ RUN      ] Cell.nextGen1
+[       OK ] Cell.nextGen1 (8 ms)
+[ RUN      ] Cell.nextGen2
+[       OK ] Cell.nextGen2 (6 ms)
+[ RUN      ] Cell.nextGen3
+[       OK ] Cell.nextGen3 (6 ms)
+[ RUN      ] Cell.update1
+[       OK ] Cell.update1 (3 ms)
+[ RUN      ] Cell.update2
+[       OK ] Cell.update2 (2 ms)
+[ RUN      ] Cell.update3
+[       OK ] Cell.update3 (2 ms)
+[ RUN      ] Cell.print1
+[       OK ] Cell.print1 (3 ms)
+[ RUN      ] Cell.print2
+[       OK ] Cell.print2 (3 ms)
+[ RUN      ] Cell.print3
+[       OK ] Cell.print3 (2 ms)
+[----------] 9 tests from Cell (36 ms total)
+
+[----------] 6 tests from Life
+[ RUN      ] Life.nextGen1
+[       OK ] Life.nextGen1 (52 ms)
+[ RUN      ] Life.nextGen2
+[       OK ] Life.nextGen2 (45 ms)
+[ RUN      ] Life.nextGen3
+[       OK ] Life.nextGen3 (5 ms)
+[ RUN      ] Life.nextGen4
+[       OK ] Life.nextGen4 (5 ms)
+[ RUN      ] Life.nextGen5
+[       OK ] Life.nextGen5 (49 ms)
+[ RUN      ] Life.nextGen6
+[       OK ] Life.nextGen6 (9 ms)
+[----------] 6 tests from Life (169 ms total)
+
+[----------] Global test environment tear-down
+[==========] 57 tests from 5 test cases ran. (383 ms total)
+[  PASSED  ] 57 tests.

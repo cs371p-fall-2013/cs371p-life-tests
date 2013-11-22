@@ -1,0 +1,69 @@
+Running main() from gtest_main.cc
+[==========] Running 30 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 30 tests from Life
+[ RUN      ] Life.FredkinCell_alive
+[       OK ] Life.FredkinCell_alive (9 ms)
+[ RUN      ] Life.FredkinCell_dead
+[       OK ] Life.FredkinCell_dead (2 ms)
+[ RUN      ] Life.FredkinCell_age
+[       OK ] Life.FredkinCell_age (2 ms)
+[ RUN      ] Life.FredkinCell_kill_cell
+[       OK ] Life.FredkinCell_kill_cell (2 ms)
+[ RUN      ] Life.FredkinCell_resurrect_cell
+[       OK ] Life.FredkinCell_resurrect_cell (2 ms)
+[ RUN      ] Life.FredkinCell_reset_age
+[       OK ] Life.FredkinCell_reset_age (2 ms)
+[ RUN      ] Life.FredkinCell_increment_age
+[       OK ] Life.FredkinCell_increment_age (2 ms)
+[ RUN      ] Life.FredkinCell_increment_age_old
+[       OK ] Life.FredkinCell_increment_age_old (2 ms)
+[ RUN      ] Life.cloneFred
+[       OK ] Life.cloneFred (2 ms)
+[ RUN      ] Life.ConwayCell_alive
+[       OK ] Life.ConwayCell_alive (2 ms)
+[ RUN      ] Life.ConwayCell_dead
+[       OK ] Life.ConwayCell_dead (2 ms)
+[ RUN      ] Life.ConwayCell_resurrect
+[       OK ] Life.ConwayCell_resurrect (2 ms)
+[ RUN      ] Life.ConwayCell_kill1
+[       OK ] Life.ConwayCell_kill1 (2 ms)
+[ RUN      ] Life.ConwayCell_kill2
+[       OK ] Life.ConwayCell_kill2 (2 ms)
+[ RUN      ] Life.ConwayCell_keep_alive
+[       OK ] Life.ConwayCell_keep_alive (2 ms)
+[ RUN      ] Life.ConwayCell_keep_dead
+[       OK ] Life.ConwayCell_keep_dead (2 ms)
+[ RUN      ] Life.cloneCon
+[       OK ] Life.cloneCon (2 ms)
+[ RUN      ] Life.cell_live
+[       OK ] Life.cell_live (3 ms)
+[ RUN      ] Life.cell_dead
+[       OK ] Life.cell_dead (2 ms)
+[ RUN      ] Life.cell_change_Fred
+[       OK ] Life.cell_change_Fred (3 ms)
+[ RUN      ] Life.cell_change_FredToCon
+[       OK ] Life.cell_change_FredToCon (2 ms)
+[ RUN      ] Life.cell_change_con
+[       OK ] Life.cell_change_con (3 ms)
+[ RUN      ] Life.isAlive_one
+[       OK ] Life.isAlive_one (2 ms)
+[ RUN      ] Life.isAlive_two
+[       OK ] Life.isAlive_two (2 ms)
+[ RUN      ] Life.construct_conway_one
+[       OK ] Life.construct_conway_one (41 ms)
+[ RUN      ] Life.construct_conway_two
+[       OK ] Life.construct_conway_two (4 ms)
+[ RUN      ] Life.construct_fredkin_one
+[       OK ] Life.construct_fredkin_one (35 ms)
+[ RUN      ] Life.construct_fredkin_two
+[       OK ] Life.construct_fredkin_two (5 ms)
+[ RUN      ] Life.construct_cell_one
+[       OK ] Life.construct_cell_one (37 ms)
+[ RUN      ] Life.construct_cell_two
+[       OK ] Life.construct_cell_two (3 ms)
+[----------] 30 tests from Life (194 ms total)
+
+[----------] Global test environment tear-down
+[==========] 30 tests from 1 test case ran. (222 ms total)
+[  PASSED  ] 30 tests.
