@@ -1,0 +1,195 @@
+Running main() from gtest_main.cc
+[==========] Running 90 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 22 tests from TestConwayCell
+[ RUN      ] TestConwayCell.Default_Constructor1
+[       OK ] TestConwayCell.Default_Constructor1 (9 ms)
+[ RUN      ] TestConwayCell.Constructor1
+[       OK ] TestConwayCell.Constructor1 (3 ms)
+[ RUN      ] TestConwayCell.Constructor2
+[       OK ] TestConwayCell.Constructor2 (3 ms)
+[ RUN      ] TestConwayCell.Constructor3
+[       OK ] TestConwayCell.Constructor3 (2 ms)
+[ RUN      ] TestConwayCell.Constructor4
+[       OK ] TestConwayCell.Constructor4 (3 ms)
+[ RUN      ] TestConwayCell.isDead_true
+[       OK ] TestConwayCell.isDead_true (2 ms)
+[ RUN      ] TestConwayCell.isDead_true2
+[       OK ] TestConwayCell.isDead_true2 (2 ms)
+[ RUN      ] TestConwayCell.isDead_false
+[       OK ] TestConwayCell.isDead_false (2 ms)
+[ RUN      ] TestConwayCell.isDead_false2
+[       OK ] TestConwayCell.isDead_false2 (1 ms)
+[ RUN      ] TestConwayCell.print1
+[       OK ] TestConwayCell.print1 (2 ms)
+[ RUN      ] TestConwayCell.print2
+[       OK ] TestConwayCell.print2 (2 ms)
+[ RUN      ] TestConwayCell.print3
+[       OK ] TestConwayCell.print3 (1 ms)
+[ RUN      ] TestConwayCell.countNeighbors_1
+[       OK ] TestConwayCell.countNeighbors_1 (23 ms)
+[ RUN      ] TestConwayCell.countNeighbors_2
+[       OK ] TestConwayCell.countNeighbors_2 (8 ms)
+[ RUN      ] TestConwayCell.countNeighbors_3
+[       OK ] TestConwayCell.countNeighbors_3 (8 ms)
+[ RUN      ] TestConwayCell.countNeighbors_4
+[       OK ] TestConwayCell.countNeighbors_4 (7 ms)
+[ RUN      ] TestConwayCell.countNeighbors_6
+[       OK ] TestConwayCell.countNeighbors_6 (18 ms)
+[ RUN      ] TestConwayCell.transform_1
+[       OK ] TestConwayCell.transform_1 (9 ms)
+[ RUN      ] TestConwayCell.transform_2
+[       OK ] TestConwayCell.transform_2 (9 ms)
+[ RUN      ] TestConwayCell.transform_3
+[       OK ] TestConwayCell.transform_3 (9 ms)
+[ RUN      ] TestConwayCell.transform_4
+[       OK ] TestConwayCell.transform_4 (9 ms)
+[ RUN      ] TestConwayCell.transform_6
+[       OK ] TestConwayCell.transform_6 (19 ms)
+[----------] 22 tests from TestConwayCell (163 ms total)
+
+[----------] 22 tests from TestFredkinCell
+[ RUN      ] TestFredkinCell.Default_Constructor1
+[       OK ] TestFredkinCell.Default_Constructor1 (3 ms)
+[ RUN      ] TestFredkinCell.Default_Constructor2
+[       OK ] TestFredkinCell.Default_Constructor2 (2 ms)
+[ RUN      ] TestFredkinCell.Constructor1
+[       OK ] TestFredkinCell.Constructor1 (3 ms)
+[ RUN      ] TestFredkinCell.Constructor2
+[       OK ] TestFredkinCell.Constructor2 (2 ms)
+[ RUN      ] TestFredkinCell.Constructor3
+[       OK ] TestFredkinCell.Constructor3 (3 ms)
+[ RUN      ] TestFredkinCell.print1
+[       OK ] TestFredkinCell.print1 (2 ms)
+[ RUN      ] TestFredkinCell.print2
+[       OK ] TestFredkinCell.print2 (2 ms)
+[ RUN      ] TestFredkinCell.print3
+[       OK ] TestFredkinCell.print3 (2 ms)
+[ RUN      ] TestFredkinCell.isDead_true
+[       OK ] TestFredkinCell.isDead_true (2 ms)
+[ RUN      ] TestFredkinCell.isDead_false
+[       OK ] TestFredkinCell.isDead_false (2 ms)
+[ RUN      ] TestFredkinCell.countNeighbors_1
+[       OK ] TestFredkinCell.countNeighbors_1 (10 ms)
+[ RUN      ] TestFredkinCell.countNeighbors_2
+[       OK ] TestFredkinCell.countNeighbors_2 (8 ms)
+[ RUN      ] TestFredkinCell.countNeighbors_3
+[       OK ] TestFredkinCell.countNeighbors_3 (8 ms)
+[ RUN      ] TestFredkinCell.transform_1
+[       OK ] TestFredkinCell.transform_1 (9 ms)
+[ RUN      ] TestFredkinCell.transform_2
+[       OK ] TestFredkinCell.transform_2 (10 ms)
+[ RUN      ] TestFredkinCell.transform_3
+[       OK ] TestFredkinCell.transform_3 (11 ms)
+[ RUN      ] TestFredkinCell.transform_4
+[       OK ] TestFredkinCell.transform_4 (15 ms)
+[ RUN      ] TestFredkinCell.oldFredkinCell_1
+[       OK ] TestFredkinCell.oldFredkinCell_1 (16 ms)
+[ RUN      ] TestFredkinCell.oldFredkinCell_2
+[       OK ] TestFredkinCell.oldFredkinCell_2 (18 ms)
+[ RUN      ] TestFredkinCell.oldFredkinCell_3
+[       OK ] TestFredkinCell.oldFredkinCell_3 (23 ms)
+[ RUN      ] TestFredkinCell.resumeFredkinCell_1
+[       OK ] TestFredkinCell.resumeFredkinCell_1 (22 ms)
+[ RUN      ] TestFredkinCell.resumeFredkinCell_2
+[       OK ] TestFredkinCell.resumeFredkinCell_2 (22 ms)
+[----------] 22 tests from TestFredkinCell (198 ms total)
+
+[----------] 46 tests from TestLife
+[ RUN      ] TestLife.Constructor_Conway1
+[       OK ] TestLife.Constructor_Conway1 (51 ms)
+[ RUN      ] TestLife.Constructor_Conway2
+[       OK ] TestLife.Constructor_Conway2 (3 ms)
+[ RUN      ] TestLife.Constructor_Fredkin1
+[       OK ] TestLife.Constructor_Fredkin1 (14 ms)
+[ RUN      ] TestLife.Constructor_Fredkin2
+[       OK ] TestLife.Constructor_Fredkin2 (3 ms)
+[ RUN      ] TestLife.Constructor_CellConway1
+[       OK ] TestLife.Constructor_CellConway1 (14 ms)
+[ RUN      ] TestLife.Constructor_CellConway2
+[       OK ] TestLife.Constructor_CellConway2 (3 ms)
+[ RUN      ] TestLife.Constructor_CellFredkin1
+[       OK ] TestLife.Constructor_CellFredkin1 (3 ms)
+[ RUN      ] TestLife.Constructor_CellFredkin2
+[       OK ] TestLife.Constructor_CellFredkin2 (3 ms)
+[ RUN      ] TestLife.Constructor_CellBoth1
+[       OK ] TestLife.Constructor_CellBoth1 (3 ms)
+[ RUN      ] TestLife.Constructor_CellBoth2
+[       OK ] TestLife.Constructor_CellBoth2 (3 ms)
+[ RUN      ] TestLife.ConwaycalcNeighbors1
+[       OK ] TestLife.ConwaycalcNeighbors1 (9 ms)
+[ RUN      ] TestLife.ConwaycalcNeighbors2
+[       OK ] TestLife.ConwaycalcNeighbors2 (4 ms)
+[ RUN      ] TestLife.ConwaycalcNeighbors3
+[       OK ] TestLife.ConwaycalcNeighbors3 (4 ms)
+[ RUN      ] TestLife.ConwaycalcNeighbors4
+[       OK ] TestLife.ConwaycalcNeighbors4 (4 ms)
+[ RUN      ] TestLife.FredkincalcNeighbors1
+[       OK ] TestLife.FredkincalcNeighbors1 (8 ms)
+[ RUN      ] TestLife.FredkincalcNeighbors2
+[       OK ] TestLife.FredkincalcNeighbors2 (3 ms)
+[ RUN      ] TestLife.FredkincalcNeighbors3
+[       OK ] TestLife.FredkincalcNeighbors3 (3 ms)
+[ RUN      ] TestLife.FredkincalcNeighbors4
+[       OK ] TestLife.FredkincalcNeighbors4 (5 ms)
+[ RUN      ] TestLife.CellcalcNeighbors1_1
+[       OK ] TestLife.CellcalcNeighbors1_1 (8 ms)
+[ RUN      ] TestLife.CellcalcNeighbors1_2
+[       OK ] TestLife.CellcalcNeighbors1_2 (3 ms)
+[ RUN      ] TestLife.CellcalcNeighbors1_3
+[       OK ] TestLife.CellcalcNeighbors1_3 (4 ms)
+[ RUN      ] TestLife.CellcalcNeighbors1_4
+[       OK ] TestLife.CellcalcNeighbors1_4 (4 ms)
+[ RUN      ] TestLife.CellcalcNeighbors2_1
+[       OK ] TestLife.CellcalcNeighbors2_1 (3 ms)
+[ RUN      ] TestLife.CellcalcNeighbors2_2
+[       OK ] TestLife.CellcalcNeighbors2_2 (4 ms)
+[ RUN      ] TestLife.CellcalcNeighbors2_3
+[       OK ] TestLife.CellcalcNeighbors2_3 (3 ms)
+[ RUN      ] TestLife.CellcalcNeighbors2_4
+[       OK ] TestLife.CellcalcNeighbors2_4 (5 ms)
+[ RUN      ] TestLife.nextGen_Con_1
+[       OK ] TestLife.nextGen_Con_1 (4 ms)
+[ RUN      ] TestLife.nextGen_Con_2
+[       OK ] TestLife.nextGen_Con_2 (5 ms)
+[ RUN      ] TestLife.nextGen_Con_3
+[       OK ] TestLife.nextGen_Con_3 (4 ms)
+[ RUN      ] TestLife.nextGen_Con_4
+[       OK ] TestLife.nextGen_Con_4 (5 ms)
+[ RUN      ] TestLife.nextGen_Con_5
+[       OK ] TestLife.nextGen_Con_5 (4 ms)
+[ RUN      ] TestLife.nextGen_Fred_1
+[       OK ] TestLife.nextGen_Fred_1 (5 ms)
+[ RUN      ] TestLife.nextGen_Fred_2
+[       OK ] TestLife.nextGen_Fred_2 (5 ms)
+[ RUN      ] TestLife.nextGen_Fred_3
+[       OK ] TestLife.nextGen_Fred_3 (5 ms)
+[ RUN      ] TestLife.nextGen_Fred_4
+[       OK ] TestLife.nextGen_Fred_4 (7 ms)
+[ RUN      ] TestLife.nextGen_Fred_5
+[       OK ] TestLife.nextGen_Fred_5 (8 ms)
+[ RUN      ] TestLife.nextGen_ConFred_1
+[       OK ] TestLife.nextGen_ConFred_1 (4 ms)
+[ RUN      ] TestLife.mutate_1
+[       OK ] TestLife.mutate_1 (7 ms)
+[ RUN      ] TestLife.DONTmutate_1
+[       OK ] TestLife.DONTmutate_1 (7 ms)
+[ RUN      ] TestLife.oldFredkin_1
+[       OK ] TestLife.oldFredkin_1 (4 ms)
+[ RUN      ] TestLife.oldFredkin_2
+[       OK ] TestLife.oldFredkin_2 (5 ms)
+[ RUN      ] TestLife.resumeFredkin_1
+[       OK ] TestLife.resumeFredkin_1 (6 ms)
+[ RUN      ] TestLife.resumeFredkin_2
+[       OK ] TestLife.resumeFredkin_2 (6 ms)
+[ RUN      ] TestLife.ConwayLoops1
+[       OK ] TestLife.ConwayLoops1 (8 ms)
+[ RUN      ] TestLife.ConwayLoops2
+[       OK ] TestLife.ConwayLoops2 (8 ms)
+[ RUN      ] TestLife.ConwayLoops3
+[       OK ] TestLife.ConwayLoops3 (12 ms)
+[----------] 46 tests from TestLife (304 ms total)
+
+[----------] Global test environment tear-down
+[==========] 90 tests from 3 test cases ran. (692 ms total)
+[  PASSED  ] 90 tests.
