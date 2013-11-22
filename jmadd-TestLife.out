@@ -1,0 +1,113 @@
+Running main() from gtest_main.cc
+[==========] Running 52 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 52 tests from Life
+[ RUN      ] Life.Cell_constructor
+[       OK ] Life.Cell_constructor (19 ms)
+[ RUN      ] Life.ConwayCell_change1
+[       OK ] Life.ConwayCell_change1 (2 ms)
+[ RUN      ] Life.ConwayCell_change2
+[       OK ] Life.ConwayCell_change2 (2 ms)
+[ RUN      ] Life.ConwayCell_change3
+[       OK ] Life.ConwayCell_change3 (2 ms)
+[ RUN      ] Life.ConwayCell_change4
+[       OK ] Life.ConwayCell_change4 (2 ms)
+[ RUN      ] Life.FredkinCell_change1
+[       OK ] Life.FredkinCell_change1 (2 ms)
+[ RUN      ] Life.FredkinCell_change2
+[       OK ] Life.FredkinCell_change2 (3 ms)
+[ RUN      ] Life.FredkinCell_change3
+[       OK ] Life.FredkinCell_change3 (3 ms)
+[ RUN      ] Life.FredkinCell_change4
+[       OK ] Life.FredkinCell_change4 (2 ms)
+[ RUN      ] Life.FredkinCell_change5
+[       OK ] Life.FredkinCell_change5 (2 ms)
+[ RUN      ] Life.Cell_change1
+[       OK ] Life.Cell_change1 (7 ms)
+[ RUN      ] Life.Cell_change2
+[       OK ] Life.Cell_change2 (4 ms)
+[ RUN      ] Life.Cell_change3
+[       OK ] Life.Cell_change3 (3 ms)
+[ RUN      ] Life.ConwayCell_shouldLive1
+[       OK ] Life.ConwayCell_shouldLive1 (2 ms)
+[ RUN      ] Life.ConwayCell_shouldLive2
+[       OK ] Life.ConwayCell_shouldLive2 (2 ms)
+[ RUN      ] Life.ConwayCell_shouldLive3
+[       OK ] Life.ConwayCell_shouldLive3 (1 ms)
+[ RUN      ] Life.ConwayCell_shouldLive4
+[       OK ] Life.ConwayCell_shouldLive4 (2 ms)
+[ RUN      ] Life.FredkinCell_shouldLive1
+[       OK ] Life.FredkinCell_shouldLive1 (2 ms)
+[ RUN      ] Life.FredkinCell_shouldLive2
+[       OK ] Life.FredkinCell_shouldLive2 (2 ms)
+[ RUN      ] Life.FredkinCell_shouldLive3
+[       OK ] Life.FredkinCell_shouldLive3 (2 ms)
+[ RUN      ] Life.FredkinCell_shouldLive4
+[       OK ] Life.FredkinCell_shouldLive4 (2 ms)
+[ RUN      ] Life.Cell_shouldLive1
+[       OK ] Life.Cell_shouldLive1 (2 ms)
+[ RUN      ] Life.Cell_shouldLive2
+[       OK ] Life.Cell_shouldLive2 (1 ms)
+[ RUN      ] Life.Cell_shouldLive3
+[       OK ] Life.Cell_shouldLive3 (2 ms)
+[ RUN      ] Life.Cell_shouldLive4
+[       OK ] Life.Cell_shouldLive4 (2 ms)
+[ RUN      ] Life.ConwayCell_print1
+[       OK ] Life.ConwayCell_print1 (2 ms)
+[ RUN      ] Life.ConwayCell_print2
+[       OK ] Life.ConwayCell_print2 (2 ms)
+[ RUN      ] Life.ConwayCell_print3
+[       OK ] Life.ConwayCell_print3 (3 ms)
+[ RUN      ] Life.ConwayCell_print4
+[       OK ] Life.ConwayCell_print4 (2 ms)
+[ RUN      ] Life.Fredkin_print1
+[       OK ] Life.Fredkin_print1 (2 ms)
+[ RUN      ] Life.Fredkin_print2
+[       OK ] Life.Fredkin_print2 (2 ms)
+[ RUN      ] Life.Fredkin_print3
+[       OK ] Life.Fredkin_print3 (2 ms)
+[ RUN      ] Life.Fredkin_print4
+[       OK ] Life.Fredkin_print4 (2 ms)
+[ RUN      ] Life.Cell_print1
+[       OK ] Life.Cell_print1 (2 ms)
+[ RUN      ] Life.Cell_print2
+[       OK ] Life.Cell_print2 (2 ms)
+[ RUN      ] Life.Cell_print3
+[       OK ] Life.Cell_print3 (3 ms)
+[ RUN      ] Life.Cell_print4
+[       OK ] Life.Cell_print4 (3 ms)
+[ RUN      ] Life.Conway_isNeighbor1
+[       OK ] Life.Conway_isNeighbor1 (2 ms)
+[ RUN      ] Life.Conway_isNeighbor2
+[       OK ] Life.Conway_isNeighbor2 (2 ms)
+[ RUN      ] Life.Conway_isNeighbor3
+[       OK ] Life.Conway_isNeighbor3 (2 ms)
+[ RUN      ] Life.Conway_isNeighbor4
+[       OK ] Life.Conway_isNeighbor4 (1 ms)
+[ RUN      ] Life.Fredkin_isNeighbor1
+[       OK ] Life.Fredkin_isNeighbor1 (2 ms)
+[ RUN      ] Life.Fredkin_isNeighbor2
+[       OK ] Life.Fredkin_isNeighbor2 (2 ms)
+[ RUN      ] Life.Fredkin_isNeighbor3
+[       OK ] Life.Fredkin_isNeighbor3 (1 ms)
+[ RUN      ] Life.Fredkin_isNeighbor4
+[       OK ] Life.Fredkin_isNeighbor4 (2 ms)
+[ RUN      ] Life.Cell_isNeighbor1
+[       OK ] Life.Cell_isNeighbor1 (2 ms)
+[ RUN      ] Life.Cell_isNeighbor2
+[       OK ] Life.Cell_isNeighbor2 (2 ms)
+[ RUN      ] Life.Cell_isNeighbor3
+[       OK ] Life.Cell_isNeighbor3 (3 ms)
+[ RUN      ] Life.Life_getPopulation1
+[       OK ] Life.Life_getPopulation1 (50 ms)
+[ RUN      ] Life.Life_getPopulation2
+[       OK ] Life.Life_getPopulation2 (36 ms)
+[ RUN      ] Life.Life_getPopulation3
+[       OK ] Life.Life_getPopulation3 (79 ms)
+[ RUN      ] Life.Life_getPopulation4
+[       OK ] Life.Life_getPopulation4 (691 ms)
+[----------] 52 tests from Life (1000 ms total)
+
+[----------] Global test environment tear-down
+[==========] 52 tests from 1 test case ran. (1028 ms total)
+[  PASSED  ] 52 tests.
