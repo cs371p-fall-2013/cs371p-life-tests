@@ -1,0 +1,200 @@
+Running main() from gtest_main.cc
+[==========] Running 80 tests from 6 test cases.
+[----------] Global test environment set-up.
+[----------] 20 tests from Conway
+[ RUN      ] Conway.constructor_1
+[       OK ] Conway.constructor_1 (15 ms)
+[ RUN      ] Conway.constructor_2
+[       OK ] Conway.constructor_2 (3 ms)
+[ RUN      ] Conway.kill_1
+[       OK ] Conway.kill_1 (4 ms)
+[ RUN      ] Conway.to_string_1
+[       OK ] Conway.to_string_1 (5 ms)
+[ RUN      ] Conway.to_string_2
+[       OK ] Conway.to_string_2 (4 ms)
+[ RUN      ] Conway.to_string_3
+[       OK ] Conway.to_string_3 (5 ms)
+[ RUN      ] Conway.clone_1
+[       OK ] Conway.clone_1 (13 ms)
+[ RUN      ] Conway.clone_2
+[       OK ] Conway.clone_2 (9 ms)
+[ RUN      ] Conway.default_constructor
+[       OK ] Conway.default_constructor (3 ms)
+[ RUN      ] Conway.is_alive_1
+[       OK ] Conway.is_alive_1 (3 ms)
+[ RUN      ] Conway.is_alive_2
+[       OK ] Conway.is_alive_2 (3 ms)
+[ RUN      ] Conway.kill_2
+[       OK ] Conway.kill_2 (5 ms)
+[ RUN      ] Conway.kill_3
+[       OK ] Conway.kill_3 (4 ms)
+[ RUN      ] Conway.revive_2
+[       OK ] Conway.revive_2 (4 ms)
+[ RUN      ] Conway.revive_3
+[       OK ] Conway.revive_3 (4 ms)
+[ RUN      ] Conway.age_1
+[       OK ] Conway.age_1 (14 ms)
+[ RUN      ] Conway.age_2
+[       OK ] Conway.age_2 (4 ms)
+[ RUN      ] Conway.age_3
+[       OK ] Conway.age_3 (11 ms)
+[ RUN      ] Conway.to_string_5
+[       OK ] Conway.to_string_5 (4 ms)
+[ RUN      ] Conway.to_string_6
+[       OK ] Conway.to_string_6 (4 ms)
+[----------] 20 tests from Conway (143 ms total)
+
+[----------] 26 tests from Fredkin
+[ RUN      ] Fredkin.constructor_1
+[       OK ] Fredkin.constructor_1 (5 ms)
+[ RUN      ] Fredkin.constructor_2
+[       OK ] Fredkin.constructor_2 (4 ms)
+[ RUN      ] Fredkin.to_string_1
+[       OK ] Fredkin.to_string_1 (13 ms)
+[ RUN      ] Fredkin.default_constructor
+[       OK ] Fredkin.default_constructor (3 ms)
+[ RUN      ] Fredkin.is_alive_1
+[       OK ] Fredkin.is_alive_1 (7 ms)
+[ RUN      ] Fredkin.is_alive_2
+[       OK ] Fredkin.is_alive_2 (4 ms)
+[ RUN      ] Fredkin.is_alive_3
+[       OK ] Fredkin.is_alive_3 (4 ms)
+[ RUN      ] Fredkin.is_alive_4
+[       OK ] Fredkin.is_alive_4 (4 ms)
+[ RUN      ] Fredkin.kill_1
+[       OK ] Fredkin.kill_1 (5 ms)
+[ RUN      ] Fredkin.kill_2
+[       OK ] Fredkin.kill_2 (4 ms)
+[ RUN      ] Fredkin.kill_3
+[       OK ] Fredkin.kill_3 (4 ms)
+[ RUN      ] Fredkin.kill_4
+[       OK ] Fredkin.kill_4 (4 ms)
+[ RUN      ] Fredkin.revive_1
+[       OK ] Fredkin.revive_1 (5 ms)
+[ RUN      ] Fredkin.revive_2
+[       OK ] Fredkin.revive_2 (5 ms)
+[ RUN      ] Fredkin.revive_3
+[       OK ] Fredkin.revive_3 (5 ms)
+[ RUN      ] Fredkin.revive_4
+[       OK ] Fredkin.revive_4 (5 ms)
+[ RUN      ] Fredkin.age_1
+[       OK ] Fredkin.age_1 (4 ms)
+[ RUN      ] Fredkin.age_2
+[       OK ] Fredkin.age_2 (5 ms)
+[ RUN      ] Fredkin.age_3
+[       OK ] Fredkin.age_3 (5 ms)
+[ RUN      ] Fredkin.age_4
+[       OK ] Fredkin.age_4 (8 ms)
+[ RUN      ] Fredkin.age_5
+[       OK ] Fredkin.age_5 (10 ms)
+[ RUN      ] Fredkin.to_string_2
+[       OK ] Fredkin.to_string_2 (4 ms)
+[ RUN      ] Fredkin.to_string_3
+[       OK ] Fredkin.to_string_3 (5 ms)
+[ RUN      ] Fredkin.to_string_4
+[       OK ] Fredkin.to_string_4 (4 ms)
+[ RUN      ] Fredkin.to_string_5
+[       OK ] Fredkin.to_string_5 (4 ms)
+[ RUN      ] Fredkin.to_string_6
+[       OK ] Fredkin.to_string_6 (3 ms)
+[----------] 26 tests from Fredkin (137 ms total)
+
+[----------] 11 tests from Cell
+[ RUN      ] Cell.constructor_1
+[       OK ] Cell.constructor_1 (6 ms)
+[ RUN      ] Cell.constructor_2
+[       OK ] Cell.constructor_2 (4 ms)
+[ RUN      ] Cell.constructor_3
+[       OK ] Cell.constructor_3 (4 ms)
+[ RUN      ] Cell.constructor_4
+[       OK ] Cell.constructor_4 (6 ms)
+[ RUN      ] Cell.constructor_5
+[       OK ] Cell.constructor_5 (4 ms)
+[ RUN      ] Cell.default_constructor
+[       OK ] Cell.default_constructor (3 ms)
+[ RUN      ] Cell.is_alive_1
+[       OK ] Cell.is_alive_1 (4 ms)
+[ RUN      ] Cell.is_alive_2
+[       OK ] Cell.is_alive_2 (4 ms)
+[ RUN      ] Cell.update_1
+[       OK ] Cell.update_1 (13 ms)
+[ RUN      ] Cell.update_2
+[       OK ] Cell.update_2 (25 ms)
+[ RUN      ] Cell.update_3
+[       OK ] Cell.update_3 (17 ms)
+[----------] 11 tests from Cell (90 ms total)
+
+[----------] 15 tests from Life
+[ RUN      ] Life.read_file_1
+Acual: 
+
+Generation = 0, Population = 8.
+***
+**.
+.**
+.*.
+
+Expected: 
+
+Generation = 0, Population = 8.
+***
+**.
+.**
+.*.
+
+[       OK ] Life.read_file_1 (73 ms)
+[ RUN      ] Life.read_file_2
+[       OK ] Life.read_file_2 (9 ms)
+[ RUN      ] Life.read_file_3
+[       OK ] Life.read_file_3 (54 ms)
+[ RUN      ] Life.resize_1
+[       OK ] Life.resize_1 (2 ms)
+[ RUN      ] Life.copy_grid_1
+[       OK ] Life.copy_grid_1 (40 ms)
+[ RUN      ] Life.copy_grid_2
+[       OK ] Life.copy_grid_2 (74 ms)
+[ RUN      ] Life.get_surrounding_fredkin_1
+[       OK ] Life.get_surrounding_fredkin_1 (21 ms)
+[ RUN      ] Life.get_surrounding_fredkin_2
+[       OK ] Life.get_surrounding_fredkin_2 (12 ms)
+[ RUN      ] Life.get_surrounding_fredkin_3
+[       OK ] Life.get_surrounding_fredkin_3 (11 ms)
+[ RUN      ] Life.get_surrounding_fredkin_4
+[       OK ] Life.get_surrounding_fredkin_4 (12 ms)
+[ RUN      ] Life.get_surrounding_conway_1
+[       OK ] Life.get_surrounding_conway_1 (16 ms)
+[ RUN      ] Life.get_surrounding_conway_2
+[       OK ] Life.get_surrounding_conway_2 (12 ms)
+[ RUN      ] Life.resize_grid_1
+[       OK ] Life.resize_grid_1 (6 ms)
+[ RUN      ] Life.resize_grid_2
+[       OK ] Life.resize_grid_2 (5 ms)
+[ RUN      ] Life.resize_grid_3
+[       OK ] Life.resize_grid_3 (6 ms)
+[----------] 15 tests from Life (358 ms total)
+
+[----------] 4 tests from ConwayCell
+[ RUN      ] ConwayCell.update_1
+[       OK ] ConwayCell.update_1 (9 ms)
+[ RUN      ] ConwayCell.update_2
+[       OK ] ConwayCell.update_2 (8 ms)
+[ RUN      ] ConwayCell.update_3
+[       OK ] ConwayCell.update_3 (7 ms)
+[ RUN      ] ConwayCell.update_4
+[       OK ] ConwayCell.update_4 (10 ms)
+[----------] 4 tests from ConwayCell (35 ms total)
+
+[----------] 4 tests from FredkinCell
+[ RUN      ] FredkinCell.update_1
+[       OK ] FredkinCell.update_1 (8 ms)
+[ RUN      ] FredkinCell.update_2
+[       OK ] FredkinCell.update_2 (8 ms)
+[ RUN      ] FredkinCell.update_3
+[       OK ] FredkinCell.update_3 (9 ms)
+[ RUN      ] FredkinCell.update_4
+[       OK ] FredkinCell.update_4 (9 ms)
+[----------] 4 tests from FredkinCell (34 ms total)
+
+[----------] Global test environment tear-down
+[==========] 80 tests from 6 test cases ran. (844 ms total)
+[  PASSED  ] 80 tests.
