@@ -23,6 +23,18 @@ TEST(Conway, constructor_2) {
   ASSERT_TRUE(!cell.is_alive());
 }
 
+TEST(Conway, constructor_3) {
+  std::string s = ".";
+  ConwayCell cell(s);
+  ASSERT_TRUE(!cell.is_alive());
+}
+
+TEST(Conway, constructor_4) {
+  std::string s = "*";
+  ConwayCell cell(s);
+  ASSERT_TRUE(cell.is_alive());
+}
+
 TEST(Fredkin, constructor_1) {
   FredkinCell cell(true);  
   ASSERT_TRUE(cell.is_alive());
@@ -36,6 +48,20 @@ TEST(Fredkin, constructor_2) {
   ASSERT_TRUE(cell.age() == 0);
 }
 
+TEST(Fredkin, constructor_3) {
+  std::string s = "0";
+  FredkinCell cell(s);  
+  ASSERT_TRUE(cell.is_alive());
+  ASSERT_TRUE(cell.age() == 0);
+
+}
+ 
+TEST(Fredkin, constructor_4) {
+  std::string s = "-";
+  FredkinCell cell(s);  
+  ASSERT_TRUE(!cell.is_alive());
+  ASSERT_TRUE(cell.age() == 0);
+}
 
 
 TEST(Cell, constructor_1) {
@@ -115,9 +141,6 @@ TEST(Life, read_file_1) {
   life.print_grid(w);
   std::string expected = "\nGeneration = 0, Population = 8.\n***\n**.\n.**\n.*.\n";
   std::string actual = w.str();
-  
-  std::cout << "Acual: \n" << actual << "\n";
-  std::cout << "Expected: \n" << expected << "\n";
 
   ASSERT_TRUE(actual == expected);
 }
@@ -195,94 +218,6 @@ TEST(Conway, clone_2) {
   
   delete c2;
 }
-
-
-TEST(Life, copy_grid_1) {
-  using namespace std;
-  vector<vector<ConwayCell> > grid;
-  grid.resize(3);
-  for(int i = 0; i < 3; i++) {
-    grid[i].resize(3);
-  }
-  
-  string dead = ".";
-  string alive = "*";
-  
-  ConwayCell c1(alive);
-  grid[0][2] = c1;
-  ConwayCell c2(alive);
-  grid[1][1] = c2;
-  ConwayCell c3(dead);
-  grid[2][0] = c3;
-  ASSERT_TRUE(!grid[2][0].is_alive());
-  ASSERT_TRUE( grid[2][0].to_string() == ".");
-  vector<vector<ConwayCell> > newGrid = copy_grid(&grid);
-  
-  ASSERT_TRUE(&newGrid != &grid);
-  
-  //cout << newGrid[0][1].to_string() << "\n";
-  //ASSERT_TRUE(newGrid[0][1].to_string() == ".");
-  ASSERT_TRUE(newGrid[0][2].to_string() == "*");
-  ASSERT_TRUE(newGrid[1][1].to_string() == "*");
-
-  ASSERT_TRUE(newGrid[2][0].to_string() == ".");
-  
-  grid[0][2].kill();
-  ASSERT_TRUE(grid[0][2].to_string() == ".");
-  ASSERT_TRUE(newGrid[0][2].to_string() == "*");
-  
-}
-
-TEST(Life, copy_grid_2) {
-  using namespace std;
-  vector<vector<Cell> > grid;
-  grid.resize(3);
-  for(int i = 0; i < 3; i++) {
-    grid[i].resize(3);
-  }
-  
-
-  string dead = "-";
-  string alive = "0";
-  string one = "1";
-  
-  Cell c1(alive);
-
-  grid[0][2] = c1;
-  
-  Cell c2(one);
-
-  ASSERT_TRUE(grid[1].size() == 3);
-  grid[1][1] = c2;
-
-  Cell c3(dead);
-  grid[2][0] = c3;
-  
-
-  
-  
-  ASSERT_TRUE(!grid[2][0].is_alive());
-  ASSERT_TRUE( grid[2][0].to_string() == "-");
-
-  vector<vector<Cell> > newGrid = copy_grid(&grid);
-  
-  ASSERT_TRUE(&newGrid != &grid);
-  
-
-  ASSERT_TRUE(newGrid[0][2].to_string() == "0");
-  ASSERT_TRUE(newGrid[1][1].to_string() == "1");
-
-  ASSERT_TRUE(newGrid[2][0].to_string() == "-");  
-  
-
-  //grid[0][2].kill();
-  //ASSERT_TRUE(grid[0][2].to_string() == "-");
-  //ASSERT_TRUE(newGrid[0][2].to_string() == "0");
-
-}
-
-
-
 
 
 
@@ -842,7 +777,6 @@ TEST(Life, get_surrounding_fredkin_1) {
 
   
   for(int i = 0; i < 8; i++) {
-    //cout << i << ": " << actual[i] << " Should be: "<< expected[i]<< "\n";  
     ASSERT_TRUE(actual[i] == expected[i]);
   }
 }
@@ -864,7 +798,6 @@ TEST(Life, get_surrounding_fredkin_2) {
 
   
   for(int i = 0; i < 8; i++) {
-    //cout << i << ": " << actual[i] << " Should be: "<< expected[i]<< "\n";  
     ASSERT_TRUE(actual[i] == expected[i]);
   }
   
@@ -891,7 +824,6 @@ TEST(Life, get_surrounding_fredkin_3) {
 
   
   for(int i = 0; i < 8; i++) {
-    //cout << i << ": " << actual[i] << " Should be: "<< expected[i]<< "\n";  
     ASSERT_TRUE(actual[i] == expected[i]);
   }
   
@@ -918,7 +850,6 @@ TEST(Life, get_surrounding_fredkin_4) {
 
   
   for(int i = 0; i < 8; i++) {
-    //cout << i << ": " << actual[i] << " Should be: "<< expected[i]<< "\n";  
     ASSERT_TRUE(actual[i] == expected[i]);
   }
   
@@ -945,7 +876,6 @@ TEST(Life, get_surrounding_conway_1) {
 
   
   for(int i = 0; i < 8; i++) {
-    //cout << i << ": " << actual[i] << " Should be: "<< expected[i]<< "\n";  
     ASSERT_TRUE(actual[i] == expected[i]);
   }
   
