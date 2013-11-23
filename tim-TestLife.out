@@ -1,0 +1,99 @@
+Running main() from gtest_main.cc
+[==========] Running 45 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 45 tests from Life
+[ RUN      ] Life.Conway1
+[       OK ] Life.Conway1 (7 ms)
+[ RUN      ] Life.Conway2
+[       OK ] Life.Conway2 (1 ms)
+[ RUN      ] Life.Conway3
+[       OK ] Life.Conway3 (1 ms)
+[ RUN      ] Life.Conway4
+[       OK ] Life.Conway4 (1 ms)
+[ RUN      ] Life.Conway5
+[       OK ] Life.Conway5 (2 ms)
+[ RUN      ] Life.Conway6
+[       OK ] Life.Conway6 (1 ms)
+[ RUN      ] Life.Conway7
+[       OK ] Life.Conway7 (2 ms)
+[ RUN      ] Life.Conway8
+[       OK ] Life.Conway8 (1 ms)
+[ RUN      ] Life.Conway9
+[       OK ] Life.Conway9 (2 ms)
+[ RUN      ] Life.Conway10
+[       OK ] Life.Conway10 (1 ms)
+[ RUN      ] Life.Conway11
+[       OK ] Life.Conway11 (1 ms)
+[ RUN      ] Life.Conway12
+[       OK ] Life.Conway12 (1 ms)
+[ RUN      ] Life.Conway13
+[       OK ] Life.Conway13 (1 ms)
+[ RUN      ] Life.Conway14
+[       OK ] Life.Conway14 (1 ms)
+[ RUN      ] Life.Conway15
+[       OK ] Life.Conway15 (1 ms)
+[ RUN      ] Life.Conway16
+[       OK ] Life.Conway16 (2 ms)
+[ RUN      ] Life.Conway17
+[       OK ] Life.Conway17 (1 ms)
+[ RUN      ] Life.Conway18
+[       OK ] Life.Conway18 (2 ms)
+[ RUN      ] Life.Conway19
+[       OK ] Life.Conway19 (1 ms)
+[ RUN      ] Life.Conway20
+[       OK ] Life.Conway20 (1 ms)
+[ RUN      ] Life.Fredkin1
+[       OK ] Life.Fredkin1 (1 ms)
+[ RUN      ] Life.Fredkin2
+[       OK ] Life.Fredkin2 (2 ms)
+[ RUN      ] Life.Fredkin3
+[       OK ] Life.Fredkin3 (1 ms)
+[ RUN      ] Life.Fredkin4
+[       OK ] Life.Fredkin4 (2 ms)
+[ RUN      ] Life.Fredkin5
+[       OK ] Life.Fredkin5 (1 ms)
+[ RUN      ] Life.Fredkin6
+[       OK ] Life.Fredkin6 (1 ms)
+[ RUN      ] Life.Fredkin7
+[       OK ] Life.Fredkin7 (1 ms)
+[ RUN      ] Life.Fredkin8
+[       OK ] Life.Fredkin8 (2 ms)
+[ RUN      ] Life.Fredkin9
+[       OK ] Life.Fredkin9 (1 ms)
+[ RUN      ] Life.Fredkin10
+[       OK ] Life.Fredkin10 (2 ms)
+[ RUN      ] Life.Fredkin11
+[       OK ] Life.Fredkin11 (1 ms)
+[ RUN      ] Life.Fredkin12
+[       OK ] Life.Fredkin12 (2 ms)
+[ RUN      ] Life.Fredkin13
+[       OK ] Life.Fredkin13 (1 ms)
+[ RUN      ] Life.Fredkin14
+[       OK ] Life.Fredkin14 (2 ms)
+[ RUN      ] Life.Fredkin15
+[       OK ] Life.Fredkin15 (1 ms)
+[ RUN      ] Life.Fredkin16
+[       OK ] Life.Fredkin16 (2 ms)
+[ RUN      ] Life.Fredkin17
+[       OK ] Life.Fredkin17 (1 ms)
+[ RUN      ] Life.Fredkin18
+[       OK ] Life.Fredkin18 (2 ms)
+[ RUN      ] Life.Fredkin19
+[       OK ] Life.Fredkin19 (1 ms)
+[ RUN      ] Life.Fredkin20
+[       OK ] Life.Fredkin20 (2 ms)
+[ RUN      ] Life.KillFredkin1
+[       OK ] Life.KillFredkin1 (2 ms)
+[ RUN      ] Life.KillFredkin2
+[       OK ] Life.KillFredkin2 (1 ms)
+[ RUN      ] Life.Cells1
+[       OK ] Life.Cells1 (3 ms)
+[ RUN      ] Life.Cells2
+[       OK ] Life.Cells2 (2 ms)
+[ RUN      ] Life.Cells3
+[       OK ] Life.Cells3 (2 ms)
+[----------] 45 tests from Life (85 ms total)
+
+[----------] Global test environment tear-down
+[==========] 45 tests from 1 test case ran. (113 ms total)
+[  PASSED  ] 45 tests.
