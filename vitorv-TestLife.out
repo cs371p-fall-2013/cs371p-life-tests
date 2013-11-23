@@ -1,0 +1,273 @@
+Running main() from gtest_main.cc
+[==========] Running 132 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 132 tests from Life
+[ RUN      ] Life.Life_constructor_Conway_size_1_1
+[       OK ] Life.Life_constructor_Conway_size_1_1 (26 ms)
+[ RUN      ] Life.Life_constructor_Conway_size_2_2
+[       OK ] Life.Life_constructor_Conway_size_2_2 (7 ms)
+[ RUN      ] Life.Life_constructor_Conway_size_1_5
+[       OK ] Life.Life_constructor_Conway_size_1_5 (8 ms)
+[ RUN      ] Life.Life_constructor_Fredkin_size_1_1
+[       OK ] Life.Life_constructor_Fredkin_size_1_1 (19 ms)
+[ RUN      ] Life.Life_constructor_Fredkin_size_2_2
+[       OK ] Life.Life_constructor_Fredkin_size_2_2 (7 ms)
+[ RUN      ] Life.Life_constructor_Fredkin_size_1_5
+[       OK ] Life.Life_constructor_Fredkin_size_1_5 (8 ms)
+[ RUN      ] Life.Life_constructor_Cell_size_1_1
+[       OK ] Life.Life_constructor_Cell_size_1_1 (21 ms)
+[ RUN      ] Life.Life_constructor_Cell_size_2_2
+[       OK ] Life.Life_constructor_Cell_size_2_2 (7 ms)
+[ RUN      ] Life.Life_constructor_Cell_size_1_5
+[       OK ] Life.Life_constructor_Cell_size_1_5 (9 ms)
+[ RUN      ] Life.Life_populate_Conway_one
+[       OK ] Life.Life_populate_Conway_one (14 ms)
+[ RUN      ] Life.Life_populate_Conway_all
+[       OK ] Life.Life_populate_Conway_all (5 ms)
+[ RUN      ] Life.Life_populate_Conway_some1
+[       OK ] Life.Life_populate_Conway_some1 (10 ms)
+[ RUN      ] Life.Life_populate_Conway_some2
+[       OK ] Life.Life_populate_Conway_some2 (9 ms)
+[ RUN      ] Life.Life_populate_Fredkin_one
+[       OK ] Life.Life_populate_Fredkin_one (8 ms)
+[ RUN      ] Life.Life_populate_Fredkin_all
+[       OK ] Life.Life_populate_Fredkin_all (5 ms)
+[ RUN      ] Life.Life_populate_Fredkin_some1
+[       OK ] Life.Life_populate_Fredkin_some1 (9 ms)
+[ RUN      ] Life.Life_populate_Fredkin_some2
+[       OK ] Life.Life_populate_Fredkin_some2 (10 ms)
+[ RUN      ] Life.Life_populate_Cell_one
+[       OK ] Life.Life_populate_Cell_one (8 ms)
+[ RUN      ] Life.Life_populate_Cell_all
+[       OK ] Life.Life_populate_Cell_all (7 ms)
+[ RUN      ] Life.Life_populate_Cell_some1
+[       OK ] Life.Life_populate_Cell_some1 (11 ms)
+[ RUN      ] Life.Life_populate_Cell_some2
+[       OK ] Life.Life_populate_Cell_some2 (12 ms)
+[ RUN      ] Life.Life_popCount_Conway_none
+[       OK ] Life.Life_popCount_Conway_none (3 ms)
+[ RUN      ] Life.Life_popCount_Conway1
+[       OK ] Life.Life_popCount_Conway1 (2 ms)
+[ RUN      ] Life.Life_popCount_Conway3
+[       OK ] Life.Life_popCount_Conway3 (3 ms)
+[ RUN      ] Life.Life_popCount_Conway4
+[       OK ] Life.Life_popCount_Conway4 (3 ms)
+[ RUN      ] Life.Life_popCount_Conway5
+[       OK ] Life.Life_popCount_Conway5 (2 ms)
+[ RUN      ] Life.Life_popCount_Fredkin1
+[       OK ] Life.Life_popCount_Fredkin1 (5 ms)
+[ RUN      ] Life.Life_popCount_Fredkin2
+[       OK ] Life.Life_popCount_Fredkin2 (2 ms)
+[ RUN      ] Life.Life_popCount_Fredkin3
+[       OK ] Life.Life_popCount_Fredkin3 (3 ms)
+[ RUN      ] Life.Life_popCount_Fredkin4
+[       OK ] Life.Life_popCount_Fredkin4 (3 ms)
+[ RUN      ] Life.Life_popCount_Cell1
+[       OK ] Life.Life_popCount_Cell1 (5 ms)
+[ RUN      ] Life.Life_popCount_Cell2
+[       OK ] Life.Life_popCount_Cell2 (3 ms)
+[ RUN      ] Life.Life_popCount_Cell3
+[       OK ] Life.Life_popCount_Cell3 (3 ms)
+[ RUN      ] Life.Life_popCount_Cell4
+[       OK ] Life.Life_popCount_Cell4 (3 ms)
+[ RUN      ] Life.Life_neighbors_Conway_none
+[       OK ] Life.Life_neighbors_Conway_none (17 ms)
+[ RUN      ] Life.Life_neighbors_Conway_filled
+[       OK ] Life.Life_neighbors_Conway_filled (11 ms)
+[ RUN      ] Life.Life_neighbors_Conway_edge
+[       OK ] Life.Life_neighbors_Conway_edge (12 ms)
+[ RUN      ] Life.Life_neighbors_Conway_corner
+[       OK ] Life.Life_neighbors_Conway_corner (11 ms)
+[ RUN      ] Life.Life_neighbors_Fred_none
+[       OK ] Life.Life_neighbors_Fred_none (13 ms)
+[ RUN      ] Life.Life_neighbors_Fred_filled
+[       OK ] Life.Life_neighbors_Fred_filled (4 ms)
+[ RUN      ] Life.Life_neighbors_Fred_edge
+[       OK ] Life.Life_neighbors_Fred_edge (10 ms)
+[ RUN      ] Life.Life_neighbors_Fred_corner
+[       OK ] Life.Life_neighbors_Fred_corner (10 ms)
+[ RUN      ] Life.Life_neighbors_Cell_none
+[       OK ] Life.Life_neighbors_Cell_none (15 ms)
+[ RUN      ] Life.Life_neighbors_Cell_filled
+[       OK ] Life.Life_neighbors_Cell_filled (5 ms)
+[ RUN      ] Life.Life_neighbors_Cell_edge
+[       OK ] Life.Life_neighbors_Cell_edge (11 ms)
+[ RUN      ] Life.Life_neighbors_Cell_corner
+[       OK ] Life.Life_neighbors_Cell_corner (11 ms)
+[ RUN      ] Life.ConwayCell_constr_default
+[       OK ] Life.ConwayCell_constr_default (2 ms)
+[ RUN      ] Life.ConwayCell_constr_bool1
+[       OK ] Life.ConwayCell_constr_bool1 (1 ms)
+[ RUN      ] Life.ConwayCell_constr_bool2
+[       OK ] Life.ConwayCell_constr_bool2 (2 ms)
+[ RUN      ] Life.ConwayCell_clone
+[       OK ] Life.ConwayCell_clone (2 ms)
+[ RUN      ] Life.ConwayCell_clone2
+[       OK ] Life.ConwayCell_clone2 (2 ms)
+[ RUN      ] Life.ConwayCell_clone3
+[       OK ] Life.ConwayCell_clone3 (2 ms)
+[ RUN      ] Life.ConwayCell_decideState1
+[       OK ] Life.ConwayCell_decideState1 (6 ms)
+[ RUN      ] Life.ConwayCell_decideState2
+[       OK ] Life.ConwayCell_decideState2 (3 ms)
+[ RUN      ] Life.ConwayCell_decideState3
+[       OK ] Life.ConwayCell_decideState3 (4 ms)
+[ RUN      ] Life.ConwayCell_decideState4
+[       OK ] Life.ConwayCell_decideState4 (4 ms)
+[ RUN      ] Life.ConwayCell_decideState5
+[       OK ] Life.ConwayCell_decideState5 (4 ms)
+[ RUN      ] Life.ConwayCell_decideState6
+[       OK ] Life.ConwayCell_decideState6 (4 ms)
+[ RUN      ] Life.ConwayCell_print_defaultdead
+[       OK ] Life.ConwayCell_print_defaultdead (2 ms)
+[ RUN      ] Life.ConwayCell_print_alive
+[       OK ] Life.ConwayCell_print_alive (2 ms)
+[ RUN      ] Life.ConwayCell_print_dead
+[       OK ] Life.ConwayCell_print_dead (2 ms)
+[ RUN      ] Life.ConwayCell_decideInitState_alive1
+[       OK ] Life.ConwayCell_decideInitState_alive1 (1 ms)
+[ RUN      ] Life.ConwayCell_decideInitState_dead1
+[       OK ] Life.ConwayCell_decideInitState_dead1 (2 ms)
+[ RUN      ] Life.ConwayCell_decideInitState_alive2
+[       OK ] Life.ConwayCell_decideInitState_alive2 (2 ms)
+[ RUN      ] Life.ConwayCell_decideInitState_dead2
+[       OK ] Life.ConwayCell_decideInitState_dead2 (1 ms)
+[ RUN      ] Life.ConwayCell_decideInitState_alive3
+[       OK ] Life.ConwayCell_decideInitState_alive3 (2 ms)
+[ RUN      ] Life.ConwayCell_decideInitState_dead3
+[       OK ] Life.ConwayCell_decideInitState_dead3 (2 ms)
+[ RUN      ] Life.FredkinCell_constr_default
+[       OK ] Life.FredkinCell_constr_default (1 ms)
+[ RUN      ] Life.FredkinCell_constr_bool1
+[       OK ] Life.FredkinCell_constr_bool1 (2 ms)
+[ RUN      ] Life.FredkinCell_constr_bool2
+[       OK ] Life.FredkinCell_constr_bool2 (2 ms)
+[ RUN      ] Life.FredkinCell_constr_age1
+[       OK ] Life.FredkinCell_constr_age1 (2 ms)
+[ RUN      ] Life.FredkinCell_constr_age2
+[       OK ] Life.FredkinCell_constr_age2 (2 ms)
+[ RUN      ] Life.FredkinCell_clone
+[       OK ] Life.FredkinCell_clone (1 ms)
+[ RUN      ] Life.FredkinCell_clone2
+[       OK ] Life.FredkinCell_clone2 (2 ms)
+[ RUN      ] Life.FredkinCell_clone3
+[       OK ] Life.FredkinCell_clone3 (1 ms)
+[ RUN      ] Life.FredkinCell_decideState1
+[       OK ] Life.FredkinCell_decideState1 (4 ms)
+[ RUN      ] Life.FredkinCell_decideState2
+[       OK ] Life.FredkinCell_decideState2 (3 ms)
+[ RUN      ] Life.FredkinCell_decideState3
+[       OK ] Life.FredkinCell_decideState3 (4 ms)
+[ RUN      ] Life.FredkinCell_decideState4
+[       OK ] Life.FredkinCell_decideState4 (4 ms)
+[ RUN      ] Life.FredkinCell_decideState5
+[       OK ] Life.FredkinCell_decideState5 (5 ms)
+[ RUN      ] Life.FredkinCell_decideState6
+[       OK ] Life.FredkinCell_decideState6 (4 ms)
+[ RUN      ] Life.FredkinCell_changeState1
+[       OK ] Life.FredkinCell_changeState1 (5 ms)
+[ RUN      ] Life.FredkinCell_changeState2
+[       OK ] Life.FredkinCell_changeState2 (4 ms)
+[ RUN      ] Life.FredkinCell_changeState3
+[       OK ] Life.FredkinCell_changeState3 (5 ms)
+[ RUN      ] Life.FredkinCell_changeState4
+[       OK ] Life.FredkinCell_changeState4 (5 ms)
+[ RUN      ] Life.FredkinCell_changeState5
+[       OK ] Life.FredkinCell_changeState5 (5 ms)
+[ RUN      ] Life.FredkinCell_changeState6
+[       OK ] Life.FredkinCell_changeState6 (6 ms)
+[ RUN      ] Life.FredkinCell_print_defaultdead
+[       OK ] Life.FredkinCell_print_defaultdead (2 ms)
+[ RUN      ] Life.FredkinCell_print_alive
+[       OK ] Life.FredkinCell_print_alive (1 ms)
+[ RUN      ] Life.FredkinCell_print_dead
+[       OK ] Life.FredkinCell_print_dead (1 ms)
+[ RUN      ] Life.FredkinCell_print_alive_age
+[       OK ] Life.FredkinCell_print_alive_age (2 ms)
+[ RUN      ] Life.FredkinCell_print_alive_age2
+[       OK ] Life.FredkinCell_print_alive_age2 (2 ms)
+[ RUN      ] Life.FredkinCell_decideInitState_alive1
+[       OK ] Life.FredkinCell_decideInitState_alive1 (2 ms)
+[ RUN      ] Life.FredkinCell_decideInitState_dead1
+[       OK ] Life.FredkinCell_decideInitState_dead1 (2 ms)
+[ RUN      ] Life.FredkinCell_decideInitState_alive2
+[       OK ] Life.FredkinCell_decideInitState_alive2 (2 ms)
+[ RUN      ] Life.FredkinCell_decideInitState_dead2
+[       OK ] Life.FredkinCell_decideInitState_dead2 (2 ms)
+[ RUN      ] Life.FredkinCell_decideInitState_alive3
+[       OK ] Life.FredkinCell_decideInitState_alive3 (2 ms)
+[ RUN      ] Life.FredkinCell_decideInitState_dead3
+[       OK ] Life.FredkinCell_decideInitState_dead3 (2 ms)
+[ RUN      ] Life.Cell_constr_Fredkin_default
+[       OK ] Life.Cell_constr_Fredkin_default (2 ms)
+[ RUN      ] Life.Cell_constr_Fredkin_bool1
+[       OK ] Life.Cell_constr_Fredkin_bool1 (3 ms)
+[ RUN      ] Life.Cell_constr_Fredkin_bool2
+[       OK ] Life.Cell_constr_Fredkin_bool2 (3 ms)
+[ RUN      ] Life.Cell_constr_Fredkin_age1
+[       OK ] Life.Cell_constr_Fredkin_age1 (2 ms)
+[ RUN      ] Life.Cell_constr_Fredkin_age2
+[       OK ] Life.Cell_constr_Fredkin_age2 (2 ms)
+[ RUN      ] Life.Cell_constr_Conway_default
+[       OK ] Life.Cell_constr_Conway_default (2 ms)
+[ RUN      ] Life.Cell_constr_Conway_bool1
+[       OK ] Life.Cell_constr_Conway_bool1 (2 ms)
+[ RUN      ] Life.Cell_constr_Conway_bool2
+[       OK ] Life.Cell_constr_Conway_bool2 (2 ms)
+[ RUN      ] Life.Cell_print_Fredkin_defaultdead
+[       OK ] Life.Cell_print_Fredkin_defaultdead (2 ms)
+[ RUN      ] Life.Cell_print_Fredkin_alive
+[       OK ] Life.Cell_print_Fredkin_alive (2 ms)
+[ RUN      ] Life.Cell_print_Fredkin_dead
+[       OK ] Life.Cell_print_Fredkin_dead (2 ms)
+[ RUN      ] Life.Cell_print_Fredkin_alive_age
+[       OK ] Life.Cell_print_Fredkin_alive_age (2 ms)
+[ RUN      ] Life.Cell_print_Conway_defaultdead
+[       OK ] Life.Cell_print_Conway_defaultdead (2 ms)
+[ RUN      ] Life.Cell_print_Conway_alive
+[       OK ] Life.Cell_print_Conway_alive (2 ms)
+[ RUN      ] Life.Cell_print_Conway_dead
+[       OK ] Life.Cell_print_Conway_dead (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Fredkin_alive1
+[       OK ] Life.Cell_decideInitState_Fredkin_alive1 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Fredkin_dead1
+[       OK ] Life.Cell_decideInitState_Fredkin_dead1 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Fredkin_alive2
+[       OK ] Life.Cell_decideInitState_Fredkin_alive2 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Fredkin_dead2
+[       OK ] Life.Cell_decideInitState_Fredkin_dead2 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Fredkin_alive3
+[       OK ] Life.Cell_decideInitState_Fredkin_alive3 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Fredkin_dead3
+[       OK ] Life.Cell_decideInitState_Fredkin_dead3 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Conway_alive1
+[       OK ] Life.Cell_decideInitState_Conway_alive1 (3 ms)
+[ RUN      ] Life.Cell_decideInitState_Conway_dead1
+[       OK ] Life.Cell_decideInitState_Conway_dead1 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Conway_alive2
+[       OK ] Life.Cell_decideInitState_Conway_alive2 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Conway_dead2
+[       OK ] Life.Cell_decideInitState_Conway_dead2 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Conway_alive3
+[       OK ] Life.Cell_decideInitState_Conway_alive3 (2 ms)
+[ RUN      ] Life.Cell_decideInitState_Conway_dead3
+[       OK ] Life.Cell_decideInitState_Conway_dead3 (2 ms)
+[ RUN      ] Life.Cell_isAlive_Fredkin_default
+[       OK ] Life.Cell_isAlive_Fredkin_default (2 ms)
+[ RUN      ] Life.Cell_isAlive_Fredkin_alive
+[       OK ] Life.Cell_isAlive_Fredkin_alive (2 ms)
+[ RUN      ] Life.Cell_isAlive_Fredkin_dead
+[       OK ] Life.Cell_isAlive_Fredkin_dead (2 ms)
+[ RUN      ] Life.Cell_isAlive_Fredkin_age
+[       OK ] Life.Cell_isAlive_Fredkin_age (2 ms)
+[ RUN      ] Life.Cell_isAlive_Conway_default
+[       OK ] Life.Cell_isAlive_Conway_default (2 ms)
+[ RUN      ] Life.Cell_isAlive_Conway_alive
+[       OK ] Life.Cell_isAlive_Conway_alive (2 ms)
+[ RUN      ] Life.Cell_isAlive_Conway_dead
+[       OK ] Life.Cell_isAlive_Conway_dead (2 ms)
+[----------] 132 tests from Life (629 ms total)
+
+[----------] Global test environment tear-down
+[==========] 132 tests from 1 test case ran. (656 ms total)
+[  PASSED  ] 132 tests.
