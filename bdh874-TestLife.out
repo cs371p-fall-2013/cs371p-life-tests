@@ -1,0 +1,54 @@
+Running main() from gtest_main.cc
+[==========] Running 15 tests from 6 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from ConwayCell
+[ RUN      ] ConwayCell.print
+[       OK ] ConwayCell.print (17 ms)
+[ RUN      ] ConwayCell.update
+[       OK ] ConwayCell.update (12 ms)
+[ RUN      ] ConwayCell.clone
+[       OK ] ConwayCell.clone (7 ms)
+[----------] 3 tests from ConwayCell (52 ms total)
+
+[----------] 3 tests from FredkinCell
+[ RUN      ] FredkinCell.update
+[       OK ] FredkinCell.update (16 ms)
+[ RUN      ] FredkinCell.print_and_age
+[       OK ] FredkinCell.print_and_age (14 ms)
+[ RUN      ] FredkinCell.clone
+[       OK ] FredkinCell.clone (5 ms)
+[----------] 3 tests from FredkinCell (36 ms total)
+
+[----------] 2 tests from Cell
+[ RUN      ] Cell.is
+[       OK ] Cell.is (12 ms)
+[ RUN      ] Cell.mutate_and_update
+[       OK ] Cell.mutate_and_update (10 ms)
+[----------] 2 tests from Cell (23 ms total)
+
+[----------] 3 tests from Life
+[ RUN      ] Life.init
+[       OK ] Life.init (82 ms)
+[ RUN      ] Life.insertion_operator
+[       OK ] Life.insertion_operator (25 ms)
+[ RUN      ] Life.neighborhood
+[       OK ] Life.neighborhood (21 ms)
+[----------] 3 tests from Life (128 ms total)
+
+[----------] 2 tests from Life_Conway
+[ RUN      ] Life_Conway.test1
+[       OK ] Life_Conway.test1 (21 ms)
+[ RUN      ] Life_Conway.test2
+[       OK ] Life_Conway.test2 (148 ms)
+[----------] 2 tests from Life_Conway (170 ms total)
+
+[----------] 2 tests from Life_Fredkin
+[ RUN      ] Life_Fredkin.test1
+[       OK ] Life_Fredkin.test1 (55 ms)
+[ RUN      ] Life_Fredkin.test2
+[       OK ] Life_Fredkin.test2 (6 ms)
+[----------] 2 tests from Life_Fredkin (63 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 6 test cases ran. (518 ms total)
+[  PASSED  ] 15 tests.
