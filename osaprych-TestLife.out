@@ -1,0 +1,264 @@
+Running main() from gtest_main.cc
+[==========] Running 123 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from ConwayCell
+[ RUN      ] ConwayCell.conway_print1
+[       OK ] ConwayCell.conway_print1 (12 ms)
+[ RUN      ] ConwayCell.conway_print2
+[       OK ] ConwayCell.conway_print2 (3 ms)
+[ RUN      ] ConwayCell.conway_print3
+[       OK ] ConwayCell.conway_print3 (4 ms)
+[ RUN      ] ConwayCell.conway_alive
+[       OK ] ConwayCell.conway_alive (2 ms)
+[ RUN      ] ConwayCell.conway_dead
+[       OK ] ConwayCell.conway_dead (1 ms)
+[ RUN      ] ConwayCell.conway_change_life_state_true1
+[       OK ] ConwayCell.conway_change_life_state_true1 (2 ms)
+[ RUN      ] ConwayCell.conway_change_life_state_true2
+[       OK ] ConwayCell.conway_change_life_state_true2 (3 ms)
+[ RUN      ] ConwayCell.conway_change_life_state_true3
+[       OK ] ConwayCell.conway_change_life_state_true3 (2 ms)
+[ RUN      ] ConwayCell.conway_change_life_state_true4
+[       OK ] ConwayCell.conway_change_life_state_true4 (2 ms)
+[ RUN      ] ConwayCell.conway_change_life_state_false1
+[       OK ] ConwayCell.conway_change_life_state_false1 (3 ms)
+[ RUN      ] ConwayCell.conway_change_life_state_false2
+[       OK ] ConwayCell.conway_change_life_state_false2 (3 ms)
+[ RUN      ] ConwayCell.conway_change_life_state_false3
+[       OK ] ConwayCell.conway_change_life_state_false3 (2 ms)
+[----------] 12 tests from ConwayCell (51 ms total)
+
+[----------] 19 tests from FredkinCell
+[ RUN      ] FredkinCell.fredkin_print1
+[       OK ] FredkinCell.fredkin_print1 (5 ms)
+[ RUN      ] FredkinCell.fredkin_print2
+[       OK ] FredkinCell.fredkin_print2 (3 ms)
+[ RUN      ] FredkinCell.fredkin_print3
+[       OK ] FredkinCell.fredkin_print3 (4 ms)
+[ RUN      ] FredkinCell.fredkin_print4
+[       OK ] FredkinCell.fredkin_print4 (6 ms)
+[ RUN      ] FredkinCell.fredkin_print5
+[       OK ] FredkinCell.fredkin_print5 (6 ms)
+[ RUN      ] FredkinCell.fredkin_alive
+[       OK ] FredkinCell.fredkin_alive (2 ms)
+[ RUN      ] FredkinCell.fredkin_dead
+[       OK ] FredkinCell.fredkin_dead (2 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_true1
+[       OK ] FredkinCell.fredkin_change_life_state_true1 (3 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_true2
+[       OK ] FredkinCell.fredkin_change_life_state_true2 (3 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_true3
+[       OK ] FredkinCell.fredkin_change_life_state_true3 (2 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_true4
+[       OK ] FredkinCell.fredkin_change_life_state_true4 (2 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_true5
+[       OK ] FredkinCell.fredkin_change_life_state_true5 (2 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_false1
+[       OK ] FredkinCell.fredkin_change_life_state_false1 (3 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_false2
+[       OK ] FredkinCell.fredkin_change_life_state_false2 (2 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_false3
+[       OK ] FredkinCell.fredkin_change_life_state_false3 (2 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_false4
+[       OK ] FredkinCell.fredkin_change_life_state_false4 (3 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_age1
+[       OK ] FredkinCell.fredkin_change_life_state_age1 (3 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_age2
+[       OK ] FredkinCell.fredkin_change_life_state_age2 (3 ms)
+[ RUN      ] FredkinCell.fredkin_change_life_state_age3
+[       OK ] FredkinCell.fredkin_change_life_state_age3 (6 ms)
+[----------] 19 tests from FredkinCell (65 ms total)
+
+[----------] 21 tests from Cell
+[ RUN      ] Cell.cell_alive_conway1
+[       OK ] Cell.cell_alive_conway1 (3 ms)
+[ RUN      ] Cell.cell_alive_conway2
+[       OK ] Cell.cell_alive_conway2 (2 ms)
+[ RUN      ] Cell.cell_alive_conway3
+[       OK ] Cell.cell_alive_conway3 (3 ms)
+[ RUN      ] Cell.cell_alive_fredkin1
+[       OK ] Cell.cell_alive_fredkin1 (2 ms)
+[ RUN      ] Cell.cell_alive_fredkin2
+[       OK ] Cell.cell_alive_fredkin2 (2 ms)
+[ RUN      ] Cell.cell_alive_fredkin3
+[       OK ] Cell.cell_alive_fredkin3 (3 ms)
+[ RUN      ] Cell.cell_cell_state_fredkin1
+[       OK ] Cell.cell_cell_state_fredkin1 (4 ms)
+[ RUN      ] Cell.cell_cell_state_fredkin2
+[       OK ] Cell.cell_cell_state_fredkin2 (3 ms)
+[ RUN      ] Cell.cell_cell_state_conway1
+[       OK ] Cell.cell_cell_state_conway1 (3 ms)
+[ RUN      ] Cell.cell_cell_state_conway2
+[       OK ] Cell.cell_cell_state_conway2 (3 ms)
+[ RUN      ] Cell.cell_mutate_fredkin1
+[       OK ] Cell.cell_mutate_fredkin1 (6 ms)
+[ RUN      ] Cell.cell_mutate_fredkin2
+[       OK ] Cell.cell_mutate_fredkin2 (5 ms)
+[ RUN      ] Cell.cell_mutate_fredkin3
+[       OK ] Cell.cell_mutate_fredkin3 (5 ms)
+[ RUN      ] Cell.cell_mutate_conway
+[       OK ] Cell.cell_mutate_conway (3 ms)
+[ RUN      ] Cell.cell_mutate_conway2
+[       OK ] Cell.cell_mutate_conway2 (4 ms)
+[ RUN      ] Cell.cell_fredkin_clone1
+[       OK ] Cell.cell_fredkin_clone1 (5 ms)
+[ RUN      ] Cell.cell_conway_clone2
+[       OK ] Cell.cell_conway_clone2 (3 ms)
+[ RUN      ] Cell.check_top_left_cell
+[       OK ] Cell.check_top_left_cell (92 ms)
+[ RUN      ] Cell.check_top_right_cell
+[       OK ] Cell.check_top_right_cell (7 ms)
+[ RUN      ] Cell.check_botom_right_cell
+[       OK ] Cell.check_botom_right_cell (4 ms)
+[ RUN      ] Cell.check_interior_mixed_cell
+[       OK ] Cell.check_interior_mixed_cell (7 ms)
+[----------] 21 tests from Cell (170 ms total)
+
+[----------] 71 tests from Life
+[ RUN      ] Life.populate_row1
+[       OK ] Life.populate_row1 (28 ms)
+[ RUN      ] Life.populate_row2
+[       OK ] Life.populate_row2 (27 ms)
+[ RUN      ] Life.populate_row3
+[       OK ] Life.populate_row3 (4 ms)
+[ RUN      ] Life.populate_cell1
+[       OK ] Life.populate_cell1 (4 ms)
+[ RUN      ] Life.populate_cell2
+[       OK ] Life.populate_cell2 (3 ms)
+[ RUN      ] Life.populate_cell3
+[       OK ] Life.populate_cell3 (3 ms)
+[ RUN      ] Life.change_cell_state_Conway
+[       OK ] Life.change_cell_state_Conway (43 ms)
+[ RUN      ] Life.change_cell_state_Fredkin
+[       OK ] Life.change_cell_state_Fredkin (41 ms)
+[ RUN      ] Life.change_cell_state_Cell
+[       OK ] Life.change_cell_state_Cell (18 ms)
+[ RUN      ] Life.printConway
+[       OK ] Life.printConway (4 ms)
+[ RUN      ] Life.printFredkin
+[       OK ] Life.printFredkin (4 ms)
+[ RUN      ] Life.printCell
+[       OK ] Life.printCell (4 ms)
+[ RUN      ] Life.evolve_no_changes
+[       OK ] Life.evolve_no_changes (5 ms)
+[ RUN      ] Life.evolve_cell_1st_gen
+[       OK ] Life.evolve_cell_1st_gen (4 ms)
+[ RUN      ] Life.evolve_cell_2nd_gen
+[       OK ] Life.evolve_cell_2nd_gen (6 ms)
+[ RUN      ] Life.run_generation_Fredkin
+[       OK ] Life.run_generation_Fredkin (8 ms)
+[ RUN      ] Life.run_generation_Conway
+[       OK ] Life.run_generation_Conway (11 ms)
+[ RUN      ] Life.run_generation_Cell
+[       OK ] Life.run_generation_Cell (6 ms)
+[ RUN      ] Life.clear_and_resize_cell
+[       OK ] Life.clear_and_resize_cell (5 ms)
+[ RUN      ] Life.clear_and_resize_fredkin
+[       OK ] Life.clear_and_resize_fredkin (7 ms)
+[ RUN      ] Life.clear_and_resize_conway
+[       OK ] Life.clear_and_resize_conway (11 ms)
+[ RUN      ] Life.count_population_conway
+[       OK ] Life.count_population_conway (5 ms)
+[ RUN      ] Life.count_population_fredkin
+[       OK ] Life.count_population_fredkin (4 ms)
+[ RUN      ] Life.count_population_cell
+[       OK ] Life.count_population_cell (2 ms)
+[ RUN      ] Life.scan_neighbors_cell
+[       OK ] Life.scan_neighbors_cell (4 ms)
+[ RUN      ] Life.scan_neighbors_fredkin
+[       OK ] Life.scan_neighbors_fredkin (13 ms)
+[ RUN      ] Life.scan_neighbors_conway
+[       OK ] Life.scan_neighbors_conway (6 ms)
+[ RUN      ] Life.check_one_conway3
+[       OK ] Life.check_one_conway3 (3 ms)
+[ RUN      ] Life.check_top_left_conway1
+[       OK ] Life.check_top_left_conway1 (4 ms)
+[ RUN      ] Life.check_top_left_conway2
+[       OK ] Life.check_top_left_conway2 (4 ms)
+[ RUN      ] Life.check_top_left_conway3
+[       OK ] Life.check_top_left_conway3 (4 ms)
+[ RUN      ] Life.check_top_right_conway1
+[       OK ] Life.check_top_right_conway1 (4 ms)
+[ RUN      ] Life.check_top_right_conway2
+[       OK ] Life.check_top_right_conway2 (4 ms)
+[ RUN      ] Life.check_top_right_conway3
+[       OK ] Life.check_top_right_conway3 (4 ms)
+[ RUN      ] Life.check_bottom_left_conway1
+[       OK ] Life.check_bottom_left_conway1 (4 ms)
+[ RUN      ] Life.check_bottom_left_conway2
+[       OK ] Life.check_bottom_left_conway2 (4 ms)
+[ RUN      ] Life.check_bottom_left_conway3
+[       OK ] Life.check_bottom_left_conway3 (4 ms)
+[ RUN      ] Life.check_bottom_right_conway1
+[       OK ] Life.check_bottom_right_conway1 (4 ms)
+[ RUN      ] Life.check_bottom_right_conway2
+[       OK ] Life.check_bottom_right_conway2 (4 ms)
+[ RUN      ] Life.check_bottom_right_conway3
+[       OK ] Life.check_bottom_right_conway3 (5 ms)
+[ RUN      ] Life.check_top_edge_conway1
+[       OK ] Life.check_top_edge_conway1 (3 ms)
+[ RUN      ] Life.check_top_edge_conway2
+[       OK ] Life.check_top_edge_conway2 (4 ms)
+[ RUN      ] Life.check_top_edge_conway3
+[       OK ] Life.check_top_edge_conway3 (4 ms)
+[ RUN      ] Life.check_left_edge_conway1
+[       OK ] Life.check_left_edge_conway1 (4 ms)
+[ RUN      ] Life.check_left_edge_conway2
+[       OK ] Life.check_left_edge_conway2 (4 ms)
+[ RUN      ] Life.check_left_edge_conway3
+[       OK ] Life.check_left_edge_conway3 (4 ms)
+[ RUN      ] Life.check_bottom_edge_conway1
+[       OK ] Life.check_bottom_edge_conway1 (4 ms)
+[ RUN      ] Life.check_bottom_edge_conway2
+[       OK ] Life.check_bottom_edge_conway2 (4 ms)
+[ RUN      ] Life.check_bottom_edge_conway3
+[       OK ] Life.check_bottom_edge_conway3 (4 ms)
+[ RUN      ] Life.check_right_edge_conway1
+[       OK ] Life.check_right_edge_conway1 (4 ms)
+[ RUN      ] Life.check_right_edge_conway2
+[       OK ] Life.check_right_edge_conway2 (4 ms)
+[ RUN      ] Life.check_right_edge_conway3
+[       OK ] Life.check_right_edge_conway3 (4 ms)
+[ RUN      ] Life.check_interior_conway1
+[       OK ] Life.check_interior_conway1 (4 ms)
+[ RUN      ] Life.check_interior_conway2
+[       OK ] Life.check_interior_conway2 (4 ms)
+[ RUN      ] Life.check_interior_conway3
+[       OK ] Life.check_interior_conway3 (4 ms)
+[ RUN      ] Life.check_one_fredkin1
+[       OK ] Life.check_one_fredkin1 (4 ms)
+[ RUN      ] Life.check_top_left_fredkin1
+[       OK ] Life.check_top_left_fredkin1 (4 ms)
+[ RUN      ] Life.check_top_left_fredkin2
+[       OK ] Life.check_top_left_fredkin2 (4 ms)
+[ RUN      ] Life.check_top_left_fredkin3
+[       OK ] Life.check_top_left_fredkin3 (4 ms)
+[ RUN      ] Life.check_top_right_fredkin1
+[       OK ] Life.check_top_right_fredkin1 (3 ms)
+[ RUN      ] Life.check_top_right_fredkin2
+[       OK ] Life.check_top_right_fredkin2 (4 ms)
+[ RUN      ] Life.check_top_right_fredkin3
+[       OK ] Life.check_top_right_fredkin3 (4 ms)
+[ RUN      ] Life.check_bottom_left_fredkin1
+[       OK ] Life.check_bottom_left_fredkin1 (4 ms)
+[ RUN      ] Life.check_bottom_left_fredkin2
+[       OK ] Life.check_bottom_left_fredkin2 (4 ms)
+[ RUN      ] Life.check_bottom_left_fredkin3
+[       OK ] Life.check_bottom_left_fredkin3 (4 ms)
+[ RUN      ] Life.check_bottom_right_fredkin1
+[       OK ] Life.check_bottom_right_fredkin1 (4 ms)
+[ RUN      ] Life.check_bottom_right_fredkin2
+[       OK ] Life.check_bottom_right_fredkin2 (4 ms)
+[ RUN      ] Life.check_bottom_right_fredkin3
+[       OK ] Life.check_bottom_right_fredkin3 (4 ms)
+[ RUN      ] Life.check_top_edge_fredkin1
+[       OK ] Life.check_top_edge_fredkin1 (4 ms)
+[ RUN      ] Life.check_top_edge_fredkin2
+[       OK ] Life.check_top_edge_fredkin2 (4 ms)
+[ RUN      ] Life.check_top_edge_fredkin3
+[       OK ] Life.check_top_edge_fredkin3 (4 ms)
+[----------] 71 tests from Life (468 ms total)
+
+[----------] Global test environment tear-down
+[==========] 123 tests from 4 test cases ran. (783 ms total)
+[  PASSED  ] 123 tests.
