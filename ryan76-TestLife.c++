@@ -26,19 +26,23 @@ To test the program:
     % valgrind TestLife > TestLife.out
 */
 
+// --------
+// includes
+// --------
+
 #include "gtest/gtest.h"
 #include <sstream>
 #include <stdexcept>
 #include <string>
+#include "Life.h"
+
+// -------
+// defines
+// -------
 
 #define private public
-#include "Life.h"
-#include "FredkinCell.h"
-#include "ConwayCell.h"
-#include "Cell.h"
-#include "Handle.h"
-#include "AbstractCell.h"
-#undef private
+#define protected public
+
 
 using namespace std;
 
@@ -64,6 +68,15 @@ TEST(ConwayCell, constructor3){
     ASSERT_TRUE(c.className() == "ConwayCell");
 }
 
+TEST(ConwayCell, changeState1){
+	ConwayCell c = ConwayCell();
+    
+    ASSERT_FALSE(c.isAlive());
+    c.setStateWillChange();
+    c.changeState();
+    ASSERT_TRUE(c.isAlive());
+}
+
 // -------------
 // FredkinCell
 // -------------
@@ -84,6 +97,15 @@ TEST(FredkinCell, constructor3){
 	FredkinCell c = FredkinCell();
     
     ASSERT_TRUE(c.className() == "FredkinCell");
+}
+
+TEST(FredkinCell, changeState1){
+	FredkinCell c = FredkinCell();
+    
+    ASSERT_FALSE(c.isAlive());
+    c.setStateWillChange();
+    c.changeState();
+    ASSERT_TRUE(c.isAlive());
 }
 
 // ------

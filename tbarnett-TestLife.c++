@@ -46,6 +46,13 @@ TEST(AbstractCell, abstractCell_isAlive_change) {
 	ASSERT_TRUE(f.isAlive());
 }
 
+TEST(AbstractCell, abstractCell_isAlive_both) {
+	ConwayCell c(true);
+	FredkinCell f(false);
+	ASSERT_TRUE(c.isAlive());
+	ASSERT_FALSE(f.isAlive());
+}
+
 // ----
 // Abstract changeAlive
 // ----
@@ -63,12 +70,28 @@ TEST(AbstractCell, abstractCell_changeAlive_dead) {
 
 }
 
+TEST(AbstractCell, abstractCell_changeAlive_dead2) {
+	FredkinCell f(true);
+	f.changeAlive();
+	ASSERT_FALSE(f.isAlive());
+
+}
+
 TEST(AbstractCell, abstractCell_changeAlive_change) {
 	ConwayCell c(true);
 	c.changeAlive();
 	c.changeAlive();
 	ASSERT_TRUE(c.isAlive());
 }
+
+TEST(AbstractCell, abstractCell_changeAlive_change2) {
+	ConwayCell c(false);
+	c.changeAlive();
+	c.changeAlive();
+	ASSERT_FALSE(c.isAlive());
+}
+
+
 
 // ----
 // Conway getState
@@ -89,6 +112,21 @@ TEST(ConwayCell, conway_getState_changed) {
 	c.changeAlive();
 	ASSERT_TRUE(c.getState() == '.');	
 }
+
+TEST(ConwayCell, conway_getState_changed2) {
+	ConwayCell c(false);
+	c.changeAlive();
+	c.changeAlive();
+	ASSERT_TRUE(c.getState() == '.');	
+}
+
+TEST(ConwayCell, conway_getState_changed3) {
+	ConwayCell c(true);
+	c.changeAlive();
+	c.changeAlive();
+	ASSERT_TRUE(c.getState() == '*');	
+}
+
 
 // ----
 // Conway changeState
@@ -111,6 +149,14 @@ TEST(ConwayCell, conway_changeState_diagonal) {
 TEST(ConwayCell, conway_changeState_die) {
 	pair<int, int> p(1, 0);
 	ConwayCell c(true);
+	c.changeState(p);
+	ASSERT_TRUE(c.getState() == '.');	
+}
+
+TEST(ConwayCell, conway_changeState_die2) {
+	pair<int, int> p(1, 0);
+	ConwayCell c(true);
+	c.changeState(p);
 	c.changeState(p);
 	ASSERT_TRUE(c.getState() == '.');	
 }
@@ -178,9 +224,23 @@ TEST(FredkinCell, fredkin_changeState_diagonal) {
 	ASSERT_TRUE(c.getState() == 0);
 }
 
+TEST(FredkinCell, fredkin_changeState_diagonal2) {
+	pair<int, int> p(0, 1);
+	FredkinCell c(true);
+	c.changeState(p);
+	ASSERT_FALSE(c.getState() == 0);
+}
+
 TEST(FredkinCell, fredkin_changeState_cardinal) {
 	pair<int, int> p(1, 0);
 	FredkinCell c(true);
+	c.changeState(p);
+	ASSERT_TRUE(c.getState() == '-');
+}
+
+TEST(FredkinCell, fredkin_changeState_cardinal2) {
+	pair<int, int> p(1, 0);
+	FredkinCell c(false);
 	c.changeState(p);
 	ASSERT_TRUE(c.getState() == '-');
 }
@@ -296,6 +356,33 @@ TEST(Life, life_neighbors_diagonal) {
 	delete p2; 
 	delete p3;
 	
+}
+
+// ----
+// Cell getState
+// ----
+
+
+TEST(Cell, cell_getState_baby) {
+	Life<Cell> l(1,1);
+	pair<int, int> p(0, 1);
+	l._grid[0][0].changeAlive();
+	l._grid[0][0].changeState(p);
+	ASSERT_TRUE(l._grid[0][0].getState() == 1);
+}
+
+TEST(Cell, cell_getState_dead) {
+	Life<Cell> l(1,1);
+	ASSERT_TRUE(l._grid[0][0].getState() == '-');
+}
+
+TEST(Cell, cell_getState_conway) {
+	Life<Cell> l(1,1);
+	pair<int, int> p(0, 1);	
+	l._grid[0][0].mutate();
+	l._grid[0][0].changeAlive();
+
+	ASSERT_TRUE(l._grid[0][0].getState() == '*');
 }
 
 // ----
