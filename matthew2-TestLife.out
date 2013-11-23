@@ -1,0 +1,145 @@
+Running main() from gtest_main.cc
+[==========] Running 68 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 68 tests from Life
+[ RUN      ] Life.ConwayCell_read_alive
+[       OK ] Life.ConwayCell_read_alive (12 ms)
+[ RUN      ] Life.ConwayCell_read_dead
+[       OK ] Life.ConwayCell_read_dead (3 ms)
+[ RUN      ] Life.ConwayCell_write_alive
+[       OK ] Life.ConwayCell_write_alive (6 ms)
+[ RUN      ] Life.ConwayCell_write_dead
+[       OK ] Life.ConwayCell_write_dead (3 ms)
+[ RUN      ] Life.ConwayCell_constructor_alive
+[       OK ] Life.ConwayCell_constructor_alive (1 ms)
+[ RUN      ] Life.ConwayCell_constructor_dead
+[       OK ] Life.ConwayCell_constructor_dead (1 ms)
+[ RUN      ] Life.ConwayCell_isAlive
+[       OK ] Life.ConwayCell_isAlive (1 ms)
+[ RUN      ] Life.ConwayCell_isNotAlive
+[       OK ] Life.ConwayCell_isNotAlive (1 ms)
+[ RUN      ] Life.ConwayCell_survive
+[       OK ] Life.ConwayCell_survive (1 ms)
+[ RUN      ] Life.ConwayCell_die
+[       OK ] Life.ConwayCell_die (2 ms)
+[ RUN      ] Life.ConwayCell_stayDead
+[       OK ] Life.ConwayCell_stayDead (2 ms)
+[ RUN      ] Life.ConwayCell_clone_alive
+[       OK ] Life.ConwayCell_clone_alive (3 ms)
+[ RUN      ] Life.ConwayCell_clone_dead
+[       OK ] Life.ConwayCell_clone_dead (3 ms)
+[ RUN      ] Life.ConwayCell_clone_changeState
+[       OK ] Life.ConwayCell_clone_changeState (3 ms)
+[ RUN      ] Life.ConwayCell_cellType_alive
+[       OK ] Life.ConwayCell_cellType_alive (2 ms)
+[ RUN      ] Life.ConwayCell_cellType_dead
+[       OK ] Life.ConwayCell_cellType_dead (2 ms)
+[ RUN      ] Life.ConwayCell_getAge_alive
+[       OK ] Life.ConwayCell_getAge_alive (2 ms)
+[ RUN      ] Life.ConwayCell_getAge_dead
+[       OK ] Life.ConwayCell_getAge_dead (2 ms)
+[ RUN      ] Life.FredkinCell_read_alive
+[       OK ] Life.FredkinCell_read_alive (3 ms)
+[ RUN      ] Life.FredkinCell_read_dead
+[       OK ] Life.FredkinCell_read_dead (3 ms)
+[ RUN      ] Life.FredkinCell_write_alive
+[       OK ] Life.FredkinCell_write_alive (5 ms)
+[ RUN      ] Life.FredkinCell_write_dead
+[       OK ] Life.FredkinCell_write_dead (2 ms)
+[ RUN      ] Life.FredkinCell_write_age1
+[       OK ] Life.FredkinCell_write_age1 (3 ms)
+[ RUN      ] Life.FredkinCell_write_age10
+[       OK ] Life.FredkinCell_write_age10 (2 ms)
+[ RUN      ] Life.FredkinCell_constructor_alive
+[       OK ] Life.FredkinCell_constructor_alive (2 ms)
+[ RUN      ] Life.FredkinCell_constructor_dead
+[       OK ] Life.FredkinCell_constructor_dead (2 ms)
+[ RUN      ] Life.FredkinCell_isAlive
+[       OK ] Life.FredkinCell_isAlive (2 ms)
+[ RUN      ] Life.FredkinCell_isNotAlive
+[       OK ] Life.FredkinCell_isNotAlive (2 ms)
+[ RUN      ] Life.FredkinCell_survive
+[       OK ] Life.FredkinCell_survive (3 ms)
+[ RUN      ] Life.FredkinCell_die
+[       OK ] Life.FredkinCell_die (2 ms)
+[ RUN      ] Life.FredkinCell_clone_alive
+[       OK ] Life.FredkinCell_clone_alive (5 ms)
+[ RUN      ] Life.FredkinCell_clone_dead
+[       OK ] Life.FredkinCell_clone_dead (4 ms)
+[ RUN      ] Life.FredkinCell_clone_changeState
+[       OK ] Life.FredkinCell_clone_changeState (4 ms)
+[ RUN      ] Life.FredkinCell_clone_withAge
+[       OK ] Life.FredkinCell_clone_withAge (4 ms)
+[ RUN      ] Life.FredkinCell_cellType_alive
+[       OK ] Life.FredkinCell_cellType_alive (2 ms)
+[ RUN      ] Life.FredkinCell_cellType_dead
+[       OK ] Life.FredkinCell_cellType_dead (2 ms)
+[ RUN      ] Life.FredkinCell_getAge_alive
+[       OK ] Life.FredkinCell_getAge_alive (2 ms)
+[ RUN      ] Life.FredkinCell_getAge_dead
+[       OK ] Life.FredkinCell_getAge_dead (2 ms)
+[ RUN      ] Life.FredkinCell_getAge_age1
+[       OK ] Life.FredkinCell_getAge_age1 (1 ms)
+[ RUN      ] Life.FredkinCell_getAge_age10
+[       OK ] Life.FredkinCell_getAge_age10 (1 ms)
+[ RUN      ] Life.Cell_isAlive
+[       OK ] Life.Cell_isAlive (3 ms)
+[ RUN      ] Life.Cell_isNotAlive
+[       OK ] Life.Cell_isNotAlive (2 ms)
+[ RUN      ] Life.Cell_survive
+[       OK ] Life.Cell_survive (4 ms)
+[ RUN      ] Life.Cell_die
+[       OK ] Life.Cell_die (3 ms)
+[ RUN      ] Life.Cell_cellType_conway
+[       OK ] Life.Cell_cellType_conway (2 ms)
+[ RUN      ] Life.Cell_cellType_fredkin
+[       OK ] Life.Cell_cellType_fredkin (2 ms)
+[ RUN      ] Life.Cell_getAge_conway
+[       OK ] Life.Cell_getAge_conway (2 ms)
+[ RUN      ] Life.Cell_getAge_fredkin
+[       OK ] Life.Cell_getAge_fredkin (2 ms)
+[ RUN      ] Life.Cell_getAge_fredkin2
+[       OK ] Life.Cell_getAge_fredkin2 (2 ms)
+[ RUN      ] Life.Cell_mutate
+[       OK ] Life.Cell_mutate (4 ms)
+[ RUN      ] Life.Life_neighbors_conway
+[       OK ] Life.Life_neighbors_conway (29 ms)
+[ RUN      ] Life.Life_neighbors_fredkin
+[       OK ] Life.Life_neighbors_fredkin (7 ms)
+[ RUN      ] Life.Life_constructor_conway
+[       OK ] Life.Life_constructor_conway (3 ms)
+[ RUN      ] Life.Life_constructor_fredkin
+[       OK ] Life.Life_constructor_fredkin (22 ms)
+[ RUN      ] Life.Life_constructor_cell
+[       OK ] Life.Life_constructor_cell (21 ms)
+[ RUN      ] Life.Life_read_conway
+[       OK ] Life.Life_read_conway (5 ms)
+[ RUN      ] Life.Life_read_fredkin
+[       OK ] Life.Life_read_fredkin (8 ms)
+[ RUN      ] Life.Life_read_cell
+[       OK ] Life.Life_read_cell (8 ms)
+[ RUN      ] Life.Life_print_conway
+[       OK ] Life.Life_print_conway (5 ms)
+[ RUN      ] Life.Life_print_fredkin
+[       OK ] Life.Life_print_fredkin (4 ms)
+[ RUN      ] Life.Life_print_cell
+[       OK ] Life.Life_print_cell (4 ms)
+[ RUN      ] Life.Life_population_conway
+[       OK ] Life.Life_population_conway (3 ms)
+[ RUN      ] Life.Life_population_fredkin
+[       OK ] Life.Life_population_fredkin (4 ms)
+[ RUN      ] Life.Life_population_cell
+[       OK ] Life.Life_population_cell (3 ms)
+[ RUN      ] Life.Life_simulate_conway
+[       OK ] Life.Life_simulate_conway (24 ms)
+[ RUN      ] Life.Life_simulate_fredkin
+[       OK ] Life.Life_simulate_fredkin (27 ms)
+[ RUN      ] Life.Life_simulate_cell
+[       OK ] Life.Life_simulate_cell (29 ms)
+[ RUN      ] Life.Life_simulate_cellWithMutation
+[       OK ] Life.Life_simulate_cellWithMutation (5 ms)
+[----------] 68 tests from Life (365 ms total)
+
+[----------] Global test environment tear-down
+[==========] 68 tests from 1 test case ran. (391 ms total)
+[  PASSED  ] 68 tests.
