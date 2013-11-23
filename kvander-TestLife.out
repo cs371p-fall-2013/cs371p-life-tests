@@ -1,0 +1,89 @@
+Running main() from gtest_main.cc
+[==========] Running 40 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 40 tests from Life
+[ RUN      ] Life.alive1
+[       OK ] Life.alive1 (10 ms)
+[ RUN      ] Life.alive2
+[       OK ] Life.alive2 (3 ms)
+[ RUN      ] Life.alive3
+[       OK ] Life.alive3 (5 ms)
+[ RUN      ] Life.clone1
+[       OK ] Life.clone1 (5 ms)
+[ RUN      ] Life.clone2
+[       OK ] Life.clone2 (3 ms)
+[ RUN      ] Life.clone3
+[       OK ] Life.clone3 (4 ms)
+[ RUN      ] Life.cRead1
+[       OK ] Life.cRead1 (6 ms)
+[ RUN      ] Life.cRead2
+[       OK ] Life.cRead2 (2 ms)
+[ RUN      ] Life.cRead3
+[       OK ] Life.cRead3 (3 ms)
+[ RUN      ] Life.fRead1
+[       OK ] Life.fRead1 (3 ms)
+[ RUN      ] Life.fRead2
+[       OK ] Life.fRead2 (4 ms)
+[ RUN      ] Life.fRead3
+[       OK ] Life.fRead3 (3 ms)
+[ RUN      ] Life.cellRead1
+[       OK ] Life.cellRead1 (3 ms)
+[ RUN      ] Life.cellRead2
+[       OK ] Life.cellRead2 (3 ms)
+[ RUN      ] Life.cellRead3
+[       OK ] Life.cellRead3 (3 ms)
+[ RUN      ] Life.cWrite1
+[       OK ] Life.cWrite1 (6 ms)
+[ RUN      ] Life.cWrite2
+[       OK ] Life.cWrite2 (3 ms)
+[ RUN      ] Life.fWrite1
+[       OK ] Life.fWrite1 (3 ms)
+[ RUN      ] Life.fWrite2
+[       OK ] Life.fWrite2 (2 ms)
+[ RUN      ] Life.fWrite3
+[       OK ] Life.fWrite3 (2 ms)
+[ RUN      ] Life.cellWrite1
+[       OK ] Life.cellWrite1 (3 ms)
+[ RUN      ] Life.cellWrite2
+[       OK ] Life.cellWrite2 (3 ms)
+[ RUN      ] Life.cellWrite3
+[       OK ] Life.cellWrite3 (3 ms)
+[ RUN      ] Life.cEvolve1
+[       OK ] Life.cEvolve1 (2 ms)
+[ RUN      ] Life.cEvolve2
+[       OK ] Life.cEvolve2 (3 ms)
+[ RUN      ] Life.cEvolve3
+[       OK ] Life.cEvolve3 (2 ms)
+[ RUN      ] Life.fEvolve1
+[       OK ] Life.fEvolve1 (3 ms)
+[ RUN      ] Life.fEvolve2
+[       OK ] Life.fEvolve2 (3 ms)
+[ RUN      ] Life.fEvolve3
+[       OK ] Life.fEvolve3 (2 ms)
+[ RUN      ] Life.cellEvolve1
+[       OK ] Life.cellEvolve1 (2 ms)
+[ RUN      ] Life.cellEvolve2
+[       OK ] Life.cellEvolve2 (3 ms)
+[ RUN      ] Life.cellEvolve3
+[       OK ] Life.cellEvolve3 (2 ms)
+[ RUN      ] Life.evolve
+[       OK ] Life.evolve (4 ms)
+[ RUN      ] Life.print1
+[       OK ] Life.print1 (71 ms)
+[ RUN      ] Life.print2
+[       OK ] Life.print2 (30 ms)
+[ RUN      ] Life.print3
+[       OK ] Life.print3 (31 ms)
+[ RUN      ] Life.turn1
+[       OK ] Life.turn1 (36 ms)
+[ RUN      ] Life.turn2
+[       OK ] Life.turn2 (21 ms)
+[ RUN      ] Life.turn3
+[       OK ] Life.turn3 (28 ms)
+[ RUN      ] Life.simulate
+[       OK ] Life.simulate (13 ms)
+[----------] 40 tests from Life (357 ms total)
+
+[----------] Global test environment tear-down
+[==========] 40 tests from 1 test case ran. (385 ms total)
+[  PASSED  ] 40 tests.
