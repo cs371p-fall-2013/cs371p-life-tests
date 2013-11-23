@@ -1,0 +1,147 @@
+Running main() from gtest_main.cc
+[==========] Running 69 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 69 tests from Life
+[ RUN      ] Life.ConwayCellConstructor1
+[       OK ] Life.ConwayCellConstructor1 (15 ms)
+[ RUN      ] Life.ConwayCellConstructor2
+[       OK ] Life.ConwayCellConstructor2 (4 ms)
+[ RUN      ] Life.ConwayCellConstructor3
+[       OK ] Life.ConwayCellConstructor3 (3 ms)
+[ RUN      ] Life.ConwayCellConstructor4
+[       OK ] Life.ConwayCellConstructor4 (3 ms)
+[ RUN      ] Life.ConwayCellCopyConstructor1
+[       OK ] Life.ConwayCellCopyConstructor1 (7 ms)
+[ RUN      ] Life.ConwayCellCopyConstructor2
+[       OK ] Life.ConwayCellCopyConstructor2 (7 ms)
+[ RUN      ] Life.ConwayCellCopyConstructor3
+[       OK ] Life.ConwayCellCopyConstructor3 (5 ms)
+[ RUN      ] Life.ConwayCellCopyConstructor4
+[       OK ] Life.ConwayCellCopyConstructor4 (5 ms)
+[ RUN      ] Life.ConwayCellKill1
+[       OK ] Life.ConwayCellKill1 (4 ms)
+[ RUN      ] Life.ConwayCellKill2
+[       OK ] Life.ConwayCellKill2 (5 ms)
+[ RUN      ] Life.ConwayCellCopyKill1
+[       OK ] Life.ConwayCellCopyKill1 (7 ms)
+[ RUN      ] Life.ConwayCellCopyKill2
+[       OK ] Life.ConwayCellCopyKill2 (7 ms)
+[ RUN      ] Life.ConwayCellRevive1
+[       OK ] Life.ConwayCellRevive1 (5 ms)
+[ RUN      ] Life.ConwayCellRevive2
+[       OK ] Life.ConwayCellRevive2 (4 ms)
+[ RUN      ] Life.ConwayCellCopyRevive1
+[       OK ] Life.ConwayCellCopyRevive1 (7 ms)
+[ RUN      ] Life.ConwayCellCopyRevive2
+[       OK ] Life.ConwayCellCopyRevive2 (7 ms)
+[ RUN      ] Life.ConwayCellGetType1
+[       OK ] Life.ConwayCellGetType1 (3 ms)
+[ RUN      ] Life.ConwayCellGetType2
+[       OK ] Life.ConwayCellGetType2 (4 ms)
+[ RUN      ] Life.ConwayCellClone1
+[       OK ] Life.ConwayCellClone1 (6 ms)
+[ RUN      ] Life.ConwayCellClone2
+[       OK ] Life.ConwayCellClone2 (5 ms)
+[ RUN      ] Life.FredkinCellConstructor1
+[       OK ] Life.FredkinCellConstructor1 (5 ms)
+[ RUN      ] Life.FredkinCellConstructor2
+[       OK ] Life.FredkinCellConstructor2 (5 ms)
+[ RUN      ] Life.FredkinCellConstructor3
+[       OK ] Life.FredkinCellConstructor3 (4 ms)
+[ RUN      ] Life.FredkinCellConstructor4
+[       OK ] Life.FredkinCellConstructor4 (4 ms)
+[ RUN      ] Life.FredkinCellCopyConstructor1
+[       OK ] Life.FredkinCellCopyConstructor1 (7 ms)
+[ RUN      ] Life.FredkinCellCopyConstructor2
+[       OK ] Life.FredkinCellCopyConstructor2 (6 ms)
+[ RUN      ] Life.FredkinCellCopyConstructor3
+[       OK ] Life.FredkinCellCopyConstructor3 (7 ms)
+[ RUN      ] Life.FredkinCellCopyConstructor4
+[       OK ] Life.FredkinCellCopyConstructor4 (6 ms)
+[ RUN      ] Life.FredkinCellKill1
+[       OK ] Life.FredkinCellKill1 (5 ms)
+[ RUN      ] Life.FredkinCellKill2
+[       OK ] Life.FredkinCellKill2 (4 ms)
+[ RUN      ] Life.FredkinCellKill3
+[       OK ] Life.FredkinCellKill3 (7 ms)
+[ RUN      ] Life.FredkinCellKill4
+[       OK ] Life.FredkinCellKill4 (7 ms)
+[ RUN      ] Life.FredkinCellRevive1
+[       OK ] Life.FredkinCellRevive1 (5 ms)
+[ RUN      ] Life.FredkinCellRevive2
+[       OK ] Life.FredkinCellRevive2 (4 ms)
+[ RUN      ] Life.FredkinCellCopyRevive1
+[       OK ] Life.FredkinCellCopyRevive1 (6 ms)
+[ RUN      ] Life.FredkinCellCopyRevive2
+[       OK ] Life.FredkinCellCopyRevive2 (7 ms)
+[ RUN      ] Life.FredkinCellGetType1
+[       OK ] Life.FredkinCellGetType1 (4 ms)
+[ RUN      ] Life.FredkinCellGetType2
+[       OK ] Life.FredkinCellGetType2 (3 ms)
+[ RUN      ] Life.FredkinCellGetType3
+[       OK ] Life.FredkinCellGetType3 (3 ms)
+[ RUN      ] Life.FredkinCellGetType4
+[       OK ] Life.FredkinCellGetType4 (3 ms)
+[ RUN      ] Life.FredkinCellClone1
+[       OK ] Life.FredkinCellClone1 (6 ms)
+[ RUN      ] Life.FredkinCellClone2
+[       OK ] Life.FredkinCellClone2 (5 ms)
+[ RUN      ] Life.FredkinCellGetAge1
+[       OK ] Life.FredkinCellGetAge1 (3 ms)
+[ RUN      ] Life.FredkinCellGetAge2
+[       OK ] Life.FredkinCellGetAge2 (3 ms)
+[ RUN      ] Life.FredkinCellGetAge3
+[       OK ] Life.FredkinCellGetAge3 (3 ms)
+[ RUN      ] Life.FredkinCellGetAge4
+[       OK ] Life.FredkinCellGetAge4 (3 ms)
+[ RUN      ] Life.CellConstructor1
+[       OK ] Life.CellConstructor1 (6 ms)
+[ RUN      ] Life.CellConstructor2
+[       OK ] Life.CellConstructor2 (4 ms)
+[ RUN      ] Life.CellConstructor3
+[       OK ] Life.CellConstructor3 (4 ms)
+[ RUN      ] Life.CellConstructor4
+[       OK ] Life.CellConstructor4 (4 ms)
+[ RUN      ] Life.CellKill1
+[       OK ] Life.CellKill1 (5 ms)
+[ RUN      ] Life.CellKill2
+[       OK ] Life.CellKill2 (5 ms)
+[ RUN      ] Life.CellKill3
+[       OK ] Life.CellKill3 (5 ms)
+[ RUN      ] Life.CellKill4
+[       OK ] Life.CellKill4 (5 ms)
+[ RUN      ] Life.CellRevive1
+[       OK ] Life.CellRevive1 (5 ms)
+[ RUN      ] Life.CellRevive2
+[       OK ] Life.CellRevive2 (5 ms)
+[ RUN      ] Life.CellRevive3
+[       OK ] Life.CellRevive3 (5 ms)
+[ RUN      ] Life.CellRevive4
+[       OK ] Life.CellRevive4 (5 ms)
+[ RUN      ] Life.CellGetType1
+[       OK ] Life.CellGetType1 (3 ms)
+[ RUN      ] Life.CellGetType2
+[       OK ] Life.CellGetType2 (3 ms)
+[ RUN      ] Life.CellGetType3
+[       OK ] Life.CellGetType3 (4 ms)
+[ RUN      ] Life.CellGetType4
+[       OK ] Life.CellGetType4 (4 ms)
+[ RUN      ] Life.CellClone1
+[       OK ] Life.CellClone1 (6 ms)
+[ RUN      ] Life.CellClone2
+[       OK ] Life.CellClone2 (6 ms)
+[ RUN      ] Life.CellClone3
+[       OK ] Life.CellClone3 (8 ms)
+[ RUN      ] Life.CellClone4
+[       OK ] Life.CellClone4 (7 ms)
+[ RUN      ] Life.CellMutate1
+[       OK ] Life.CellMutate1 (9 ms)
+[ RUN      ] Life.CellMutate2
+[       OK ] Life.CellMutate2 (8 ms)
+[ RUN      ] Life.CellMutate3
+[       OK ] Life.CellMutate3 (7 ms)
+[----------] 69 tests from Life (389 ms total)
+
+[----------] Global test environment tear-down
+[==========] 69 tests from 1 test case ran. (432 ms total)
+[  PASSED  ] 69 tests.
