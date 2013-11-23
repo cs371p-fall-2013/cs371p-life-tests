@@ -1,0 +1,108 @@
+Running main() from gtest_main.cc
+[==========] Running 45 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from TestLife
+[ RUN      ] TestLife.constructor
+[       OK ] TestLife.constructor (66 ms)
+[ RUN      ] TestLife.add
+[       OK ] TestLife.add (16 ms)
+[----------] 2 tests from TestLife (96 ms total)
+
+[----------] 6 tests from TestConwayCell
+[ RUN      ] TestConwayCell.get_status_char1
+[       OK ] TestConwayCell.get_status_char1 (4 ms)
+[ RUN      ] TestConwayCell.get_status_char2
+[       OK ] TestConwayCell.get_status_char2 (3 ms)
+[ RUN      ] TestConwayCell.get_neighbors1
+[       OK ] TestConwayCell.get_neighbors1 (39 ms)
+[ RUN      ] TestConwayCell.get_neighbors2
+[       OK ] TestConwayCell.get_neighbors2 (10 ms)
+[ RUN      ] TestConwayCell.get_neighbors3
+[       OK ] TestConwayCell.get_neighbors3 (10 ms)
+[ RUN      ] TestConwayCell.get_neighbors4
+[       OK ] TestConwayCell.get_neighbors4 (7 ms)
+[----------] 6 tests from TestConwayCell (76 ms total)
+
+[----------] 7 tests from TestFredkinCell
+[ RUN      ] TestFredkinCell.get_status_char1
+[       OK ] TestFredkinCell.get_status_char1 (4 ms)
+[ RUN      ] TestFredkinCell.get_status_char2
+[       OK ] TestFredkinCell.get_status_char2 (3 ms)
+[ RUN      ] TestFredkinCell.get_status_char3
+[       OK ] TestFredkinCell.get_status_char3 (3 ms)
+[ RUN      ] TestFredkinCell.get_neighbors1
+[       OK ] TestFredkinCell.get_neighbors1 (9 ms)
+[ RUN      ] TestFredkinCell.get_neighbors2
+[       OK ] TestFredkinCell.get_neighbors2 (7 ms)
+[ RUN      ] TestFredkinCell.get_neighbors3
+[       OK ] TestFredkinCell.get_neighbors3 (8 ms)
+[ RUN      ] TestFredkinCell.get_neighbors4
+[       OK ] TestFredkinCell.get_neighbors4 (7 ms)
+[----------] 7 tests from TestFredkinCell (43 ms total)
+
+[----------] 30 tests from TestCell
+[ RUN      ] TestCell.constructor1
+[       OK ] TestCell.constructor1 (5 ms)
+[ RUN      ] TestCell.constructor2
+[       OK ] TestCell.constructor2 (4 ms)
+[ RUN      ] TestCell.get_state1
+[       OK ] TestCell.get_state1 (4 ms)
+[ RUN      ] TestCell.get_state2
+[       OK ] TestCell.get_state2 (4 ms)
+[ RUN      ] TestCell.get_state3
+[       OK ] TestCell.get_state3 (3 ms)
+[ RUN      ] TestCell.set_state_hard1
+[       OK ] TestCell.set_state_hard1 (4 ms)
+[ RUN      ] TestCell.set_state_hard2
+[       OK ] TestCell.set_state_hard2 (4 ms)
+[ RUN      ] TestCell.get_pos1
+[       OK ] TestCell.get_pos1 (5 ms)
+[ RUN      ] TestCell.get_pos2
+[       OK ] TestCell.get_pos2 (4 ms)
+[ RUN      ] TestCell.get_pos3
+[       OK ] TestCell.get_pos3 (3 ms)
+[ RUN      ] TestCell.set_state1
+[       OK ] TestCell.set_state1 (4 ms)
+[ RUN      ] TestCell.set_state2
+[       OK ] TestCell.set_state2 (4 ms)
+[ RUN      ] TestCell.set_state3
+[       OK ] TestCell.set_state3 (3 ms)
+[ RUN      ] TestCell.set_state4
+[       OK ] TestCell.set_state4 (3 ms)
+[ RUN      ] TestCell.set_state5
+[       OK ] TestCell.set_state5 (4 ms)
+[ RUN      ] TestCell.get_status_char1
+[       OK ] TestCell.get_status_char1 (4 ms)
+[ RUN      ] TestCell.get_status_char2
+[       OK ] TestCell.get_status_char2 (4 ms)
+[ RUN      ] TestCell.get_status_char3
+[       OK ] TestCell.get_status_char3 (3 ms)
+[ RUN      ] TestCell.get_status_char4
+[       OK ] TestCell.get_status_char4 (3 ms)
+[ RUN      ] TestCell.get_status_char5
+[       OK ] TestCell.get_status_char5 (4 ms)
+[ RUN      ] TestCell.get_status_char6
+[       OK ] TestCell.get_status_char6 (4 ms)
+[ RUN      ] TestCell.get_status_char7
+[       OK ] TestCell.get_status_char7 (3 ms)
+[ RUN      ] TestCell.evolve1
+[       OK ] TestCell.evolve1 (5 ms)
+[ RUN      ] TestCell.evolve2
+[       OK ] TestCell.evolve2 (3 ms)
+[ RUN      ] TestCell.evolve3
+[       OK ] TestCell.evolve3 (3 ms)
+[ RUN      ] TestCell.evolve4
+[       OK ] TestCell.evolve4 (4 ms)
+[ RUN      ] TestCell.evolve5
+[       OK ] TestCell.evolve5 (4 ms)
+[ RUN      ] TestCell.evolve6
+[       OK ] TestCell.evolve6 (4 ms)
+[ RUN      ] TestCell.evolve7
+[       OK ] TestCell.evolve7 (3 ms)
+[ RUN      ] TestCell.mutate
+[       OK ] TestCell.mutate (5 ms)
+[----------] 30 tests from TestCell (122 ms total)
+
+[----------] Global test environment tear-down
+[==========] 45 tests from 4 test cases ran. (382 ms total)
+[  PASSED  ] 45 tests.
