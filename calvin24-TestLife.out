@@ -1,0 +1,163 @@
+Running main() from gtest_main.cc
+[==========] Running 74 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 25 tests from ConwayCell
+[ RUN      ] ConwayCell.alive
+[       OK ] ConwayCell.alive (13 ms)
+[ RUN      ] ConwayCell.clone
+[       OK ] ConwayCell.clone (2 ms)
+[ RUN      ] ConwayCell.dead
+[       OK ] ConwayCell.dead (3 ms)
+[ RUN      ] ConwayCell.mutate_1
+[       OK ] ConwayCell.mutate_1 (2 ms)
+[ RUN      ] ConwayCell.mutate_2
+[       OK ] ConwayCell.mutate_2 (2 ms)
+[ RUN      ] ConwayCell.mutate_3
+[       OK ] ConwayCell.mutate_3 (2 ms)
+[ RUN      ] ConwayCell.mutate_4
+[       OK ] ConwayCell.mutate_4 (2 ms)
+[ RUN      ] ConwayCell.read_correct_vals_Conway1
+[       OK ] ConwayCell.read_correct_vals_Conway1 (40 ms)
+[ RUN      ] ConwayCell.read_correct_vals_Conway2
+[       OK ] ConwayCell.read_correct_vals_Conway2 (3 ms)
+[ RUN      ] ConwayCell.read_correct_vals_Conway3
+[       OK ] ConwayCell.read_correct_vals_Conway3 (3 ms)
+[ RUN      ] ConwayCell.in_range
+[       OK ] ConwayCell.in_range (4 ms)
+[ RUN      ] ConwayCell.in_range_2
+[       OK ] ConwayCell.in_range_2 (2 ms)
+[ RUN      ] ConwayCell.in_range_3
+[       OK ] ConwayCell.in_range_3 (2 ms)
+[ RUN      ] ConwayCell.place_cell_Conway
+[       OK ] ConwayCell.place_cell_Conway (3 ms)
+[ RUN      ] ConwayCell.place_cell_Conway_2
+[       OK ] ConwayCell.place_cell_Conway_2 (3 ms)
+[ RUN      ] ConwayCell.place_cell_Conway_corners
+[       OK ] ConwayCell.place_cell_Conway_corners (3 ms)
+[ RUN      ] ConwayCell.life_simulate_Conway
+[       OK ] ConwayCell.life_simulate_Conway (38 ms)
+[ RUN      ] ConwayCell.life_simulate_Conway_2
+[       OK ] ConwayCell.life_simulate_Conway_2 (4 ms)
+[ RUN      ] ConwayCell.life_simulate_Conway_3
+[       OK ] ConwayCell.life_simulate_Conway_3 (6 ms)
+[ RUN      ] ConwayCell.ConwayCounter
+[       OK ] ConwayCell.ConwayCounter (7 ms)
+[ RUN      ] ConwayCell.ConwayCounter_2
+[       OK ] ConwayCell.ConwayCounter_2 (7 ms)
+[ RUN      ] ConwayCell.ConwayCounter_3
+[       OK ] ConwayCell.ConwayCounter_3 (8 ms)
+[ RUN      ] ConwayCell.makeWorld
+[       OK ] ConwayCell.makeWorld (5 ms)
+[ RUN      ] ConwayCell.makeWorld_2
+[       OK ] ConwayCell.makeWorld_2 (5 ms)
+[ RUN      ] ConwayCell.makeWorld_3
+[       OK ] ConwayCell.makeWorld_3 (4 ms)
+[----------] 25 tests from ConwayCell (190 ms total)
+
+[----------] 29 tests from FredkinCell
+[ RUN      ] FredkinCell.alive
+[       OK ] FredkinCell.alive (2 ms)
+[ RUN      ] FredkinCell.clone
+[       OK ] FredkinCell.clone (2 ms)
+[ RUN      ] FredkinCell.dead
+[       OK ] FredkinCell.dead (2 ms)
+[ RUN      ] FredkinCell.mutate_1
+[       OK ] FredkinCell.mutate_1 (2 ms)
+[ RUN      ] FredkinCell.mutate_2
+[       OK ] FredkinCell.mutate_2 (2 ms)
+[ RUN      ] FredkinCell.mutate_3
+[       OK ] FredkinCell.mutate_3 (2 ms)
+[ RUN      ] FredkinCell.mutate_4
+[       OK ] FredkinCell.mutate_4 (2 ms)
+[ RUN      ] FredkinCell.mutate_5
+[       OK ] FredkinCell.mutate_5 (2 ms)
+[ RUN      ] FredkinCell.read_correct_vals_Fredkin
+[       OK ] FredkinCell.read_correct_vals_Fredkin (29 ms)
+[ RUN      ] FredkinCell.read_correct_vals_Fredkin_full
+[       OK ] FredkinCell.read_correct_vals_Fredkin_full (3 ms)
+[ RUN      ] FredkinCell.read_correct_vals_Fredkin_empty
+[       OK ] FredkinCell.read_correct_vals_Fredkin_empty (3 ms)
+[ RUN      ] FredkinCell.read_correct_vals_Fredkin_invalid
+[       OK ] FredkinCell.read_correct_vals_Fredkin_invalid (4 ms)
+[ RUN      ] FredkinCell.read_correct_vals_Cell_invalid
+[       OK ] FredkinCell.read_correct_vals_Cell_invalid (30 ms)
+[ RUN      ] FredkinCell.in_range_4
+[       OK ] FredkinCell.in_range_4 (3 ms)
+[ RUN      ] FredkinCell.in_range_5
+[       OK ] FredkinCell.in_range_5 (3 ms)
+[ RUN      ] FredkinCell.in_range_6
+[       OK ] FredkinCell.in_range_6 (2 ms)
+[ RUN      ] FredkinCell.place_cell_Fredkin
+[       OK ] FredkinCell.place_cell_Fredkin (4 ms)
+[ RUN      ] FredkinCell.place_cell_Fredkin_2
+[       OK ] FredkinCell.place_cell_Fredkin_2 (3 ms)
+[ RUN      ] FredkinCell.place_cell_Fredkin_corners
+[       OK ] FredkinCell.place_cell_Fredkin_corners (4 ms)
+[ RUN      ] FredkinCell.life_simulate_Fredkin
+[       OK ] FredkinCell.life_simulate_Fredkin (19 ms)
+[ RUN      ] FredkinCell.life_simulate_Fredkin_2
+[       OK ] FredkinCell.life_simulate_Fredkin_2 (4 ms)
+[ RUN      ] FredkinCell.life_simulate_Fredkin_plus
+[       OK ] FredkinCell.life_simulate_Fredkin_plus (7 ms)
+[ RUN      ] FredkinCell.life_simulate_Fredkin_allPlus
+[       OK ] FredkinCell.life_simulate_Fredkin_allPlus (7 ms)
+[ RUN      ] FredkinCell.FredkinCounter
+[       OK ] FredkinCell.FredkinCounter (5 ms)
+[ RUN      ] FredkinCell.FredkinCounter_2
+[       OK ] FredkinCell.FredkinCounter_2 (7 ms)
+[ RUN      ] FredkinCell.FredkinCounter_3
+[       OK ] FredkinCell.FredkinCounter_3 (8 ms)
+[ RUN      ] FredkinCell.makeWorld
+[       OK ] FredkinCell.makeWorld (5 ms)
+[ RUN      ] FredkinCell.makeWorld_2
+[       OK ] FredkinCell.makeWorld_2 (5 ms)
+[ RUN      ] FredkinCell.makeWorld_3
+[       OK ] FredkinCell.makeWorld_3 (4 ms)
+[----------] 29 tests from FredkinCell (181 ms total)
+
+[----------] 20 tests from Cell
+[ RUN      ] Cell.clone
+[       OK ] Cell.clone (2 ms)
+[ RUN      ] Cell.mutate
+[       OK ] Cell.mutate (2 ms)
+[ RUN      ] Cell.mutate_1
+[       OK ] Cell.mutate_1 (2 ms)
+[ RUN      ] Cell.mutate_2
+[       OK ] Cell.mutate_2 (2 ms)
+[ RUN      ] Cell.read_correct_vals_Cell
+[       OK ] Cell.read_correct_vals_Cell (4 ms)
+[ RUN      ] Cell.read_correct_vals_Cell_full
+[       OK ] Cell.read_correct_vals_Cell_full (3 ms)
+[ RUN      ] Cell.read_correct_vals_Cell_empty
+[       OK ] Cell.read_correct_vals_Cell_empty (3 ms)
+[ RUN      ] Cell.in_range_7
+[       OK ] Cell.in_range_7 (3 ms)
+[ RUN      ] Cell.in_range_8
+[       OK ] Cell.in_range_8 (2 ms)
+[ RUN      ] Cell.in_range_9
+[       OK ] Cell.in_range_9 (2 ms)
+[ RUN      ] Cell.place_cell_3
+[       OK ] Cell.place_cell_3 (3 ms)
+[ RUN      ] Cell.life_simulate_cell
+[       OK ] Cell.life_simulate_cell (20 ms)
+[ RUN      ] Cell.life_simulate_cell_2
+[       OK ] Cell.life_simulate_cell_2 (9 ms)
+[ RUN      ] Cell.life_simulate_cell_3
+[       OK ] Cell.life_simulate_cell_3 (27 ms)
+[ RUN      ] Cell.CellCounter
+[       OK ] Cell.CellCounter (5 ms)
+[ RUN      ] Cell.CellCounter_2
+[       OK ] Cell.CellCounter_2 (8 ms)
+[ RUN      ] Cell.CellCounter_3
+[       OK ] Cell.CellCounter_3 (8 ms)
+[ RUN      ] Cell.makeWorld
+[       OK ] Cell.makeWorld (6 ms)
+[ RUN      ] Cell.makeWorld_2
+[       OK ] Cell.makeWorld_2 (6 ms)
+[ RUN      ] Cell.makeWorld_3
+[       OK ] Cell.makeWorld_3 (6 ms)
+[----------] 20 tests from Cell (129 ms total)
+
+[----------] Global test environment tear-down
+[==========] 74 tests from 3 test cases ran. (527 ms total)
+[  PASSED  ] 74 tests.
