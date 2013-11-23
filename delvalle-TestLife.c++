@@ -9,6 +9,7 @@
 #include "ConwayCell.h"
 #include "Cell.h"
 
+
 using namespace std;
 
 TEST(FredkinCell, fredkin1) {
@@ -203,7 +204,7 @@ TEST(Life, life3) {
 }
 
 TEST(Life, life4) {
-	Life<ConwayCell> test;
+	Life<FredkinCell> test;
 
 	for(int i = 0; i < 5; ++i) {
 		test._grid.resize(5);
@@ -211,10 +212,10 @@ TEST(Life, life4) {
 			test._grid[i].resize(5);
 		}
 	}
+	test._grid[4][4]._alive = false;
 
-	assert(test.live_cells() == 0);
+	assert(test._grid[4][4]._alive != true);
 }
-
 TEST(Life, life5) {
 	Life<ConwayCell> test;
 
@@ -222,12 +223,10 @@ TEST(Life, life5) {
 		test._grid.resize(5);
 		for(int j = 0; j < 5; ++j) {
 			test._grid[i].resize(5);
-
 			test._grid[i][j]._alive = true;
 		}
 	}
-
-	assert(test.live_cells() == 0);
+	assert(test.in_interior(2, 2, "ConwayCell") == 8);
 }
 
 TEST(Life, life6) {
@@ -270,7 +269,7 @@ TEST(Life, life8) {
 }
 
 TEST(Life, life9) {
-	Life<ConwayCell> test;
+	Life<FredkinCell> test;
 
 	for(int i = 0; i < 5; ++i) {
 		test._grid.resize(5);
@@ -278,7 +277,9 @@ TEST(Life, life9) {
 			test._grid[i].resize(5);
 		}
 	}
-	assert(test.live_cells() != 25);
+	test._grid[2][3]._alive = false;
+
+	assert(test._grid[2][3]._alive != true);
 }
 
 TEST(Life, life10) {
@@ -331,7 +332,9 @@ TEST(Life, life13) {
 			test._grid[i].resize(5);
 		}
 	}
-	assert(test.live_cells() != 25);
+	test._grid[1][3]._alive = false;
+
+	assert(test._grid[1][3]._alive != true);
 }
 
 TEST(Life, life14) {
