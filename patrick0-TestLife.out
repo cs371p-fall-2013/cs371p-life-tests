@@ -1,0 +1,130 @@
+==29952== Memcheck, a memory error detector
+==29952== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==29952== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==29952== Command: ./TestLife 2
+==29952== 
+Running main() from gtest_main.cc
+[==========] Running 52 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 26 tests from CONWAYCELL
+[ RUN      ] CONWAYCELL.neighbors1
+[       OK ] CONWAYCELL.neighbors1 (14 ms)
+[ RUN      ] CONWAYCELL.neighbors2
+[       OK ] CONWAYCELL.neighbors2 (3 ms)
+[ RUN      ] CONWAYCELL.neighbors3
+[       OK ] CONWAYCELL.neighbors3 (3 ms)
+[ RUN      ] CONWAYCELL.neighbors4
+[       OK ] CONWAYCELL.neighbors4 (3 ms)
+[ RUN      ] CONWAYCELL.neighbors5
+[       OK ] CONWAYCELL.neighbors5 (3 ms)
+[ RUN      ] CONWAYCELL.neighbors6
+[       OK ] CONWAYCELL.neighbors6 (3 ms)
+[ RUN      ] CONWAYCELL.neighbors7
+[       OK ] CONWAYCELL.neighbors7 (2 ms)
+[ RUN      ] CONWAYCELL.neighbors8
+[       OK ] CONWAYCELL.neighbors8 (2 ms)
+[ RUN      ] CONWAYCELL.markalive1
+[       OK ] CONWAYCELL.markalive1 (3 ms)
+[ RUN      ] CONWAYCELL.markalive2
+[       OK ] CONWAYCELL.markalive2 (3 ms)
+[ RUN      ] CONWAYCELL.markalive3
+[       OK ] CONWAYCELL.markalive3 (3 ms)
+[ RUN      ] CONWAYCELL.markalive4
+[       OK ] CONWAYCELL.markalive4 (2 ms)
+[ RUN      ] CONWAYCELL.markalive5
+[       OK ] CONWAYCELL.markalive5 (2 ms)
+[ RUN      ] CONWAYCELL.markalive6
+[       OK ] CONWAYCELL.markalive6 (2 ms)
+[ RUN      ] CONWAYCELL.markalive7
+[       OK ] CONWAYCELL.markalive7 (2 ms)
+[ RUN      ] CONWAYCELL.markalive8
+[       OK ] CONWAYCELL.markalive8 (2 ms)
+[ RUN      ] CONWAYCELL.markdead1
+[       OK ] CONWAYCELL.markdead1 (3 ms)
+[ RUN      ] CONWAYCELL.markdead2
+[       OK ] CONWAYCELL.markdead2 (2 ms)
+[ RUN      ] CONWAYCELL.markdead3
+[       OK ] CONWAYCELL.markdead3 (2 ms)
+[ RUN      ] CONWAYCELL.markdead4
+[       OK ] CONWAYCELL.markdead4 (2 ms)
+[ RUN      ] CONWAYCELL.markdead5
+[       OK ] CONWAYCELL.markdead5 (2 ms)
+[ RUN      ] CONWAYCELL.markdead6
+[       OK ] CONWAYCELL.markdead6 (2 ms)
+[ RUN      ] CONWAYCELL.markdead7
+[       OK ] CONWAYCELL.markdead7 (2 ms)
+[ RUN      ] CONWAYCELL.markdead8
+[       OK ] CONWAYCELL.markdead8 (2 ms)
+[ RUN      ] CONWAYCELL.markdead9
+[       OK ] CONWAYCELL.markdead9 (2 ms)
+[ RUN      ] CONWAYCELL.markdead10
+[       OK ] CONWAYCELL.markdead10 (3 ms)
+[----------] 26 tests from CONWAYCELL (101 ms total)
+
+[----------] 26 tests from FREDKINCELL
+[ RUN      ] FREDKINCELL.fneighbors1
+[       OK ] FREDKINCELL.fneighbors1 (4 ms)
+[ RUN      ] FREDKINCELL.fneighbors2
+[       OK ] FREDKINCELL.fneighbors2 (3 ms)
+[ RUN      ] FREDKINCELL.fneighbors3
+[       OK ] FREDKINCELL.fneighbors3 (3 ms)
+[ RUN      ] FREDKINCELL.fneighbors4
+[       OK ] FREDKINCELL.fneighbors4 (3 ms)
+[ RUN      ] FREDKINCELL.fneighbors5
+[       OK ] FREDKINCELL.fneighbors5 (3 ms)
+[ RUN      ] FREDKINCELL.fneighbors6
+[       OK ] FREDKINCELL.fneighbors6 (3 ms)
+[ RUN      ] FREDKINCELL.fneighbors7
+[       OK ] FREDKINCELL.fneighbors7 (3 ms)
+[ RUN      ] FREDKINCELL.fneighbors8
+[       OK ] FREDKINCELL.fneighbors8 (2 ms)
+[ RUN      ] FREDKINCELL.fmarkalive1
+[       OK ] FREDKINCELL.fmarkalive1 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkalive2
+[       OK ] FREDKINCELL.fmarkalive2 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkalive3
+[       OK ] FREDKINCELL.fmarkalive3 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkalive4
+[       OK ] FREDKINCELL.fmarkalive4 (3 ms)
+[ RUN      ] FREDKINCELL.fmarkalive5
+[       OK ] FREDKINCELL.fmarkalive5 (3 ms)
+[ RUN      ] FREDKINCELL.fmarkalive6
+[       OK ] FREDKINCELL.fmarkalive6 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkalive7
+[       OK ] FREDKINCELL.fmarkalive7 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkalive8
+[       OK ] FREDKINCELL.fmarkalive8 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkalive9
+[       OK ] FREDKINCELL.fmarkalive9 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkdead1
+[       OK ] FREDKINCELL.fmarkdead1 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkdead2
+[       OK ] FREDKINCELL.fmarkdead2 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkdead3
+[       OK ] FREDKINCELL.fmarkdead3 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkdead4
+[       OK ] FREDKINCELL.fmarkdead4 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkdead5
+[       OK ] FREDKINCELL.fmarkdead5 (3 ms)
+[ RUN      ] FREDKINCELL.fmarkdead6
+[       OK ] FREDKINCELL.fmarkdead6 (3 ms)
+[ RUN      ] FREDKINCELL.fmarkdead7
+[       OK ] FREDKINCELL.fmarkdead7 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkdead8
+[       OK ] FREDKINCELL.fmarkdead8 (4 ms)
+[ RUN      ] FREDKINCELL.fmarkdead9
+[       OK ] FREDKINCELL.fmarkdead9 (4 ms)
+[----------] 26 tests from FREDKINCELL (96 ms total)
+
+[----------] Global test environment tear-down
+[==========] 52 tests from 2 test cases ran. (244 ms total)
+[  PASSED  ] 52 tests.
+==29952== 
+==29952== HEAP SUMMARY:
+==29952==     in use at exit: 0 bytes in 0 blocks
+==29952==   total heap usage: 1,083 allocs, 1,083 frees, 131,029 bytes allocated
+==29952== 
+==29952== All heap blocks were freed -- no leaks are possible
+==29952== 
+==29952== For counts of detected and suppressed errors, rerun with: -v
+==29952== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
