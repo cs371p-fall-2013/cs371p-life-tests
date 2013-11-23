@@ -1,0 +1,152 @@
+Running main() from gtest_main.cc
+[==========] Running 70 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 32 tests from Life
+[ RUN      ] Life.Life
+[       OK ] Life.Life (0 ms)
+[ RUN      ] Life.Life1
+[       OK ] Life.Life1 (0 ms)
+[ RUN      ] Life.ConwayCell
+[       OK ] Life.ConwayCell (0 ms)
+[ RUN      ] Life.Fredkin
+[       OK ] Life.Fredkin (0 ms)
+[ RUN      ] Life.Cell
+[       OK ] Life.Cell (0 ms)
+[ RUN      ] Life.setSize
+[       OK ] Life.setSize (0 ms)
+[ RUN      ] Life.setSize1
+[       OK ] Life.setSize1 (0 ms)
+[ RUN      ] Life.setSize2
+[       OK ] Life.setSize2 (0 ms)
+[ RUN      ] Life.populateEnvironment
+[       OK ] Life.populateEnvironment (0 ms)
+[ RUN      ] Life.populateEnvironment1
+[       OK ] Life.populateEnvironment1 (0 ms)
+[ RUN      ] Life.populateEnvironment2
+[       OK ] Life.populateEnvironment2 (0 ms)
+[ RUN      ] Life.populateEnvironment3
+[       OK ] Life.populateEnvironment3 (0 ms)
+[ RUN      ] Life.countNeighbors
+[       OK ] Life.countNeighbors (0 ms)
+[ RUN      ] Life.countNeighbors1
+[       OK ] Life.countNeighbors1 (0 ms)
+[ RUN      ] Life.countNeighbors2
+[       OK ] Life.countNeighbors2 (0 ms)
+[ RUN      ] Life.countNeighbors3
+[       OK ] Life.countNeighbors3 (0 ms)
+[ RUN      ] Life.countNeighbors4
+[       OK ] Life.countNeighbors4 (0 ms)
+[ RUN      ] Life.countNeighbors5
+[       OK ] Life.countNeighbors5 (0 ms)
+[ RUN      ] Life.countPopulation0
+[       OK ] Life.countPopulation0 (0 ms)
+[ RUN      ] Life.countPopulation
+[       OK ] Life.countPopulation (0 ms)
+[ RUN      ] Life.countPopulation1
+[       OK ] Life.countPopulation1 (0 ms)
+[ RUN      ] Life.countPopulation2
+[       OK ] Life.countPopulation2 (0 ms)
+[ RUN      ] Life.runSimulate1
+[       OK ] Life.runSimulate1 (1 ms)
+[ RUN      ] Life.runSimulate2
+[       OK ] Life.runSimulate2 (0 ms)
+[ RUN      ] Life.runSimulate3
+[       OK ] Life.runSimulate3 (0 ms)
+[ RUN      ] Life.getRow
+[       OK ] Life.getRow (0 ms)
+[ RUN      ] Life.getRow1
+[       OK ] Life.getRow1 (0 ms)
+[ RUN      ] Life.getRow2
+[       OK ] Life.getRow2 (0 ms)
+[ RUN      ] Life.getColumn
+[       OK ] Life.getColumn (0 ms)
+[ RUN      ] Life.getColumn1
+[       OK ] Life.getColumn1 (0 ms)
+[ RUN      ] Life.getColumn2
+[       OK ] Life.getColumn2 (0 ms)
+[ RUN      ] Life.ConwayCell1
+[       OK ] Life.ConwayCell1 (0 ms)
+[----------] 32 tests from Life (1 ms total)
+
+[----------] 38 tests from TestLife
+[ RUN      ] TestLife.Runsim
+[       OK ] TestLife.Runsim (0 ms)
+[ RUN      ] TestLife.Runsim1
+[       OK ] TestLife.Runsim1 (0 ms)
+[ RUN      ] TestLife.Runsim2
+[       OK ] TestLife.Runsim2 (0 ms)
+[ RUN      ] TestLife.Runsim3
+[       OK ] TestLife.Runsim3 (0 ms)
+[ RUN      ] TestLife.predictFuture
+[       OK ] TestLife.predictFuture (0 ms)
+[ RUN      ] TestLife.predictFuture1
+[       OK ] TestLife.predictFuture1 (0 ms)
+[ RUN      ] TestLife.predictFuture3
+[       OK ] TestLife.predictFuture3 (0 ms)
+[ RUN      ] TestLife.predictFuture4
+[       OK ] TestLife.predictFuture4 (0 ms)
+[ RUN      ] TestLife.predictFuture5
+[       OK ] TestLife.predictFuture5 (0 ms)
+[ RUN      ] TestLife.predictFuture6
+[       OK ] TestLife.predictFuture6 (0 ms)
+[ RUN      ] TestLife.predictFuture7
+[       OK ] TestLife.predictFuture7 (0 ms)
+[ RUN      ] TestLife.predictFuture8
+[       OK ] TestLife.predictFuture8 (0 ms)
+[ RUN      ] TestLife.predictFuture9
+[       OK ] TestLife.predictFuture9 (0 ms)
+[ RUN      ] TestLife.predictFuture10
+[       OK ] TestLife.predictFuture10 (0 ms)
+[ RUN      ] TestLife.predictFuture11
+[       OK ] TestLife.predictFuture11 (0 ms)
+[ RUN      ] TestLife.predictFuture12
+[       OK ] TestLife.predictFuture12 (0 ms)
+[ RUN      ] TestLife.predictFuture13
+[       OK ] TestLife.predictFuture13 (0 ms)
+[ RUN      ] TestLife.evolve
+[       OK ] TestLife.evolve (0 ms)
+[ RUN      ] TestLife.evolve1
+[       OK ] TestLife.evolve1 (0 ms)
+[ RUN      ] TestLife.evolve2
+[       OK ] TestLife.evolve2 (0 ms)
+[ RUN      ] TestLife.evolve3
+[       OK ] TestLife.evolve3 (0 ms)
+[ RUN      ] TestLife.evolve4
+[       OK ] TestLife.evolve4 (0 ms)
+[ RUN      ] TestLife.evolve5
+[       OK ] TestLife.evolve5 (0 ms)
+[ RUN      ] TestLife.evolve6
+[       OK ] TestLife.evolve6 (0 ms)
+[ RUN      ] TestLife.evolve7
+[       OK ] TestLife.evolve7 (0 ms)
+[ RUN      ] TestLife.evolve8
+[       OK ] TestLife.evolve8 (0 ms)
+[ RUN      ] TestLife.evolve9
+[       OK ] TestLife.evolve9 (0 ms)
+[ RUN      ] TestLife.evolve10
+[       OK ] TestLife.evolve10 (0 ms)
+[ RUN      ] TestLife.evolve11
+[       OK ] TestLife.evolve11 (0 ms)
+[ RUN      ] TestLife.evolve12
+[       OK ] TestLife.evolve12 (0 ms)
+[ RUN      ] TestLife.evolve13
+[       OK ] TestLife.evolve13 (0 ms)
+[ RUN      ] TestLife.evolve14
+[       OK ] TestLife.evolve14 (0 ms)
+[ RUN      ] TestLife.evolve15
+[       OK ] TestLife.evolve15 (0 ms)
+[ RUN      ] TestLife.evolve16
+[       OK ] TestLife.evolve16 (0 ms)
+[ RUN      ] TestLife.evolve17
+[       OK ] TestLife.evolve17 (0 ms)
+[ RUN      ] TestLife.isAlive
+[       OK ] TestLife.isAlive (0 ms)
+[ RUN      ] TestLife.isAlive1
+[       OK ] TestLife.isAlive1 (0 ms)
+[ RUN      ] TestLife.isAlive2
+[       OK ] TestLife.isAlive2 (0 ms)
+[----------] 38 tests from TestLife (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 70 tests from 2 test cases ran. (2 ms total)
+[  PASSED  ] 70 tests.

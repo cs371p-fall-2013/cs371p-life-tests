@@ -1,0 +1,171 @@
+Running main() from gtest_main.cc
+[==========] Running 81 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 81 tests from Life
+[ RUN      ] Life.ac1
+[       OK ] Life.ac1 (8 ms)
+[ RUN      ] Life.ac2
+[       OK ] Life.ac2 (2 ms)
+[ RUN      ] Life.ac3
+[       OK ] Life.ac3 (2 ms)
+[ RUN      ] Life.ac4
+[       OK ] Life.ac4 (2 ms)
+[ RUN      ] Life.ac5
+[       OK ] Life.ac5 (2 ms)
+[ RUN      ] Life.ac6
+[       OK ] Life.ac6 (2 ms)
+[ RUN      ] Life.ac7
+[       OK ] Life.ac7 (2 ms)
+[ RUN      ] Life.ac8
+[       OK ] Life.ac8 (3 ms)
+[ RUN      ] Life.ac9
+[       OK ] Life.ac9 (2 ms)
+[ RUN      ] Life.ac10
+[       OK ] Life.ac10 (3 ms)
+[ RUN      ] Life.ac11
+[       OK ] Life.ac11 (2 ms)
+[ RUN      ] Life.ac12
+[       OK ] Life.ac12 (3 ms)
+[ RUN      ] Life.cc1
+[       OK ] Life.cc1 (2 ms)
+[ RUN      ] Life.cc2
+[       OK ] Life.cc2 (1 ms)
+[ RUN      ] Life.cc3
+[       OK ] Life.cc3 (2 ms)
+[ RUN      ] Life.cc4
+[       OK ] Life.cc4 (2 ms)
+[ RUN      ] Life.cc5
+[       OK ] Life.cc5 (2 ms)
+[ RUN      ] Life.cc6
+[       OK ] Life.cc6 (2 ms)
+[ RUN      ] Life.cc7
+[       OK ] Life.cc7 (2 ms)
+[ RUN      ] Life.cc8
+[       OK ] Life.cc8 (3 ms)
+[ RUN      ] Life.cc9
+[       OK ] Life.cc9 (2 ms)
+[ RUN      ] Life.cc10
+[       OK ] Life.cc10 (2 ms)
+[ RUN      ] Life.cc11
+[       OK ] Life.cc11 (3 ms)
+[ RUN      ] Life.cc12
+[       OK ] Life.cc12 (3 ms)
+[ RUN      ] Life.cc13
+[       OK ] Life.cc13 (3 ms)
+[ RUN      ] Life.cc14
+[       OK ] Life.cc14 (3 ms)
+[ RUN      ] Life.cc15
+[       OK ] Life.cc15 (3 ms)
+[ RUN      ] Life.cc16
+[       OK ] Life.cc16 (2 ms)
+[ RUN      ] Life.cc17
+[       OK ] Life.cc17 (2 ms)
+[ RUN      ] Life.cc18
+[       OK ] Life.cc18 (2 ms)
+[ RUN      ] Life.cc19
+[       OK ] Life.cc19 (2 ms)
+[ RUN      ] Life.fc1
+[       OK ] Life.fc1 (2 ms)
+[ RUN      ] Life.fc2
+[       OK ] Life.fc2 (1 ms)
+[ RUN      ] Life.fc3
+[       OK ] Life.fc3 (1 ms)
+[ RUN      ] Life.fc4
+[       OK ] Life.fc4 (2 ms)
+[ RUN      ] Life.fc5
+[       OK ] Life.fc5 (2 ms)
+[ RUN      ] Life.fc6
+[       OK ] Life.fc6 (2 ms)
+[ RUN      ] Life.fc7
+[       OK ] Life.fc7 (2 ms)
+[ RUN      ] Life.fc8
+[       OK ] Life.fc8 (3 ms)
+[ RUN      ] Life.fc9
+[       OK ] Life.fc9 (3 ms)
+[ RUN      ] Life.fc10
+[       OK ] Life.fc10 (3 ms)
+[ RUN      ] Life.fc11
+[       OK ] Life.fc11 (3 ms)
+[ RUN      ] Life.fc12
+[       OK ] Life.fc12 (4 ms)
+[ RUN      ] Life.fc13
+[       OK ] Life.fc13 (3 ms)
+[ RUN      ] Life.fc14
+[       OK ] Life.fc14 (3 ms)
+[ RUN      ] Life.fc15
+[       OK ] Life.fc15 (3 ms)
+[ RUN      ] Life.fc16
+[       OK ] Life.fc16 (2 ms)
+[ RUN      ] Life.fc17
+[       OK ] Life.fc17 (1 ms)
+[ RUN      ] Life.fc18
+[       OK ] Life.fc18 (2 ms)
+[ RUN      ] Life.fc19
+[       OK ] Life.fc19 (1 ms)
+[ RUN      ] Life.fc20
+[       OK ] Life.fc20 (2 ms)
+[ RUN      ] Life.fc21
+[       OK ] Life.fc21 (2 ms)
+[ RUN      ] Life.fc22
+[       OK ] Life.fc22 (2 ms)
+[ RUN      ] Life.fc23
+[       OK ] Life.fc23 (2 ms)
+[ RUN      ] Life.fc24
+[       OK ] Life.fc24 (2 ms)
+[ RUN      ] Life.fc25
+[       OK ] Life.fc25 (2 ms)
+[ RUN      ] Life.fc26
+[       OK ] Life.fc26 (3 ms)
+[ RUN      ] Life.cell1
+[       OK ] Life.cell1 (4 ms)
+[ RUN      ] Life.cell2
+[       OK ] Life.cell2 (3 ms)
+[ RUN      ] Life.cell3
+[       OK ] Life.cell3 (4 ms)
+[ RUN      ] Life.cell4
+[       OK ] Life.cell4 (4 ms)
+[ RUN      ] Life.cell5
+[       OK ] Life.cell5 (4 ms)
+[ RUN      ] Life.cell6
+[       OK ] Life.cell6 (4 ms)
+[ RUN      ] Life.cell7
+[       OK ] Life.cell7 (3 ms)
+[ RUN      ] Life.cell8
+[       OK ] Life.cell8 (3 ms)
+[ RUN      ] Life.cell9
+[       OK ] Life.cell9 (5 ms)
+[ RUN      ] Life.cell10
+[       OK ] Life.cell10 (4 ms)
+[ RUN      ] Life.cell11
+[       OK ] Life.cell11 (4 ms)
+[ RUN      ] Life.cell12
+[       OK ] Life.cell12 (5 ms)
+[ RUN      ] Life.cell13
+[       OK ] Life.cell13 (4 ms)
+[ RUN      ] Life.cell14
+[       OK ] Life.cell14 (4 ms)
+[ RUN      ] Life.cell15
+[       OK ] Life.cell15 (3 ms)
+[ RUN      ] Life.cell16
+[       OK ] Life.cell16 (2 ms)
+[ RUN      ] Life.cell17
+[       OK ] Life.cell17 (3 ms)
+[ RUN      ] Life.cell18
+[       OK ] Life.cell18 (2 ms)
+[ RUN      ] Life.cell19
+[       OK ] Life.cell19 (2 ms)
+[ RUN      ] Life.cell20
+[       OK ] Life.cell20 (3 ms)
+[ RUN      ] Life.cell21
+[       OK ] Life.cell21 (2 ms)
+[ RUN      ] Life.cell22
+[       OK ] Life.cell22 (2 ms)
+[ RUN      ] Life.cell23
+[       OK ] Life.cell23 (3 ms)
+[ RUN      ] Life.cell24
+[       OK ] Life.cell24 (2 ms)
+[----------] 81 tests from Life (229 ms total)
+
+[----------] Global test environment tear-down
+[==========] 81 tests from 1 test case ran. (256 ms total)
+[  PASSED  ] 81 tests.

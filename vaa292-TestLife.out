@@ -1,0 +1,81 @@
+Running main() from gtest_main.cc
+[==========] Running 17 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 17 tests from Life
+[ RUN      ] Life.AbstractCell_allfunctions1
+[       OK ] Life.AbstractCell_allfunctions1 (15 ms)
+[ RUN      ] Life.AbstractCell_allfunctions2
+[       OK ] Life.AbstractCell_allfunctions2 (7 ms)
+[ RUN      ] Life.AbstractCell_allfunctions3
+[       OK ] Life.AbstractCell_allfunctions3 (7 ms)
+[ RUN      ] Life.Cell_allfunctions1
+[       OK ] Life.Cell_allfunctions1 (11 ms)
+[ RUN      ] Life.Cell_allfunctions2
+[       OK ] Life.Cell_allfunctions2 (6 ms)
+[ RUN      ] Life.Cell_allfunctions3
+[       OK ] Life.Cell_allfunctions3 (6 ms)
+[ RUN      ] Life.ConwayCell_allfunctions1
+[       OK ] Life.ConwayCell_allfunctions1 (5 ms)
+[ RUN      ] Life.ConwayCell_allfunctions2
+[       OK ] Life.ConwayCell_allfunctions2 (5 ms)
+[ RUN      ] Life.ConwayCell_allfunctions3
+[       OK ] Life.ConwayCell_allfunctions3 (5 ms)
+[ RUN      ] Life.FredkinCell_allfunctions1
+[       OK ] Life.FredkinCell_allfunctions1 (5 ms)
+[ RUN      ] Life.FredkinCell_allfunctions2
+[       OK ] Life.FredkinCell_allfunctions2 (5 ms)
+[ RUN      ] Life.FredkinCell_allfunctions3
+[       OK ] Life.FredkinCell_allfunctions3 (5 ms)
+[ RUN      ] Life.Handle_allfunctions_with_ConwayCell
+[       OK ] Life.Handle_allfunctions_with_ConwayCell (14 ms)
+[ RUN      ] Life.Handle_allfunctions_with_FredkinCell
+[       OK ] Life.Handle_allfunctions_with_FredkinCell (13 ms)
+[ RUN      ] Life.Life_h_allfunctions_with_cell
+Generation = 0, Population = 0.
+
+[       OK ] Life.Life_h_allfunctions_with_cell (64 ms)
+[ RUN      ] Life.Life_h_allfunctions_with_conwaycell
+Generation = 0, Population = 0.
+
+Generation = 0, Population = 4.
+..........
+..........
+..........
+..........
+....**....
+....**....
+..........
+..........
+..........
+..........
+
+Generation = 1, Population = 4.
+..........
+..........
+..........
+..........
+....**....
+....**....
+..........
+..........
+..........
+..........
+
+[       OK ] Life.Life_h_allfunctions_with_conwaycell (44 ms)
+[ RUN      ] Life.Life_h_allfunctions_with_fredkincell
+Generation = 0, Population = 0.
+
+Generation = 0, Population = 2.
+0
+0
+
+Generation = 1, Population = 2.
+1
+1
+
+[       OK ] Life.Life_h_allfunctions_with_fredkincell (33 ms)
+[----------] 17 tests from Life (264 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test case ran. (290 ms total)
+[  PASSED  ] 17 tests.

@@ -1,0 +1,123 @@
+Running main() from gtest_main.cc
+[==========] Running 54 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 15 tests from Conway
+[ RUN      ] Conway.ReadDead
+[       OK ] Conway.ReadDead (9 ms)
+[ RUN      ] Conway.ReadAlive
+[       OK ] Conway.ReadAlive (2 ms)
+[ RUN      ] Conway.Update1
+[       OK ] Conway.Update1 (3 ms)
+[ RUN      ] Conway.Update2
+[       OK ] Conway.Update2 (2 ms)
+[ RUN      ] Conway.Update3
+[       OK ] Conway.Update3 (3 ms)
+[ RUN      ] Conway.Prepare1
+[       OK ] Conway.Prepare1 (2 ms)
+[ RUN      ] Conway.Prepare2
+[       OK ] Conway.Prepare2 (2 ms)
+[ RUN      ] Conway.Prepare3
+[       OK ] Conway.Prepare3 (2 ms)
+[ RUN      ] Conway.Clone
+[       OK ] Conway.Clone (3 ms)
+[ RUN      ] Conway.NeighborCountInternal
+[       OK ] Conway.NeighborCountInternal (21 ms)
+[ RUN      ] Conway.NeighborCountEdge
+[       OK ] Conway.NeighborCountEdge (4 ms)
+[ RUN      ] Conway.NeighborCountCorner
+[       OK ] Conway.NeighborCountCorner (3 ms)
+[ RUN      ] Conway.NeighborCountHandle1
+[       OK ] Conway.NeighborCountHandle1 (8 ms)
+[ RUN      ] Conway.NeighborCountHandle2
+[       OK ] Conway.NeighborCountHandle2 (4 ms)
+[ RUN      ] Conway.NeighborCountHandle3
+[       OK ] Conway.NeighborCountHandle3 (4 ms)
+[----------] 15 tests from Conway (83 ms total)
+
+[----------] 15 tests from Fredkin
+[ RUN      ] Fredkin.ReadDead
+[       OK ] Fredkin.ReadDead (3 ms)
+[ RUN      ] Fredkin.ReadAlive
+[       OK ] Fredkin.ReadAlive (2 ms)
+[ RUN      ] Fredkin.Update1
+[       OK ] Fredkin.Update1 (2 ms)
+[ RUN      ] Fredkin.Update2
+[       OK ] Fredkin.Update2 (2 ms)
+[ RUN      ] Fredkin.Update3
+[       OK ] Fredkin.Update3 (2 ms)
+[ RUN      ] Fredkin.Prepare1
+[       OK ] Fredkin.Prepare1 (2 ms)
+[ RUN      ] Fredkin.Prepare2
+[       OK ] Fredkin.Prepare2 (2 ms)
+[ RUN      ] Fredkin.Prepare3
+[       OK ] Fredkin.Prepare3 (2 ms)
+[ RUN      ] Fredkin.Clone
+[       OK ] Fredkin.Clone (3 ms)
+[ RUN      ] Fredkin.NeighborCountInternal
+[       OK ] Fredkin.NeighborCountInternal (20 ms)
+[ RUN      ] Fredkin.NeighborCountEdge
+[       OK ] Fredkin.NeighborCountEdge (3 ms)
+[ RUN      ] Fredkin.NeighborCountCorner
+[       OK ] Fredkin.NeighborCountCorner (3 ms)
+[ RUN      ] Fredkin.NeighborCountHandle1
+[       OK ] Fredkin.NeighborCountHandle1 (4 ms)
+[ RUN      ] Fredkin.NeighborCountHandle2
+[       OK ] Fredkin.NeighborCountHandle2 (4 ms)
+[ RUN      ] Fredkin.NeighborCountHandle3
+[       OK ] Fredkin.NeighborCountHandle3 (4 ms)
+[----------] 15 tests from Fredkin (62 ms total)
+
+[----------] 24 tests from Cell
+[ RUN      ] Cell.ReadDeadConway
+[       OK ] Cell.ReadDeadConway (3 ms)
+[ RUN      ] Cell.ReadAliveConway
+[       OK ] Cell.ReadAliveConway (3 ms)
+[ RUN      ] Cell.ReadDeadFredkin
+[       OK ] Cell.ReadDeadFredkin (3 ms)
+[ RUN      ] Cell.ReadAliveFredkin
+[       OK ] Cell.ReadAliveFredkin (2 ms)
+[ RUN      ] Cell.Update1Conway
+[       OK ] Cell.Update1Conway (3 ms)
+[ RUN      ] Cell.Update2Conway
+[       OK ] Cell.Update2Conway (3 ms)
+[ RUN      ] Cell.Update3Conway
+[       OK ] Cell.Update3Conway (3 ms)
+[ RUN      ] Cell.Prepare1Conway
+[       OK ] Cell.Prepare1Conway (2 ms)
+[ RUN      ] Cell.Prepare2Conway
+[       OK ] Cell.Prepare2Conway (2 ms)
+[ RUN      ] Cell.Prepare3Conway
+[       OK ] Cell.Prepare3Conway (3 ms)
+[ RUN      ] Cell.NeighborCountInternalConway
+[       OK ] Cell.NeighborCountInternalConway (23 ms)
+[ RUN      ] Cell.NeighborCountEdgeConway
+[       OK ] Cell.NeighborCountEdgeConway (5 ms)
+[ RUN      ] Cell.NeighborCountCornerConway
+[       OK ] Cell.NeighborCountCornerConway (5 ms)
+[ RUN      ] Cell.Update1Fredkin
+[       OK ] Cell.Update1Fredkin (3 ms)
+[ RUN      ] Cell.Update2Fredkin
+[       OK ] Cell.Update2Fredkin (2 ms)
+[ RUN      ] Cell.Update3Fredkin
+[       OK ] Cell.Update3Fredkin (4 ms)
+[ RUN      ] Cell.Prepare1Fredkin
+[       OK ] Cell.Prepare1Fredkin (2 ms)
+[ RUN      ] Cell.Prepare2Fredkin
+[       OK ] Cell.Prepare2Fredkin (2 ms)
+[ RUN      ] Cell.Prepare3Fredkin
+[       OK ] Cell.Prepare3Fredkin (3 ms)
+[ RUN      ] Cell.PrepareFredkinMutate
+[       OK ] Cell.PrepareFredkinMutate (4 ms)
+[ RUN      ] Cell.NeighborCountInternalFredkin
+[       OK ] Cell.NeighborCountInternalFredkin (5 ms)
+[ RUN      ] Cell.NeighborCountEdgeFredkin
+[       OK ] Cell.NeighborCountEdgeFredkin (4 ms)
+[ RUN      ] Cell.NeighborCountCornerFredkin
+[       OK ] Cell.NeighborCountCornerFredkin (4 ms)
+[ RUN      ] Cell.Mutate
+[       OK ] Cell.Mutate (2 ms)
+[----------] 24 tests from Cell (96 ms total)
+
+[----------] Global test environment tear-down
+[==========] 54 tests from 3 test cases ran. (269 ms total)
+[  PASSED  ] 54 tests.

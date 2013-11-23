@@ -1,0 +1,69 @@
+Running main() from gtest_main.cc
+[==========] Running 30 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 30 tests from Life
+[ RUN      ] Life.ConwayCell1
+[       OK ] Life.ConwayCell1 (14 ms)
+[ RUN      ] Life.FredkinCell1
+[       OK ] Life.FredkinCell1 (3 ms)
+[ RUN      ] Life.Cell1
+[       OK ] Life.Cell1 (4 ms)
+[ RUN      ] Life.ConwayCopy1
+[       OK ] Life.ConwayCopy1 (3 ms)
+[ RUN      ] Life.FredkinCopy1
+[       OK ] Life.FredkinCopy1 (3 ms)
+[ RUN      ] Life.ConwayChangeStatus1
+[       OK ] Life.ConwayChangeStatus1 (3 ms)
+[ RUN      ] Life.ConwayChangeStatus2
+[       OK ] Life.ConwayChangeStatus2 (3 ms)
+[ RUN      ] Life.FredkinChangeStatus1
+[       OK ] Life.FredkinChangeStatus1 (4 ms)
+[ RUN      ] Life.FredkinChangeStatus2
+[       OK ] Life.FredkinChangeStatus2 (3 ms)
+[ RUN      ] Life.FredkinChangeStatus3
+[       OK ] Life.FredkinChangeStatus3 (3 ms)
+[ RUN      ] Life.CellChangeStatus1
+[       OK ] Life.CellChangeStatus1 (4 ms)
+[ RUN      ] Life.CellChangeStatus2
+[       OK ] Life.CellChangeStatus2 (4 ms)
+[ RUN      ] Life.CellChangeStatus3
+[       OK ] Life.CellChangeStatus3 (3 ms)
+[ RUN      ] Life.CellChangeStatus4
+[       OK ] Life.CellChangeStatus4 (4 ms)
+[ RUN      ] Life.ConwayMutate1
+[       OK ] Life.ConwayMutate1 (3 ms)
+[ RUN      ] Life.ConwayMutate2
+[       OK ] Life.ConwayMutate2 (3 ms)
+[ RUN      ] Life.ConwayMutate3
+[       OK ] Life.ConwayMutate3 (3 ms)
+[ RUN      ] Life.ConwayMutate4
+[       OK ] Life.ConwayMutate4 (3 ms)
+[ RUN      ] Life.ConwayMutate5
+[       OK ] Life.ConwayMutate5 (4 ms)
+[ RUN      ] Life.ConwayChangePrint1
+[       OK ] Life.ConwayChangePrint1 (3 ms)
+[ RUN      ] Life.ConwayChangePrint2
+[       OK ] Life.ConwayChangePrint2 (3 ms)
+[ RUN      ] Life.FredkinMutate1
+[       OK ] Life.FredkinMutate1 (3 ms)
+[ RUN      ] Life.FredkinMutate2
+[       OK ] Life.FredkinMutate2 (3 ms)
+[ RUN      ] Life.FredkinMutate3
+[       OK ] Life.FredkinMutate3 (3 ms)
+[ RUN      ] Life.FredkinMutate4
+[       OK ] Life.FredkinMutate4 (4 ms)
+[ RUN      ] Life.FredkinNeighbor1
+[       OK ] Life.FredkinNeighbor1 (3 ms)
+[ RUN      ] Life.FredkinNeighbor2
+[       OK ] Life.FredkinNeighbor2 (3 ms)
+[ RUN      ] Life.FredkinNeighbor3
+[       OK ] Life.FredkinNeighbor3 (3 ms)
+[ RUN      ] Life.FredkinPrint1
+[       OK ] Life.FredkinPrint1 (4 ms)
+[ RUN      ] Life.FredkinPrint2
+[       OK ] Life.FredkinPrint2 (3 ms)
+[----------] 30 tests from Life (132 ms total)
+
+[----------] Global test environment tear-down
+[==========] 30 tests from 1 test case ran. (176 ms total)
+[  PASSED  ] 30 tests.

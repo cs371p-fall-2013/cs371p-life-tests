@@ -1,0 +1,141 @@
+Running main() from gtest_main.cc
+[==========] Running 60 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 15 tests from Life
+[ RUN      ] Life.runGame
+[       OK ] Life.runGame (46 ms)
+[ RUN      ] Life.runGame2
+[       OK ] Life.runGame2 (4 ms)
+[ RUN      ] Life.runGame3
+[       OK ] Life.runGame3 (3 ms)
+[ RUN      ] Life.runGame4
+[       OK ] Life.runGame4 (4 ms)
+[ RUN      ] Life.runGame5
+[       OK ] Life.runGame5 (36 ms)
+[ RUN      ] Life.processTurnFredkin
+[       OK ] Life.processTurnFredkin (4 ms)
+[ RUN      ] Life.processTurnFredkin2
+[       OK ] Life.processTurnFredkin2 (5 ms)
+[ RUN      ] Life.processTurnFredkin3
+[       OK ] Life.processTurnFredkin3 (4 ms)
+[ RUN      ] Life.processTurnConway
+[       OK ] Life.processTurnConway (38 ms)
+[ RUN      ] Life.checkNeighborsConway
+[       OK ] Life.checkNeighborsConway (4 ms)
+[ RUN      ] Life.checkNeighborsConway2
+[       OK ] Life.checkNeighborsConway2 (3 ms)
+[ RUN      ] Life.checkNeighborsConway3
+[       OK ] Life.checkNeighborsConway3 (3 ms)
+[ RUN      ] Life.checkNeighborsFredkin
+[       OK ] Life.checkNeighborsFredkin (5 ms)
+[ RUN      ] Life.checkNeighborsFredkin2
+[       OK ] Life.checkNeighborsFredkin2 (2 ms)
+[ RUN      ] Life.checkNeighborsFredkin3
+[       OK ] Life.checkNeighborsFredkin3 (3 ms)
+[----------] 15 tests from Life (174 ms total)
+
+[----------] 12 tests from Conway
+[ RUN      ] Conway.switch1
+[       OK ] Conway.switch1 (2 ms)
+[ RUN      ] Conway.switch2
+[       OK ] Conway.switch2 (1 ms)
+[ RUN      ] Conway.switch3
+[       OK ] Conway.switch3 (2 ms)
+[ RUN      ] Conway.update1
+[       OK ] Conway.update1 (2 ms)
+[ RUN      ] Conway.update2
+[       OK ] Conway.update2 (3 ms)
+[ RUN      ] Conway.update3
+[       OK ] Conway.update3 (2 ms)
+[ RUN      ] Conway.isAlive1
+[       OK ] Conway.isAlive1 (3 ms)
+[ RUN      ] Conway.isAlive2
+[       OK ] Conway.isAlive2 (4 ms)
+[ RUN      ] Conway.isAlive3
+[       OK ] Conway.isAlive3 (3 ms)
+[ RUN      ] Conway.displayChar1
+[       OK ] Conway.displayChar1 (2 ms)
+[ RUN      ] Conway.displayChar2
+[       OK ] Conway.displayChar2 (2 ms)
+[ RUN      ] Conway.displayChar3
+[       OK ] Conway.displayChar3 (2 ms)
+[----------] 12 tests from Conway (29 ms total)
+
+[----------] 12 tests from Fredkin
+[ RUN      ] Fredkin.switch1
+[       OK ] Fredkin.switch1 (2 ms)
+[ RUN      ] Fredkin.switch2
+[       OK ] Fredkin.switch2 (2 ms)
+[ RUN      ] Fredkin.switch3
+[       OK ] Fredkin.switch3 (2 ms)
+[ RUN      ] Fredkin.update1
+[       OK ] Fredkin.update1 (2 ms)
+[ RUN      ] Fredkin.update2
+[       OK ] Fredkin.update2 (3 ms)
+[ RUN      ] Fredkin.update3
+[       OK ] Fredkin.update3 (2 ms)
+[ RUN      ] Fredkin.isAlive1
+[       OK ] Fredkin.isAlive1 (3 ms)
+[ RUN      ] Fredkin.isAlive2
+[       OK ] Fredkin.isAlive2 (3 ms)
+[ RUN      ] Fredkin.isAlive3
+[       OK ] Fredkin.isAlive3 (3 ms)
+[ RUN      ] Fredkin.displayChar1
+[       OK ] Fredkin.displayChar1 (2 ms)
+[ RUN      ] Fredkin.displayChar2
+[       OK ] Fredkin.displayChar2 (2 ms)
+[ RUN      ] Fredkin.displayChar3
+[       OK ] Fredkin.displayChar3 (2 ms)
+[----------] 12 tests from Fredkin (29 ms total)
+
+[----------] 15 tests from Cell
+[ RUN      ] Cell.switch1
+[       OK ] Cell.switch1 (2 ms)
+[ RUN      ] Cell.switch2
+[       OK ] Cell.switch2 (2 ms)
+[ RUN      ] Cell.switch3
+[       OK ] Cell.switch3 (2 ms)
+[ RUN      ] Cell.update1
+[       OK ] Cell.update1 (3 ms)
+[ RUN      ] Cell.update2
+[       OK ] Cell.update2 (3 ms)
+[ RUN      ] Cell.update3
+[       OK ] Cell.update3 (3 ms)
+[ RUN      ] Cell.isAlive1
+[       OK ] Cell.isAlive1 (4 ms)
+[ RUN      ] Cell.isAlive2
+[       OK ] Cell.isAlive2 (4 ms)
+[ RUN      ] Cell.isAlive3
+[       OK ] Cell.isAlive3 (3 ms)
+[ RUN      ] Cell.mutate1
+[       OK ] Cell.mutate1 (5 ms)
+[ RUN      ] Cell.mutate2
+[       OK ] Cell.mutate2 (3 ms)
+[ RUN      ] Cell.mutate3
+[       OK ] Cell.mutate3 (4 ms)
+[ RUN      ] Cell.mutate4
+[       OK ] Cell.mutate4 (3 ms)
+[ RUN      ] Cell.mutate5
+[       OK ] Cell.mutate5 (3 ms)
+[ RUN      ] Cell.mutate6
+[       OK ] Cell.mutate6 (3 ms)
+[----------] 15 tests from Cell (47 ms total)
+
+[----------] 6 tests from AbstractCell
+[ RUN      ] AbstractCell.update
+[       OK ] AbstractCell.update (1 ms)
+[ RUN      ] AbstractCell.update2
+[       OK ] AbstractCell.update2 (2 ms)
+[ RUN      ] AbstractCell.update3
+[       OK ] AbstractCell.update3 (2 ms)
+[ RUN      ] AbstractCell.clone
+[       OK ] AbstractCell.clone (3 ms)
+[ RUN      ] AbstractCell.clone2
+[       OK ] AbstractCell.clone2 (3 ms)
+[ RUN      ] AbstractCell.clone3
+[       OK ] AbstractCell.clone3 (3 ms)
+[----------] 6 tests from AbstractCell (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 5 test cases ran. (322 ms total)
+[  PASSED  ] 60 tests.

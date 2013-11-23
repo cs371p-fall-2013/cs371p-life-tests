@@ -1,0 +1,167 @@
+Running main() from gtest_main.cc
+[==========] Running 73 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 10 tests from AbstractCell_Tests
+[ RUN      ] AbstractCell_Tests.living1
+[       OK ] AbstractCell_Tests.living1 (9 ms)
+[ RUN      ] AbstractCell_Tests.living2
+[       OK ] AbstractCell_Tests.living2 (2 ms)
+[ RUN      ] AbstractCell_Tests.advancement1
+[       OK ] AbstractCell_Tests.advancement1 (3 ms)
+[ RUN      ] AbstractCell_Tests.advancement2
+[       OK ] AbstractCell_Tests.advancement2 (2 ms)
+[ RUN      ] AbstractCell_Tests.advancement3
+[       OK ] AbstractCell_Tests.advancement3 (2 ms)
+[ RUN      ] AbstractCell_Tests.update_check
+[       OK ] AbstractCell_Tests.update_check (3 ms)
+[ RUN      ] AbstractCell_Tests.update_old
+[       OK ] AbstractCell_Tests.update_old (2 ms)
+[ RUN      ] AbstractCell_Tests.update_after
+[       OK ] AbstractCell_Tests.update_after (2 ms)
+[ RUN      ] AbstractCell_Tests.neighbors1
+[       OK ] AbstractCell_Tests.neighbors1 (2 ms)
+[ RUN      ] AbstractCell_Tests.neighbors2
+[       OK ] AbstractCell_Tests.neighbors2 (2 ms)
+[----------] 10 tests from AbstractCell_Tests (39 ms total)
+
+[----------] 13 tests from ConwayCell_tests
+[ RUN      ] ConwayCell_tests.neighbors
+[       OK ] ConwayCell_tests.neighbors (4 ms)
+[ RUN      ] ConwayCell_tests.neighbors2
+[       OK ] ConwayCell_tests.neighbors2 (2 ms)
+[ RUN      ] ConwayCell_tests.neighbors3
+[       OK ] ConwayCell_tests.neighbors3 (2 ms)
+[ RUN      ] ConwayCell_tests.nearby
+[       OK ] ConwayCell_tests.nearby (2 ms)
+[ RUN      ] ConwayCell_tests.nearby2
+[       OK ] ConwayCell_tests.nearby2 (2 ms)
+[ RUN      ] ConwayCell_tests.nearby3
+[       OK ] ConwayCell_tests.nearby3 (1 ms)
+[ RUN      ] ConwayCell_tests.nearby4
+[       OK ] ConwayCell_tests.nearby4 (1 ms)
+[ RUN      ] ConwayCell_tests.nearby5
+[       OK ] ConwayCell_tests.nearby5 (1 ms)
+[ RUN      ] ConwayCell_tests.image_live
+[       OK ] ConwayCell_tests.image_live (2 ms)
+[ RUN      ] ConwayCell_tests.image_dead
+[       OK ] ConwayCell_tests.image_dead (2 ms)
+[ RUN      ] ConwayCell_tests.clone1
+[       OK ] ConwayCell_tests.clone1 (3 ms)
+[ RUN      ] ConwayCell_tests.clone2
+[       OK ] ConwayCell_tests.clone2 (2 ms)
+[ RUN      ] ConwayCell_tests.clone3
+[       OK ] ConwayCell_tests.clone3 (2 ms)
+[----------] 13 tests from ConwayCell_tests (32 ms total)
+
+[----------] 25 tests from FredkinCell_tests
+[ RUN      ] FredkinCell_tests.four_neighbors
+[       OK ] FredkinCell_tests.four_neighbors (2 ms)
+[ RUN      ] FredkinCell_tests.only_corners
+[       OK ] FredkinCell_tests.only_corners (3 ms)
+[ RUN      ] FredkinCell_tests.one_neighbor
+[       OK ] FredkinCell_tests.one_neighbor (2 ms)
+[ RUN      ] FredkinCell_tests.survival_zero
+[       OK ] FredkinCell_tests.survival_zero (2 ms)
+[ RUN      ] FredkinCell_tests.survival_one
+[       OK ] FredkinCell_tests.survival_one (2 ms)
+[ RUN      ] FredkinCell_tests.survival_four
+[       OK ] FredkinCell_tests.survival_four (2 ms)
+[ RUN      ] FredkinCell_tests.survival_two
+[       OK ] FredkinCell_tests.survival_two (2 ms)
+[ RUN      ] FredkinCell_tests.survival_three
+[       OK ] FredkinCell_tests.survival_three (2 ms)
+[ RUN      ] FredkinCell_tests.image_alive0
+[       OK ] FredkinCell_tests.image_alive0 (2 ms)
+[ RUN      ] FredkinCell_tests.image_alive1
+[       OK ] FredkinCell_tests.image_alive1 (2 ms)
+[ RUN      ] FredkinCell_tests.image_dead
+[       OK ] FredkinCell_tests.image_dead (2 ms)
+[ RUN      ] FredkinCell_tests.image_double_digits
+[       OK ] FredkinCell_tests.image_double_digits (2 ms)
+[ RUN      ] FredkinCell_tests.initial_age
+[       OK ] FredkinCell_tests.initial_age (2 ms)
+[ RUN      ] FredkinCell_tests.cloning
+[       OK ] FredkinCell_tests.cloning (3 ms)
+[ RUN      ] FredkinCell_tests.cloning2
+[       OK ] FredkinCell_tests.cloning2 (3 ms)
+[ RUN      ] FredkinCell_tests.cloning3
+[       OK ] FredkinCell_tests.cloning3 (4 ms)
+[ RUN      ] FredkinCell_tests.one_survival
+[       OK ] FredkinCell_tests.one_survival (5 ms)
+[ RUN      ] FredkinCell_tests.two_survivals
+[       OK ] FredkinCell_tests.two_survivals (5 ms)
+[ RUN      ] FredkinCell_tests.pause
+[       OK ] FredkinCell_tests.pause (7 ms)
+[ RUN      ] FredkinCell_tests.update_state
+[       OK ] FredkinCell_tests.update_state (2 ms)
+[ RUN      ] FredkinCell_tests.update_state2
+[       OK ] FredkinCell_tests.update_state2 (2 ms)
+[ RUN      ] FredkinCell_tests.update_state3
+[       OK ] FredkinCell_tests.update_state3 (2 ms)
+[ RUN      ] FredkinCell_tests.update_state4
+[       OK ] FredkinCell_tests.update_state4 (2 ms)
+[ RUN      ] FredkinCell_tests.check_age1
+[       OK ] FredkinCell_tests.check_age1 (1 ms)
+[ RUN      ] FredkinCell_tests.check_age2
+[       OK ] FredkinCell_tests.check_age2 (1 ms)
+[----------] 25 tests from FredkinCell_tests (66 ms total)
+
+[----------] 12 tests from Cell_tests
+[ RUN      ] Cell_tests.living_forwarding
+[       OK ] Cell_tests.living_forwarding (2 ms)
+[ RUN      ] Cell_tests.living_forwarding2
+[       OK ] Cell_tests.living_forwarding2 (2 ms)
+[ RUN      ] Cell_tests.image_forwarding
+[       OK ] Cell_tests.image_forwarding (2 ms)
+[ RUN      ] Cell_tests.image_forwarding2
+[       OK ] Cell_tests.image_forwarding2 (2 ms)
+[ RUN      ] Cell_tests.image_forwarding3
+[       OK ] Cell_tests.image_forwarding3 (2 ms)
+[ RUN      ] Cell_tests.image_forwarding4
+[       OK ] Cell_tests.image_forwarding4 (2 ms)
+[ RUN      ] Cell_tests.image_forwarding5
+[       OK ] Cell_tests.image_forwarding5 (3 ms)
+[ RUN      ] Cell_tests.fredkin_conversion
+[       OK ] Cell_tests.fredkin_conversion (6 ms)
+[ RUN      ] Cell_tests.fredkin_no_conversion
+[       OK ] Cell_tests.fredkin_no_conversion (3 ms)
+[ RUN      ] Cell_tests.conway_advance
+[       OK ] Cell_tests.conway_advance (5 ms)
+[ RUN      ] Cell_tests.check_forwarding
+[       OK ] Cell_tests.check_forwarding (2 ms)
+[ RUN      ] Cell_tests.check_forwarding2
+[       OK ] Cell_tests.check_forwarding2 (2 ms)
+[----------] 12 tests from Cell_tests (35 ms total)
+
+[----------] 13 tests from Life_tests
+[ RUN      ] Life_tests.insertion_initial
+[       OK ] Life_tests.insertion_initial (28 ms)
+[ RUN      ] Life_tests.insertion_row
+[       OK ] Life_tests.insertion_row (6 ms)
+[ RUN      ] Life_tests.insertion_fillup
+[       OK ] Life_tests.insertion_fillup (5 ms)
+[ RUN      ] Life_tests.printing1
+[       OK ] Life_tests.printing1 (11 ms)
+[ RUN      ] Life_tests.printing2
+[       OK ] Life_tests.printing2 (2 ms)
+[ RUN      ] Life_tests.printing3
+[       OK ] Life_tests.printing3 (3 ms)
+[ RUN      ] Life_tests.printing4
+[       OK ] Life_tests.printing4 (2 ms)
+[ RUN      ] Life_tests.neighborhood1
+[       OK ] Life_tests.neighborhood1 (4 ms)
+[ RUN      ] Life_tests.neighborhood2
+[       OK ] Life_tests.neighborhood2 (3 ms)
+[ RUN      ] Life_tests.neighborhood_bounds
+[       OK ] Life_tests.neighborhood_bounds (4 ms)
+[ RUN      ] Life_tests.step1
+[       OK ] Life_tests.step1 (35 ms)
+[ RUN      ] Life_tests.step2
+[       OK ] Life_tests.step2 (3 ms)
+[ RUN      ] Life_tests.step3
+[       OK ] Life_tests.step3 (4 ms)
+[----------] 13 tests from Life_tests (114 ms total)
+
+[----------] Global test environment tear-down
+[==========] 73 tests from 5 test cases ran. (317 ms total)
+[  PASSED  ] 73 tests.

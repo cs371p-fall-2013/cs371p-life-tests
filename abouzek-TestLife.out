@@ -1,0 +1,96 @@
+[==========] Running 38 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 6 tests from alive
+[ RUN      ] alive.conway1
+[       OK ] alive.conway1 (0 ms)
+[ RUN      ] alive.conway2
+[       OK ] alive.conway2 (0 ms)
+[ RUN      ] alive.fredkin1
+[       OK ] alive.fredkin1 (0 ms)
+[ RUN      ] alive.fredkin2
+[       OK ] alive.fredkin2 (0 ms)
+[ RUN      ] alive.cell1
+[       OK ] alive.cell1 (0 ms)
+[ RUN      ] alive.cell2
+[       OK ] alive.cell2 (0 ms)
+[----------] 6 tests from alive (0 ms total)
+
+[----------] 9 tests from read
+[ RUN      ] read.conway1
+[       OK ] read.conway1 (0 ms)
+[ RUN      ] read.conway2
+[       OK ] read.conway2 (0 ms)
+[ RUN      ] read.conway3
+[       OK ] read.conway3 (0 ms)
+[ RUN      ] read.fredkin1
+[       OK ] read.fredkin1 (0 ms)
+[ RUN      ] read.fredkin2
+[       OK ] read.fredkin2 (0 ms)
+[ RUN      ] read.fredkin3
+[       OK ] read.fredkin3 (0 ms)
+[ RUN      ] read.cell1
+[       OK ] read.cell1 (0 ms)
+[ RUN      ] read.cell2
+[       OK ] read.cell2 (0 ms)
+[ RUN      ] read.cell3
+[       OK ] read.cell3 (0 ms)
+[----------] 9 tests from read (0 ms total)
+
+[----------] 11 tests from write
+[ RUN      ] write.conway1
+[       OK ] write.conway1 (0 ms)
+[ RUN      ] write.conway2
+[       OK ] write.conway2 (0 ms)
+[ RUN      ] write.fredkin1
+[       OK ] write.fredkin1 (0 ms)
+[ RUN      ] write.fredkin2
+[       OK ] write.fredkin2 (0 ms)
+[ RUN      ] write.fredkin3
+[       OK ] write.fredkin3 (0 ms)
+[ RUN      ] write.fredkin4
+[       OK ] write.fredkin4 (0 ms)
+[ RUN      ] write.fredkin5
+[       OK ] write.fredkin5 (0 ms)
+[ RUN      ] write.cell1
+[       OK ] write.cell1 (0 ms)
+[ RUN      ] write.cell2
+[       OK ] write.cell2 (0 ms)
+[ RUN      ] write.cell3
+[       OK ] write.cell3 (0 ms)
+[ RUN      ] write.cell4
+[       OK ] write.cell4 (0 ms)
+[----------] 11 tests from write (0 ms total)
+
+[----------] 10 tests from advance
+[ RUN      ] advance.conway1
+[       OK ] advance.conway1 (0 ms)
+[ RUN      ] advance.conway2
+[       OK ] advance.conway2 (0 ms)
+[ RUN      ] advance.conway3
+[       OK ] advance.conway3 (0 ms)
+[ RUN      ] advance.fredkin1
+[       OK ] advance.fredkin1 (0 ms)
+[ RUN      ] advance.fredkin2
+[       OK ] advance.fredkin2 (0 ms)
+[ RUN      ] advance.fredkin3
+[       OK ] advance.fredkin3 (0 ms)
+[ RUN      ] advance.fredkin4
+[       OK ] advance.fredkin4 (0 ms)
+[ RUN      ] advance.cell1
+[       OK ] advance.cell1 (0 ms)
+[ RUN      ] advance.cell2
+[       OK ] advance.cell2 (0 ms)
+[ RUN      ] advance.cell3
+[       OK ] advance.cell3 (0 ms)
+[----------] 10 tests from advance (1 ms total)
+
+[----------] 2 tests from mutate
+[ RUN      ] mutate.1
+[       OK ] mutate.1 (0 ms)
+[ RUN      ] mutate.2
+[       OK ] mutate.2 (0 ms)
+[----------] 2 tests from mutate (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 38 tests from 5 test cases ran. (1 ms total)
+[  PASSED  ] 38 tests.

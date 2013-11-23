@@ -1,0 +1,37 @@
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 4 tests from ConwayCell
+[ RUN      ] ConwayCell.constructor1
+[       OK ] ConwayCell.constructor1 (8 ms)
+[ RUN      ] ConwayCell.constructor2
+[       OK ] ConwayCell.constructor2 (3 ms)
+[ RUN      ] ConwayCell.constructor3
+[       OK ] ConwayCell.constructor3 (2 ms)
+[ RUN      ] ConwayCell.changeState1
+[       OK ] ConwayCell.changeState1 (3 ms)
+[----------] 4 tests from ConwayCell (26 ms total)
+
+[----------] 4 tests from FredkinCell
+[ RUN      ] FredkinCell.constructor1
+[       OK ] FredkinCell.constructor1 (2 ms)
+[ RUN      ] FredkinCell.constructor2
+[       OK ] FredkinCell.constructor2 (2 ms)
+[ RUN      ] FredkinCell.constructor3
+[       OK ] FredkinCell.constructor3 (2 ms)
+[ RUN      ] FredkinCell.changeState1
+[       OK ] FredkinCell.changeState1 (2 ms)
+[----------] 4 tests from FredkinCell (10 ms total)
+
+[----------] 3 tests from Cell
+[ RUN      ] Cell.constructor1
+[       OK ] Cell.constructor1 (3 ms)
+[ RUN      ] Cell.constructor2
+[       OK ] Cell.constructor2 (2 ms)
+[ RUN      ] Cell.constructor3
+[       OK ] Cell.constructor3 (2 ms)
+[----------] 3 tests from Cell (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 3 test cases ran. (73 ms total)
+[  PASSED  ] 11 tests.

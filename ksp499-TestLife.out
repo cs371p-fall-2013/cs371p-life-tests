@@ -1,0 +1,73 @@
+Running main() from gtest_main.cc
+[==========] Running 32 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 32 tests from Life
+[ RUN      ] Life.isAlive_1
+[       OK ] Life.isAlive_1 (9 ms)
+[ RUN      ] Life.isAlive_2
+[       OK ] Life.isAlive_2 (2 ms)
+[ RUN      ] Life.isAlive_3
+[       OK ] Life.isAlive_3 (3 ms)
+[ RUN      ] Life.clone_1
+[       OK ] Life.clone_1 (4 ms)
+[ RUN      ] Life.clone_2
+[       OK ] Life.clone_2 (3 ms)
+[ RUN      ] Life.clone_3
+[       OK ] Life.clone_3 (3 ms)
+[ RUN      ] Life.Cell_isEvolving_1
+[       OK ] Life.Cell_isEvolving_1 (3 ms)
+[ RUN      ] Life.Cell_mutation_1
+[       OK ] Life.Cell_mutation_1 (8 ms)
+[ RUN      ] Life.Cell_read_1
+[       OK ] Life.Cell_read_1 (6 ms)
+[ RUN      ] Life.Cell_write_1
+[       OK ] Life.Cell_write_1 (3 ms)
+[ RUN      ] Life.ConwayCell_isEvolving_1
+[       OK ] Life.ConwayCell_isEvolving_1 (2 ms)
+[ RUN      ] Life.ConwayCell_isEvolving_2
+[       OK ] Life.ConwayCell_isEvolving_2 (2 ms)
+[ RUN      ] Life.ConwayCell_isEvolving_3
+[       OK ] Life.ConwayCell_isEvolving_3 (2 ms)
+[ RUN      ] Life.ConwayCell_write_1
+[       OK ] Life.ConwayCell_write_1 (2 ms)
+[ RUN      ] Life.ConwayCell_write_2
+[       OK ] Life.ConwayCell_write_2 (3 ms)
+[ RUN      ] Life.ConwayCell_write_3
+[       OK ] Life.ConwayCell_write_3 (2 ms)
+[ RUN      ] Life.ConwayCell_read_1
+[       OK ] Life.ConwayCell_read_1 (2 ms)
+[ RUN      ] Life.ConwayCell_read_2
+[       OK ] Life.ConwayCell_read_2 (3 ms)
+[ RUN      ] Life.ConwayCell_read_3
+[       OK ] Life.ConwayCell_read_3 (3 ms)
+[ RUN      ] Life.FredkinCell_isEvolving_1
+[       OK ] Life.FredkinCell_isEvolving_1 (2 ms)
+[ RUN      ] Life.FredkinCell_isEvolving_2
+[       OK ] Life.FredkinCell_isEvolving_2 (3 ms)
+[ RUN      ] Life.FredkinCell_isEvolving_3
+[       OK ] Life.FredkinCell_isEvolving_3 (2 ms)
+[ RUN      ] Life.FredkinCell_read_1
+[       OK ] Life.FredkinCell_read_1 (2 ms)
+[ RUN      ] Life.FredkinCell_read_2
+[       OK ] Life.FredkinCell_read_2 (3 ms)
+[ RUN      ] Life.FredkinCell_read_3
+[       OK ] Life.FredkinCell_read_3 (3 ms)
+[ RUN      ] Life.Life_print_1
+[       OK ] Life.Life_print_1 (67 ms)
+[ RUN      ] Life.Life_print_2
+[       OK ] Life.Life_print_2 (29 ms)
+[ RUN      ] Life.Life_print_3
+[       OK ] Life.Life_print_3 (29 ms)
+[ RUN      ] Life.Life_generate_1
+[       OK ] Life.Life_generate_1 (35 ms)
+[ RUN      ] Life.Life_generate_2
+[       OK ] Life.Life_generate_2 (20 ms)
+[ RUN      ] Life.Life_generate_3
+[       OK ] Life.Life_generate_3 (25 ms)
+[ RUN      ] Life.Life_multiple_generation_1
+[       OK ] Life.Life_multiple_generation_1 (12 ms)
+[----------] 32 tests from Life (314 ms total)
+
+[----------] Global test environment tear-down
+[==========] 32 tests from 1 test case ran. (340 ms total)
+[  PASSED  ] 32 tests.

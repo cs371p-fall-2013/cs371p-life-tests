@@ -1,0 +1,81 @@
+Running main() from gtest_main.cc
+[==========] Running 36 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 36 tests from Life
+[ RUN      ] Life.to_string1
+[       OK ] Life.to_string1 (11 ms)
+[ RUN      ] Life.to_string2
+[       OK ] Life.to_string2 (8 ms)
+[ RUN      ] Life.to_string3
+[       OK ] Life.to_string3 (4 ms)
+[ RUN      ] Life.clone1
+[       OK ] Life.clone1 (5 ms)
+[ RUN      ] Life.clone2
+[       OK ] Life.clone2 (5 ms)
+[ RUN      ] Life.clone3
+[       OK ] Life.clone3 (4 ms)
+[ RUN      ] Life.is_alive1
+[       OK ] Life.is_alive1 (2 ms)
+[ RUN      ] Life.is_alive2
+[       OK ] Life.is_alive2 (2 ms)
+[ RUN      ] Life.is_alive3
+[       OK ] Life.is_alive3 (2 ms)
+[ RUN      ] Life.fate1
+[       OK ] Life.fate1 (2 ms)
+[ RUN      ] Life.fate2
+[       OK ] Life.fate2 (2 ms)
+[ RUN      ] Life.fate3
+[       OK ] Life.fate3 (3 ms)
+[ RUN      ] Life.mutate1
+[       OK ] Life.mutate1 (2 ms)
+[ RUN      ] Life.mutate2
+[       OK ] Life.mutate2 (2 ms)
+[ RUN      ] Life.mutate3
+[       OK ] Life.mutate3 (6 ms)
+[ RUN      ] Life.get_x1
+[       OK ] Life.get_x1 (2 ms)
+[ RUN      ] Life.get_x2
+[       OK ] Life.get_x2 (2 ms)
+[ RUN      ] Life.get_x3
+[       OK ] Life.get_x3 (2 ms)
+[ RUN      ] Life.get_y1
+[       OK ] Life.get_y1 (2 ms)
+[ RUN      ] Life.get_y2
+[       OK ] Life.get_y2 (2 ms)
+[ RUN      ] Life.get_y3
+[       OK ] Life.get_y3 (3 ms)
+[ RUN      ] Life.add1
+[       OK ] Life.add1 (35 ms)
+[ RUN      ] Life.add2
+[       OK ] Life.add2 (35 ms)
+[ RUN      ] Life.add3
+[       OK ] Life.add3 (35 ms)
+[ RUN      ] Life.check1
+[       OK ] Life.check1 (4 ms)
+[ RUN      ] Life.check2
+[       OK ] Life.check2 (3 ms)
+[ RUN      ] Life.check3
+[       OK ] Life.check3 (4 ms)
+[ RUN      ] Life.get_cardinal_count1
+[       OK ] Life.get_cardinal_count1 (26 ms)
+[ RUN      ] Life.get_cardinal_count2
+[       OK ] Life.get_cardinal_count2 (7 ms)
+[ RUN      ] Life.get_cardinal_count3
+[       OK ] Life.get_cardinal_count3 (7 ms)
+[ RUN      ] Life.get_ordinal_count1
+[       OK ] Life.get_ordinal_count1 (8 ms)
+[ RUN      ] Life.get_ordinal_count2
+[       OK ] Life.get_ordinal_count2 (6 ms)
+[ RUN      ] Life.get_ordinal_count3
+[       OK ] Life.get_ordinal_count3 (7 ms)
+[ RUN      ] Life.simulate1
+[       OK ] Life.simulate1 (21 ms)
+[ RUN      ] Life.simulate2
+[       OK ] Life.simulate2 (8 ms)
+[ RUN      ] Life.simulate3
+[       OK ] Life.simulate3 (8 ms)
+[----------] 36 tests from Life (300 ms total)
+
+[----------] Global test environment tear-down
+[==========] 36 tests from 1 test case ran. (329 ms total)
+[  PASSED  ] 36 tests.

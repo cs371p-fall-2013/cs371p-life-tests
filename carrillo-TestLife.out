@@ -1,0 +1,57 @@
+Running main() from gtest_main.cc
+[==========] Running 24 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 24 tests from Life
+[ RUN      ] Life.conway1
+[       OK ] Life.conway1 (60 ms)
+[ RUN      ] Life.conway2
+[       OK ] Life.conway2 (3 ms)
+[ RUN      ] Life.conway3
+[       OK ] Life.conway3 (14 ms)
+[ RUN      ] Life.conway4
+[       OK ] Life.conway4 (10 ms)
+[ RUN      ] Life.conway5
+[       OK ] Life.conway5 (11 ms)
+[ RUN      ] Life.Fredkin1
+[       OK ] Life.Fredkin1 (42 ms)
+[ RUN      ] Life.Fredkin2
+[       OK ] Life.Fredkin2 (10 ms)
+[ RUN      ] Life.Fredkin3
+[       OK ] Life.Fredkin3 (16 ms)
+[ RUN      ] Life.Both
+[       OK ] Life.Both (37 ms)
+[ RUN      ] Life.getAlive1
+[       OK ] Life.getAlive1 (2 ms)
+[ RUN      ] Life.getAlive2
+[       OK ] Life.getAlive2 (2 ms)
+[ RUN      ] Life.getAlive3
+[       OK ] Life.getAlive3 (2 ms)
+[ RUN      ] Life.getAlive4
+[       OK ] Life.getAlive4 (4 ms)
+[ RUN      ] Life.getAlive5
+[       OK ] Life.getAlive5 (4 ms)
+[ RUN      ] Life.putOnBoard1
+[       OK ] Life.putOnBoard1 (2 ms)
+[ RUN      ] Life.putOnBoard2
+[       OK ] Life.putOnBoard2 (2 ms)
+[ RUN      ] Life.putOnBoard3
+[       OK ] Life.putOnBoard3 (6 ms)
+[ RUN      ] Life.addCell1
+[       OK ] Life.addCell1 (2 ms)
+[ RUN      ] Life.addCell2
+[       OK ] Life.addCell2 (2 ms)
+[ RUN      ] Life.addCell3
+[       OK ] Life.addCell3 (3 ms)
+[ RUN      ] Life.mutate1
+[       OK ] Life.mutate1 (7 ms)
+[ RUN      ] Life.mutate2
+[       OK ] Life.mutate2 (5 ms)
+[ RUN      ] Life.mutate3
+[       OK ] Life.mutate3 (7 ms)
+[ RUN      ] Life.construct
+[       OK ] Life.construct (4 ms)
+[----------] 24 tests from Life (271 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 1 test case ran. (298 ms total)
+[  PASSED  ] 24 tests.

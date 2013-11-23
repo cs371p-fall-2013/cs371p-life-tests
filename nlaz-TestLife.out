@@ -1,0 +1,243 @@
+Running main() from gtest_main.cc
+[==========] Running 99 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 42 tests from FredkinCell
+[ RUN      ] FredkinCell.constructor_1
+[       OK ] FredkinCell.constructor_1 (10 ms)
+[ RUN      ] FredkinCell.constructor_2
+[       OK ] FredkinCell.constructor_2 (3 ms)
+[ RUN      ] FredkinCell.constructor_3
+[       OK ] FredkinCell.constructor_3 (3 ms)
+[ RUN      ] FredkinCell.turn_1
+[       OK ] FredkinCell.turn_1 (2 ms)
+[ RUN      ] FredkinCell.turn_2
+[       OK ] FredkinCell.turn_2 (3 ms)
+[ RUN      ] FredkinCell.turn_3
+[       OK ] FredkinCell.turn_3 (3 ms)
+[ RUN      ] FredkinCell.turn_4
+[       OK ] FredkinCell.turn_4 (2 ms)
+[ RUN      ] FredkinCell.turn_5
+<<<<<<< HEAD
+[       OK ] FredkinCell.turn_5 (0 ms)
+[ RUN      ] FredkinCell.turn_6
+[       OK ] FredkinCell.turn_6 (0 ms)
+[ RUN      ] FredkinCell.turn_7
+[       OK ] FredkinCell.turn_7 (0 ms)
+[ RUN      ] FredkinCell.turn_8
+[       OK ] FredkinCell.turn_8 (0 ms)
+[ RUN      ] FredkinCell.turn_9
+[       OK ] FredkinCell.turn_9 (0 ms)
+[ RUN      ] FredkinCell.turn_10
+[       OK ] FredkinCell.turn_10 (0 ms)
+[ RUN      ] FredkinCell.turn_11
+[       OK ] FredkinCell.turn_11 (0 ms)
+[ RUN      ] FredkinCell.turn_12
+[       OK ] FredkinCell.turn_12 (0 ms)
+[ RUN      ] FredkinCell.turn_13
+[       OK ] FredkinCell.turn_13 (0 ms)
+[ RUN      ] FredkinCell.turn_14
+[       OK ] FredkinCell.turn_14 (0 ms)
+[ RUN      ] FredkinCell.turn_15
+[       OK ] FredkinCell.turn_15 (0 ms)
+[ RUN      ] FredkinCell.turn_16
+[       OK ] FredkinCell.turn_16 (0 ms)
+[ RUN      ] FredkinCell.turn_17
+[       OK ] FredkinCell.turn_17 (0 ms)
+[ RUN      ] FredkinCell.turn_18
+[       OK ] FredkinCell.turn_18 (0 ms)
+[ RUN      ] FredkinCell.turn_19
+[       OK ] FredkinCell.turn_19 (0 ms)
+[ RUN      ] FredkinCell.turn_20
+[       OK ] FredkinCell.turn_20 (0 ms)
+[ RUN      ] FredkinCell.turn_21
+[       OK ] FredkinCell.turn_21 (0 ms)
+[ RUN      ] FredkinCell.turn_22
+[       OK ] FredkinCell.turn_22 (0 ms)
+[ RUN      ] FredkinCell.turn_23
+[       OK ] FredkinCell.turn_23 (0 ms)
+[ RUN      ] FredkinCell.turn_24
+[       OK ] FredkinCell.turn_24 (0 ms)
+[ RUN      ] FredkinCell.turn_25
+[       OK ] FredkinCell.turn_25 (0 ms)
+[ RUN      ] FredkinCell.turn_26
+[       OK ] FredkinCell.turn_26 (0 ms)
+[ RUN      ] FredkinCell.turn_27
+[       OK ] FredkinCell.turn_27 (0 ms)
+[ RUN      ] FredkinCell.turn_28
+[       OK ] FredkinCell.turn_28 (0 ms)
+[ RUN      ] FredkinCell.turn_29
+[       OK ] FredkinCell.turn_29 (0 ms)
+[ RUN      ] FredkinCell.turn_30
+[       OK ] FredkinCell.turn_30 (0 ms)
+=======
+[       OK ] FredkinCell.turn_5 (2 ms)
+>>>>>>> 9f83c37fb4af4a90a06b611b18292e5f4a1ed6a5
+[ RUN      ] FredkinCell.is_age_1
+[       OK ] FredkinCell.is_age_1 (2 ms)
+[ RUN      ] FredkinCell.is_age_2
+[       OK ] FredkinCell.is_age_2 (2 ms)
+[ RUN      ] FredkinCell.is_age_3
+[       OK ] FredkinCell.is_age_3 (2 ms)
+[ RUN      ] FredkinCell.is_age_4
+[       OK ] FredkinCell.is_age_4 (2 ms)
+[ RUN      ] FredkinCell.is_age_5
+[       OK ] FredkinCell.is_age_5 (2 ms)
+[ RUN      ] FredkinCell.is_name_1
+[       OK ] FredkinCell.is_name_1 (3 ms)
+[ RUN      ] FredkinCell.is_name_2
+[       OK ] FredkinCell.is_name_2 (3 ms)
+[ RUN      ] FredkinCell.is_name_3
+[       OK ] FredkinCell.is_name_3 (3 ms)
+[ RUN      ] FredkinCell.is_name_4
+<<<<<<< HEAD
+[       OK ] FredkinCell.is_name_4 (0 ms)
+[----------] 42 tests from FredkinCell (1 ms total)
+=======
+[       OK ] FredkinCell.is_name_4 (2 ms)
+[----------] 17 tests from FredkinCell (62 ms total)
+>>>>>>> 9f83c37fb4af4a90a06b611b18292e5f4a1ed6a5
+
+[----------] 33 tests from ConwayCell
+[ RUN      ] ConwayCell.constructor_1
+[       OK ] ConwayCell.constructor_1 (2 ms)
+[ RUN      ] ConwayCell.constructor_2
+[       OK ] ConwayCell.constructor_2 (3 ms)
+[ RUN      ] ConwayCell.contructor_3
+[       OK ] ConwayCell.contructor_3 (2 ms)
+[ RUN      ] ConwayCell.turn_1
+[       OK ] ConwayCell.turn_1 (2 ms)
+[ RUN      ] ConwayCell.turn_2
+[       OK ] ConwayCell.turn_2 (2 ms)
+[ RUN      ] ConwayCell.turn_3
+[       OK ] ConwayCell.turn_3 (1 ms)
+[ RUN      ] ConwayCell.turn_4
+[       OK ] ConwayCell.turn_4 (1 ms)
+[ RUN      ] ConwayCell.turn_5
+[       OK ] ConwayCell.turn_5 (2 ms)
+[ RUN      ] ConwayCell.turn_6
+<<<<<<< HEAD
+[       OK ] ConwayCell.turn_6 (0 ms)
+[ RUN      ] ConwayCell.turn_7
+[       OK ] ConwayCell.turn_7 (0 ms)
+[ RUN      ] ConwayCell.turn_8
+[       OK ] ConwayCell.turn_8 (0 ms)
+[ RUN      ] ConwayCell.turn_9
+[       OK ] ConwayCell.turn_9 (0 ms)
+[ RUN      ] ConwayCell.turn_10
+[       OK ] ConwayCell.turn_10 (0 ms)
+[ RUN      ] ConwayCell.turn_11
+[       OK ] ConwayCell.turn_11 (0 ms)
+[ RUN      ] ConwayCell.turn_12
+[       OK ] ConwayCell.turn_12 (0 ms)
+[ RUN      ] ConwayCell.clone_13
+[       OK ] ConwayCell.clone_13 (0 ms)
+[ RUN      ] ConwayCell.clone_14
+[       OK ] ConwayCell.clone_14 (0 ms)
+[ RUN      ] ConwayCell.clone_15
+[       OK ] ConwayCell.clone_15 (0 ms)
+[ RUN      ] ConwayCell.clone_16
+[       OK ] ConwayCell.clone_16 (0 ms)
+[ RUN      ] ConwayCell.clone_17
+[       OK ] ConwayCell.clone_17 (0 ms)
+[ RUN      ] ConwayCell.clone_18
+[       OK ] ConwayCell.clone_18 (0 ms)
+[ RUN      ] ConwayCell.turn_19
+[       OK ] ConwayCell.turn_19 (0 ms)
+[ RUN      ] ConwayCell.turn_20
+[       OK ] ConwayCell.turn_20 (0 ms)
+[ RUN      ] ConwayCell.turn_21
+[       OK ] ConwayCell.turn_21 (0 ms)
+[ RUN      ] ConwayCell.turn_22
+[       OK ] ConwayCell.turn_22 (0 ms)
+[ RUN      ] ConwayCell.turn_23
+[       OK ] ConwayCell.turn_23 (0 ms)
+[ RUN      ] ConwayCell.turn_24
+[       OK ] ConwayCell.turn_24 (0 ms)
+[ RUN      ] ConwayCell.turn_25
+[       OK ] ConwayCell.turn_25 (0 ms)
+[ RUN      ] ConwayCell.turn_26
+[       OK ] ConwayCell.turn_26 (0 ms)
+[ RUN      ] ConwayCell.turn_27
+[       OK ] ConwayCell.turn_27 (0 ms)
+[ RUN      ] ConwayCell.turn_29
+[       OK ] ConwayCell.turn_29 (0 ms)
+[ RUN      ] ConwayCell.turn_30
+[       OK ] ConwayCell.turn_30 (0 ms)
+[ RUN      ] ConwayCell.turn_31
+[       OK ] ConwayCell.turn_31 (0 ms)
+[----------] 33 tests from ConwayCell (0 ms total)
+
+[----------] 24 tests from Cell
+[ RUN      ] Cell.constructor_1
+[       OK ] Cell.constructor_1 (0 ms)
+[ RUN      ] Cell.constructor_2
+[       OK ] Cell.constructor_2 (0 ms)
+[ RUN      ] Cell.constructor_3
+[       OK ] Cell.constructor_3 (0 ms)
+[ RUN      ] Cell.constructor_4
+[       OK ] Cell.constructor_4 (0 ms)
+[ RUN      ] Cell.constructor_5
+[       OK ] Cell.constructor_5 (0 ms)
+[ RUN      ] Cell.constructor_6
+[       OK ] Cell.constructor_6 (0 ms)
+[ RUN      ] Cell.turn_1
+[       OK ] Cell.turn_1 (0 ms)
+[ RUN      ] Cell.turn_2
+[       OK ] Cell.turn_2 (0 ms)
+[ RUN      ] Cell.turn_3
+[       OK ] Cell.turn_3 (0 ms)
+[ RUN      ] Cell.turn_4
+[       OK ] Cell.turn_4 (0 ms)
+[ RUN      ] Cell.turn_5
+[       OK ] Cell.turn_5 (0 ms)
+[ RUN      ] Cell.turn_6
+[       OK ] Cell.turn_6 (0 ms)
+[ RUN      ] Cell.turn_7
+[       OK ] Cell.turn_7 (0 ms)
+[ RUN      ] Cell.turn_8
+[       OK ] Cell.turn_8 (0 ms)
+[ RUN      ] Cell.turn_9
+[       OK ] Cell.turn_9 (0 ms)
+[ RUN      ] Cell.turn_10
+[       OK ] Cell.turn_10 (0 ms)
+[ RUN      ] Cell.turn_11
+[       OK ] Cell.turn_11 (0 ms)
+[ RUN      ] Cell.turn_12
+[       OK ] Cell.turn_12 (0 ms)
+[ RUN      ] Cell.turn_13
+[       OK ] Cell.turn_13 (0 ms)
+[ RUN      ] Cell.turn_14
+[       OK ] Cell.turn_14 (0 ms)
+[ RUN      ] Cell.turn_15
+[       OK ] Cell.turn_15 (0 ms)
+[ RUN      ] Cell.turn_16
+[       OK ] Cell.turn_16 (0 ms)
+[ RUN      ] Cell.turn_17
+[       OK ] Cell.turn_17 (0 ms)
+[ RUN      ] Cell.turn_18
+[       OK ] Cell.turn_18 (0 ms)
+[----------] 24 tests from Cell (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 99 tests from 3 test cases ran. (2 ms total)
+[  PASSED  ] 99 tests.
+=======
+[       OK ] ConwayCell.turn_6 (2 ms)
+[ RUN      ] ConwayCell.clone_1
+[       OK ] ConwayCell.clone_1 (2 ms)
+[ RUN      ] ConwayCell.clone_2
+[       OK ] ConwayCell.clone_2 (2 ms)
+[ RUN      ] ConwayCell.clone_3
+[       OK ] ConwayCell.clone_3 (3 ms)
+[ RUN      ] ConwayCell.clone_4
+[       OK ] ConwayCell.clone_4 (2 ms)
+[ RUN      ] ConwayCell.clone_5
+[       OK ] ConwayCell.clone_5 (2 ms)
+[ RUN      ] ConwayCell.clone_6
+[       OK ] ConwayCell.clone_6 (2 ms)
+[----------] 15 tests from ConwayCell (34 ms total)
+
+[----------] Global test environment tear-down
+[==========] 32 tests from 2 test cases ran. (123 ms total)
+[  PASSED  ] 32 tests.
+>>>>>>> 9f83c37fb4af4a90a06b611b18292e5f4a1ed6a5

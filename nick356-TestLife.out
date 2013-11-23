@@ -1,0 +1,278 @@
+Running main() from gtest_main.cc
+[==========] Running 109 tests from 18 test cases.
+[----------] Global test environment set-up.
+[----------] 6 tests from ConwayConstru
+[ RUN      ] ConwayConstru.construct1
+[       OK ] ConwayConstru.construct1 (25 ms)
+[ RUN      ] ConwayConstru.construct2
+[       OK ] ConwayConstru.construct2 (3 ms)
+[ RUN      ] ConwayConstru.construct3
+[       OK ] ConwayConstru.construct3 (2 ms)
+[ RUN      ] ConwayConstru.construct4
+[       OK ] ConwayConstru.construct4 (3 ms)
+[ RUN      ] ConwayConstru.construct5
+[       OK ] ConwayConstru.construct5 (3 ms)
+[ RUN      ] ConwayConstru.construct6
+[       OK ] ConwayConstru.construct6 (5 ms)
+[----------] 6 tests from ConwayConstru (50 ms total)
+
+[----------] 7 tests from FredkinConstru
+[ RUN      ] FredkinConstru.construct1
+[       OK ] FredkinConstru.construct1 (3 ms)
+[ RUN      ] FredkinConstru.construct2
+[       OK ] FredkinConstru.construct2 (3 ms)
+[ RUN      ] FredkinConstru.construct3
+[       OK ] FredkinConstru.construct3 (4 ms)
+[ RUN      ] FredkinConstru.construct4
+[       OK ] FredkinConstru.construct4 (2 ms)
+[ RUN      ] FredkinConstru.construct5
+[       OK ] FredkinConstru.construct5 (3 ms)
+[ RUN      ] FredkinConstru.construct6
+[       OK ] FredkinConstru.construct6 (3 ms)
+[ RUN      ] FredkinConstru.construct7
+[       OK ] FredkinConstru.construct7 (5 ms)
+[----------] 7 tests from FredkinConstru (24 ms total)
+
+[----------] 4 tests from Constatswtch
+[ RUN      ] Constatswtch.switch1
+[       OK ] Constatswtch.switch1 (2 ms)
+[ RUN      ] Constatswtch.switch2
+[       OK ] Constatswtch.switch2 (2 ms)
+[ RUN      ] Constatswtch.switch3
+[       OK ] Constatswtch.switch3 (2 ms)
+[ RUN      ] Constatswtch.switch4
+[       OK ] Constatswtch.switch4 (1 ms)
+[----------] 4 tests from Constatswtch (9 ms total)
+
+[----------] 5 tests from Fredstatswtch
+[ RUN      ] Fredstatswtch.switch1
+[       OK ] Fredstatswtch.switch1 (2 ms)
+[ RUN      ] Fredstatswtch.switch2
+[       OK ] Fredstatswtch.switch2 (3 ms)
+[ RUN      ] Fredstatswtch.switch3
+[       OK ] Fredstatswtch.switch3 (2 ms)
+[ RUN      ] Fredstatswtch.switch4
+[       OK ] Fredstatswtch.switch4 (2 ms)
+[ RUN      ] Fredstatswtch.switch5
+[       OK ] Fredstatswtch.switch5 (2 ms)
+[----------] 5 tests from Fredstatswtch (11 ms total)
+
+[----------] 5 tests from Conwayset
+[ RUN      ] Conwayset.set1
+[       OK ] Conwayset.set1 (3 ms)
+[ RUN      ] Conwayset.set2
+[       OK ] Conwayset.set2 (2 ms)
+[ RUN      ] Conwayset.set3
+[       OK ] Conwayset.set3 (3 ms)
+[ RUN      ] Conwayset.set4
+[       OK ] Conwayset.set4 (2 ms)
+[ RUN      ] Conwayset.set5
+[       OK ] Conwayset.set5 (3 ms)
+[----------] 5 tests from Conwayset (13 ms total)
+
+[----------] 6 tests from Fredkinset
+[ RUN      ] Fredkinset.set1
+[       OK ] Fredkinset.set1 (9 ms)
+[ RUN      ] Fredkinset.set2
+[       OK ] Fredkinset.set2 (4 ms)
+[ RUN      ] Fredkinset.set3
+[       OK ] Fredkinset.set3 (2 ms)
+[ RUN      ] Fredkinset.set4
+[       OK ] Fredkinset.set4 (2 ms)
+[ RUN      ] Fredkinset.set5
+[       OK ] Fredkinset.set5 (3 ms)
+[ RUN      ] Fredkinset.set6
+[       OK ] Fredkinset.set6 (3 ms)
+[----------] 6 tests from Fredkinset (24 ms total)
+
+[----------] 4 tests from Conrules
+[ RUN      ] Conrules.rules1
+[       OK ] Conrules.rules1 (7 ms)
+[ RUN      ] Conrules.rules2
+[       OK ] Conrules.rules2 (2 ms)
+[ RUN      ] Conrules.rules3
+[       OK ] Conrules.rules3 (2 ms)
+[ RUN      ] Conrules.rules4
+[       OK ] Conrules.rules4 (2 ms)
+[----------] 4 tests from Conrules (13 ms total)
+
+[----------] 2 tests from Fredrules
+[ RUN      ] Fredrules.rules1
+[       OK ] Fredrules.rules1 (2 ms)
+[ RUN      ] Fredrules.rules2
+[       OK ] Fredrules.rules2 (2 ms)
+[----------] 2 tests from Fredrules (4 ms total)
+
+[----------] 3 tests from Conclone
+[ RUN      ] Conclone.clone1
+[       OK ] Conclone.clone1 (4 ms)
+[ RUN      ] Conclone.clone2
+[       OK ] Conclone.clone2 (2 ms)
+[ RUN      ] Conclone.clone3
+[       OK ] Conclone.clone3 (2 ms)
+[----------] 3 tests from Conclone (10 ms total)
+
+[----------] 3 tests from Fredclone
+[ RUN      ] Fredclone.clone1
+[       OK ] Fredclone.clone1 (2 ms)
+[ RUN      ] Fredclone.clone2
+[       OK ] Fredclone.clone2 (2 ms)
+[ RUN      ] Fredclone.clone3
+[       OK ] Fredclone.clone3 (3 ms)
+[----------] 3 tests from Fredclone (8 ms total)
+
+[----------] 4 tests from CellConstr
+[ RUN      ] CellConstr.construct1
+[       OK ] CellConstr.construct1 (4 ms)
+[ RUN      ] CellConstr.construct2
+[       OK ] CellConstr.construct2 (3 ms)
+[ RUN      ] CellConstr.construct3
+[       OK ] CellConstr.construct3 (2 ms)
+[ RUN      ] CellConstr.construct4
+[       OK ] CellConstr.construct4 (6 ms)
+[----------] 4 tests from CellConstr (16 ms total)
+
+[----------] 10 tests from Cellswtch
+[ RUN      ] Cellswtch.switch1
+[       OK ] Cellswtch.switch1 (2 ms)
+[ RUN      ] Cellswtch.switch2
+[       OK ] Cellswtch.switch2 (2 ms)
+[ RUN      ] Cellswtch.switch3
+[       OK ] Cellswtch.switch3 (2 ms)
+[ RUN      ] Cellswtch.switch4
+[       OK ] Cellswtch.switch4 (3 ms)
+[ RUN      ] Cellswtch.switch5
+[       OK ] Cellswtch.switch5 (2 ms)
+[ RUN      ] Cellswtch.switch6
+[       OK ] Cellswtch.switch6 (2 ms)
+[ RUN      ] Cellswtch.switch7
+[       OK ] Cellswtch.switch7 (3 ms)
+[ RUN      ] Cellswtch.switch8
+[       OK ] Cellswtch.switch8 (3 ms)
+[ RUN      ] Cellswtch.switch9
+[       OK ] Cellswtch.switch9 (3 ms)
+[ RUN      ] Cellswtch.switch10
+[       OK ] Cellswtch.switch10 (3 ms)
+[----------] 10 tests from Cellswtch (27 ms total)
+
+[----------] 6 tests from Cellret
+[ RUN      ] Cellret.return1
+[       OK ] Cellret.return1 (3 ms)
+[ RUN      ] Cellret.return2
+[       OK ] Cellret.return2 (2 ms)
+[ RUN      ] Cellret.return3
+[       OK ] Cellret.return3 (3 ms)
+[ RUN      ] Cellret.return4
+[       OK ] Cellret.return4 (3 ms)
+[ RUN      ] Cellret.return5
+[       OK ] Cellret.return5 (3 ms)
+[ RUN      ] Cellret.return6
+[       OK ] Cellret.return6 (3 ms)
+[----------] 6 tests from Cellret (18 ms total)
+
+[----------] 10 tests from CellSet
+[ RUN      ] CellSet.set1
+[       OK ] CellSet.set1 (3 ms)
+[ RUN      ] CellSet.set2
+[       OK ] CellSet.set2 (3 ms)
+[ RUN      ] CellSet.set3
+[       OK ] CellSet.set3 (3 ms)
+[ RUN      ] CellSet.set4
+[       OK ] CellSet.set4 (3 ms)
+[ RUN      ] CellSet.set5
+[       OK ] CellSet.set5 (4 ms)
+[ RUN      ] CellSet.set6
+[       OK ] CellSet.set6 (4 ms)
+[ RUN      ] CellSet.set7
+[       OK ] CellSet.set7 (4 ms)
+[ RUN      ] CellSet.set8
+[       OK ] CellSet.set8 (4 ms)
+[ RUN      ] CellSet.set9
+[       OK ] CellSet.set9 (4 ms)
+[ RUN      ] CellSet.set10
+[       OK ] CellSet.set10 (10 ms)
+[----------] 10 tests from CellSet (43 ms total)
+
+[----------] 3 tests from Conwayget
+[ RUN      ] Conwayget.get1
+[       OK ] Conwayget.get1 (2 ms)
+[ RUN      ] Conwayget.get2
+[       OK ] Conwayget.get2 (3 ms)
+[ RUN      ] Conwayget.get3
+[       OK ] Conwayget.get3 (2 ms)
+[----------] 3 tests from Conwayget (7 ms total)
+
+[----------] 3 tests from Fredkinget
+[ RUN      ] Fredkinget.get1
+[       OK ] Fredkinget.get1 (2 ms)
+[ RUN      ] Fredkinget.get2
+[       OK ] Fredkinget.get2 (2 ms)
+[ RUN      ] Fredkinget.get3
+[       OK ] Fredkinget.get3 (3 ms)
+[----------] 3 tests from Fredkinget (8 ms total)
+
+[----------] 9 tests from Lifecon
+[ RUN      ] Lifecon.construct1
+[       OK ] Lifecon.construct1 (42 ms)
+[ RUN      ] Lifecon.construct2
+[       OK ] Lifecon.construct2 (21 ms)
+[ RUN      ] Lifecon.construct3
+[       OK ] Lifecon.construct3 (6 ms)
+[ RUN      ] Lifecon.construct4
+[       OK ] Lifecon.construct4 (18 ms)
+[ RUN      ] Lifecon.construct5
+[       OK ] Lifecon.construct5 (16 ms)
+[ RUN      ] Lifecon.construct6
+[       OK ] Lifecon.construct6 (7 ms)
+[ RUN      ] Lifecon.construct7
+[       OK ] Lifecon.construct7 (19 ms)
+[ RUN      ] Lifecon.construct8
+[       OK ] Lifecon.construct8 (14 ms)
+[ RUN      ] Lifecon.construct9
+[       OK ] Lifecon.construct9 (6 ms)
+[----------] 9 tests from Lifecon (152 ms total)
+
+[----------] 19 tests from Lifegen
+[ RUN      ] Lifegen.generation1
+[       OK ] Lifegen.generation1 (29 ms)
+[ RUN      ] Lifegen.generation2
+[       OK ] Lifegen.generation2 (14 ms)
+[ RUN      ] Lifegen.generation3
+[       OK ] Lifegen.generation3 (15 ms)
+[ RUN      ] Lifegen.generation4
+[       OK ] Lifegen.generation4 (18 ms)
+[ RUN      ] Lifegen.generation5
+[       OK ] Lifegen.generation5 (24 ms)
+[ RUN      ] Lifegen.generation6
+[       OK ] Lifegen.generation6 (12 ms)
+[ RUN      ] Lifegen.generation7
+[       OK ] Lifegen.generation7 (14 ms)
+[ RUN      ] Lifegen.generation8
+[       OK ] Lifegen.generation8 (18 ms)
+[ RUN      ] Lifegen.generation9
+[       OK ] Lifegen.generation9 (24 ms)
+[ RUN      ] Lifegen.generation10
+[       OK ] Lifegen.generation10 (13 ms)
+[ RUN      ] Lifegen.generatio11
+[       OK ] Lifegen.generatio11 (14 ms)
+[ RUN      ] Lifegen.generation12
+[       OK ] Lifegen.generation12 (20 ms)
+[ RUN      ] Lifegen.generation13
+[       OK ] Lifegen.generation13 (6 ms)
+[ RUN      ] Lifegen.generation14
+[       OK ] Lifegen.generation14 (8 ms)
+[ RUN      ] Lifegen.generation15
+[       OK ] Lifegen.generation15 (3 ms)
+[ RUN      ] Lifegen.generation16
+[       OK ] Lifegen.generation16 (3 ms)
+[ RUN      ] Lifegen.generation17
+[       OK ] Lifegen.generation17 (7 ms)
+[ RUN      ] Lifegen.generation18
+[       OK ] Lifegen.generation18 (8 ms)
+[ RUN      ] Lifegen.generation19
+[       OK ] Lifegen.generation19 (7 ms)
+[----------] 19 tests from Lifegen (261 ms total)
+
+[----------] Global test environment tear-down
+[==========] 109 tests from 18 test cases ran. (727 ms total)
+[  PASSED  ] 109 tests.

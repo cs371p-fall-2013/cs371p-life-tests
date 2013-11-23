@@ -5,21 +5,21 @@ Running main() from gtest_main.cc
 [ RUN      ] ConwayCell.default_construct
 [       OK ] ConwayCell.default_construct (9 ms)
 [ RUN      ] ConwayCell.construct_dead
-[       OK ] ConwayCell.construct_dead (1 ms)
+[       OK ] ConwayCell.construct_dead (2 ms)
 [ RUN      ] ConwayCell.construct_alive
 [       OK ] ConwayCell.construct_alive (2 ms)
 [ RUN      ] ConwayCell.change_state_of_dead
-[       OK ] ConwayCell.change_state_of_dead (2 ms)
+[       OK ] ConwayCell.change_state_of_dead (3 ms)
 [ RUN      ] ConwayCell.change_state_of_alive
-[       OK ] ConwayCell.change_state_of_alive (3 ms)
+[       OK ] ConwayCell.change_state_of_alive (2 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_0_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_dead_with_0_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_1_alive_becomes_dead
-[       OK ] ConwayCell.evolve_when_dead_with_1_alive_becomes_dead (3 ms)
+[       OK ] ConwayCell.evolve_when_dead_with_1_alive_becomes_dead (2 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_2_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_dead_with_2_alive_becomes_dead (2 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_3_alive_becomes_alive
-[       OK ] ConwayCell.evolve_when_dead_with_3_alive_becomes_alive (2 ms)
+[       OK ] ConwayCell.evolve_when_dead_with_3_alive_becomes_alive (3 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_4_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_dead_with_4_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_5_alive_becomes_dead
@@ -27,23 +27,23 @@ Running main() from gtest_main.cc
 [ RUN      ] ConwayCell.evolve_when_dead_with_6_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_dead_with_6_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_7_alive_becomes_dead
-[       OK ] ConwayCell.evolve_when_dead_with_7_alive_becomes_dead (2 ms)
+[       OK ] ConwayCell.evolve_when_dead_with_7_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_dead_with_8_alive_becomes_dead
-[       OK ] ConwayCell.evolve_when_dead_with_8_alive_becomes_dead (3 ms)
+[       OK ] ConwayCell.evolve_when_dead_with_8_alive_becomes_dead (2 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_0_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_alive_with_0_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_1_alive_becomes_dead
-[       OK ] ConwayCell.evolve_when_alive_with_1_alive_becomes_dead (2 ms)
+[       OK ] ConwayCell.evolve_when_alive_with_1_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_2_alive_becomes_alive
-[       OK ] ConwayCell.evolve_when_alive_with_2_alive_becomes_alive (3 ms)
+[       OK ] ConwayCell.evolve_when_alive_with_2_alive_becomes_alive (2 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_3_alive_becomes_alive
-[       OK ] ConwayCell.evolve_when_alive_with_3_alive_becomes_alive (2 ms)
+[       OK ] ConwayCell.evolve_when_alive_with_3_alive_becomes_alive (3 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_4_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_alive_with_4_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_5_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_alive_with_5_alive_becomes_dead (2 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_6_alive_becomes_dead
-[       OK ] ConwayCell.evolve_when_alive_with_6_alive_becomes_dead (2 ms)
+[       OK ] ConwayCell.evolve_when_alive_with_6_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_7_alive_becomes_dead
 [       OK ] ConwayCell.evolve_when_alive_with_7_alive_becomes_dead (3 ms)
 [ RUN      ] ConwayCell.evolve_when_alive_with_8_alive_becomes_dead
@@ -52,15 +52,15 @@ Running main() from gtest_main.cc
 [       OK ] ConwayCell.clone_alive_conway (5 ms)
 [ RUN      ] ConwayCell.clone_dead_conway
 [       OK ] ConwayCell.clone_dead_conway (4 ms)
-[----------] 25 tests from ConwayCell (84 ms total)
+[----------] 25 tests from ConwayCell (86 ms total)
 
 [----------] 17 tests from FredkinCell
 [ RUN      ] FredkinCell.default_construct
-[       OK ] FredkinCell.default_construct (2 ms)
+[       OK ] FredkinCell.default_construct (3 ms)
 [ RUN      ] FredkinCell.construct_dead
-[       OK ] FredkinCell.construct_dead (3 ms)
+[       OK ] FredkinCell.construct_dead (2 ms)
 [ RUN      ] FredkinCell.construct_alive
-[       OK ] FredkinCell.construct_alive (2 ms)
+[       OK ] FredkinCell.construct_alive (3 ms)
 [ RUN      ] FredkinCell.change_state_of_dead
 [       OK ] FredkinCell.change_state_of_dead (2 ms)
 [ RUN      ] FredkinCell.change_state_of_alive
@@ -70,7 +70,7 @@ Running main() from gtest_main.cc
 [ RUN      ] FredkinCell.evolve_when_dead_with_1_alive_becomes_alive
 [       OK ] FredkinCell.evolve_when_dead_with_1_alive_becomes_alive (6 ms)
 [ RUN      ] FredkinCell.evolve_when_dead_with_2_alive_becomes_dead
-[       OK ] FredkinCell.evolve_when_dead_with_2_alive_becomes_dead (4 ms)
+[       OK ] FredkinCell.evolve_when_dead_with_2_alive_becomes_dead (3 ms)
 [ RUN      ] FredkinCell.evolve_when_dead_with_3_alive_becomes_alive
 [       OK ] FredkinCell.evolve_when_dead_with_3_alive_becomes_alive (3 ms)
 [ RUN      ] FredkinCell.evolve_when_dead_with_4_alive_becomes_dead
@@ -80,16 +80,16 @@ Running main() from gtest_main.cc
 [ RUN      ] FredkinCell.evolve_when_alive_with_1_alive_becomes_alive
 [       OK ] FredkinCell.evolve_when_alive_with_1_alive_becomes_alive (3 ms)
 [ RUN      ] FredkinCell.evolve_when_alive_with_2_alive_becomes_dead
-[       OK ] FredkinCell.evolve_when_alive_with_2_alive_becomes_dead (2 ms)
+[       OK ] FredkinCell.evolve_when_alive_with_2_alive_becomes_dead (3 ms)
 [ RUN      ] FredkinCell.evolve_when_alive_with_3_alive_becomes_alive
 [       OK ] FredkinCell.evolve_when_alive_with_3_alive_becomes_alive (3 ms)
 [ RUN      ] FredkinCell.evolve_when_alive_with_4_alive_becomes_dead
-[       OK ] FredkinCell.evolve_when_alive_with_4_alive_becomes_dead (2 ms)
+[       OK ] FredkinCell.evolve_when_alive_with_4_alive_becomes_dead (3 ms)
 [ RUN      ] FredkinCell.clone_alive_fredkin
 [       OK ] FredkinCell.clone_alive_fredkin (6 ms)
 [ RUN      ] FredkinCell.clone_dead_fredkin
 [       OK ] FredkinCell.clone_dead_fredkin (5 ms)
-[----------] 17 tests from FredkinCell (59 ms total)
+[----------] 17 tests from FredkinCell (60 ms total)
 
 [----------] 11 tests from Cell
 [ RUN      ] Cell.default_constructor
@@ -97,11 +97,11 @@ Running main() from gtest_main.cc
 [ RUN      ] Cell.assignment_constructor_with_dead_fredkin
 [       OK ] Cell.assignment_constructor_with_dead_fredkin (2 ms)
 [ RUN      ] Cell.assignment_constructor_with_alive_conway
-[       OK ] Cell.assignment_constructor_with_alive_conway (1 ms)
+[       OK ] Cell.assignment_constructor_with_alive_conway (2 ms)
 [ RUN      ] Cell.to_char_alive_conway
-[       OK ] Cell.to_char_alive_conway (3 ms)
+[       OK ] Cell.to_char_alive_conway (2 ms)
 [ RUN      ] Cell.to_char_dead_fredkin
-[       OK ] Cell.to_char_dead_fredkin (2 ms)
+[       OK ] Cell.to_char_dead_fredkin (3 ms)
 [ RUN      ] Cell.change_state_conway
 [       OK ] Cell.change_state_conway (4 ms)
 [ RUN      ] Cell.change_state_fredkin
@@ -111,10 +111,10 @@ Running main() from gtest_main.cc
 [ RUN      ] Cell.evolve_conway
 [       OK ] Cell.evolve_conway (3 ms)
 [ RUN      ] Cell.evolve_fredkin
-[       OK ] Cell.evolve_fredkin (3 ms)
+[       OK ] Cell.evolve_fredkin (4 ms)
 [ RUN      ] Cell.evolve_with_mutate
 [       OK ] Cell.evolve_with_mutate (3 ms)
-[----------] 11 tests from Cell (33 ms total)
+[----------] 11 tests from Cell (34 ms total)
 
 [----------] 17 tests from Life
 [ RUN      ] Life.construct_conway_10x10
@@ -128,31 +128,31 @@ Running main() from gtest_main.cc
 [ RUN      ] Life.generate_board_for_all_alive_2x17
 [       OK ] Life.generate_board_for_all_alive_2x17 (6 ms)
 [ RUN      ] Life.generate_board_for_dead_and_alive_1x2
-[       OK ] Life.generate_board_for_dead_and_alive_1x2 (5 ms)
+[       OK ] Life.generate_board_for_dead_and_alive_1x2 (6 ms)
 [ RUN      ] Life.read_world_dead_1x2
-[       OK ] Life.read_world_dead_1x2 (13 ms)
+[       OK ] Life.read_world_dead_1x2 (14 ms)
 [ RUN      ] Life.read_world_alive_2x4
-[       OK ] Life.read_world_alive_2x4 (7 ms)
+[       OK ] Life.read_world_alive_2x4 (9 ms)
 [ RUN      ] Life.print_life_dead_1x2
-[       OK ] Life.print_life_dead_1x2 (11 ms)
+[       OK ] Life.print_life_dead_1x2 (10 ms)
 [ RUN      ] Life.print_life_alive_4x2
-[       OK ] Life.print_life_alive_4x2 (6 ms)
+[       OK ] Life.print_life_alive_4x2 (5 ms)
 [ RUN      ] Life.build_neighbors_when_all_dead
 [       OK ] Life.build_neighbors_when_all_dead (4 ms)
 [ RUN      ] Life.build_neighbors_when_all_out_of_bounds
 [       OK ] Life.build_neighbors_when_all_out_of_bounds (3 ms)
 [ RUN      ] Life.build_neighbors_when_all_alive
-[       OK ] Life.build_neighbors_when_all_alive (8 ms)
+[       OK ] Life.build_neighbors_when_all_alive (7 ms)
 [ RUN      ] Life.build_neighbors_when_one_alive_in_corner
 [       OK ] Life.build_neighbors_when_one_alive_in_corner (5 ms)
 [ RUN      ] Life.build_neighbors_around_one_alive
-[       OK ] Life.build_neighbors_around_one_alive (13 ms)
+[       OK ] Life.build_neighbors_around_one_alive (12 ms)
 [ RUN      ] Life.next_generation_with_conway
-[       OK ] Life.next_generation_with_conway (13 ms)
+[       OK ] Life.next_generation_with_conway (14 ms)
 [ RUN      ] Life.next_generation_with_fredkin
-[       OK ] Life.next_generation_with_fredkin (44 ms)
-[----------] 17 tests from Life (229 ms total)
+[       OK ] Life.next_generation_with_fredkin (43 ms)
+[----------] 17 tests from Life (227 ms total)
 
 [----------] Global test environment tear-down
-[==========] 70 tests from 4 test cases ran. (433 ms total)
+[==========] 70 tests from 4 test cases ran. (436 ms total)
 [  PASSED  ] 70 tests.

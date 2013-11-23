@@ -1,0 +1,105 @@
+Running main() from gtest_main.cc
+[==========] Running 48 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 48 tests from Game
+[ RUN      ] Game.conwayStructor_1
+[       OK ] Game.conwayStructor_1 (0 ms)
+[ RUN      ] Game.conwayStructor_2
+[       OK ] Game.conwayStructor_2 (0 ms)
+[ RUN      ] Game.conwayStructor_3
+[       OK ] Game.conwayStructor_3 (0 ms)
+[ RUN      ] Game.conwayStructor_4
+[       OK ] Game.conwayStructor_4 (0 ms)
+[ RUN      ] Game.conwayStructor_5
+[       OK ] Game.conwayStructor_5 (0 ms)
+[ RUN      ] Game.conwayStructor_6
+[       OK ] Game.conwayStructor_6 (0 ms)
+[ RUN      ] Game.conwayStructor_7
+[       OK ] Game.conwayStructor_7 (0 ms)
+[ RUN      ] Game.fredkinStructor_1
+[       OK ] Game.fredkinStructor_1 (0 ms)
+[ RUN      ] Game.fredkinStructor_2
+[       OK ] Game.fredkinStructor_2 (0 ms)
+[ RUN      ] Game.fredkinStructor_3
+[       OK ] Game.fredkinStructor_3 (0 ms)
+[ RUN      ] Game.fredkinStructor_4
+[       OK ] Game.fredkinStructor_4 (0 ms)
+[ RUN      ] Game.fredkinStructor_5
+[       OK ] Game.fredkinStructor_5 (0 ms)
+[ RUN      ] Game.fredkinStructor_6
+[       OK ] Game.fredkinStructor_6 (0 ms)
+[ RUN      ] Game.fredkinStructor_7
+[       OK ] Game.fredkinStructor_7 (0 ms)
+[ RUN      ] Game.fredkinStructor_8
+[       OK ] Game.fredkinStructor_8 (0 ms)
+[ RUN      ] Game.fredkinStructor_9
+[       OK ] Game.fredkinStructor_9 (0 ms)
+[ RUN      ] Game.fredkinStructor_10
+[       OK ] Game.fredkinStructor_10 (0 ms)
+[ RUN      ] Game.fredkinStructor_11
+[       OK ] Game.fredkinStructor_11 (0 ms)
+[ RUN      ] Game.fredkinStructor_12
+[       OK ] Game.fredkinStructor_12 (0 ms)
+[ RUN      ] Game.cellStructor_1
+[       OK ] Game.cellStructor_1 (0 ms)
+[ RUN      ] Game.cellStructor_2
+[       OK ] Game.cellStructor_2 (0 ms)
+[ RUN      ] Game.cellStructor_3
+[       OK ] Game.cellStructor_3 (0 ms)
+[ RUN      ] Game.cellStructor_4
+[       OK ] Game.cellStructor_4 (0 ms)
+[ RUN      ] Game.cellStructor_5
+[       OK ] Game.cellStructor_5 (0 ms)
+[ RUN      ] Game.cellStructor_6
+[       OK ] Game.cellStructor_6 (0 ms)
+[ RUN      ] Game.cellStructor_7
+[       OK ] Game.cellStructor_7 (0 ms)
+[ RUN      ] Game.cellStructor_8
+[       OK ] Game.cellStructor_8 (0 ms)
+[ RUN      ] Game.cellStructor_9
+[       OK ] Game.cellStructor_9 (0 ms)
+[ RUN      ] Game.cellStructor_10
+[       OK ] Game.cellStructor_10 (0 ms)
+[ RUN      ] Game.cellStructor_11
+[       OK ] Game.cellStructor_11 (0 ms)
+[ RUN      ] Game.cellStructor_12
+[       OK ] Game.cellStructor_12 (0 ms)
+[ RUN      ] Game.cellStructor_13
+[       OK ] Game.cellStructor_13 (0 ms)
+[ RUN      ] Game.cellStructor_14
+[       OK ] Game.cellStructor_14 (0 ms)
+[ RUN      ] Game.cellStructor_15
+[       OK ] Game.cellStructor_15 (0 ms)
+[ RUN      ] Game.cellStructor_16
+[       OK ] Game.cellStructor_16 (0 ms)
+[ RUN      ] Game.cellStructor_17
+[       OK ] Game.cellStructor_17 (0 ms)
+[ RUN      ] Game.cellStructor_18
+[       OK ] Game.cellStructor_18 (0 ms)
+[ RUN      ] Game.cellStructor_19
+[       OK ] Game.cellStructor_19 (0 ms)
+[ RUN      ] Game.cellStructor_20
+[       OK ] Game.cellStructor_20 (0 ms)
+[ RUN      ] Game.cellStructor_21
+[       OK ] Game.cellStructor_21 (0 ms)
+[ RUN      ] Game.cellStructor_22
+[       OK ] Game.cellStructor_22 (0 ms)
+[ RUN      ] Game.cellStructor_23
+[       OK ] Game.cellStructor_23 (0 ms)
+[ RUN      ] Game.cellStructor_24
+[       OK ] Game.cellStructor_24 (0 ms)
+[ RUN      ] Game.lifeConstructor
+[       OK ] Game.lifeConstructor (0 ms)
+[ RUN      ] Game.lifeConstructor_2
+[       OK ] Game.lifeConstructor_2 (0 ms)
+[ RUN      ] Game.lifeConstructor_3
+[       OK ] Game.lifeConstructor_3 (0 ms)
+[ RUN      ] Game.lifeConstructor_4
+[       OK ] Game.lifeConstructor_4 (0 ms)
+[ RUN      ] Game.lifeConstructor_5
+[       OK ] Game.lifeConstructor_5 (0 ms)
+[----------] 48 tests from Game (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 48 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 48 tests.

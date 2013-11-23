@@ -1,0 +1,156 @@
+Running main() from gtest_main.cc
+[==========] Running 69 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 13 tests from Life
+[ RUN      ] Life.Life1
+[       OK ] Life.Life1 (112 ms)
+[ RUN      ] Life.Life2
+[       OK ] Life.Life2 (3 ms)
+[ RUN      ] Life.Life3
+[       OK ] Life.Life3 (28 ms)
+[ RUN      ] Life.Life4
+[       OK ] Life.Life4 (3 ms)
+[ RUN      ] Life.Life5
+[       OK ] Life.Life5 (6 ms)
+[ RUN      ] Life.Life6
+[       OK ] Life.Life6 (3 ms)
+[ RUN      ] Life.nextTurn1
+[       OK ] Life.nextTurn1 (12 ms)
+[ RUN      ] Life.nextTurn2
+[       OK ] Life.nextTurn2 (6 ms)
+[ RUN      ] Life.nextTurn3
+[       OK ] Life.nextTurn3 (4 ms)
+[ RUN      ] Life.nextTurn4
+[       OK ] Life.nextTurn4 (4 ms)
+[ RUN      ] Life.nextTurn5
+[       OK ] Life.nextTurn5 (19 ms)
+[ RUN      ] Life.nextTurn6
+[       OK ] Life.nextTurn6 (7 ms)
+[ RUN      ] Life.nextTurn7
+[       OK ] Life.nextTurn7 (43 ms)
+[----------] 13 tests from Life (262 ms total)
+
+[----------] 19 tests from LifeConwayCell
+[ RUN      ] LifeConwayCell.constructor1
+[       OK ] LifeConwayCell.constructor1 (3 ms)
+[ RUN      ] LifeConwayCell.constructor2
+[       OK ] LifeConwayCell.constructor2 (2 ms)
+[ RUN      ] LifeConwayCell.constructor3
+[       OK ] LifeConwayCell.constructor3 (2 ms)
+[ RUN      ] LifeConwayCell.constructor4
+[       OK ] LifeConwayCell.constructor4 (2 ms)
+[ RUN      ] LifeConwayCell.add1
+[       OK ] LifeConwayCell.add1 (2 ms)
+[ RUN      ] LifeConwayCell.add2
+[       OK ] LifeConwayCell.add2 (2 ms)
+[ RUN      ] LifeConwayCell.add3
+[       OK ] LifeConwayCell.add3 (2 ms)
+[ RUN      ] LifeConwayCell.add4
+[       OK ] LifeConwayCell.add4 (2 ms)
+[ RUN      ] LifeConwayCell.add5
+[       OK ] LifeConwayCell.add5 (2 ms)
+[ RUN      ] LifeConwayCell.add6
+[       OK ] LifeConwayCell.add6 (1 ms)
+[ RUN      ] LifeConwayCell.print1
+[       OK ] LifeConwayCell.print1 (2 ms)
+[ RUN      ] LifeConwayCell.print2
+[       OK ] LifeConwayCell.print2 (2 ms)
+[ RUN      ] LifeConwayCell.evolve1
+[       OK ] LifeConwayCell.evolve1 (2 ms)
+[ RUN      ] LifeConwayCell.evolve2
+[       OK ] LifeConwayCell.evolve2 (3 ms)
+[ RUN      ] LifeConwayCell.evolve3
+[       OK ] LifeConwayCell.evolve3 (2 ms)
+[ RUN      ] LifeConwayCell.evolve4
+[       OK ] LifeConwayCell.evolve4 (3 ms)
+[ RUN      ] LifeConwayCell.evolve5
+[       OK ] LifeConwayCell.evolve5 (2 ms)
+[ RUN      ] LifeConwayCell.evolve6
+[       OK ] LifeConwayCell.evolve6 (2 ms)
+[ RUN      ] LifeConwayCell.evolve7
+[       OK ] LifeConwayCell.evolve7 (3 ms)
+[----------] 19 tests from LifeConwayCell (45 ms total)
+
+[----------] 20 tests from LifeFredkinCell
+[ RUN      ] LifeFredkinCell.constructor1
+[       OK ] LifeFredkinCell.constructor1 (3 ms)
+[ RUN      ] LifeFredkinCell.constructor2
+[       OK ] LifeFredkinCell.constructor2 (2 ms)
+[ RUN      ] LifeFredkinCell.constructor3
+[       OK ] LifeFredkinCell.constructor3 (2 ms)
+[ RUN      ] LifeFredkinCell.constructor4
+[       OK ] LifeFredkinCell.constructor4 (2 ms)
+[ RUN      ] LifeFredkinCell.add1
+[       OK ] LifeFredkinCell.add1 (2 ms)
+[ RUN      ] LifeFredkinCell.add2
+[       OK ] LifeFredkinCell.add2 (2 ms)
+[ RUN      ] LifeFredkinCell.add3
+[       OK ] LifeFredkinCell.add3 (2 ms)
+[ RUN      ] LifeFredkinCell.add4
+[       OK ] LifeFredkinCell.add4 (2 ms)
+[ RUN      ] LifeFredkinCell.add5
+[       OK ] LifeFredkinCell.add5 (2 ms)
+[ RUN      ] LifeFredkinCell.print1
+[       OK ] LifeFredkinCell.print1 (2 ms)
+[ RUN      ] LifeFredkinCell.print2
+[       OK ] LifeFredkinCell.print2 (2 ms)
+[ RUN      ] LifeFredkinCell.evolvePrint1
+[       OK ] LifeFredkinCell.evolvePrint1 (3 ms)
+[ RUN      ] LifeFredkinCell.evolvePrint2
+[       OK ] LifeFredkinCell.evolvePrint2 (2 ms)
+[ RUN      ] LifeFredkinCell.evolve1
+[       OK ] LifeFredkinCell.evolve1 (3 ms)
+[ RUN      ] LifeFredkinCell.evolve2
+[       OK ] LifeFredkinCell.evolve2 (3 ms)
+[ RUN      ] LifeFredkinCell.evolve3
+[       OK ] LifeFredkinCell.evolve3 (3 ms)
+[ RUN      ] LifeFredkinCell.evolve4
+[       OK ] LifeFredkinCell.evolve4 (3 ms)
+[ RUN      ] LifeFredkinCell.evolve5
+[       OK ] LifeFredkinCell.evolve5 (3 ms)
+[ RUN      ] LifeFredkinCell.evolve6
+[       OK ] LifeFredkinCell.evolve6 (2 ms)
+[ RUN      ] LifeFredkinCell.evolve7
+[       OK ] LifeFredkinCell.evolve7 (3 ms)
+[----------] 20 tests from LifeFredkinCell (49 ms total)
+
+[----------] 17 tests from LifeCell
+[ RUN      ] LifeCell.constructor1
+[       OK ] LifeCell.constructor1 (4 ms)
+[ RUN      ] LifeCell.constructor2
+[       OK ] LifeCell.constructor2 (2 ms)
+[ RUN      ] LifeCell.add1
+[       OK ] LifeCell.add1 (2 ms)
+[ RUN      ] LifeCell.add2
+[       OK ] LifeCell.add2 (3 ms)
+[ RUN      ] LifeCell.add3
+[       OK ] LifeCell.add3 (2 ms)
+[ RUN      ] LifeCell.add4
+[       OK ] LifeCell.add4 (3 ms)
+[ RUN      ] LifeCell.add5
+[       OK ] LifeCell.add5 (3 ms)
+[ RUN      ] LifeCell.print1
+[       OK ] LifeCell.print1 (2 ms)
+[ RUN      ] LifeCell.print2
+[       OK ] LifeCell.print2 (3 ms)
+[ RUN      ] LifeCell.evolve1
+[       OK ] LifeCell.evolve1 (3 ms)
+[ RUN      ] LifeCell.evolve2
+[       OK ] LifeCell.evolve2 (3 ms)
+[ RUN      ] LifeCell.evolve3
+[       OK ] LifeCell.evolve3 (3 ms)
+[ RUN      ] LifeCell.evolve4
+[       OK ] LifeCell.evolve4 (2 ms)
+[ RUN      ] LifeCell.evolve5
+[       OK ] LifeCell.evolve5 (2 ms)
+[ RUN      ] LifeCell.evolve6
+[       OK ] LifeCell.evolve6 (3 ms)
+[ RUN      ] LifeCell.evolve7
+[       OK ] LifeCell.evolve7 (3 ms)
+[ RUN      ] LifeCell.mutate
+[       OK ] LifeCell.mutate (4 ms)
+[----------] 17 tests from LifeCell (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 69 tests from 4 test cases ran. (432 ms total)
+[  PASSED  ] 69 tests.

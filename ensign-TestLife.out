@@ -1,0 +1,255 @@
+Running main() from gtest_main.cc
+[==========] Running 117 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 12 tests from AbstractCell
+[ RUN      ] AbstractCell.isAlive_conway_true
+[       OK ] AbstractCell.isAlive_conway_true (9 ms)
+[ RUN      ] AbstractCell.isAlive_conway_false
+[       OK ] AbstractCell.isAlive_conway_false (2 ms)
+[ RUN      ] AbstractCell.isAlive_fredkin_true
+[       OK ] AbstractCell.isAlive_fredkin_true (3 ms)
+[ RUN      ] AbstractCell.isAlive_fredkin_false
+[       OK ] AbstractCell.isAlive_fredkin_false (2 ms)
+[ RUN      ] AbstractCell.isAlive_cell_true
+[       OK ] AbstractCell.isAlive_cell_true (3 ms)
+[ RUN      ] AbstractCell.isAlive_cell_false
+[       OK ] AbstractCell.isAlive_cell_false (2 ms)
+[ RUN      ] AbstractCell.makeAlive_conway
+[       OK ] AbstractCell.makeAlive_conway (2 ms)
+[ RUN      ] AbstractCell.makeDead_conway
+[       OK ] AbstractCell.makeDead_conway (2 ms)
+[ RUN      ] AbstractCell.makeAlive_fredkin
+[       OK ] AbstractCell.makeAlive_fredkin (1 ms)
+[ RUN      ] AbstractCell.makeDead_fredkin
+[       OK ] AbstractCell.makeDead_fredkin (2 ms)
+[ RUN      ] AbstractCell.makeAlive_cell
+[       OK ] AbstractCell.makeAlive_cell (2 ms)
+[ RUN      ] AbstractCell.makeDead_cell
+[       OK ] AbstractCell.makeDead_cell (3 ms)
+[----------] 12 tests from AbstractCell (44 ms total)
+
+[----------] 20 tests from ConwayCell
+[ RUN      ] ConwayCell.constructor_default
+[       OK ] ConwayCell.constructor_default (3 ms)
+[ RUN      ] ConwayCell.constructor_char_alive
+[       OK ] ConwayCell.constructor_char_alive (2 ms)
+[ RUN      ] ConwayCell.constructor_char_dead
+[       OK ] ConwayCell.constructor_char_dead (2 ms)
+[ RUN      ] ConwayCell.constructor_char_invalid
+[       OK ] ConwayCell.constructor_char_invalid (3 ms)
+[ RUN      ] ConwayCell.constructor_copy_dead
+[       OK ] ConwayCell.constructor_copy_dead (3 ms)
+[ RUN      ] ConwayCell.constructor_copy_alive
+[       OK ] ConwayCell.constructor_copy_alive (3 ms)
+[ RUN      ] ConwayCell.clone_alive
+[       OK ] ConwayCell.clone_alive (3 ms)
+[ RUN      ] ConwayCell.clone_dead
+[       OK ] ConwayCell.clone_dead (2 ms)
+[ RUN      ] ConwayCell.evolve_dead2dead1
+[       OK ] ConwayCell.evolve_dead2dead1 (3 ms)
+[ RUN      ] ConwayCell.evolve_dead2dead2
+[       OK ] ConwayCell.evolve_dead2dead2 (3 ms)
+[ RUN      ] ConwayCell.evolve_dead2alive1
+[       OK ] ConwayCell.evolve_dead2alive1 (3 ms)
+[ RUN      ] ConwayCell.evolve_dead2alive2
+[       OK ] ConwayCell.evolve_dead2alive2 (3 ms)
+[ RUN      ] ConwayCell.evolve_alive2alive_2neighb
+[       OK ] ConwayCell.evolve_alive2alive_2neighb (3 ms)
+[ RUN      ] ConwayCell.evolve_alive2alive_3neighb
+[       OK ] ConwayCell.evolve_alive2alive_3neighb (3 ms)
+[ RUN      ] ConwayCell.evolve_alive2dead1
+[       OK ] ConwayCell.evolve_alive2dead1 (3 ms)
+[ RUN      ] ConwayCell.evolve_alive2dead2
+[       OK ] ConwayCell.evolve_alive2dead2 (3 ms)
+[ RUN      ] ConwayCell.evolve_alive2dead3
+[       OK ] ConwayCell.evolve_alive2dead3 (2 ms)
+[ RUN      ] ConwayCell.print_alive
+[       OK ] ConwayCell.print_alive (2 ms)
+[ RUN      ] ConwayCell.print_dead
+[       OK ] ConwayCell.print_dead (2 ms)
+[ RUN      ] ConwayCell.str
+[       OK ] ConwayCell.str (2 ms)
+[----------] 20 tests from ConwayCell (55 ms total)
+
+[----------] 23 tests from FredkinCell
+[ RUN      ] FredkinCell.constructor_default
+[       OK ] FredkinCell.constructor_default (2 ms)
+[ RUN      ] FredkinCell.constructor_char_alive1
+[       OK ] FredkinCell.constructor_char_alive1 (4 ms)
+[ RUN      ] FredkinCell.constructor_char_alive2
+[       OK ] FredkinCell.constructor_char_alive2 (3 ms)
+[ RUN      ] FredkinCell.constructor_char_dead
+[       OK ] FredkinCell.constructor_char_dead (3 ms)
+[ RUN      ] FredkinCell.constructor_char_invalid
+[       OK ] FredkinCell.constructor_char_invalid (2 ms)
+[ RUN      ] FredkinCell.constructor_copy_dead
+[       OK ] FredkinCell.constructor_copy_dead (3 ms)
+[ RUN      ] FredkinCell.constructor_copy_alive
+[       OK ] FredkinCell.constructor_copy_alive (2 ms)
+[ RUN      ] FredkinCell.clone_alive
+[       OK ] FredkinCell.clone_alive (3 ms)
+[ RUN      ] FredkinCell.clone_dead
+[       OK ] FredkinCell.clone_dead (3 ms)
+[ RUN      ] FredkinCell.evolve_dead2dead1
+[       OK ] FredkinCell.evolve_dead2dead1 (3 ms)
+[ RUN      ] FredkinCell.evolve_dead2dead2
+[       OK ] FredkinCell.evolve_dead2dead2 (3 ms)
+[ RUN      ] FredkinCell.evolve_dead2alive1
+[       OK ] FredkinCell.evolve_dead2alive1 (3 ms)
+[ RUN      ] FredkinCell.evolve_dead2alive2
+[       OK ] FredkinCell.evolve_dead2alive2 (2 ms)
+[ RUN      ] FredkinCell.evolve_alive2alive_1neighb
+[       OK ] FredkinCell.evolve_alive2alive_1neighb (2 ms)
+[ RUN      ] FredkinCell.evolve_alive2alive_3neighb
+[       OK ] FredkinCell.evolve_alive2alive_3neighb (2 ms)
+[ RUN      ] FredkinCell.evolve_alive2dead1
+[       OK ] FredkinCell.evolve_alive2dead1 (3 ms)
+[ RUN      ] FredkinCell.evolve_alive2dead2
+[       OK ] FredkinCell.evolve_alive2dead2 (3 ms)
+[ RUN      ] FredkinCell.evolve_alive2dead3
+[       OK ] FredkinCell.evolve_alive2dead3 (3 ms)
+[ RUN      ] FredkinCell.evolve_alive_dead_alive
+[       OK ] FredkinCell.evolve_alive_dead_alive (3 ms)
+[ RUN      ] FredkinCell.print_alive_normal
+[       OK ] FredkinCell.print_alive_normal (2 ms)
+[ RUN      ] FredkinCell.print_alive_old
+[       OK ] FredkinCell.print_alive_old (2 ms)
+[ RUN      ] FredkinCell.print_dead
+[       OK ] FredkinCell.print_dead (2 ms)
+[ RUN      ] FredkinCell.str
+[       OK ] FredkinCell.str (2 ms)
+[----------] 23 tests from FredkinCell (64 ms total)
+
+[----------] 40 tests from Cell
+[ RUN      ] Cell.constructor_default
+[       OK ] Cell.constructor_default (2 ms)
+[ RUN      ] Cell.constructor_copy_Conway_dead
+[       OK ] Cell.constructor_copy_Conway_dead (2 ms)
+[ RUN      ] Cell.constructor_copy_Conway_alive
+[       OK ] Cell.constructor_copy_Conway_alive (2 ms)
+[ RUN      ] Cell.constructor_copy_Fredkin_dead
+[       OK ] Cell.constructor_copy_Fredkin_dead (2 ms)
+[ RUN      ] Cell.constructor_copy_Fredkin_alive1
+[       OK ] Cell.constructor_copy_Fredkin_alive1 (3 ms)
+[ RUN      ] Cell.constructor_copy_Fredkin_alive2
+[       OK ] Cell.constructor_copy_Fredkin_alive2 (3 ms)
+[ RUN      ] Cell.clone_alive_conway
+[       OK ] Cell.clone_alive_conway (3 ms)
+[ RUN      ] Cell.clone_dead_conway
+[       OK ] Cell.clone_dead_conway (2 ms)
+[ RUN      ] Cell.clone_alive_fredkin
+[       OK ] Cell.clone_alive_fredkin (2 ms)
+[ RUN      ] Cell.clone_dead_fredkin
+[       OK ] Cell.clone_dead_fredkin (3 ms)
+[ RUN      ] Cell.evolve_dead2dead1C
+[       OK ] Cell.evolve_dead2dead1C (4 ms)
+[ RUN      ] Cell.evolve_dead2dead2C
+[       OK ] Cell.evolve_dead2dead2C (3 ms)
+[ RUN      ] Cell.evolve_dead2alive1C
+[       OK ] Cell.evolve_dead2alive1C (3 ms)
+[ RUN      ] Cell.evolve_dead2alive2C
+[       OK ] Cell.evolve_dead2alive2C (3 ms)
+[ RUN      ] Cell.evolve_alive2alive_2neighbC
+[       OK ] Cell.evolve_alive2alive_2neighbC (3 ms)
+[ RUN      ] Cell.evolve_alive2alive_3neighbC
+[       OK ] Cell.evolve_alive2alive_3neighbC (3 ms)
+[ RUN      ] Cell.evolve_alive2dead1C
+[       OK ] Cell.evolve_alive2dead1C (3 ms)
+[ RUN      ] Cell.evolve_alive2dead2C
+[       OK ] Cell.evolve_alive2dead2C (3 ms)
+[ RUN      ] Cell.evolve_alive2dead3C
+[       OK ] Cell.evolve_alive2dead3C (3 ms)
+[ RUN      ] Cell.evolve_dead2dead1F
+[       OK ] Cell.evolve_dead2dead1F (3 ms)
+[ RUN      ] Cell.evolve_dead2dead2F
+[       OK ] Cell.evolve_dead2dead2F (3 ms)
+[ RUN      ] Cell.evolve_dead2alive1F
+[       OK ] Cell.evolve_dead2alive1F (3 ms)
+[ RUN      ] Cell.evolve_dead2alive2F
+[       OK ] Cell.evolve_dead2alive2F (3 ms)
+[ RUN      ] Cell.evolve_alive2alive_1neighbF
+[       OK ] Cell.evolve_alive2alive_1neighbF (4 ms)
+[ RUN      ] Cell.evolve_alive2alive_3neighbF
+[       OK ] Cell.evolve_alive2alive_3neighbF (2 ms)
+[ RUN      ] Cell.evolve_alive2dead1F
+[       OK ] Cell.evolve_alive2dead1F (2 ms)
+[ RUN      ] Cell.evolve_alive2dead2F
+[       OK ] Cell.evolve_alive2dead2F (2 ms)
+[ RUN      ] Cell.evolve_alive2dead3F
+[       OK ] Cell.evolve_alive2dead3F (2 ms)
+[ RUN      ] Cell.evolve_alive_dead_aliveF
+[       OK ] Cell.evolve_alive_dead_aliveF (2 ms)
+[ RUN      ] Cell.evolve_fredkin_to_conwayF
+[       OK ] Cell.evolve_fredkin_to_conwayF (2 ms)
+[ RUN      ] Cell.mutate1
+[       OK ] Cell.mutate1 (2 ms)
+[ RUN      ] Cell.mutate2
+[       OK ] Cell.mutate2 (3 ms)
+[ RUN      ] Cell.print_conway_alive
+[       OK ] Cell.print_conway_alive (2 ms)
+[ RUN      ] Cell.print_conway_dead
+[       OK ] Cell.print_conway_dead (2 ms)
+[ RUN      ] Cell.print_fredkin_alive
+[       OK ] Cell.print_fredkin_alive (2 ms)
+[ RUN      ] Cell.print_fredkin_dead
+[       OK ] Cell.print_fredkin_dead (2 ms)
+[ RUN      ] Cell.str
+[       OK ] Cell.str (1 ms)
+[ RUN      ] Cell.initCell_conway
+[       OK ] Cell.initCell_conway (3 ms)
+[ RUN      ] Cell.initCell_fredkin1
+[       OK ] Cell.initCell_fredkin1 (3 ms)
+[ RUN      ] Cell.initCell_fredkin2
+[       OK ] Cell.initCell_fredkin2 (3 ms)
+[----------] 40 tests from Cell (114 ms total)
+
+[----------] 22 tests from Life
+[ RUN      ] Life.constructor_valid1
+[       OK ] Life.constructor_valid1 (29 ms)
+[ RUN      ] Life.constructor_valid2
+[       OK ] Life.constructor_valid2 (4 ms)
+[ RUN      ] Life.constructor_invalid
+[       OK ] Life.constructor_invalid (37 ms)
+[ RUN      ] Life.addCell_conway
+[       OK ] Life.addCell_conway (2 ms)
+[ RUN      ] Life.addCell_fredkin
+[       OK ] Life.addCell_fredkin (25 ms)
+[ RUN      ] Life.addCell_cell_conway_dead
+[       OK ] Life.addCell_cell_conway_dead (26 ms)
+[ RUN      ] Life.addCell_cell_conway_alive
+[       OK ] Life.addCell_cell_conway_alive (3 ms)
+[ RUN      ] Life.addCell_cell_fredkin_dead
+[       OK ] Life.addCell_cell_fredkin_dead (3 ms)
+[ RUN      ] Life.addCell_cell_fredkin_alive
+[       OK ] Life.addCell_cell_fredkin_alive (2 ms)
+[ RUN      ] Life.nextGeneration_Conway1
+[       OK ] Life.nextGeneration_Conway1 (54 ms)
+[ RUN      ] Life.nextGeneration_Conway2
+[       OK ] Life.nextGeneration_Conway2 (8 ms)
+[ RUN      ] Life.nextGeneration_Fredkin1
+[       OK ] Life.nextGeneration_Fredkin1 (64 ms)
+[ RUN      ] Life.nextGeneration_Conway1_cell
+[       OK ] Life.nextGeneration_Conway1_cell (62 ms)
+[ RUN      ] Life.nextGeneration_Conway2_cell
+[       OK ] Life.nextGeneration_Conway2_cell (9 ms)
+[ RUN      ] Life.nextGeneration_Fredkin1_cell
+[       OK ] Life.nextGeneration_Fredkin1_cell (15 ms)
+[ RUN      ] Life.nextGeneration_Fredkin2_cell
+[       OK ] Life.nextGeneration_Fredkin2_cell (11 ms)
+[ RUN      ] Life.print1
+[       OK ] Life.print1 (8 ms)
+[ RUN      ] Life.print2
+[       OK ] Life.print2 (5 ms)
+[ RUN      ] Life.print3
+[       OK ] Life.print3 (4 ms)
+[ RUN      ] Life.initializeGrid_normal
+[       OK ] Life.initializeGrid_normal (3 ms)
+[ RUN      ] Life.initializeGrid_empty
+[       OK ] Life.initializeGrid_empty (3 ms)
+[ RUN      ] Life.initializeGrid_invalid
+[       OK ] Life.initializeGrid_invalid (2 ms)
+[----------] 22 tests from Life (383 ms total)
+
+[----------] Global test environment tear-down
+[==========] 117 tests from 5 test cases ran. (687 ms total)
+[  PASSED  ] 117 tests.

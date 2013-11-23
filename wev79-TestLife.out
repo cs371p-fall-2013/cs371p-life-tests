@@ -1,0 +1,96 @@
+Running main() from gtest_main.cc
+[==========] Running 42 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 25 tests from ConwayCell
+[ RUN      ] ConwayCell.Constructor
+[       OK ] ConwayCell.Constructor (0 ms)
+[ RUN      ] ConwayCell.isAlive_False
+[       OK ] ConwayCell.isAlive_False (0 ms)
+[ RUN      ] ConwayCell.isAlive_True
+[       OK ] ConwayCell.isAlive_True (0 ms)
+[ RUN      ] ConwayCell.sparkAlive
+[       OK ] ConwayCell.sparkAlive (0 ms)
+[ RUN      ] ConwayCell.sparkDead
+[       OK ] ConwayCell.sparkDead (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_underpopulation_A
+[       OK ] ConwayCell.LIVE_reviewSurroundings_underpopulation_A (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_underpopulation_B
+[       OK ] ConwayCell.LIVE_reviewSurroundings_underpopulation_B (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_overpopulation_A
+[       OK ] ConwayCell.LIVE_reviewSurroundings_overpopulation_A (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_overpopulation_B
+[       OK ] ConwayCell.LIVE_reviewSurroundings_overpopulation_B (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_overpopulation_C
+[       OK ] ConwayCell.LIVE_reviewSurroundings_overpopulation_C (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_overpopulation_D
+[       OK ] ConwayCell.LIVE_reviewSurroundings_overpopulation_D (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_overpopulation_E
+[       OK ] ConwayCell.LIVE_reviewSurroundings_overpopulation_E (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_stablepopulation_A
+[       OK ] ConwayCell.LIVE_reviewSurroundings_stablepopulation_A (0 ms)
+[ RUN      ] ConwayCell.LIVE_reviewSurroundings_stablepopulation_B
+[       OK ] ConwayCell.LIVE_reviewSurroundings_stablepopulation_B (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_underpopulation_A
+[       OK ] ConwayCell.DEAD_reviewSurroundings_underpopulation_A (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_underpopulation_B
+[       OK ] ConwayCell.DEAD_reviewSurroundings_underpopulation_B (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_overpopulation_A
+[       OK ] ConwayCell.DEAD_reviewSurroundings_overpopulation_A (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_overpopulation_B
+[       OK ] ConwayCell.DEAD_reviewSurroundings_overpopulation_B (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_overpopulation_C
+[       OK ] ConwayCell.DEAD_reviewSurroundings_overpopulation_C (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_overpopulation_D
+[       OK ] ConwayCell.DEAD_reviewSurroundings_overpopulation_D (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_overpopulation_E
+[       OK ] ConwayCell.DEAD_reviewSurroundings_overpopulation_E (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_stablepopulation_A
+[       OK ] ConwayCell.DEAD_reviewSurroundings_stablepopulation_A (0 ms)
+[ RUN      ] ConwayCell.DEAD_reviewSurroundings_stablepopulation_B
+[       OK ] ConwayCell.DEAD_reviewSurroundings_stablepopulation_B (0 ms)
+[ RUN      ] ConwayCell.DEAD_print
+[       OK ] ConwayCell.DEAD_print (0 ms)
+[ RUN      ] ConwayCell.LIVE_print
+[       OK ] ConwayCell.LIVE_print (0 ms)
+[----------] 25 tests from ConwayCell (0 ms total)
+
+[----------] 17 tests from FredkinCell
+[ RUN      ] FredkinCell.Constructor
+[       OK ] FredkinCell.Constructor (0 ms)
+[ RUN      ] FredkinCell.isAlive_False
+[       OK ] FredkinCell.isAlive_False (0 ms)
+[ RUN      ] FredkinCell.isAlive_True
+[       OK ] FredkinCell.isAlive_True (0 ms)
+[ RUN      ] FredkinCell.sparkAlive
+[       OK ] FredkinCell.sparkAlive (0 ms)
+[ RUN      ] FredkinCell.sparkDead
+[       OK ] FredkinCell.sparkDead (0 ms)
+[ RUN      ] FredkinCell.LIVE_reviewSurroundings_underpopulation_B
+[       OK ] FredkinCell.LIVE_reviewSurroundings_underpopulation_B (0 ms)
+[ RUN      ] FredkinCell.LIVE_reviewSurroundings_stablepopulation_B
+[       OK ] FredkinCell.LIVE_reviewSurroundings_stablepopulation_B (0 ms)
+[ RUN      ] FredkinCell.LIVE_reviewSurroundings_underpopulation_A
+[       OK ] FredkinCell.LIVE_reviewSurroundings_underpopulation_A (0 ms)
+[ RUN      ] FredkinCell.LIVE_reviewSurroundings_stablepopulation_A
+[       OK ] FredkinCell.LIVE_reviewSurroundings_stablepopulation_A (0 ms)
+[ RUN      ] FredkinCell.LIVE_reviewSurroundings_overpopulation_A
+[       OK ] FredkinCell.LIVE_reviewSurroundings_overpopulation_A (0 ms)
+[ RUN      ] FredkinCell.DEAD_reviewSurroundings_underpopulation_B
+[       OK ] FredkinCell.DEAD_reviewSurroundings_underpopulation_B (0 ms)
+[ RUN      ] FredkinCell.DEAD_reviewSurroundings_stablepopulation_B
+[       OK ] FredkinCell.DEAD_reviewSurroundings_stablepopulation_B (0 ms)
+[ RUN      ] FredkinCell.DEAD_reviewSurroundings_underpopulation_A
+[       OK ] FredkinCell.DEAD_reviewSurroundings_underpopulation_A (0 ms)
+[ RUN      ] FredkinCell.DEAD_reviewSurroundings_stablepopulation_A
+[       OK ] FredkinCell.DEAD_reviewSurroundings_stablepopulation_A (0 ms)
+[ RUN      ] FredkinCell.DEAD_reviewSurroundings_overpopulation_A
+[       OK ] FredkinCell.DEAD_reviewSurroundings_overpopulation_A (0 ms)
+[ RUN      ] FredkinCell.DEAD_print
+[       OK ] FredkinCell.DEAD_print (0 ms)
+[ RUN      ] FredkinCell.LIVE_print
+[       OK ] FredkinCell.LIVE_print (0 ms)
+[----------] 17 tests from FredkinCell (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 42 tests from 2 test cases ran. (1 ms total)
+[  PASSED  ] 42 tests.
