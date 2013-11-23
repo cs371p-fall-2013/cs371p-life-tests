@@ -1,0 +1,78 @@
+Running main() from gtest_main.cc
+[==========] Running 30 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 9 tests from ConwayCell
+[ RUN      ] ConwayCell.Constructor_default
+[       OK ] ConwayCell.Constructor_default (8 ms)
+[ RUN      ] ConwayCell.Constructor_alive
+[       OK ] ConwayCell.Constructor_alive (2 ms)
+[ RUN      ] ConwayCell.Constructor_set_alive
+[       OK ] ConwayCell.Constructor_set_alive (2 ms)
+[ RUN      ] ConwayCell.print_live
+[       OK ] ConwayCell.print_live (5 ms)
+[ RUN      ] ConwayCell.print_dead
+[       OK ] ConwayCell.print_dead (2 ms)
+[ RUN      ] ConwayCell.Set_neighbors
+[       OK ] ConwayCell.Set_neighbors (2 ms)
+[ RUN      ] ConwayCell.Set_diag_neighbors
+[       OK ] ConwayCell.Set_diag_neighbors (2 ms)
+[ RUN      ] ConwayCell.Evolve
+[       OK ] ConwayCell.Evolve (2 ms)
+[ RUN      ] ConwayCell.Mutate
+[       OK ] ConwayCell.Mutate (2 ms)
+[----------] 9 tests from ConwayCell (37 ms total)
+
+[----------] 7 tests from FredkinCell
+[ RUN      ] FredkinCell.Constructor_default
+[       OK ] FredkinCell.Constructor_default (2 ms)
+[ RUN      ] FredkinCell.Constructor_set_alive
+[       OK ] FredkinCell.Constructor_set_alive (2 ms)
+[ RUN      ] FredkinCell.set_diag_neighbors
+[       OK ] FredkinCell.set_diag_neighbors (1 ms)
+[ RUN      ] FredkinCell.print_cell
+[       OK ] FredkinCell.print_cell (2 ms)
+[ RUN      ] FredkinCell.evolve
+[       OK ] FredkinCell.evolve (2 ms)
+[ RUN      ] FredkinCell.mutate
+[       OK ] FredkinCell.mutate (1 ms)
+[ RUN      ] FredkinCell.clone
+[       OK ] FredkinCell.clone (1 ms)
+[----------] 7 tests from FredkinCell (12 ms total)
+
+[----------] 10 tests from Life
+[ RUN      ] Life.Constructoe
+[       OK ] Life.Constructoe (3 ms)
+[ RUN      ] Life.replicateBoard
+[       OK ] Life.replicateBoard (3 ms)
+[ RUN      ] Life.replicateBoard2
+[       OK ] Life.replicateBoard2 (3 ms)
+[ RUN      ] Life.count_neighbors
+[       OK ] Life.count_neighbors (3 ms)
+[ RUN      ] Life.printBoard
+[       OK ] Life.printBoard (3 ms)
+[ RUN      ] Life.printBoard2
+[       OK ] Life.printBoard2 (2 ms)
+[ RUN      ] Life.printneighbor_count
+[       OK ] Life.printneighbor_count (2 ms)
+[ RUN      ] Life.printneighbor_count2
+[       OK ] Life.printneighbor_count2 (3 ms)
+[ RUN      ] Life.simulateNth
+[       OK ] Life.simulateNth (3 ms)
+[ RUN      ] Life.simulateNth1
+[       OK ] Life.simulateNth1 (3 ms)
+[----------] 10 tests from Life (29 ms total)
+
+[----------] 4 tests from Cell
+[ RUN      ] Cell.Constructor
+[       OK ] Cell.Constructor (3 ms)
+[ RUN      ] Cell.Constructor2
+[       OK ] Cell.Constructor2 (3 ms)
+[ RUN      ] Cell.Constructor3
+[       OK ] Cell.Constructor3 (3 ms)
+[ RUN      ] Cell.Constructor4
+[       OK ] Cell.Constructor4 (2 ms)
+[----------] 4 tests from Cell (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 30 tests from 4 test cases ran. (116 ms total)
+[  PASSED  ] 30 tests.
